@@ -43,19 +43,20 @@ public class CodewarsRestApi {
 
 
     public User fetchUser(String idOrUsername) {
-        User user = codewarsRestApi.path("users/{idOrUsername}")
-                .resolveTemplate("idOrUsername", idOrUsername)
-                .request(MediaType.APPLICATION_JSON_TYPE)
-                .get(User.class);
+        WebTarget usersWebTarget = codewarsRestApi.path("users/{idOrUsername}")
+                .resolveTemplate("idOrUsername", idOrUsername);
+        User user = usersWebTarget.request(MediaType.APPLICATION_JSON_TYPE).get(User.class);
+        System.out.println("GET " + usersWebTarget + " = " + user);
         return user;
     }
 
 
     public CodeChallenge fetchCodeChallenge(String idOrSlug) {
-        CodeChallenge codeChallenge = codewarsRestApi.path("code-challenges/{idOrSlug}")
-                .resolveTemplate("idOrSlug", idOrSlug)
-                .request(MediaType.APPLICATION_JSON_TYPE)
+        WebTarget codeChallengesWebTarget = codewarsRestApi.path("code-challenges/{idOrSlug}")
+                .resolveTemplate("idOrSlug", idOrSlug);
+        CodeChallenge codeChallenge = codeChallengesWebTarget.request(MediaType.APPLICATION_JSON_TYPE)
                 .get(CodeChallenge.class);
+        System.out.println("GET " + codeChallengesWebTarget + " = " + codeChallenge);
         return codeChallenge;
     }
 

@@ -5,12 +5,13 @@ import com.codewars.chrisgw.restapi.CodewarsRestApi;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 import java.util.Properties;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static java.nio.file.StandardOpenOption.CREATE_NEW;
 
 
 /**
@@ -21,21 +22,26 @@ public class CodewarsCli {
     private static CodewarsRestApi codewarsRestApi;
 
 
-    public static void main(String[] args) {
-        try {
-            if (args.length < 1) {
-                System.out.println("usage: <id_or_slug>");
-                return;
-            }
-            Properties properties = new Properties();
-            properties.load(CodewarsRestApi.class.getResourceAsStream("/application.properties"));
-            codewarsRestApi = new CodewarsRestApi(properties);
+    public static void main(String[] args) throws IOException {
+        Properties properties = new Properties();
+        properties.load(CodewarsRestApi.class.getResourceAsStream("/application.properties"));
+        codewarsRestApi = new CodewarsRestApi(properties);
 
-            String idOrSlug = args[0];
-            generateCodeChallengeFiles(idOrSlug);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Scanner sc = new Scanner(System.in);
+        do {
+            try {
+                System.out.print("codeChallenge id or slug: ");
+                String idOrSlug = sc.nextLine();
+                if ("exit".equalsIgnoreCase(idOrSlug)) {
+                    return;
+                } else {
+                    generateCodeChallengeFiles(idOrSlug);
+                }
+                System.out.println();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } while (true);
     }
 
     private static void generateCodeChallengeFiles(String idOrSlug) throws IOException {
@@ -55,9 +61,10 @@ public class CodewarsCli {
         String codeChallengeJavaFileName = getCodeChallengeJavaFileName(codeChallenge, test);
         Path packagePath = getPackagePath(codeChallenge);
         Path javaFilePath = javaSrcPath.resolve(packagePath).resolve(codeChallengeJavaFileName + ".java");
+        System.out.println("Write Java File: " + javaFilePath);
         Files.createDirectories(javaSrcPath.resolve(packagePath));
 
-        try (BufferedWriter writer = Files.newBufferedWriter(javaFilePath)) {
+        try (BufferedWriter writer = Files.newBufferedWriter(javaFilePath, CREATE_NEW)) {
             StringBuilder sb = new StringBuilder("package ");
             packagePath.iterator().forEachRemaining(path -> sb.append(path).append('.'));
             sb.deleteCharAt(sb.length() - 1);
@@ -73,20 +80,17 @@ public class CodewarsCli {
     }
 
     private static String descriptionAsClassJavaDoc(CodeChallenge codeChallenge) {
-        StringBuilder description = new StringBuilder(codeChallenge.getDescription());
-        Pattern codeExamplePattern = Pattern.compile("```(\\w+)");
-        Matcher codeExampleMatcher = codeExamplePattern.matcher(description);
-        int searchFrom = 0;
-        while (codeExampleMatcher.find(searchFrom)) {
+        System.out.println(codeChallenge.getDescription());
+        StringBuffer description = new StringBuffer(codeChallenge.getDescription().length());
+        Pattern codeExamplePattern = Pattern.compile("``+(\\w+)\\s+(.+)``+\\s*", Pattern.DOTALL);
+        Matcher codeExampleMatcher = codeExamplePattern.matcher(codeChallenge.getDescription());
+        while (codeExampleMatcher.find()) {
             String codeExampleLanguage = codeExampleMatcher.group(1);
-            int codeExampleEnd = description.indexOf("```\n", codeExampleMatcher.end()) + "```\n\n".length();
-            if ("java".equalsIgnoreCase(codeExampleLanguage)) {
-                searchFrom = codeExampleEnd;
-            } else {
-                // delete other language code examples
-                description.delete(codeExampleMatcher.start(), codeExampleEnd);
+            if (!"java".equalsIgnoreCase(codeExampleLanguage)) {
+                codeExampleMatcher.appendReplacement(description, "");
             }
         }
+        codeExampleMatcher.appendTail(description);
         return description.toString().replaceAll("\n", "\n * ").trim();
     }
 
