@@ -1,5 +1,8 @@
 package com.codewars.chrisgw.algorithms.kyu_6;
 
+import java.util.Arrays;
+
+
 /**
  * #Find the missing letter
  * <p>
@@ -23,7 +26,19 @@ package com.codewars.chrisgw.algorithms.kyu_6;
 public class FindTheMissingLetter {
 
     public static char findMissingLetter(char[] array) {
-        return ' ';
+        if (array == null || array.length < 2) {
+            throw new IllegalArgumentException(
+                    "Expect non null with at least 2 chars, but got: " + Arrays.toString(array));
+        }
+        for (int i = 1; i < array.length; i++) {
+            int currentChar = array[i];
+            int expectedChar = array[i - 1] + 1;
+            if (currentChar != expectedChar) {
+                return (char) expectedChar;
+            }
+        }
+        int lastChar = array[array.length - 1];
+        return (char) (lastChar + 1);
     }
 
 }
