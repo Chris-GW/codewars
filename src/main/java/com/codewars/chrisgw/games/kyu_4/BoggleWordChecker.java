@@ -1,5 +1,6 @@
 package com.codewars.chrisgw.games.kyu_4;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,6 +21,7 @@ public class BoggleWordChecker {
 
     private final String word;
     private BoggleWordField[][] board;
+    private Boolean isValid = null;
 
 
     public BoggleWordChecker(final char[][] board, final String word) {
@@ -35,7 +37,12 @@ public class BoggleWordChecker {
     }
 
     private BoggleWordField getBoggleField(int row, int column) {
-        return board[row][column];
+        boolean isValidRowIndex = 0 <= row && row < board.length;
+        if (isValidRowIndex && 0 <= column && column < board.length) {
+            return board[row][column];
+        } else {
+            return null;
+        }
     }
 
 
@@ -43,26 +50,12 @@ public class BoggleWordChecker {
         return Arrays.stream(board).flatMap(Arrays::stream);
     }
 
-    private Stream<BoggleWordField> findUnusedFieldsWithLetter(char letter) {
-        return allFields() //
-                .filter(field -> field.letter == letter) //
-                .filter(field -> !field.used);
-    }
-
-    private List<BoggleWordField> findUnusedAndAdjecentFieldsWithLetter(char letter, BoggleWordField currentField) {
-        if (currentField != null) {
-            return findUnusedFieldsWithLetter(letter) //
-                    .filter(currentField::isAdjacentField) //
-                    .collect(Collectors.toList());
-        } else {
-            return findUnusedFieldsWithLetter(letter) //
-                    .collect(Collectors.toList());
-        }
-    }
-
 
     public boolean check() {
-        return word != null && checkBoggleWord(0, null);
+        if (isValid == null) {
+            isValid = word != null && checkBoggleWord(0, null);
+        }
+        return isValid;
     }
 
     private boolean checkBoggleWord(int wordIndex, BoggleWordField currentField) {
@@ -78,6 +71,49 @@ public class BoggleWordChecker {
             nextField.used = false;
         }
         return false;
+    }
+
+    private List<BoggleWordField> findUnusedAndAdjecentFieldsWithLetter(char nextLetter, BoggleWordField currentField) {
+        if (currentField == null) {
+            return allFields().filter(field -> field.letter == nextLetter).collect(Collectors.toList());
+        }
+        List<BoggleWordField> possibleNextFields = new ArrayList<>(9);
+        for (int rowOffset = -1; rowOffset <= 1; rowOffset++) {
+            for (int columnOffset = -1; columnOffset <= 1; columnOffset++) {
+                if (rowOffset == 0 && columnOffset == 0) {
+                    continue;
+                }
+                int row = currentField.row + rowOffset;
+                int column = currentField.column + columnOffset;
+                BoggleWordField field = getBoggleField(row, column);
+                if (field != null && field.letter == nextLetter && !field.used) {
+                    possibleNextFields.add(field);
+                }
+            }
+        }
+        return possibleNextFields;
+    }
+
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("BoggleWordChecker [").append(board.length).append("] for word(");
+        sb.append(word.length()).append("): ").append(word).append("\n");
+        for (int row = 0; row < board.length; row++) {
+            sb.append('[');
+            for (int column = 0; column < board.length; column++) {
+                BoggleWordField boggleWordField = getBoggleField(row, column);
+                if (boggleWordField.used) {
+                    sb.append(Character.toLowerCase(boggleWordField.letter));
+                } else {
+                    sb.append(Character.toUpperCase(boggleWordField.letter));
+                }
+                sb.append(", ");
+            }
+            sb.replace(sb.length() - 2, sb.length(), "]\n");
+        }
+        return sb.deleteCharAt(sb.length() - 1).toString();
     }
 
 
