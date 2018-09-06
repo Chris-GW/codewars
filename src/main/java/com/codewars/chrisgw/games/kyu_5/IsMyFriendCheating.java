@@ -1,6 +1,8 @@
 package com.codewars.chrisgw.games.kyu_5;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.LongStream;
 
 
 /**
@@ -54,8 +56,19 @@ import java.util.List;
 public class IsMyFriendCheating {
 
     public static List<long[]> removNb(long n) {
-        // your code
-        return null;
+        List<long[]> results = new LinkedList<>();
+        long totalSum = LongStream.rangeClosed(1, n).sum();
+        for (long a = 1; a < n; a++) {
+            for (long b = a + 1; b < n; b++) {
+                long ab = a * b;
+                long sum = totalSum - a - b;
+                if (sum == ab) {
+                    results.add(new long[] { a, b });
+                    results.add(new long[] { b, a });
+                }
+            }
+        }
+        return results;
     }
 
 }

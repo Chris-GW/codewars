@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
 
 
@@ -15,7 +16,7 @@ public class IsMyFriendCheatingTest {
         List<long[]> res = new ArrayList<long[]>();
         res.add(new long[] {15, 21});
         res.add(new long[] {21, 15});
-        List<long[]> a = RemovedNumbers.removNb(26);
+        List<long[]> a = IsMyFriendCheating.removNb(26);
         assertArrayEquals(res.get(0), a.get(0));
         assertArrayEquals(res.get(1), a.get(1));
     }
