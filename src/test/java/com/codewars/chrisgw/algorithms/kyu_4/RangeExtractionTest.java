@@ -16,4 +16,9 @@ public class RangeExtractionTest {
                 RangeExtraction.rangeExtraction(new int[] { -3, -2, -1, 2, 10, 15, 16, 18, 19, 20 }));
     }
 
+    @Test
+    public void test_empty() {
+        assertEquals("", RangeExtraction.rangeExtraction(new int[] {}));
+    }
+
 }

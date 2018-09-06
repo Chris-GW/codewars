@@ -14,38 +14,37 @@ package com.codewars.chrisgw.algorithms.kyu_4;
  */
 public class RangeExtraction {
 
-    public static String rangeExtraction(int[] arr) {
+    public static String rangeExtraction(int[] values) {
+        if (values == null || values.length == 0) {
+            return "";
+        }
         StringBuilder sb = new StringBuilder();
         int rangeStartIndex = 0;
-        for (int i = 1; i < arr.length; i++) {
-            int value = arr[i];
-            int rangeWidth = i - rangeStartIndex;
-            int rangeStartValue = arr[rangeStartIndex];
-            boolean isValueInRange = rangeStartValue + rangeWidth == value;
-            if (!isValueInRange && rangeWidth < 3) {
-                for (int j = rangeStartIndex; j < i; j++) {
-                    sb.append(arr[j]).append(',');
-                }
-                rangeStartIndex = i;
-            } else if (!isValueInRange) {
-                int rangeEndValue = arr[i - 1];
-                sb.append(rangeStartValue).append('-').append(rangeEndValue).append(',');
-                rangeStartIndex = i;
+        int rangeEndIndex = 0;
+        while (++rangeEndIndex < values.length) {
+            int rangeWidth = rangeEndIndex - rangeStartIndex;
+            boolean isValueInRange = values[rangeStartIndex] + rangeWidth == values[rangeEndIndex];
+            if (!isValueInRange) {
+                appendRangeExtraction(values, rangeStartIndex, rangeEndIndex, sb);
+                rangeStartIndex += rangeWidth;
             }
         }
-        int rangeWidth = arr.length - rangeStartIndex;
+        appendRangeExtraction(values, rangeStartIndex, values.length, sb);
+        sb.deleteCharAt(sb.length() - 1); // delete last ','
+        return sb.toString();
+    }
+
+    private static void appendRangeExtraction(int[] values, int rangeStartIndex, int rangeEndIndex, StringBuilder sb) {
+        int rangeWidth = rangeEndIndex - rangeStartIndex;
         if (rangeWidth < 3) {
-            for (int j = rangeStartIndex; j < arr.length; j++) {
-                sb.append(arr[j]).append(',');
+            for (int i = rangeStartIndex; i < rangeEndIndex; i++) {
+                sb.append(values[i]).append(',');
             }
         } else {
-            int rangeEndValue = arr[arr.length - 1];
-            sb.append(arr[rangeStartIndex]).append('-').append(rangeEndValue).append(',');
+            int rangeStartValue = values[rangeStartIndex];
+            int rangeEndValue = values[rangeEndIndex - 1];
+            sb.append(rangeStartValue).append('-').append(rangeEndValue).append(',');
         }
-        if (sb.length() > 0) {
-            sb.deleteCharAt(sb.length() - 1); // delete last ','
-        }
-        return sb.toString();
     }
 
 }
