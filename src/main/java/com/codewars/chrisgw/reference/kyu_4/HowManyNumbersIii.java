@@ -1,6 +1,10 @@
 package com.codewars.chrisgw.reference.kyu_4;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -32,9 +36,41 @@ import java.util.List;
 public class HowManyNumbersIii {
 
 
-    public static List<Long> findAll(final int sumDigits, final int numDigits) {
-        // Your code here!!
-        return null;
+    public static List<Long> findAll(final int targetSumDigits, final int numDigits) {
+        List<Long> allPossibleNumbers = findAllRecursiveDepthFirstSearch(targetSumDigits, new int[numDigits], 0);
+        long size = allPossibleNumbers.size();
+        if (size > 0) {
+            long min = allPossibleNumbers.stream().min(Long::compareTo).orElse(0L);
+            long max = allPossibleNumbers.stream().max(Long::compareTo).orElse(0L);
+            return Arrays.asList(size, min, max);
+        } else {
+            return Collections.emptyList();
+        }
+    }
+
+
+    private static List<Long> findAllRecursiveDepthFirstSearch(final int targetSumDigits, int[] digits, int index) {
+        int sum = Arrays.stream(digits).sum();
+        if (index == digits.length && sum == targetSumDigits) {
+            long numberStr = Long.valueOf(Arrays.stream(digits)
+                    .mapToObj(String::valueOf)
+                    .collect(Collectors.joining("")));
+            return Collections.singletonList(numberStr);
+        } else if (index == digits.length || sum > targetSumDigits) {
+            return Collections.emptyList();
+        }
+
+        int startNum = 1;
+        if (index > 0) {
+            startNum = digits[index - 1];
+        }
+        List<Long> results = new LinkedList<>();
+        for (int num = startNum; num <= 9; num++) {
+            digits[index] = num; // do set number
+            results.addAll(findAllRecursiveDepthFirstSearch(targetSumDigits, digits, index + 1));
+            digits[index] = 0; // undo set number
+        }
+        return results;
     }
 
 }
