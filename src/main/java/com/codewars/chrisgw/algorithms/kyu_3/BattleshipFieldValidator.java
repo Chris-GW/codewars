@@ -1,8 +1,10 @@
 package com.codewars.chrisgw.algorithms.kyu_3;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.Stream.Builder;
 
@@ -28,13 +30,64 @@ public class BattleshipFieldValidator {
 
 
     public BattleshipFieldValidator(int[][] field) {
-        this.field = new BattleshipField[field.length][field.length];
+        this.field = new BattleshipField[field.length][];
         for (int row = 0; row < field.length; row++) {
+            this.field[row] = new BattleshipField[field[row].length];
             for (int column = 0; column < field[row].length; column++) {
-                boolean containsShip = field[row][column] == 1;
-                this.field[row][column] = new BattleshipField(row, column, containsShip);
+                boolean isShipField = field[row][column] == 1;
+                if (isShipField) {
+                    this.field[row][column] = newShipField(row, column);
+                } else if (this.field[row][column] == null) {
+                    this.field[row][column] = newWaterField(row, column);
+                }
             }
         }
+        assignAdjecentShipFields();
+        System.out.println(this.toString());
+    }
+
+    private void assignAdjecentShipFields() {
+        Set<BattleshipField> shipFields = fields().filter(BattleshipField::isShipField).collect(Collectors.toSet());
+        for (BattleshipField shipField : shipFields) {
+            if (shipField.shipFields.size() > 1) {
+                continue;
+            }
+            Set<BattleshipField> adjecentShipFields = new HashSet<>(4);
+            assignAdjecentShipFields(shipField, adjecentShipFields, true);
+            if (adjecentShipFields.size() == 1) {
+                adjecentShipFields.clear();
+                assignAdjecentShipFields(shipField, adjecentShipFields, false);
+            }
+            adjecentShipFields.forEach(battleshipField -> battleshipField.shipFields = adjecentShipFields);
+        }
+    }
+
+    private void assignAdjecentShipFields(BattleshipField currentShipField, Set<BattleshipField> shipFields,
+            boolean horizontal) {
+        if (!shipFields.add(currentShipField)) {
+            return;
+        }
+        if (horizontal) {
+            currentShipField.adjecentHorizontalFields()
+                    .filter(BattleshipField::isShipField)
+                    .forEach(battleshipField -> assignAdjecentShipFields(battleshipField, shipFields, horizontal));
+        } else
+            currentShipField.adjecentVerticalFields()
+                    .filter(BattleshipField::isShipField)
+                    .forEach(battleshipField -> assignAdjecentShipFields(battleshipField, shipFields, horizontal));
+    }
+
+
+    public BattleshipField getField(int row, int column) {
+        if (0 <= row && row < field.length && 0 <= column && column < field[row].length) {
+            return field[row][column];
+        } else {
+            return newWaterField(row, column);
+        }
+    }
+
+    private Stream<BattleshipField> fields() {
+        return Arrays.stream(field).flatMap(Arrays::stream);
     }
 
 
@@ -43,16 +96,59 @@ public class BattleshipFieldValidator {
     }
 
     public boolean isValid() {
-        return false;
+        Map<BattleshipType, Integer> battleshipTypeToFieldCount = new HashMap<>(BattleshipType.values().length);
+        for (int row = 0; row < field.length; row++) {
+            for (int column = 0; column < field[row].length; column++) {
+                BattleshipField currentField = getField(row, column);
+                if (currentField.isShipField()) {
+                    battleshipTypeToFieldCount.merge(currentField.getBattleshipType(), 1, Integer::sum);
+                    boolean hasNoAdjecentOtherShipField = currentField.adjecentFields()
+                            .filter(BattleshipField::isShipField)
+                            .allMatch(currentField.shipFields::contains);
+                    if (!hasNoAdjecentOtherShipField) {
+                        System.out.printf("hasNoAdjecentOtherShipField %d-%d%n", currentField.row, currentField.column);
+                        return false;
+                    }
+                }
+            }
+        }
+        return hasExpectedShipTypes(battleshipTypeToFieldCount);
+    }
+
+    private boolean hasExpectedShipTypes(Map<BattleshipType, Integer> battleshipTypeToFieldCount) {
+        for (BattleshipType battleshipType : BattleshipType.values()) {
+            int expectedTypeFieldCount = battleshipType.quantity * battleshipType.shipLength;
+            int actialTypeFieldCount = battleshipTypeToFieldCount.getOrDefault(battleshipType, 0);
+            if (expectedTypeFieldCount != actialTypeFieldCount) {
+                System.out.printf("%s expect %d but was %d%n", //
+                        battleshipType, expectedTypeFieldCount, actialTypeFieldCount);
+                return false;
+            }
+        }
+        return true;
     }
 
 
-    public BattleshipField getField(int row, int column) {
-        if (0 <= row && row < field.length && 0 <= column && column < field[row].length) {
-            return field[row][column];
-        } else {
-            return null;
+    private BattleshipField newWaterField(int row, int column) {
+        return new BattleshipField(row, column);
+    }
+
+    private BattleshipField newShipField(int row, int column) {
+        BattleshipField battleshipField = new BattleshipField(row, column);
+        battleshipField.shipFields.add(battleshipField);
+        return battleshipField;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (int row = 0; row < field.length; row++) {
+            for (int column = 0; column < field[row].length; column++) {
+                sb.append(getField(row, column));
+            }
+            sb.append("\n");
         }
+        return sb.toString();
     }
 
 
@@ -60,15 +156,21 @@ public class BattleshipFieldValidator {
 
         int row;
         int column;
-        boolean containsShip;
-        boolean hasNearbyShip;
+        Set<BattleshipField> shipFields = new HashSet<>(4);
 
 
-        public BattleshipField(int row, int column, boolean containsShip) {
+        public BattleshipField(int row, int column) {
             this.row = row;
             this.column = column;
-            this.containsShip = containsShip;
-            this.hasNearbyShip = false;
+        }
+
+
+        public boolean isShipField() {
+            return shipFields.size() > 0;
+        }
+
+        public BattleshipType getBattleshipType() {
+            return BattleshipType.forLength(shipFields.size());
         }
 
         public Stream<BattleshipField> adjecentFields() {
@@ -84,18 +186,12 @@ public class BattleshipFieldValidator {
             return adjecentFieldsBuilder.build().filter(Objects::nonNull);
         }
 
-        public Set<BattleshipField> shipFields() {
-            Set<BattleshipField> battleshipFields = new HashSet<>(4);
-            BattleshipField nextField = this;
-            while (nextField != null) {
-                battleshipFields.add(nextField);
-                nextField = nextField.adjecentFields()
-                        .filter(battleshipField -> battleshipField.containsShip)
-                        .filter(battleshipField -> !battleshipFields.contains(battleshipField))
-                        .findFirst()
-                        .orElse(null);
-            }
-            return battleshipFields;
+        public Stream<BattleshipField> adjecentHorizontalFields() {
+            return adjecentFields().filter(battleshipField -> battleshipField.row == this.row);
+        }
+
+        public Stream<BattleshipField> adjecentVerticalFields() {
+            return adjecentFields().filter(battleshipField -> battleshipField.column == this.column);
         }
 
 
@@ -103,27 +199,37 @@ public class BattleshipFieldValidator {
         public boolean equals(Object o) {
             if (this == o)
                 return true;
+
             if (!(o instanceof BattleshipField))
                 return false;
 
             BattleshipField that = (BattleshipField) o;
-
-            if (row != that.row)
-                return false;
-            if (column != that.column)
-                return false;
-            if (containsShip != that.containsShip)
-                return false;
-            return hasNearbyShip == that.hasNearbyShip;
+            return new EqualsBuilder().append(row, that.row).append(column, that.column).isEquals();
         }
 
         @Override
         public int hashCode() {
-            int result = row;
-            result = 31 * result + column;
-            result = 31 * result + (containsShip ? 1 : 0);
-            result = 31 * result + (hasNearbyShip ? 1 : 0);
-            return result;
+            return new HashCodeBuilder(17, 37).append(row).append(column).toHashCode();
+        }
+
+        @Override
+        public String toString() {
+            BattleshipType battleshipType = getBattleshipType();
+            if (battleshipType == null) {
+                return "+";
+            }
+            switch (battleshipType) {
+            case BATTLESHIP:
+                return "B";
+            case CRUISER:
+                return "C";
+            case DESTROYER:
+                return "D";
+            case SUBMARINE:
+                return "S";
+            default:
+                return "+";
+            }
         }
 
     }
@@ -131,23 +237,25 @@ public class BattleshipFieldValidator {
 
     enum BattleshipType {
 
-        BATTLESHIP(4), CRUISER(3), DESTROYER(2), SUBMARINE(1);
+        BATTLESHIP(4, 1), CRUISER(3, 2), DESTROYER(2, 3), SUBMARINE(1, 4);
 
         int shipLength;
+        int quantity;
 
-        BattleshipType(int shipLength) {
+        BattleshipType(int shipLength, int quantity) {
             this.shipLength = shipLength;
+            this.quantity = quantity;
         }
 
         public static BattleshipType forLength(int shipLength) {
-            for (BattleshipType battleshipType : values()) {
-                if (battleshipType.shipLength == shipLength) {
-                    return battleshipType;
+            for (BattleshipType shipType : values()) {
+                if (shipType.shipLength > 0 && shipType.shipLength == shipLength) {
+                    return shipType;
                 }
             }
             return null;
         }
-    }
 
+    }
 
 }
