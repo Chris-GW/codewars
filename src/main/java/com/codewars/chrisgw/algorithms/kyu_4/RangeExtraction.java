@@ -15,7 +15,37 @@ package com.codewars.chrisgw.algorithms.kyu_4;
 public class RangeExtraction {
 
     public static String rangeExtraction(int[] arr) {
-        return "";
+        StringBuilder sb = new StringBuilder();
+        int rangeStartIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            int value = arr[i];
+            int rangeWidth = i - rangeStartIndex;
+            int rangeStartValue = arr[rangeStartIndex];
+            boolean isValueInRange = rangeStartValue + rangeWidth == value;
+            if (!isValueInRange && rangeWidth < 3) {
+                for (int j = rangeStartIndex; j < i; j++) {
+                    sb.append(arr[j]).append(',');
+                }
+                rangeStartIndex = i;
+            } else if (!isValueInRange) {
+                int rangeEndValue = arr[i - 1];
+                sb.append(rangeStartValue).append('-').append(rangeEndValue).append(',');
+                rangeStartIndex = i;
+            }
+        }
+        int rangeWidth = arr.length - rangeStartIndex;
+        if (rangeWidth < 3) {
+            for (int j = rangeStartIndex; j < arr.length; j++) {
+                sb.append(arr[j]).append(',');
+            }
+        } else {
+            int rangeEndValue = arr[arr.length - 1];
+            sb.append(arr[rangeStartIndex]).append('-').append(rangeEndValue).append(',');
+        }
+        if (sb.length() > 0) {
+            sb.deleteCharAt(sb.length() - 1); // delete last ','
+        }
+        return sb.toString();
     }
 
 }
