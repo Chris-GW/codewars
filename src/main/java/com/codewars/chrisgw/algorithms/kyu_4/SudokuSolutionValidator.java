@@ -1,5 +1,9 @@
 package com.codewars.chrisgw.algorithms.kyu_4;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
 /**
  * ### Sudoku Background
  * <p>
@@ -46,7 +50,34 @@ package com.codewars.chrisgw.algorithms.kyu_4;
 public class SudokuSolutionValidator {
 
     public static boolean check(int[][] sudoku) {
-        //do your magic
+        return !(hasInvalidSudokuRow(sudoku) || hasInvalidSudokuColumn(sudoku));
+    }
+
+    private static boolean hasInvalidSudokuRow(int[][] sudoku) {
+        Set<Integer> rowNumbers = new HashSet<>(sudoku.length);
+        for (int columnIndex = 0; columnIndex < sudoku.length; columnIndex++) {
+            rowNumbers.clear();
+            for (int rowIndex = 0; rowIndex < sudoku.length; rowIndex++) {
+                int sudokuCell = sudoku[columnIndex][rowIndex];
+                if (sudokuCell == 0 || !rowNumbers.add(sudokuCell)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private static boolean hasInvalidSudokuColumn(int[][] sudoku) {
+        Set<Integer> columnNumbers = new HashSet<>(sudoku.length);
+        for (int rowIndex = 0; rowIndex < sudoku.length; rowIndex++) {
+            columnNumbers.clear();
+            for (int columnIndex = 0; columnIndex < sudoku.length; columnIndex++) {
+                int sudokuCell = sudoku[columnIndex][rowIndex];
+                if (sudokuCell == 0 || !columnNumbers.add(sudokuCell)) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
