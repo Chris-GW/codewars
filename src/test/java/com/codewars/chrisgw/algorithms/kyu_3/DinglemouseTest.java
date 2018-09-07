@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 
-public class TheLiftTest {
+public class DinglemouseTest {
 
     @Test
     public void testUp() {

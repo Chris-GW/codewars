@@ -126,13 +126,13 @@ import java.util.stream.Stream;
  *
  * </span>
  */
-public class TheLift {
+public class Dinglemouse {
 
     private Floor[] buildingFloors;
     private Lift lift;
 
 
-    public TheLift(Floor[] buildingFloors, int personCapacity) {
+    public Dinglemouse(Floor[] buildingFloors, int personCapacity) {
         this.buildingFloors = buildingFloors;
         this.lift = new Lift(buildingFloors[0], personCapacity);
     }
@@ -143,9 +143,9 @@ public class TheLift {
             return new int[0];
         }
         Floor[] buildingFloors = createFloorsWithPersonQueues(queues);
-        TheLift theLift = new TheLift(buildingFloors, personCapacity);
-        theLift.lift.operateLift();
-        return theLift.lift.stoppedFloors.stream().mapToInt(Floor::getFloorLevel).toArray();
+        Dinglemouse dinglemouse = new Dinglemouse(buildingFloors, personCapacity);
+        dinglemouse.lift.operateLift();
+        return dinglemouse.lift.stoppedFloors.stream().mapToInt(Floor::getFloorLevel).toArray();
     }
 
     private static Floor[] createFloorsWithPersonQueues(int[][] queues) {
@@ -278,7 +278,7 @@ public class TheLift {
                     moveLift(buildingFloors[0]);
                     break;
                 }
-                System.out.println(TheLift.this.toString());
+                System.out.println(Dinglemouse.this.toString());
             }
         }
 
