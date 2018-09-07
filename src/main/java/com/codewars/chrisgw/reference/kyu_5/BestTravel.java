@@ -1,5 +1,7 @@
 package com.codewars.chrisgw.reference.kyu_5;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -39,11 +41,63 @@ import java.util.List;
  * `ys = [91, 74, 73, 85, 73, 81, 87]`
  * `choose_best_sum(230, 3, ys) -> 228`
  */
-public class BestTravel {
+public class BestTravel implements Comparable<BestTravel> {
 
-    public static Integer chooseBestSum(int t, int k, List<Integer> ls) {
-        // your code
-        return 0;
+    private int maxMiles;
+    private int len;
+    private int startPosition;
+    private List<Integer> arr;
+    private int[] result;
+
+
+    public BestTravel(int maxMiles, int len, List<Integer> arr) {
+        this.maxMiles = maxMiles;
+        this.len = len;
+        this.startPosition = 0;
+        this.arr = new ArrayList<>(arr);
+        this.result = new int[len];
     }
+
+
+    public int getTravelMiles() {
+        return Arrays.stream(result).sum();
+    }
+
+
+    @Override
+    public int compareTo(BestTravel o) {
+        return Integer.compare(getTravelMiles(), o.getTravelMiles());
+    }
+
+
+    public static Integer chooseBestSum(int maxMiles, int wishedTownCount, List<Integer> aviableTownDistances) {
+        if (aviableTownDistances.size() < wishedTownCount) {
+            return null;
+        }
+        BestTravel currentTravel = new BestTravel(maxMiles, wishedTownCount, aviableTownDistances);
+        return chooseBestTravelMiles(currentTravel, currentTravel).getTravelMiles();
+    }
+
+    private static BestTravel chooseBestTravelMiles(BestTravel bestTravel, BestTravel currentTravel) {
+        if (currentTravel.len == 0) {
+            if (currentTravel.getTravelMiles() <= currentTravel.maxMiles && currentTravel.compareTo(bestTravel) > 0) {
+                bestTravel = currentTravel;
+                System.out.println(Arrays.toString(bestTravel.result));
+            }
+            return bestTravel;
+        }
+        for (int i = currentTravel.startPosition; i <= currentTravel.arr.size() - currentTravel.len; i++) {
+            BestTravel nextTravel = new BestTravel(currentTravel.maxMiles, currentTravel.len - 1, currentTravel.arr);
+            nextTravel.result = currentTravel.result;
+            nextTravel.startPosition = currentTravel.startPosition + 1;
+
+            int nextTownDistance = currentTravel.arr.get(i);
+            int index = currentTravel.result.length - currentTravel.len;
+            nextTravel.result[index] = nextTownDistance;
+            bestTravel = chooseBestTravelMiles(bestTravel, nextTravel);
+        }
+        return bestTravel;
+    }
+
 
 }
