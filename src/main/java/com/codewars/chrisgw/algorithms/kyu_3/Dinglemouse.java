@@ -139,6 +139,8 @@ public class Dinglemouse {
 
 
     public static int[] theLift(final int[][] queues, final int personCapacity) {
+        System.out.printf("theLift with personCapacity=%d and queues: %s%n", //
+                personCapacity, Arrays.deepToString(queues));
         if (queues == null || queues.length == 0) {
             return new int[0];
         }
@@ -164,7 +166,7 @@ public class Dinglemouse {
     public String toString() {
         String floorSeparationStr = StringUtils.repeat("-", 22);
         StringBuilder sb = new StringBuilder();
-        sb.append("  /").append(floorSeparationStr).append("|  |");
+        sb.append("  /").append(floorSeparationStr).append("|   |");
         sb.append(floorSeparationStr).append("\\").append("\n");
 
         for (int floorLevel = buildingFloors.length - 1; floorLevel >= 0; floorLevel--) {
@@ -175,20 +177,23 @@ public class Dinglemouse {
                     .collect(Collectors.joining(", "));
             sb.append(StringUtils.leftPad(personsAtDesinationFloorStr, 20));
 
-            sb.append(" |  | ");
+            if (lift.currentFloor.floorLevel == floorLevel) {
+                sb.append(" | X | ");
+            } else {
+                sb.append(" |   | ");
+            }
 
             String personsGoingToOtherFloorStr = floor.personsGoingToOtherFloor()
                     .map(person -> String.valueOf(person.destinationFloor))
                     .collect(Collectors.joining(", "));
             sb.append(StringUtils.leftPad(personsGoingToOtherFloorStr, 20));
             sb.append(" |\n");
-            sb.append("  |").append(floorSeparationStr).append("|  |").append(floorSeparationStr).append("|\n");
+            sb.append("  |").append(floorSeparationStr).append("|   |").append(floorSeparationStr).append("|\n");
         }
-        sb.append("Persons loaded in Lift: " + lift.loadedPersons);
         return sb.toString();
     }
 
-    private static class Floor {
+    public static class Floor {
 
         private int floorLevel;
         private Deque<Person> personQueue;
@@ -227,7 +232,7 @@ public class Dinglemouse {
     }
 
 
-    private class Lift {
+    public class Lift {
 
         private Floor currentFloor;
 
@@ -257,88 +262,55 @@ public class Dinglemouse {
 
 
         private void moveLift(Floor destinationFloor) {
-            System.out.println("moveLift from Floor " + currentFloor + " to Floor " + destinationFloor);
-            currentFloor = destinationFloor;
-            stoppedFloors.add(currentFloor);
+            if (!currentFloor.equals(destinationFloor)) {
+                System.out.println("moveLift from Floor " + currentFloor + " to Floor " + destinationFloor);
+                currentFloor = destinationFloor;
+                stoppedFloors.add(destinationFloor);
+            }
+        }
+
+        private int getFloorDistance(Floor floor) {
+            return Math.abs(currentFloor.floorLevel - floor.floorLevel);
         }
 
 
         public void operateLift() {
-            while (true) {
+            boolean hasMoved = false;
+            System.out.println("                         +-a-+");
+            System.out.println(Dinglemouse.this.toString());
+            for (char step = 'b'; true; step++) {
                 unloadPersons();
                 loadPersons();
-                Optional<Floor> nextFloor = nextFloorInTravelDirection();
+
+                Optional<Floor> nextFloor = firstFloorInTravelDirection();
                 if (!nextFloor.isPresent()) {
-                    nextFloor = latestFloorWithPersonsWantToEnter();
-                    isGoingUpwards = !isGoingUpwards;
+                    nextFloor = latestFloorInDirectionWithPersonsWantToEnter();
+                    reverseLiftDirection();
                 }
+
                 if (nextFloor.isPresent()) {
                     moveLift(nextFloor.get());
+                    hasMoved = true;
+                } else if (hasMoved) {
+                    hasMoved = false;
                 } else {
                     moveLift(buildingFloors[0]);
+                    System.out.println("finish with stoppedFloors: " + stoppedFloors);
                     break;
                 }
+                System.out.println("                         +-" + step + "-+");
                 System.out.println(Dinglemouse.this.toString());
             }
         }
 
-
-        private Optional<Floor> nextFloorInTravelDirection() {
-            Optional<Floor> firstFloorPersonsWantToExit = firstFloorInDirectionWherePersonsWantExit();
-            Optional<Floor> firstFloorPersonsWantToEnter = firstFloorInDirectionWherePersonsWantToEnter();
-            Floor nextFloor;
-            if (isGoingUpwards) {
-                nextFloor = Stream.of(firstFloorPersonsWantToEnter, firstFloorPersonsWantToExit)
-                        .filter(Optional::isPresent)
-                        .map(Optional::get)
-                        .min(Comparator.comparingInt(Floor::getFloorLevel))
-                        .orElse(null);
-            } else {
-                nextFloor = Stream.of(firstFloorPersonsWantToEnter, firstFloorPersonsWantToExit)
-                        .filter(Optional::isPresent)
-                        .map(Optional::get)
-                        .max(Comparator.comparingInt(Floor::getFloorLevel))
-                        .orElse(null);
-            }
-            return Optional.ofNullable(nextFloor);
+        private void reverseLiftDirection() {
+            isGoingUpwards = !isGoingUpwards;
         }
 
 
-        private Optional<Floor> latestFloorWithPersonsWantToEnter() {
-            if (isGoingUpwards) {
-                return floorsInTravelDirection() //
-                        .filter(floor -> floor.personsGoingDownwards().findAny().isPresent()) //
-                        .max(Comparator.comparingInt(Floor::getFloorLevel)); //
-            } else {
-                return floorsInTravelDirection() //
-                        .filter(floor -> floor.personsGoingUpwards().findAny().isPresent()) //
-                        .min(Comparator.comparingInt(Floor::getFloorLevel)); //
-            }
-        }
-
-
-        private Optional<Floor> firstFloorInDirectionWherePersonsWantExit() {
-            return floorsInTravelDirection().filter(this::hasLoadedPersonWithDestination).findFirst();
-        }
-
-        private boolean hasLoadedPersonWithDestination(Floor floor) {
-            return loadedPersons.stream()
-                    .map(Person::getDestinationFloor)
-                    .anyMatch(personDesinationFloorLevel -> floor.getFloorLevel() == personDesinationFloorLevel);
-        }
-
-
-        private Optional<Floor> firstFloorInDirectionWherePersonsWantToEnter() {
-            return floorsInTravelDirection().filter(floor -> {
-                if (isGoingUpwards) {
-                    return floor.personsGoingUpwards().findAny().isPresent();
-                } else {
-                    return floor.personsGoingDownwards().findAny().isPresent();
-                }
-            }).findFirst();
-        }
-
-
+        /**
+         * 1. unloads all persons of the lift, which have as destination {@link #currentFloor}
+         */
         private void unloadPersons() {
             for (int i = 0; i < loadedPersons.size(); i++) {
                 Person person = loadedPersons.get(i);
@@ -350,6 +322,9 @@ public class Dinglemouse {
             System.out.println("unloadPersons to Floor " + currentFloor + ": " + loadedPersons);
         }
 
+        /**
+         * 2. load all persons from {@link #currentFloor}, which want to ride in lift direction
+         */
         private void loadPersons() {
             List<Person> personsEntering;
             if (isGoingUpwards) {
@@ -369,12 +344,67 @@ public class Dinglemouse {
         }
 
 
+        /**
+         * @return 3. {@link Optional} first (nearest) {@link Floor}, where some {@link Person} want
+         * to enter OR exit in lift travel direction
+         */
+        private Optional<Floor> firstFloorInTravelDirection() {
+            Optional<Floor> firstFloorPersonWantToEnter = firstFloorInDirectionWherePersonWantToEnter();
+            Optional<Floor> firstFloorPersonWantToExit = firstFloorInDirectionWherePersonWantToExit();
+            return Stream.of(firstFloorPersonWantToEnter, firstFloorPersonWantToExit)
+                    .filter(Optional::isPresent)
+                    .map(Optional::get)
+                    .min(Comparator.comparingInt(this::getFloorDistance));
+        }
+
+        /**
+         * @return 3. a) {@link Optional} first (nearest) {@link Floor}, where some {@link Person} wants to enter in
+         * lift travel direction
+         */
+        private Optional<Floor> firstFloorInDirectionWherePersonWantToEnter() {
+            return floorsInTravelDirection().filter(this::hasPersonsWantToEnterInDirection).findFirst();
+        }
+
+        private boolean hasPersonsWantToEnterInDirection(Floor floor) {
+            if (isGoingUpwards) {
+                return floor.personsGoingUpwards().findAny().isPresent();
+            } else {
+                return floor.personsGoingDownwards().findAny().isPresent();
+            }
+        }
+
+
+        /**
+         * @return 3. b) {@link Optional} first (nearest) {@link Floor}, where some {@link #loadedPersons} wants
+         * to exit in lift travel direction
+         */
+        private Optional<Floor> firstFloorInDirectionWherePersonWantToExit() {
+            return floorsInTravelDirection().filter(this::hasLoadedPersonWithDestination).findFirst();
+        }
+
+        private boolean hasLoadedPersonWithDestination(Floor floor) {
+            return loadedPersons.stream()
+                    .map(Person::getDestinationFloor)
+                    .anyMatch(personDesinationFloorLevel -> floor.getFloorLevel() == personDesinationFloorLevel);
+        }
+
+
+        /**
+         * @return
+         */
+        private Optional<Floor> latestFloorInDirectionWithPersonsWantToEnter() {
+            return floorsInTravelDirection() //
+                    .filter(floor -> floor.personsGoingToOtherFloor().findAny().isPresent()) //
+                    .max(Comparator.comparingInt(this::getFloorDistance)); //
+        }
+
+
         private Stream<Floor> floorsInTravelDirection() {
             if (isGoingUpwards) {
                 return IntStream.range(currentFloor.floorLevel + 1, buildingFloors.length)
                         .mapToObj(floorLevel -> buildingFloors[floorLevel]);
             } else {
-                return IntStream.range(1, currentFloor.floorLevel)
+                return IntStream.rangeClosed(1, currentFloor.floorLevel)
                         .mapToObj(floorLevel -> buildingFloors[currentFloor.floorLevel - floorLevel]);
             }
         }
@@ -382,14 +412,14 @@ public class Dinglemouse {
     }
 
 
-    private static class Person {
+    public static class Person {
 
         int destinationFloor;
-
 
         public Person(int destinationFloor) {
             this.destinationFloor = destinationFloor;
         }
+
 
         public int getDestinationFloor() {
             return destinationFloor;
