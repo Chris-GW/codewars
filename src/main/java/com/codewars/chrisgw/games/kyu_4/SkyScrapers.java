@@ -262,25 +262,30 @@ public class SkyScrapers {
 
 
     public int[][] solvePuzzle() {
-        for (int clueIndex = 0; clueIndex < clues.length; clueIndex++) {
-            int heightClue = clues[clueIndex];
-            List<SkyScraper> skyScrapers = skyScraperForClueIndex(clueIndex);
-            System.out.println(clueIndex + " => " + heightClue + ": " + skyScrapers.stream()
-                    .map(skyScraper -> skyScraper.name)
-                    .collect(Collectors.joining(", ")));
-            System.out.println(toString());
-            if (heightClue == 0) {
-                continue;
-            }
+        while (Arrays.stream(skyScraperGrid)
+                .flatMap(Arrays::stream)
+                .anyMatch(skyScraper -> skyScraper.possibleSkyScraperHeights.size() != 1)) {
+            for (int clueIndex = 0; clueIndex < clues.length; clueIndex++) {
+                int heightClue = clues[clueIndex];
+                List<SkyScraper> skyScrapers = skyScraperForClueIndex(clueIndex);
+                System.out.println(clueIndex + " => " + heightClue + ": " + skyScrapers.stream()
+                        .map(skyScraper -> skyScraper.name)
+                        .collect(Collectors.joining(", ")));
+                System.out.println(toString());
+                if (heightClue == 0) {
+                    continue;
+                }
 
-            System.out.println("For clueIndex: " + clueIndex + " = " + heightClue);
-            Set<int[]> possibleHeightCombinations = possibleHeightCombinationsForGivenClue(skyScrapers, heightClue, 0);
+                System.out.println("For clueIndex: " + clueIndex + " = " + heightClue);
+                Set<int[]> possibleHeightCombinations = possibleHeightCombinationsForGivenClue(skyScrapers, heightClue,
+                        0);
 
-            skyScrapers.forEach(skyScraper -> skyScraper.possibleSkyScraperHeights.clear());
-            for (int[] possibleHeightCombination : possibleHeightCombinations) {
-                for (int i = 0; i < possibleHeightCombination.length; i++) {
-                    SkyScraper skyScraper = skyScrapers.get(i);
-                    skyScraper.addPossibleHeight(possibleHeightCombination[i]);
+                skyScrapers.forEach(skyScraper -> skyScraper.possibleSkyScraperHeights.clear());
+                for (int[] possibleHeightCombination : possibleHeightCombinations) {
+                    for (int i = 0; i < possibleHeightCombination.length; i++) {
+                        SkyScraper skyScraper = skyScrapers.get(i);
+                        skyScraper.addPossibleHeight(possibleHeightCombination[i]);
+                    }
                 }
             }
         }
