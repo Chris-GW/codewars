@@ -6,7 +6,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 
-public class DinglemouseTest {
+public class BlainIsAPainTest {
 
     @Test
     public void testUp() {

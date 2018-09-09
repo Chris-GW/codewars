@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+import java.util.stream.Stream.Builder;
 
 
 /**
@@ -302,15 +303,9 @@ import java.util.stream.Stream;
  */
 public class BlaineIsAPain {
 
-
     private TrainTrack firstTrack;
     private List<Train> trains = new ArrayList<>();
 
-
-    public BlaineIsAPain(TrainTrack firstTrack) {
-        firstTrack.setNextTrack(firstTrack);
-        this.firstTrack = firstTrack;
-    }
 
     public void addTrack(TrainTrack trainTrack) {
         if (firstTrack.previousTrack != null) {
@@ -326,20 +321,28 @@ public class BlaineIsAPain {
         List<Train> trains = Stream.of(aTrain, bTrain).map(BlaineIsAPain::newTrainFromStr).collect(Collectors.toList());
         List<Integer> trainStartTrackPositions = Arrays.asList(aTrainPos, bTrainPos);
         Arrays.stream(trackRows).forEach(System.out::println);
-        System.out.println(trains);
-        System.out.println(trainStartTrackPositions);
+        System.out.println(trains + " \taTrain = " + aTrain + ", bTrain = " + bTrain);
+        System.out.println(trainStartTrackPositions + " and waitingLimit = " + waitingLimit);
         System.out.println();
 
         TrainTrack firstTrack = findFirstTrack(trackRows);
-        BlaineIsAPain blaineIsAPain = new BlaineIsAPain(firstTrack);
-        TrainTrack currentTrack = firstTrack;
+        BlaineIsAPain blaineIsAPain = new BlaineIsAPain();
+        firstTrack.setNextTrack(firstTrack);
+        blaineIsAPain.firstTrack = firstTrack;
+
+        int secondTrackColumn = firstTrack.column + 1;
+        char secondTrackSymbol = trackRows[0].charAt(secondTrackColumn);
+        TrainTrack seocndTrack = newTrainTrack(0, secondTrackColumn, 1, secondTrackSymbol);
+        blaineIsAPain.addTrack(seocndTrack);
+
+        TrainTrack currentTrack = seocndTrack;
         for (int i = 0; true; i++) {
             TrainTrack nextTrack = findNextNearbyTrack(currentTrack, trackRows);
             if (nextTrack.isAtPosition(firstTrack)) {
                 break;
             }
             blaineIsAPain.addTrack(nextTrack);
-            //            System.out.println(i + ":\n" + blaineIsAPain);
+            System.out.println(i + ":\n" + blaineIsAPain);
             currentTrack = nextTrack;
         }
 
@@ -347,56 +350,47 @@ public class BlaineIsAPain {
     }
 
     private static Train newTrainFromStr(String trainStr) {
-        char trainSymbol = trainStr.charAt(1);
+        char trainSymbol = trainStr.charAt(0);
         int carriageLength = trainStr.length() - 1;
-        boolean movesClockwise = Character.isLowerCase(trainStr.charAt(0));
-        if (trainSymbol == ExpressTrain.EXPRESS_TRAIN_SYMBOL) {
-            return new ExpressTrain(carriageLength, movesClockwise);
-        } else {
-            return new Train(trainSymbol, carriageLength, movesClockwise);
-        }
+        boolean movesClockwise = Character.isLowerCase(trainSymbol);
+        return new Train(trainSymbol, carriageLength, movesClockwise);
     }
 
     private static TrainTrack findFirstTrack(String[] trackRows) {
         String firstTrackRow = trackRows[0];
         for (int column = 0; column < firstTrackRow.length(); column++) {
             char trackSymbol = firstTrackRow.charAt(column);
-            if (TrainTrack.isTrainTrackSymbol(trackSymbol)) {
-                TrainTrackDirection trackDirection = TrainTrackDirection.RIGHT; // first track is always in TrainTrackDirection.RIGHT
-                return newTrainTrack(0, column, trackDirection, 0, trackSymbol);
+            TrainTrack firstTrack = newTrainTrack(0, column, 0, trackSymbol);
+            if (firstTrack != null) {
+                return firstTrack;
             }
         }
         throw new IllegalArgumentException("first track row doesn't contain any valid trackSymbols");
     }
 
-    private static TrainTrack newTrainTrack(int row, int column, TrainTrackDirection trackDirection, int trackPosition,
-            char trackSymbol) {
-        if (TrainTrack.isTrainTrackSymbol(trackSymbol)) {
-            return new TrainTrack(row, column, trackDirection, trackPosition, trackSymbol);
+    private static TrainTrack newTrainTrack(int row, int column, int trackPosition, char trackSymbol) {
+        TrainTrackType trackType = TrainTrackType.valueOf(trackSymbol);
+        if (trackType != null) {
+            return new TrainTrack(row, column, trackPosition, trackType);
         } else {
             return null;
         }
     }
 
 
-    private static TrainTrack findNextNearbyTrack(TrainTrack currentTrainTrack, String[] trackRows) {
-        int trackPosition = currentTrainTrack.trackPosition + 1;
-        return currentTrainTrack.connectableDirections()
-                .map(trackDirection -> {
-                    int row = currentTrainTrack.row + trackDirection.rowOffset;
-                    int column = currentTrainTrack.column + trackDirection.columnOffset;
-                    char trackSymbol = getTrackSymbol(trackRows, row, column);
-                    if (trackSymbol == '/') {
-                        trackDirection = trackDirection.getRightCornerDirection();
-                    } else if (trackSymbol == '\\') {
-                        trackDirection = trackDirection.getLeftCornerDirection();
-                    }
-                    return newTrainTrack(row, column, trackDirection, trackPosition, trackSymbol);
-                })
-                .filter(Objects::nonNull)
+    private static TrainTrack findNextNearbyTrack(TrainTrack currentTrack, String[] trackRows) {
+        List<TrainTrack> possibleTracks = currentTrack.possibleConnectableTracks() //
+                .filter(trainTrack -> {
+                    int row = trainTrack.row;
+                    int column = trainTrack.column;
+                    char actualtrackSymbol = getTrackSymbol(trackRows, row, column);
+                    char expectedTrackSymbol = trainTrack.trackType.trackSymbol;
+                    return actualtrackSymbol == expectedTrackSymbol;
+                }).collect(Collectors.toList());
+        return possibleTracks.stream()
+                .filter(trainTrack -> !currentTrack.previousTrack.isAtPosition(trainTrack))
                 .findFirst()
-                .orElseThrow(
-                        () -> new IllegalArgumentException("Could not find nearby track for: " + currentTrainTrack));
+                .orElseThrow(RuntimeException::new);
     }
 
     private static char getTrackSymbol(String[] trackRows, int row, int column) {
@@ -416,19 +410,26 @@ public class BlaineIsAPain {
         System.out.println(toString());
 
         for (int pastTime = 0; pastTime <= waitingLimit; pastTime++) {
-            for (Train train : trains) {
-                for (Train otherTrain : trains) {
-                    if (train.equals(otherTrain)) {
-                        continue;
-                    }
-                    if (isTrainCrashedIntoEachOther(train, otherTrain)) {
+            for (int i = 0; i < trains.size(); i++) {
+                Train train = trains.get(i);
+                if (train.isCrashedWithItself()) {
+                    System.out.println("Train is crashed with itself: " + train);
+                    System.out.println(toString());
+                    return pastTime;
+                }
+                for (int j = i + 1; j < trains.size(); j++) {
+                    Train otherTrain = trains.get(j);
+                    if (train.isCrashedWith(otherTrain)) {
+                        System.out.println("Trains crashed into each other: " + train + " and " + otherTrain);
+                        System.out.println(toString());
                         return pastTime;
                     }
                 }
             }
             trains.forEach(Train::moveTrainOneTimeUnit);
-            //            System.out.println(toString());
+            System.out.println(toString());
         }
+        System.out.println("No train trash after " + waitingLimit);
         return -1;
     }
 
@@ -437,11 +438,6 @@ public class BlaineIsAPain {
             TrainTrack trainStartTrack = getTrack(trainStartTrackPositions.get(i));
             trains.get(i).placeTrainOnStartTrack(trainStartTrack);
         }
-    }
-
-    private boolean isTrainCrashedIntoEachOther(Train train, Train otherTrain) {
-        return train.occupiedTracks()
-                .anyMatch(trainTrack -> otherTrain.occupiedTracks().anyMatch(trainTrack::isAtPosition));
     }
 
 
@@ -504,7 +500,7 @@ public class BlaineIsAPain {
                     return train.trainSymbol;
                 }
             });
-            return trainSymbol.orElse(trainTrack.symbol);
+            return trainSymbol.orElse(trainTrack.trackType.trackSymbol);
         }).orElse(column % 2 == 0 ? '·' : ' ');
     }
 
@@ -512,38 +508,36 @@ public class BlaineIsAPain {
     public static class TrainTrack {
 
         public static final char[] TRAIN_TRACK_SYMBOLS = new char[] { '-', '|', '/', '\\', '+', 'X', 'S' };
-        public static final char TRAIN_STATION_TRACK_SYMBOL = 'S';
 
-        public static boolean isTrainTrackSymbol(char symbol) {
-            for (char trainTrackSymbol : TrainTrack.TRAIN_TRACK_SYMBOLS) {
-                if (trainTrackSymbol == symbol) {
-                    return true;
-                }
-            }
-            return false;
-        }
 
         int row;
         int column;
-        TrainTrackDirection trackDirection;
         int trackPosition;
-        char symbol;
+        TrainTrackType trackType;
 
         TrainTrack nextTrack;
         TrainTrack previousTrack;
 
 
-        public TrainTrack(int row, int column, TrainTrackDirection trackDirection, int trackPosition, char symbol) {
+        public TrainTrack(int row, int column, int trackPosition, TrainTrackType trackType) {
             this.row = row;
             this.column = column;
-            this.trackDirection = trackDirection;
             this.trackPosition = trackPosition;
-            this.symbol = symbol;
+            this.trackType = trackType;
         }
 
 
         public boolean isStation() {
-            return symbol == TRAIN_STATION_TRACK_SYMBOL;
+            return TrainTrackType.STATION.equals(trackType);
+        }
+
+        public boolean isTrackCrossing() {
+            return TrainTrackType.DIAGONAL_CROSSING.equals(trackType) || TrainTrackType.STRAIGHT_CROSSING.equals(
+                    trackType);
+        }
+
+        public boolean isStationOrTrackCrossing() {
+            return isStation() || isTrackCrossing();
         }
 
 
@@ -570,15 +564,33 @@ public class BlaineIsAPain {
         }
 
 
-        public TrainTrackDirection getTrackDirection() {
-            return trackDirection;
+        public Stream<TrainTrack> possibleConnectableTracks() {
+            Builder<TrainTrack> possibleConnectableTracks = Stream.builder();
+            TrainTrackConnection trackConnection = trackType.trackConnection;
+            for (TrainTrackDirection connectableDirection : trackConnection.connectableDirections) {
+                if (isStationOrTrackCrossing() && !connectableDirection.equals(getTrackDirection())) {
+                    continue;
+                }
+                Set<Character> trackSymbols = trackConnection.getNeededTrackSymbols(connectableDirection);
+                for (char trackSymbol : trackSymbols) {
+                    int row = this.row + connectableDirection.rowOffset;
+                    int column = this.column + connectableDirection.columnOffset;
+                    int trackPosition = this.trackPosition + 1;
+                    TrainTrack connectableTrainTrack = newTrainTrack(row, column, trackPosition, trackSymbol);
+                    possibleConnectableTracks.add(connectableTrainTrack);
+                }
+            }
+            return possibleConnectableTracks.build();
         }
 
-        public Stream<TrainTrackDirection> connectableDirections() {
-            TrainTrackDirection trackDirection = getTrackDirection();
-            TrainTrackDirection clockwiseTrackDirection = trackDirection.getDirectionClockwise();
-            TrainTrackDirection antiClockwiseTrackDirection = trackDirection.getDirectionAntiClockwise();
-            return Stream.of(trackDirection, clockwiseTrackDirection, antiClockwiseTrackDirection);
+        public TrainTrackDirection getTrackDirection() {
+            for (TrainTrackDirection trackDirection : TrainTrackDirection.values()) {
+                if (previousTrack.row + trackDirection.rowOffset == row && //
+                        previousTrack.column + trackDirection.columnOffset == column) {
+                    return trackDirection;
+                }
+            }
+            return null;
         }
 
 
@@ -602,9 +614,8 @@ public class BlaineIsAPain {
             TrainTrack that = (TrainTrack) o;
             return new EqualsBuilder().append(row, that.row)
                     .append(column, that.column)
-                    .append(trackDirection, that.trackDirection)
                     .append(trackPosition, that.trackPosition)
-                    .append(symbol, that.symbol)
+                    .append(trackType, that.trackType)
                     .isEquals();
         }
 
@@ -612,9 +623,8 @@ public class BlaineIsAPain {
         public int hashCode() {
             return new HashCodeBuilder(17, 37).append(row)
                     .append(column)
-                    .append(trackDirection)
                     .append(trackPosition)
-                    .append(symbol)
+                    .append(trackType)
                     .toHashCode();
         }
 
@@ -622,9 +632,8 @@ public class BlaineIsAPain {
         public String toString() {
             return new ToStringBuilder(this, ToStringStyle.NO_CLASS_NAME_STYLE).append("row", row)
                     .append("column", column)
-                    .append("trackDirection", trackDirection)
                     .append("trackPosition", trackPosition)
-                    .append("symbol", symbol)
+                    .append("trackType", trackType)
                     .toString();
         }
 
@@ -652,6 +661,8 @@ public class BlaineIsAPain {
 
     public static class Train {
 
+        public static final char EXPRESS_TRAIN_SYMBOL = 'x';
+
         char trainSymbol;
         int carriageLength;
         boolean movesClockwise;
@@ -660,7 +671,7 @@ public class BlaineIsAPain {
         Deque<TrainTrack> occupiedTracks = new LinkedList<>();
 
         public Train(char trainSymbol, int carriageLength, boolean movesClockwise) {
-            this.trainSymbol = trainSymbol;
+            this.trainSymbol = Character.toLowerCase(trainSymbol);
             this.carriageLength = carriageLength;
             this.movesClockwise = movesClockwise;
         }
@@ -676,7 +687,7 @@ public class BlaineIsAPain {
             } else {
                 for (int i = 0; i <= carriageLength; i++) {
                     occupiedTracks.addLast(currentTrack);
-                    currentTrack = currentTrack.previousTrack;
+                    currentTrack = currentTrack.nextTrack;
                 }
             }
         }
@@ -696,8 +707,8 @@ public class BlaineIsAPain {
             } else {
                 nextTrack = occupiedTracks.getFirst().previousTrack;
             }
-            occupiedTracks.addFirst(nextTrack);
-            occupiedTracks.removeLast();
+            occupiedTracks.offerFirst(nextTrack);
+            occupiedTracks.pollLast();
 
             if (nextTrack.isStation()) {
                 waitingInStation = getStationWaitingTime();
@@ -706,7 +717,32 @@ public class BlaineIsAPain {
 
 
         public int getStationWaitingTime() {
-            return carriageLength;
+            if (trainSymbol == EXPRESS_TRAIN_SYMBOL) {
+                return 0;
+            } else {
+                return carriageLength;
+            }
+        }
+
+        public boolean isCrashedWithItself() {
+            List<TrainTrack> statoinAndTrackCrossings = occupiedTracks() //
+                    .filter(TrainTrack::isStationOrTrackCrossing) //
+                    .collect(Collectors.toList()); //
+            for (int i = 0; i < statoinAndTrackCrossings.size(); i++) {
+                TrainTrack occupiedTrack = statoinAndTrackCrossings.get(i);
+                for (int j = i + 1; j < statoinAndTrackCrossings.size(); j++) {
+                    TrainTrack laterOccupiedTrack = statoinAndTrackCrossings.get(j);
+                    if (occupiedTrack.isAtPosition(laterOccupiedTrack)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public boolean isCrashedWith(Train otherTrain) {
+            return occupiedTracks() // they have any occupied TrainTrack at same position
+                    .anyMatch(trainTrack -> otherTrain.occupiedTracks().anyMatch(trainTrack::isAtPosition));
         }
 
 
@@ -758,17 +794,148 @@ public class BlaineIsAPain {
     }
 
 
-    public static class ExpressTrain extends Train {
+    public enum TrainTrackType {
 
-        public static final char EXPRESS_TRAIN_SYMBOL = 'X';
+        STRAIGTH_VERTICAL('|', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP) //
+                .addAnyTrackType() //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM) //
+                .addAnyTrackType()), //
 
-        public ExpressTrain(int carriageLength, boolean movesClockwise) {
-            super(EXPRESS_TRAIN_SYMBOL, carriageLength, movesClockwise);
+        STRAIGTH_HORIZONTAL('-', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.LEFT) //
+                .addAnyTrackType() //
+                .addConnectableDirection(TrainTrackDirection.RIGHT) //
+                .addAnyTrackType() //
+        ), //
+
+        CURVE_RIGHT('/', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP) //
+                .addNeededTrackType('|', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM) //
+                .addNeededTrackType('|', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.RIGHT) //
+                .addNeededTrackType('-', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.LEFT) //
+                .addNeededTrackType('-', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.TOP_RIGHT) //
+                .addNeededTrackType('/', 'X', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_LEFT) //
+                .addNeededTrackType('/', 'X', 'S')), //
+
+        CURVE_LEFT('\\', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP) //
+                .addNeededTrackType('|', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM) //
+                .addNeededTrackType('|', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.RIGHT) //
+                .addNeededTrackType('-', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.LEFT) //
+                .addNeededTrackType('-', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.TOP_LEFT) //
+                .addNeededTrackType('\\', 'X', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_RIGHT) //
+                .addNeededTrackType('\\', 'X', 'S')), //
+
+        STRAIGHT_CROSSING('+', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP) //
+                .addNeededTrackType('|', '/', '\\', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM) //
+                .addNeededTrackType('|', '/', '\\', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.RIGHT) //
+                .addNeededTrackType('-', '/', '\\', '+', 'S') //
+                .addConnectableDirection(TrainTrackDirection.LEFT) //
+                .addNeededTrackType('-', '/', '\\', '+', 'S')), //
+
+        DIAGONAL_CROSSING('X', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP_RIGHT) //
+                .addNeededTrackType('/', '-', '|', 'X', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_LEFT) //
+                .addNeededTrackType('/', '-', '|', 'X', 'S') //
+                .addConnectableDirection(TrainTrackDirection.TOP_LEFT) //
+                .addNeededTrackType('\\', '-', '|', 'X', 'S') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_RIGHT) //
+                .addNeededTrackType('\\', '-', '|', 'X', 'S')), //
+
+        STATION('S', new TrainTrackConnection() //
+                .addConnectableDirection(TrainTrackDirection.TOP) //
+                .addNeededTrackType('|', '+') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM) //
+                .addNeededTrackType('|', '+') //
+                .addConnectableDirection(TrainTrackDirection.RIGHT) //
+                .addNeededTrackType('-', '+') //
+                .addConnectableDirection(TrainTrackDirection.LEFT) //
+                .addNeededTrackType('-', '+') //
+                .addConnectableDirection(TrainTrackDirection.TOP_RIGHT) //
+                .addNeededTrackType('/', 'X') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_LEFT) //
+                .addNeededTrackType('/', 'X') //
+                .addConnectableDirection(TrainTrackDirection.TOP_LEFT) //
+                .addNeededTrackType('\\', 'X') //
+                .addConnectableDirection(TrainTrackDirection.BOTTOM_RIGHT) //
+                .addNeededTrackType('\\', 'X')), //
+        ;
+
+        char trackSymbol;
+        TrainTrackConnection trackConnection;
+
+        TrainTrackType(char trackSymbol, TrainTrackConnection trackConnection) {
+            this.trackSymbol = trackSymbol;
+            this.trackConnection = trackConnection;
+        }
+
+        public static TrainTrackType valueOf(char trackSymbol) {
+            for (TrainTrackType trackType : values()) {
+                if (trackType.trackSymbol == trackSymbol) {
+                    return trackType;
+                }
+            }
+            return null;
         }
 
         @Override
-        public int getStationWaitingTime() {
-            return 0;
+        public String toString() {
+            return String.valueOf(trackSymbol);
+        }
+
+    }
+
+
+    public static class TrainTrackConnection {
+
+        List<TrainTrackDirection> connectableDirections = new ArrayList<>();
+        List<Set<Character>> allowedTrackSymbols = new ArrayList<>();
+
+        public TrainTrackConnection addConnectableDirection(TrainTrackDirection trackDirection) {
+            connectableDirections.add(trackDirection);
+            allowedTrackSymbols.add(new HashSet<>());
+            return this;
+        }
+
+        public TrainTrackConnection addNeededTrackType(char trackSymbol, char... trackSymbols) {
+            Set<Character> neededtrackTypes = allowedTrackSymbols.get(allowedTrackSymbols.size() - 1);
+            neededtrackTypes.add(trackSymbol);
+            for (char tSymbol : trackSymbols) {
+                neededtrackTypes.add(tSymbol);
+            }
+            return this;
+        }
+
+        public TrainTrackConnection addAnyTrackType() {
+            Set<Character> neededtrackTypes = allowedTrackSymbols.get(allowedTrackSymbols.size() - 1);
+            for (char trackSymbol : TrainTrack.TRAIN_TRACK_SYMBOLS) {
+                neededtrackTypes.add(trackSymbol);
+            }
+            return this;
+        }
+
+        public Set<Character> getNeededTrackSymbols(TrainTrackDirection trackDirection) {
+            for (int i = 0; i < connectableDirections.size(); i++) {
+                if (connectableDirections.get(i).equals(trackDirection)) {
+                    return allowedTrackSymbols.get(i);
+                }
+            }
+            return Collections.emptySet();
         }
 
     }
@@ -819,28 +986,6 @@ public class BlaineIsAPain {
             return values()[nextOrdinal];
         }
 
-
-        public TrainTrackDirection getRightCornerDirection() {
-            if (RIGHT.equals(this) || LEFT.equals(this)) {
-                return getDirectionAntiClockwise();
-            } else if (BOTTOM.equals(this) || TOP.equals(this)) {
-                return getDirectionClockwise();
-            } else {
-                return this;
-            }
-        }
-
-        public TrainTrackDirection getLeftCornerDirection() {
-            if (RIGHT.equals(this) || LEFT.equals(this)) {
-                return getDirectionClockwise();
-            } else if (BOTTOM.equals(this) || TOP.equals(this)) {
-                return getDirectionAntiClockwise();
-            } else {
-                return this;
-            }
-        }
-
     }
-
 
 }
