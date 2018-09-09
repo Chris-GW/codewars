@@ -3,6 +3,7 @@ package com.codewars.chrisgw.reference.kyu_2;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -322,7 +323,11 @@ public class BlaineIsAPain {
     public static int trainCrash(final String track, final String aTrain, final int aTrainPos, final String bTrain,
             final int bTrainPos, final int waitingLimit) {
         String[] trackRows = track.split("\n");
+        List<Train> trains = Stream.of(aTrain, bTrain).map(BlaineIsAPain::newTrainFromStr).collect(Collectors.toList());
+        List<Integer> trainStartTrackPositions = Arrays.asList(aTrainPos, bTrainPos);
         Arrays.stream(trackRows).forEach(System.out::println);
+        System.out.println(trains);
+        System.out.println(trainStartTrackPositions);
         System.out.println();
 
         TrainTrack firstTrack = findFirstTrack(trackRows);
@@ -330,16 +335,14 @@ public class BlaineIsAPain {
         TrainTrack currentTrack = firstTrack;
         for (int i = 0; true; i++) {
             TrainTrack nextTrack = findNextNearbyTrack(currentTrack, trackRows);
-            if (nextTrack == null) {
+            if (nextTrack.isAtPosition(firstTrack)) {
                 break;
             }
-            currentTrack = nextTrack;
             blaineIsAPain.addTrack(nextTrack);
-            System.out.println(i + ":\n" + blaineIsAPain);
+            //            System.out.println(i + ":\n" + blaineIsAPain);
+            currentTrack = nextTrack;
         }
 
-        List<Train> trains = Stream.of(aTrain, bTrain).map(BlaineIsAPain::newTrainFromStr).collect(Collectors.toList());
-        List<Integer> trainStartTrackPositions = Arrays.asList(aTrainPos, bTrainPos);
         return blaineIsAPain.trainCrash(trains, trainStartTrackPositions, waitingLimit);
     }
 
@@ -359,49 +362,56 @@ public class BlaineIsAPain {
         for (int column = 0; column < firstTrackRow.length(); column++) {
             char trackSymbol = firstTrackRow.charAt(column);
             if (TrainTrack.isTrainTrackSymbol(trackSymbol)) {
-                return newTrainTrack(0, column, 0, trackSymbol);
+                TrainTrackDirection trackDirection = TrainTrackDirection.RIGHT; // first track is always in TrainTrackDirection.RIGHT
+                return newTrainTrack(0, column, trackDirection, 0, trackSymbol);
             }
         }
-        throw new IllegalArgumentException("firt track row doesn't contain any valid trackSymbol");
+        throw new IllegalArgumentException("first track row doesn't contain any valid trackSymbols");
     }
 
-    private static TrainTrack newTrainTrack(int row, int column, int trackPosition, char trackSymbol) {
-        if (TrainTrackCrossing.isTrainTrackCrossingSymbol(trackSymbol)) {
-            return new TrainTrackCrossing(row, column, trackPosition, trackSymbol);
-        } else if (TrainTrack.isTrainTrackSymbol(trackSymbol)) {
-            return new TrainTrack(row, column, trackPosition, trackSymbol);
+    private static TrainTrack newTrainTrack(int row, int column, TrainTrackDirection trackDirection, int trackPosition,
+            char trackSymbol) {
+        if (TrainTrack.isTrainTrackSymbol(trackSymbol)) {
+            return new TrainTrack(row, column, trackDirection, trackPosition, trackSymbol);
         } else {
             return null;
         }
     }
 
 
-    private static TrainTrack findNextNearbyTrack(TrainTrack trainTrack, String[] trackRows) {
-        int trackPosition = trainTrack.trackPosition + 1;
-        for (int rowOffset = -1; rowOffset <= 1; rowOffset++) {
-            for (int columnOffset = -1; columnOffset <= 1; columnOffset++) {
-                int row = trainTrack.row + rowOffset;
-                int column = trainTrack.column + columnOffset;
-                if (rowOffset == 0 && columnOffset == 0 //
-                        || 0 > row || row >= trackRows.length //
-                        || 0 > column || column >= trackRows[row].length()) { //
-                    continue;
-                }
-                char trackSymbol = trackRows[row].charAt(column);
-                TrainTrack nextTrainTrack = newTrainTrack(row, column, trackPosition, trackSymbol);
-                if (trainTrack.canConnect(nextTrainTrack)) {
-                    return nextTrainTrack;
-                }
-            }
+    private static TrainTrack findNextNearbyTrack(TrainTrack currentTrainTrack, String[] trackRows) {
+        int trackPosition = currentTrainTrack.trackPosition + 1;
+        return currentTrainTrack.connectableDirections()
+                .map(trackDirection -> {
+                    int row = currentTrainTrack.row + trackDirection.rowOffset;
+                    int column = currentTrainTrack.column + trackDirection.columnOffset;
+                    char trackSymbol = getTrackSymbol(trackRows, row, column);
+                    if (trackSymbol == '/') {
+                        trackDirection = trackDirection.getRightCornerDirection();
+                    } else if (trackSymbol == '\\') {
+                        trackDirection = trackDirection.getLeftCornerDirection();
+                    }
+                    return newTrainTrack(row, column, trackDirection, trackPosition, trackSymbol);
+                })
+                .filter(Objects::nonNull)
+                .findFirst()
+                .orElseThrow(
+                        () -> new IllegalArgumentException("Could not find nearby track for: " + currentTrainTrack));
+    }
+
+    private static char getTrackSymbol(String[] trackRows, int row, int column) {
+        if (0 <= row && row < trackRows.length && //
+                0 <= column && column < trackRows[row].length()) {
+            return trackRows[row].charAt(column);
+        } else {
+            return ' ';
         }
-        throw new IllegalArgumentException("Could not find nearby track for: " + trainTrack);
     }
 
 
     public int trainCrash(List<Train> trains, List<Integer> trainStartTrackPositions, int waitingLimit) {
         this.trains.clear();
         this.trains.addAll(trains);
-        System.out.println(toString());
         placeTrainsOnTrack(trainStartTrackPositions);
         System.out.println(toString());
 
@@ -417,7 +427,7 @@ public class BlaineIsAPain {
                 }
             }
             trains.forEach(Train::moveTrainOneTimeUnit);
-            System.out.println(toString());
+            //            System.out.println(toString());
         }
         return -1;
     }
@@ -430,7 +440,8 @@ public class BlaineIsAPain {
     }
 
     private boolean isTrainCrashedIntoEachOther(Train train, Train otherTrain) {
-        return train.occupiedTracks.stream().anyMatch(trainTrack -> otherTrain.occupiedTracks.contains(trainTrack));
+        return train.occupiedTracks()
+                .anyMatch(trainTrack -> otherTrain.occupiedTracks().anyMatch(trainTrack::isAtPosition));
     }
 
 
@@ -453,7 +464,7 @@ public class BlaineIsAPain {
 
 
     private Optional<Train> getTrainOccupiengTrack(TrainTrack trainTrack) {
-        return trains.stream().filter(train -> train.getOccupiedTracks().contains(trainTrack)).findFirst();
+        return trains.stream().filter(train -> train.occupiedTracks().anyMatch(trainTrack::equals)).findFirst();
     }
 
     public int getTrackSystemSize() {
@@ -465,25 +476,36 @@ public class BlaineIsAPain {
     public String toString() {
         int maxRow = tracks(true).mapToInt(trainTrack -> trainTrack.row).max().orElse(0);
         int maxColumn = tracks(true).mapToInt(trainTrack -> trainTrack.column).max().orElse(0);
-        StringBuilder sb = new StringBuilder(maxRow * maxColumn);
-        sb.append("    ");
+        StringBuilder sb = new StringBuilder((maxRow + 2) * (maxColumn + 6));
+        sb.append(" \\ ");
         IntStream.rangeClosed(0, maxColumn / 10).flatMap(value -> IntStream.range(0, 10)).forEach(sb::append);
-        sb.append("\n");
+        sb.append("/\n");
         for (int row = 0; row <= maxRow; row++) {
             for (int column = 0; column <= maxColumn; column++) {
                 if (column == 0) {
-                    sb.append(String.format("%2d: ", row));
+                    sb.append(String.format("%2d ", row));
                 }
-                Optional<Character> trackSymbol = getTrack(row, column).map(trainTrack -> {
-                    Optional<Character> trainSymbol = getTrainOccupiengTrack(trainTrack).map(
-                            train -> train.trainSymbol);
-                    return trainSymbol.orElse(trainTrack.symbol);
-                });
-                sb.append(trackSymbol.orElse(' '));
+                sb.append(getTrackSymbolAt(row, column));
             }
-            sb.append("\n");
+            sb.append(String.format(" %2d\n", row));
         }
+        sb.append(" / ");
+        IntStream.rangeClosed(0, maxColumn / 10).flatMap(value -> IntStream.range(0, 10)).forEach(sb::append);
+        sb.append("\\\n");
         return sb.append("\n").toString();
+    }
+
+    private char getTrackSymbolAt(int row, int column) {
+        return getTrack(row, column).map(trainTrack -> {
+            Optional<Character> trainSymbol = getTrainOccupiengTrack(trainTrack).map(train -> {
+                if (trainTrack.isAtPosition(train.getTrainEngineTrackPosition())) {
+                    return Character.toUpperCase(train.trainSymbol);
+                } else {
+                    return train.trainSymbol;
+                }
+            });
+            return trainSymbol.orElse(trainTrack.symbol);
+        }).orElse(column % 2 == 0 ? '·' : ' ');
     }
 
 
@@ -503,6 +525,7 @@ public class BlaineIsAPain {
 
         int row;
         int column;
+        TrainTrackDirection trackDirection;
         int trackPosition;
         char symbol;
 
@@ -510,24 +533,12 @@ public class BlaineIsAPain {
         TrainTrack previousTrack;
 
 
-        public TrainTrack(int row, int column, int trackPosition, char symbol) {
+        public TrainTrack(int row, int column, TrainTrackDirection trackDirection, int trackPosition, char symbol) {
             this.row = row;
             this.column = column;
+            this.trackDirection = trackDirection;
             this.trackPosition = trackPosition;
             this.symbol = symbol;
-        }
-
-        public void setNextTrack(TrainTrack nextTrack) {
-            this.nextTrack = nextTrack;
-            nextTrack.previousTrack = this;
-        }
-
-        public TrainTrack nextConnectedTrack(Train train) {
-            if (train.movesClockwise) {
-                return nextTrack;
-            } else {
-                return previousTrack;
-            }
         }
 
 
@@ -553,112 +564,30 @@ public class BlaineIsAPain {
         }
 
 
+        public void setNextTrack(TrainTrack nextTrack) {
+            this.nextTrack = nextTrack;
+            nextTrack.previousTrack = this;
+        }
+
+
+        public TrainTrackDirection getTrackDirection() {
+            return trackDirection;
+        }
+
+        public Stream<TrainTrackDirection> connectableDirections() {
+            TrainTrackDirection trackDirection = getTrackDirection();
+            TrainTrackDirection clockwiseTrackDirection = trackDirection.getDirectionClockwise();
+            TrainTrackDirection antiClockwiseTrackDirection = trackDirection.getDirectionAntiClockwise();
+            return Stream.of(trackDirection, clockwiseTrackDirection, antiClockwiseTrackDirection);
+        }
+
+
         public Stream<TrainTrack> previousTracks() {
-            return Stream.generate(newTrainTrackTraversal(this, false));
+            return Stream.generate(newTrainTrackTraversal(this.previousTrack, false));
         }
 
         public Stream<TrainTrack> nextTracks() {
-            return Stream.generate(newTrainTrackTraversal(this, true));
-        }
-
-
-        public boolean canConnect(TrainTrack nextTrainTrack) {
-            if (nextTrainTrack == null || nextTrainTrack.isAtPosition(this)) {
-                return false;
-            }
-            if (previousTracks().limit(trackPosition + 1)
-                    .anyMatch(trainTrack -> trainTrack.isAtPosition(nextTrainTrack))) {
-                return false;
-            }
-            switch (symbol) {
-            case '-':
-                return isAtLeftSide(nextTrainTrack) || isAtRightSide(nextTrainTrack);
-            case '|':
-                return isAtTopSide(nextTrainTrack) || isAtBottomSide(nextTrainTrack);
-            case '/':
-                return isAtRightSide(nextTrainTrack) // on right
-                        || isAtLeftSide(nextTrainTrack) // on left
-                        || isAtTopSide(nextTrainTrack) // on top
-                        || isAtBottomSide(nextTrainTrack) // on bottom
-                        || isAtTopRightSide(nextTrainTrack) //  on top right
-                        || isAtBottomLefttSide(nextTrainTrack); // on bottom left
-            case '\\':
-                return isAtRightSide(nextTrainTrack) // on right
-                        || isAtLeftSide(nextTrainTrack) // on left
-                        || isAtTopSide(nextTrainTrack) // on top
-                        || isAtBottomSide(nextTrainTrack) // on bottom
-                        || (isAtTopLefttSide(nextTrainTrack)) //  on top left
-                        || isAtBottomRightSide(nextTrainTrack); // on bottom right
-
-            case 'S':
-                switch (previousTrack.symbol) {
-                case '-':
-                    return isAtRightSide(nextTrainTrack) // on right
-                            || isAtLeftSide(nextTrainTrack); // on left
-                case '|':
-                    return isAtTopSide(nextTrainTrack) // on top
-                            || isAtBottomSide(nextTrainTrack); // on bottom
-                case '/':
-                    return (isAtTopRightSide(nextTrainTrack)) //  on top right
-                            || isAtBottomLefttSide(nextTrainTrack); // on bottom left
-                case '\\':
-                    return (isAtTopLefttSide(nextTrainTrack)) //  on top left
-                            || isAtBottomRightSide(nextTrainTrack); // on bottom right
-                }
-            case 'X':
-                switch (previousTrack.symbol) {
-                case '/':
-                    return (isAtTopRightSide(nextTrainTrack)) //  on top right
-                            || isAtBottomLefttSide(nextTrainTrack); // on bottom left
-                case '\\':
-                    return isAtTopLefttSide(nextTrainTrack) //  on top left
-                            || isAtBottomRightSide(nextTrainTrack); // on bottom right
-                }
-            case '+':
-                switch (previousTrack.symbol) {
-                case '-':
-                    return isAtRightSide(nextTrainTrack) // on right
-                            || isAtLeftSide(nextTrainTrack); // on left
-                case '|':
-                    return isAtTopSide(nextTrainTrack) // on top
-                            || isAtBottomSide(nextTrainTrack); // on bottom
-                }
-            default:
-                return false;
-            }
-        }
-
-
-        private boolean isAtTopSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.column == column && nextTrainTrack.row == row - 1;
-        }
-
-        private boolean isAtBottomSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.column == column && nextTrainTrack.row == row + 1;
-        }
-
-        private boolean isAtLeftSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.row == row && nextTrainTrack.column == column - 1;
-        }
-
-        private boolean isAtRightSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.column == column && nextTrainTrack.row == row + 1;
-        }
-
-        private boolean isAtTopRightSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.row == row - 1 && nextTrainTrack.column == column + 1;
-        }
-
-        private boolean isAtBottomLefttSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.row == row + 1 && nextTrainTrack.column == column - 1;
-        }
-
-        private boolean isAtTopLefttSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.row == row - 1 && nextTrainTrack.column == column - 1;
-        }
-
-        private boolean isAtBottomRightSide(TrainTrack nextTrainTrack) {
-            return nextTrainTrack.row == row + 1 && nextTrainTrack.column == column + 1;
+            return Stream.generate(newTrainTrackTraversal(this.nextTrack, true));
         }
 
 
@@ -673,6 +602,7 @@ public class BlaineIsAPain {
             TrainTrack that = (TrainTrack) o;
             return new EqualsBuilder().append(row, that.row)
                     .append(column, that.column)
+                    .append(trackDirection, that.trackDirection)
                     .append(trackPosition, that.trackPosition)
                     .append(symbol, that.symbol)
                     .isEquals();
@@ -682,6 +612,7 @@ public class BlaineIsAPain {
         public int hashCode() {
             return new HashCodeBuilder(17, 37).append(row)
                     .append(column)
+                    .append(trackDirection)
                     .append(trackPosition)
                     .append(symbol)
                     .toHashCode();
@@ -689,62 +620,12 @@ public class BlaineIsAPain {
 
         @Override
         public String toString() {
-            return new ToStringBuilder(this).append("row", row)
+            return new ToStringBuilder(this, ToStringStyle.NO_CLASS_NAME_STYLE).append("row", row)
                     .append("column", column)
+                    .append("trackDirection", trackDirection)
                     .append("trackPosition", trackPosition)
                     .append("symbol", symbol)
                     .toString();
-        }
-
-    }
-
-
-    public static class TrainTrackCrossing extends TrainTrack {
-
-        int otherTrackPosition;
-        TrainTrack otherNextTrack;
-        TrainTrack otherPreviousTrack;
-
-
-        public TrainTrackCrossing(int row, int column, int trackPosition, char symbol) {
-            super(row, column, trackPosition, symbol);
-        }
-
-        public static boolean isTrainTrackCrossingSymbol(char trackSymbol) {
-            return trackSymbol == 'X' || trackSymbol == '+';
-        }
-
-
-        @Override
-        public TrainTrack nextConnectedTrack(Train train) {
-            if (isTrainEnteringCrossingOnFirstTrack(train)) {
-                return super.nextConnectedTrack(train);
-            } else if (train.movesClockwise) {
-                return otherNextTrack;
-            } else {
-                return otherPreviousTrack;
-            }
-        }
-
-        private boolean isTrainEnteringCrossingOnFirstTrack(Train train) {
-            TrainTrack currentTrainTrack = train.occupiedTracks.getFirst();
-            return currentTrainTrack.trackPosition == trackPosition - 1;
-        }
-
-        @Override
-        public void setNextTrack(TrainTrack nextTrack) {
-            super.setNextTrack(nextTrack);
-            TrainTrack currentTrack = previousTrack;
-            while (currentTrack.trackPosition >= 0) {
-                if (currentTrack instanceof TrainTrackCrossing && currentTrack.isAtPosition(this)) {
-                    TrainTrackCrossing trainTrackCrossing = (TrainTrackCrossing) currentTrack;
-                    trainTrackCrossing.otherTrackPosition = this.trackPosition;
-                    trainTrackCrossing.otherNextTrack = this.nextTrack;
-                    trainTrackCrossing.otherPreviousTrack = this.previousTrack;
-                    break;
-                }
-                currentTrack = currentTrack.previousTrack;
-            }
         }
 
     }
@@ -818,7 +699,7 @@ public class BlaineIsAPain {
             occupiedTracks.addFirst(nextTrack);
             occupiedTracks.removeLast();
 
-            if (nextTrack.isStation() && stopsAtStations()) {
+            if (nextTrack.isStation()) {
                 waitingInStation = getStationWaitingTime();
             }
         }
@@ -828,12 +709,13 @@ public class BlaineIsAPain {
             return carriageLength;
         }
 
-        public boolean stopsAtStations() {
-            return true;
+
+        public TrainTrack getTrainEngineTrackPosition() {
+            return occupiedTracks.getFirst();
         }
 
-        public Deque<TrainTrack> getOccupiedTracks() {
-            return occupiedTracks;
+        public Stream<TrainTrack> occupiedTracks() {
+            return occupiedTracks.stream();
         }
 
 
@@ -851,7 +733,7 @@ public class BlaineIsAPain {
                     .append(carriageLength, train.carriageLength)
                     .append(movesClockwise, train.movesClockwise)
                     .append(waitingInStation, train.waitingInStation)
-                    .append(getOccupiedTracks(), train.getOccupiedTracks())
+                    .append(occupiedTracks, train.occupiedTracks)
                     .isEquals();
         }
 
@@ -861,13 +743,16 @@ public class BlaineIsAPain {
                     .append(carriageLength)
                     .append(movesClockwise)
                     .append(waitingInStation)
-                    .append(getOccupiedTracks())
+                    .append(occupiedTracks)
                     .toHashCode();
         }
 
         @Override
         public String toString() {
-            return String.valueOf(trainSymbol);
+            return new ToStringBuilder(this, ToStringStyle.NO_CLASS_NAME_STYLE).append("trainSymbol", trainSymbol)
+                    .append("carriageLength", carriageLength)
+                    .append("movesClockwise", movesClockwise)
+                    .toString();
         }
 
     }
@@ -882,26 +767,78 @@ public class BlaineIsAPain {
         }
 
         @Override
-        public boolean stopsAtStations() {
-            return false;
+        public int getStationWaitingTime() {
+            return 0;
         }
 
     }
 
 
-    public enum TrainTrackDirections {
+    public enum TrainTrackDirection {
 
-        TOP(-1, 0), BOTTOM(1, 0), LEFT(0, -1), RIGHT(0, 1), //
-        TOP_LEFT(-1, -1), TOP_RIGHT(-1, 1), BOTTOM_LEFT(1, -1), BOTTOM_RIGHT(1, 1); //
+        // all direcions in clockwise order
+        TOP_LEFT(-1, -1), //
+        TOP(-1, 0), //
+        TOP_RIGHT(-1, 1), //
+        RIGHT(0, 1),  //
+        BOTTOM_RIGHT(1, 1), //
+        BOTTOM(1, 0), //
+        BOTTOM_LEFT(1, -1), //
+        LEFT(0, -1),
+        ; //
 
         int rowOffset;
         int columnOffset;
 
-        TrainTrackDirections(int rowOffset, int columnOffset) {
+        TrainTrackDirection(int rowOffset, int columnOffset) {
             this.rowOffset = rowOffset;
             this.columnOffset = columnOffset;
         }
 
+
+        public TrainTrackDirection getOppositeDirection() {
+            TrainTrackDirection[] trainTrackDirections = values();
+            int oppositeSideOrdinal = this.ordinal() + trainTrackDirections.length / 2;
+            oppositeSideOrdinal %= trainTrackDirections.length;
+            return trainTrackDirections[oppositeSideOrdinal];
+        }
+
+        public TrainTrackDirection getDirectionClockwise() {
+            int nextOrdinal = this.ordinal() + 1;
+            if (nextOrdinal == values().length) {
+                nextOrdinal = 0;
+            }
+            return values()[nextOrdinal];
+        }
+
+        public TrainTrackDirection getDirectionAntiClockwise() {
+            int nextOrdinal = this.ordinal() - 1;
+            if (nextOrdinal == -1) {
+                nextOrdinal = values().length - 1;
+            }
+            return values()[nextOrdinal];
+        }
+
+
+        public TrainTrackDirection getRightCornerDirection() {
+            if (RIGHT.equals(this) || LEFT.equals(this)) {
+                return getDirectionAntiClockwise();
+            } else if (BOTTOM.equals(this) || TOP.equals(this)) {
+                return getDirectionClockwise();
+            } else {
+                return this;
+            }
+        }
+
+        public TrainTrackDirection getLeftCornerDirection() {
+            if (RIGHT.equals(this) || LEFT.equals(this)) {
+                return getDirectionClockwise();
+            } else if (BOTTOM.equals(this) || TOP.equals(this)) {
+                return getDirectionAntiClockwise();
+            } else {
+                return this;
+            }
+        }
 
     }
 
