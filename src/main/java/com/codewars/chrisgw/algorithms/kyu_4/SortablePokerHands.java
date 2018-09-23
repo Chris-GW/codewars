@@ -36,16 +36,15 @@ public class SortablePokerHands {
 class PokerHand implements Comparable<PokerHand> {
 
     public static final int INITIAL_CAPACITY = 5;
+
     private List<PokerCard> cards = new ArrayList<>(INITIAL_CAPACITY);
-    private CardSuit cardSuit;
 
 
     public PokerHand(String hand) {
         for (String cardStr : hand.split("\\s+")) {
-            char cardValueChar = hand.charAt(0);
-            char cardSuiteChar = hand.charAt(1);
-            this.cardValue = getCardValue(cardValueChar);
-            this.cardSuit = getCardSuite(cardSuiteChar);
+            int cardValue = getCardValue(hand.charAt(0));
+            CardSuit cardSuite = getCardSuite(hand.charAt(1));
+            cards.add(new PokerCard(cardValue, cardSuite));
         }
     }
 
@@ -98,15 +97,13 @@ class PokerCard {
 
 enum TexasHoldemHand {
 
-    ROYAL_FLUSH(isRoalyFlushPokerHand());
+    ROYAL_FLUSH(isRoalyFlushPokerHand()), HIGHCARD(null);
 
     private static Function<PokerHand, Boolean> isRoalyFlushPokerHand() {
         return pokerHand -> {
-
+            return false;
         };
     }
-
-    HIGHCARD();
 
 
     private Function<PokerHand, Boolean> isPokerHand;

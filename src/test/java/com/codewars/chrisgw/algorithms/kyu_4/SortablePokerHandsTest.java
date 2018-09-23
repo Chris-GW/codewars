@@ -53,6 +53,6 @@ public class SortablePokerHandsTest {
         }
         return actual;
     }
+    
 }
 
-}
