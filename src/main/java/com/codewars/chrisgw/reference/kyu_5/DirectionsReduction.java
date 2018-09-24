@@ -1,5 +1,11 @@
 package com.codewars.chrisgw.reference.kyu_5;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+
+
 /**
  * # Once upon a time, on a way through the old wild west,…
  * <p>
@@ -78,8 +84,56 @@ package com.codewars.chrisgw.reference.kyu_5;
 public class DirectionsReduction {
 
     public static String[] dirReduc(String[] arr) {
+        System.out.println(Arrays.toString(arr));
+        List<Direction> directions = Arrays.stream(arr)
+                .map(Direction::valueOf)
+                .collect(ReducedDirectionList::new, ReducedDirectionList::add, ReducedDirectionList::addAll);
+        System.out.println(directions);
+        return directions.stream().map(Direction::toString).toArray(String[]::new);
+    }
 
-        return null;
+    private static class ReducedDirectionList extends LinkedList<Direction> {
+
+        @Override
+        public boolean add(Direction direction) {
+            if (isLastDirectionOppositeTo(direction)) {
+                removeLast();
+            } else {
+                addLast(direction);
+            }
+            return true;
+        }
+
+        public boolean isLastDirectionOppositeTo(Direction direction) {
+            return !isEmpty() && getLast().isOppositeDirection(direction);
+        }
+
+        @Override
+        public boolean addAll(Collection<? extends Direction> otherDirectionCollection) {
+            boolean changed = false;
+            for (Direction direction : otherDirectionCollection) {
+                changed |= add(direction);
+            }
+            return changed;
+        }
+
+    }
+
+
+    private enum Direction {
+
+        NORTH, WEST, SOUTH, EAST; /* in clockwise order */
+
+        public Direction getOppositeDirection() {
+            Direction[] directions = values();
+            int oppositeDirectionOrdinal = this.ordinal() + directions.length / 2;
+            return directions[oppositeDirectionOrdinal % directions.length];
+        }
+
+        public boolean isOppositeDirection(Direction otherDirection) {
+            return this.getOppositeDirection().equals(otherDirection);
+        }
+
     }
 
 }
