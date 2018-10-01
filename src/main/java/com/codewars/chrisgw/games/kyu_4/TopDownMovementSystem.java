@@ -3,8 +3,8 @@ package com.codewars.chrisgw.games.kyu_4;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
+import java.util.stream.Collectors;
 
 
 /**
@@ -40,23 +40,112 @@ import java.util.TreeMap;
  */
 public class TopDownMovementSystem {
 
-    private int direction;
+    private Direction direction;
     private Tile position;
+    private Stack<Direction> directions;
+
 
     public TopDownMovementSystem(int x, int y) {
         position = new Tile(x, y);
-        direction = 8;
+        direction = Direction.UP;
+        directions = new Stack<>();
     }
+
 
     public Tile getPosition() { return position; }
 
-    public int getDirection() { return direction; }
+    public int getDirection() { return direction.keyValue(); }
+
 
     public void update() {
         // Your code here! (at least... ;) )
         // Reminder: access to the states of the keys via: Input.getState(int d)
+
+        TreeSet<Direction> pressedDirections = Arrays.stream(Direction.values())
+                .filter(direction -> Input.getState(direction.keyValue()))
+                .collect(Collectors.toCollection(TreeSet::new));
+        TreeSet<Direction> newPressedDirections = new TreeSet<>(pressedDirections);
+        newPressedDirections.removeAll(directions);
+        if (pressedDirections.isEmpty()) {
+            return;
+        }
+
+        if (!newPressedDirections.isEmpty()) {
+            turnToDirection(newPressedDirections.first());
+        } else if (direction.equals(directions.peek())) {
+            moveInDirection();
+        }
+
+        directions.retainAll(pressedDirections); // remove all unpressed keys
+        Iterator<Direction> iterator = newPressedDirections.descendingIterator();
+        while (iterator.hasNext()) {
+            directions.push(iterator.next());
+        }
+        System.out.println("directions: " + directions);
     }
 
+
+    private void turnToDirection(Direction direction) {
+        this.direction = direction;
+    }
+
+    private void moveInDirection() {
+        int newPositionX = position.x() + direction.dx();
+        int newPositionY = position.y() + direction.dy();
+        position = new Tile(newPositionX, newPositionY);
+    }
+
+
+    enum Direction {
+
+        UP(8), DOWN(2), LEFT(4), RIGHT(6);
+
+        private int keyValue;
+
+        Direction(int keyValue) {
+            this.keyValue = keyValue;
+        }
+
+        public static Direction fromKeyValue(int keyValue) {
+            for (Direction direction : Direction.values()) {
+                if (direction.keyValue == keyValue) {
+                    return direction;
+                }
+            }
+            return null;
+        }
+
+        public int keyValue() {
+            return keyValue;
+        }
+
+        public boolean isPressed() {
+            return Input.getState(keyValue);
+        }
+
+        public int dx() {
+            switch (this) {
+            case LEFT:
+                return -1;
+            case RIGHT:
+                return 1;
+            default:
+                return 0;
+            }
+        }
+
+        public int dy() {
+            switch (this) {
+            case UP:
+                return 1;
+            case DOWN:
+                return -1;
+            default:
+                return 0;
+            }
+        }
+
+    }
 
 }
 
@@ -81,7 +170,7 @@ class Tile {
 
     @Override
     public String toString() {
-        return String.format("(%d,%d)", x, y)// formated as: "(x,y)"
+        return String.format("(%d,%d)", x, y); // formated as: "(x,y)"
     }
 
     @Override
@@ -95,7 +184,6 @@ class Tile {
         }
 
         Tile tile = (Tile) o;
-
         return new EqualsBuilder().append(x, tile.x).append(y, tile.y).isEquals();
     }
 
