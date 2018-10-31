@@ -1,7 +1,8 @@
 package com.codewars.chrisgw.games.kyu_2;
 
-import com.codewars.chrisgw.games.kyu_2.TransformingMazeSolver.Direction;
-import com.codewars.chrisgw.games.kyu_2.TransformingMazeSolver.MazeCell;
+import com.codewars.chrisgw.games.kyu_2.MazeSolver.Direction;
+import com.codewars.chrisgw.games.kyu_2.MazeSolver.MazeCell;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -13,7 +14,7 @@ import java.util.Map.Entry;
 import static org.junit.Assert.*;
 
 
-public class TransformingMazeSolverTest {
+public class MazeSolverTest {
 
     final static private int[][][] example_tests = { { //
             { 4, 2, 5, 4 }, //
@@ -54,6 +55,7 @@ public class TransformingMazeSolverTest {
 
 
     @Test
+    @Ignore
     public void exampleTests() {
         for (int i = 0; i < example_sols.size(); i++) {
             verify(example_tests[i], example_sols.get(i));
@@ -61,19 +63,19 @@ public class TransformingMazeSolverTest {
     }
 
     private void verify(int[][] example_test, List<String> strings) {
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_test);
-        System.out.println(transformingMazeSolver);
-        List<String> solve = transformingMazeSolver.solve();
-        System.out.println(solve);
-        System.out.println(strings);
+        MazeSolver mazeSolver = new MazeSolver(example_test);
+        System.out.println(mazeSolver);
+        List<String> solve = mazeSolver.solve();
+        System.out.println("My    Solution: " + solve);
+        System.out.println("Their Solution: " + strings);
     }
 
 
     @Test
     public void mazeCell_0_nonBoarder() {
         int mazeCellCode = 0;
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_tests[0]);
-        MazeCell mazeCell = transformingMazeSolver.new MazeCell(0, 0, mazeCellCode);
+        MazeSolver mazeSolver = new MazeSolver(example_tests[0]);
+        MazeCell mazeCell = mazeSolver.new MazeCell(0, 0, mazeCellCode);
         for (Direction direction : Direction.values()) {
             assertFalse("should have no boarder in direction " + direction, mazeCell.hasBoarderTo(direction));
         }
@@ -83,17 +85,19 @@ public class TransformingMazeSolverTest {
     public void mazeCell_directions_withBoarder() {
         Direction[] directions = Direction.values();
         Map<Direction, Integer> directionToBoarderCode = new HashMap<>(directions.length);
-        directionToBoarderCode.put(Direction.N, 0b0001);
-        directionToBoarderCode.put(Direction.W, 0b0010);
-        directionToBoarderCode.put(Direction.S, 0b0100);
-        directionToBoarderCode.put(Direction.E, 0b1000);
+        directionToBoarderCode.put(Direction.N, 0b1000);
+        directionToBoarderCode.put(Direction.W, 0b0100);
+        directionToBoarderCode.put(Direction.S, 0b0010);
+        directionToBoarderCode.put(Direction.E, 0b0001);
 
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_tests[0]);
         for (Entry<Direction, Integer> directionToBoarderCodeEntry : directionToBoarderCode.entrySet()) {
             Direction directionWithBoarder = directionToBoarderCodeEntry.getKey();
             int boarderCode = directionToBoarderCodeEntry.getValue();
+            int[][] maze = { new int[] { boarderCode } };
+            MazeSolver mazeSolver = new MazeSolver(maze);
+            System.out.println(mazeSolver);
 
-            MazeCell mazeCell = transformingMazeSolver.new MazeCell(0, 0, boarderCode);
+            MazeCell mazeCell = mazeSolver.getMazeCell(0, 0);
             for (Direction direction : directions) {
                 if (direction.equals(directionWithBoarder)) {
                     assertTrue("should have boarder in direction " + direction, mazeCell.hasBoarderTo(direction));
@@ -105,10 +109,26 @@ public class TransformingMazeSolverTest {
     }
 
     @Test
+    public void mazeCell_directions_withBoarder_roate90() {
+        Direction[] directions = Direction.values();
+        Map<Direction, Integer> directionToBoarderCode = new HashMap<>(directions.length);
+        directionToBoarderCode.put(Direction.E, 0b0001);
+        directionToBoarderCode.put(Direction.S, 0b0010);
+        directionToBoarderCode.put(Direction.W, 0b0100);
+        directionToBoarderCode.put(Direction.N, 0b1000);
+
+        MazeSolver mazeSolver = new MazeSolver(
+                new int[][] { new int[] { 0b0100 } });
+        System.out.println(mazeSolver);
+        mazeSolver.nextMazeTick();
+        System.out.println(mazeSolver);
+    }
+
+    @Test
     public void mazeCell_15_boarderAllSides() {
         int mazeCellCode = 15;
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_tests[0]);
-        MazeCell mazeCell = transformingMazeSolver.new MazeCell(0, 0, mazeCellCode);
+        MazeSolver mazeSolver = new MazeSolver(example_tests[0]);
+        MazeCell mazeCell = mazeSolver.new MazeCell(0, 0, mazeCellCode);
         for (Direction direction : Direction.values()) {
             assertTrue("should have boarder in direction " + direction, mazeCell.hasBoarderTo(direction));
         }
@@ -117,8 +137,8 @@ public class TransformingMazeSolverTest {
     @Test
     public void mazeCell_ball_nonBoarder() {
         int mazeCellCode = -1;
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_tests[0]);
-        MazeCell mazeCell = transformingMazeSolver.new MazeCell(0, 0, mazeCellCode);
+        MazeSolver mazeSolver = new MazeSolver(example_tests[0]);
+        MazeCell mazeCell = mazeSolver.new MazeCell(0, 0, mazeCellCode);
         for (Direction direction : Direction.values()) {
             assertFalse("should have no boarder in direction " + direction, mazeCell.hasBoarderTo(direction));
         }
@@ -127,8 +147,8 @@ public class TransformingMazeSolverTest {
     @Test
     public void mazeCell_target_nonBoarder() {
         int mazeCellCode = -2;
-        TransformingMazeSolver transformingMazeSolver = new TransformingMazeSolver(example_tests[0]);
-        MazeCell mazeCell = transformingMazeSolver.new MazeCell(0, 0, mazeCellCode);
+        MazeSolver mazeSolver = new MazeSolver(example_tests[0]);
+        MazeCell mazeCell = mazeSolver.new MazeCell(0, 0, mazeCellCode);
         for (Direction direction : Direction.values()) {
             assertFalse("should have no boarder in direction " + direction, mazeCell.hasBoarderTo(direction));
         }
