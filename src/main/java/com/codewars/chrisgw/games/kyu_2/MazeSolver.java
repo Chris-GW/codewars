@@ -5,6 +5,7 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -25,7 +26,7 @@ import java.util.stream.Stream;
  * <h2 style='color:#f88'>Output</h2>
  * <p>Your function must return a path as an array/list of strings. Each string in the array will:</p>
  * <ul>
- * <li>consist only of the letters `N`, `W`, `S`, and `E` representing the ballMoves `north`, `west`, `south`, and `east`, respectively</li>
+ * <li>consist only of the letters `N`, `W`, `S`, and `E` representing the directions `north`, `west`, `south`, and `east`, respectively</li>
  * <li>represent the path of the ball at each interval (based on its index position in the array)</li>
  * </ul>
  *
@@ -75,110 +76,186 @@ public class MazeSolver {
     public static final int MAZE_BALL_CODE = -1;
     public static final int MAZE_EXIT_CODE = -2;
 
-    private MazeCell[][] maze;
+    private MazeCell[][][] maze;
     private MazeCell startCell;
     private MazeCell exitCell;
 
 
     public MazeSolver(int[][] maze) {
-        this.maze = new MazeCell[maze.length][];
+        this.maze = new MazeCell[maze.length][][];
         for (int y = 0; y < maze.length; y++) {
             int[] mazeRow = maze[y];
-            this.maze[y] = new MazeCell[mazeRow.length];
+            this.maze[y] = new MazeCell[mazeRow.length][];
 
             for (int x = 0; x < mazeRow.length; x++) {
-                int mazeCellCode = maze[y][x];
-                MazeCell mazeCell = new MazeCell(x, y, mazeCellCode);
-                this.maze[y][x] = mazeCell;
-
-                if (mazeCellCode == MAZE_BALL_CODE) {
-                    this.startCell = mazeCell;
-                } else if (mazeCellCode == MAZE_EXIT_CODE) {
-                    this.exitCell = mazeCell;
-                }
+                setCell(maze, x, y);
             }
         }
     }
 
-
-    public List<String> solve() {
-        List<MazeBallPath> possibleBallPaths = Collections.singletonList(new MazeBallPath(startCell));
-        Optional<MazeBallPath> ballPathSolution = Optional.empty();
-
-        int tick = 0;
-        while (!ballPathSolution.isPresent()) {
-            possibleBallPaths = possibleBallPaths.stream()
-                    .map(MazeBallPath::possibleExtendedPaths)
-                    .flatMap(Set::stream)
-                    .collect(Collectors.toList());
-
-
-            ballPathSolution = possibleBallPaths.stream()
-                    .filter(mazeBallPath -> mazeBallPath.endsWith(exitCell))
-                    .min(Comparator.naturalOrder());
-            if (ballPathSolution.isPresent()) {
-                possibleBallPaths.stream()
-                        .filter(mazeBallPath -> mazeBallPath.endsWith(exitCell))
-                        .sorted()
-                        .forEachOrdered(System.out::println);
-                System.out.println();
-            }
-
-            nextMazeTick();
-            //        System.out.println(this);
-            if (++tick > 10) {
-                return null;
-            }
+    private void setCell(int[][] mazeCellCode1, int x, int y) {
+        int mazeCellCode = mazeCellCode1[y][x];
+        MazeCell mazeCell = new MazeCell(x, y, 0, mazeCellCode);
+        if (mazeCellCode == MAZE_BALL_CODE) {
+            this.startCell = mazeCell;
+        } else if (mazeCellCode == MAZE_EXIT_CODE) {
+            this.exitCell = mazeCell;
         }
 
-        return ballPathSolution.get()
-                .ballMoves()
-                .map(MazeBallMove::directions)
-                .map(directionStream -> directionStream.map(Direction::toString).collect(Collectors.joining()))
-                .collect(Collectors.toList());
+        this.maze[y][x] = new MazeCell[4];
+        for (int interval = 0; interval < 4; interval++) {
+            this.maze[y][x][interval] = mazeCell;
+            mazeCell = mazeCell.newRightRotatedCell();
+        }
     }
 
-
-    void nextMazeTick() {
-        Arrays.stream(maze).flatMap(Arrays::stream).forEach(MazeCell::rotateCellRight);
-    }
-
-    void previousMazeTick() {
-        Arrays.stream(maze).flatMap(Arrays::stream).forEach(MazeCell::rotateCellLeft);
-    }
-
-
-    public MazeCell getMazeCell(int x, int y) {
+    public MazeCell getMazeCell(int x, int y, int interval) {
         if (0 <= y && y < maze.length && 0 <= x && x < maze[y].length) {
-            return maze[y][x];
+            return maze[y][x][interval % 4];
         } else {
             return null;
         }
     }
 
+
+    public int length() {
+        return maze.length;
+    }
+
+    public int width() {
+        return maze[0].length;
+    }
+
+    private int size() {
+        return length() * width() * maze[0][0].length;
+    }
+
+
+    public List<String> solve() {
+        long startTime = System.nanoTime();
+        startCell.intervalPathLength = 0;
+        startCell.ballPathLength = 0;
+
+        PriorityQueue<MazeCell> priorityQueue = cells().collect(
+                Collectors.toCollection(() -> new PriorityQueue<>(size())));
+        while (priorityQueue.size() > 0) {
+            MazeCell u = priorityQueue.poll();
+            List<MazeBallPath> connectedBallPaths = u.getConnectedBallPaths();
+            for (MazeBallPath connectedBallPath : connectedBallPaths) {
+                MazeCell v = connectedBallPath.getEndCell();
+
+                if (priorityQueue.contains(v)) {
+                    int altIntervalPathLength = u.intervalPathLength + 1;
+                    int altBallPathLength = u.ballPathLength + connectedBallPath.length();
+                    if (altIntervalPathLength < v.intervalPathLength || //
+                            (altIntervalPathLength == v.intervalPathLength && altBallPathLength < v.ballPathLength)) {
+                        v.intervalPathLength = altIntervalPathLength;
+                        v.ballPathLength = altBallPathLength;
+                        v.prev = connectedBallPath;
+
+                        // reinsert with changed distance
+                        priorityQueue.remove(v);
+                        priorityQueue.add(v);
+                    }
+                }
+            }
+        }
+
+        Deque<MazeBallPath> shortestPath = null;
+        for (int interval = 0; interval < 4; interval++) {
+            Deque<MazeBallPath> otherPaths = reverseIterate(getMazeCell(exitCell.x, exitCell.y, interval));
+            if (shortestPath == null || otherPaths != null && shortestPath.size() > otherPaths.size()) {
+                shortestPath = otherPaths;
+            }
+        }
+
+        long durationMs = TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - startTime);
+        System.out.printf("Transforming maze solved after %9dms: %s%n", durationMs, shortestPath);
+        if (shortestPath != null) {
+            return shortestPath.stream().map(MazeBallPath::directionAsString).collect(Collectors.toList());
+        }
+        return null;
+    }
+
+    private Deque<MazeBallPath> reverseIterate(MazeCell targetCell) {
+        Deque<MazeBallPath> S = new ArrayDeque<>();
+        MazeCell u = targetCell;
+
+        if (u.prev == null) {
+            return null;
+        }
+        while (u.prev != null) {
+            S.addFirst(u.prev);
+            u = u.prev.startCell;
+        }
+        if (!S.peekFirst().getStartCell().equals(startCell)) {
+            return null;
+        }
+        return S;
+    }
+
+
+    public Stream<MazeCell> cells() {
+        return Arrays.stream(maze).flatMap(Arrays::stream).flatMap(Arrays::stream);
+    }
+
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        for (int interval = 0; interval < 4; interval++) {
+            for (int y = 0; y < maze.length; y++) {
+                if (y == 0) {
+                    sb.append("   ");
+                    for (int x = 0; x < maze[y].length; x++) {
+                        sb.append(String.format(" %2d ", x));
+                    }
+                    sb.append("\n");
+                }
 
-        for (int y = 0; y < maze.length; y++) {
-            appendVerticalBorders(sb, y, Direction.N);
-            for (int x = 0; x < maze[y].length; x++) {
-                MazeCell mazeCell = getMazeCell(x, y);
-                appendHorizontalBorder(sb, mazeCell, Direction.W);
-                appendMazeCell(sb, mazeCell);
-                appendHorizontalBorder(sb, mazeCell, Direction.E);
+                appendVerticalBorders(sb, y, interval, Direction.N);
+                for (int x = 0; x < maze[y].length; x++) {
+                    MazeCell mazeCell = getMazeCell(x, y, interval);
+                    if (x == 0) {
+                        sb.append(String.format("%2d ", y));
+                    }
+                    appendHorizontalBorder(sb, mazeCell, Direction.W);
+                    appendMazeCell(sb, mazeCell);
+                    appendHorizontalBorder(sb, mazeCell, Direction.E);
+                }
+                sb.append("\n");
+                appendVerticalBorders(sb, y, interval, Direction.S);
+
+                if (y == maze.length - 1) {
+                    sb.append("   ");
+                    for (int x = 0; x < maze[y].length; x++) {
+                        sb.append(String.format(" %2d ", x));
+                    }
+                    sb.append("\n");
+                }
+            }
+        }
+
+
+        String[] rows = sb.toString().split("\n");
+        sb.setLength(0);
+
+        int mazeRowHeight = length() * 3 + 2;
+        for (int row = 0; row < mazeRowHeight; row++) {
+            for (int interval = 0; interval < 4; interval++) {
+                int asfasd = interval * mazeRowHeight + row;
+                String rowStr = rows[asfasd];
+                sb.append(rowStr).append("\t");
             }
             sb.append("\n");
-            appendVerticalBorders(sb, y, Direction.S);
         }
-        sb.deleteCharAt(sb.length() - 1); // delete last '\n'
         return sb.toString();
     }
 
     private void appendMazeCell(StringBuilder sb, MazeCell mazeCell) {
-        if (mazeCell.equals(startCell)) {
+        if (mazeCell.isAtSameLocation(startCell)) {
             sb.append("BB");
-        } else if (mazeCell.equals(exitCell)) {
+        } else if (mazeCell.isAtSameLocation(exitCell)) {
             sb.append("XX");
         } else {
             sb.append(String.format("%2d", mazeCell.borderCode));
@@ -193,10 +270,10 @@ public class MazeSolver {
         }
     }
 
-    private void appendVerticalBorders(StringBuilder sb, int y, Direction direction) {
-        sb.append('+');
+    private void appendVerticalBorders(StringBuilder sb, int y, int interval, Direction direction) {
+        sb.append("   +");
         for (int x = 0; x < maze[y].length; x++) {
-            MazeCell mazeCell = getMazeCell(x, y);
+            MazeCell mazeCell = getMazeCell(x, y, interval);
             if (mazeCell.hasBorderTo(direction)) {
                 sb.append("--++");
             } else {
@@ -207,15 +284,23 @@ public class MazeSolver {
     }
 
 
-    class MazeCell {
+    class MazeCell implements Comparable<MazeCell> {
 
         final int x;
         final int y;
+        final int interval;
         private byte borderCode;
 
-        public MazeCell(int x, int y, int mazeCellCode) {
+        int ballPathLength = Integer.MAX_VALUE;
+        int intervalPathLength = Integer.MAX_VALUE;
+        MazeBallPath prev = null;
+        List<MazeBallPath> connectedBallPaths = null;
+
+
+        public MazeCell(int x, int y, int interval, int mazeCellCode) {
             this.x = x;
             this.y = y;
+            this.interval = interval;
             if (mazeCellCode < 0) {
                 mazeCellCode = 0;
             }
@@ -231,38 +316,73 @@ public class MazeSolver {
 
         public boolean hasBorderTo(Direction direction) {
             int borderCodeForDirection = 1 << (Direction.values().length - direction.ordinal() - 1);
-            //            System.out.println(toBinaryBorder(borderCodeForDirection));
             int borderCodeResult = borderCode & borderCodeForDirection;
-            //            System.out.println(toBinaryBorder(borderCodeResult));
             return borderCodeResult == borderCodeForDirection;
         }
 
         public MazeCell cellTo(Direction direction) {
             int x = this.x + direction.dx;
             int y = this.y + direction.dy;
-            return getMazeCell(x, y);
+            return getMazeCell(x, y, interval);
         }
 
 
-        public int distanceTo(MazeCell otherCell) {
-            int dx = Math.abs(this.x - otherCell.x);
-            int dy = Math.abs(this.y - otherCell.y);
-            return dx + dy;
+        public boolean isAtSameLocation(MazeCell otherCell) {
+            return otherCell != null && this.x == otherCell.x && this.y == otherCell.y;
         }
 
 
-        public byte getBorderCode() {
-            return borderCode;
+        public List<MazeBallPath> getConnectedBallPaths() {
+            if (connectedBallPaths == null) {
+                Set<MazeCell> visitedCells = new HashSet<>();
+                visitedCells.add(this);
+
+                connectedBallPaths = new ArrayList<>();
+                connectedBallPaths.add(new MazeBallPath(this));
+                connectedBallPaths.addAll(depthFirstBallPathSearch(visitedCells, this, new ArrayDeque<>()));
+            }
+            return connectedBallPaths;
         }
 
-        void rotateCellLeft() {
-            borderCode = (byte) ((borderCode >>> 1) | (borderCode << 3 & 1 << 3));
+        private List<MazeBallPath> depthFirstBallPathSearch(Set<MazeCell> visitedCells, MazeCell currentCell,
+                Deque<Direction> currentDirections) {
+            List<MazeBallPath> connectedBallPaths = new ArrayList<>();
+
+            for (Direction direction : Direction.values()) {
+                if (!currentCell.canAccessCellTo(direction)) {
+                    continue;
+                }
+                MazeCell nextCell = currentCell.cellTo(direction);
+                if (visitedCells.add(nextCell)) {
+                    currentDirections.addLast(direction);
+                    MazeBallPath newBallPath = new MazeBallPath(this, nextCell, currentDirections);
+                    connectedBallPaths.add(newBallPath);
+                    connectedBallPaths.addAll(depthFirstBallPathSearch(visitedCells, nextCell, currentDirections));
+                    currentDirections.pollLast();
+                }
+            }
+            return connectedBallPaths;
         }
 
-        void rotateCellRight() {
-            borderCode = (byte) (((borderCode << 1 & 0b1111) | borderCode >>> 3));
+
+        public MazeCell newRightRotatedCell() {
+            byte rotatedBorderCode = (byte) (((borderCode << 1 & 0b1111) | borderCode >>> 3));
+            return new MazeCell(x, y, interval + 1, rotatedBorderCode);
         }
 
+        public MazeCell asNextInterval() {
+            return getMazeCell(x, y, interval + 1);
+        }
+
+
+        @Override
+        public int compareTo(MazeCell otherCell) {
+            int compare = Integer.compare(this.intervalPathLength, otherCell.intervalPathLength);
+            if (compare == 0) {
+                compare = Integer.compare(this.ballPathLength, otherCell.ballPathLength);
+            }
+            return compare;
+        }
 
         @Override
         public boolean equals(Object o) {
@@ -273,85 +393,40 @@ public class MazeSolver {
                 return false;
 
             MazeCell mazeCell = (MazeCell) o;
-            return new EqualsBuilder().append(x, mazeCell.x).append(y, mazeCell.y).isEquals();
+            return new EqualsBuilder().append(x, mazeCell.x)
+                    .append(y, mazeCell.y)
+                    .append(interval, mazeCell.interval)
+                    .append(borderCode, mazeCell.borderCode)
+                    .isEquals();
         }
 
         @Override
         public int hashCode() {
-            return new HashCodeBuilder(17, 37).append(x).append(y).toHashCode();
+            return new HashCodeBuilder(17, 37).append(x).append(y).append(interval).append(borderCode).toHashCode();
         }
 
         @Override
         public String toString() {
-            return String.format("(%2d;%2d)", x, y);
+            return String.format("(%2d;%2d@%1d)", x, y, interval);
         }
-
     }
 
 
     static class MazeBallPath implements Comparable<MazeBallPath> {
 
-        private MazeCell startCell;
-        private Deque<MazeBallMove> ballMoves;
-        private MazeCell endCell;
+        private final MazeCell startCell;
+        private final MazeCell endCell;
+        private final Deque<Direction> directions;
 
 
-        public MazeBallPath(MazeCell startCell) {
+        public MazeBallPath(MazeCell standingCell) {
+            this(standingCell, standingCell, new LinkedList<>());
+        }
+
+        public MazeBallPath(MazeCell startCell, MazeCell endCell, Deque<Direction> directions) {
             this.startCell = startCell;
-            this.ballMoves = new ArrayDeque<>();
-            this.endCell = startCell;
-        }
-
-        private MazeBallPath(MazeBallPath mazeBallPath) {
-            this.startCell = mazeBallPath.startCell;
-            this.ballMoves = new ArrayDeque<>(mazeBallPath.ballMoves);
-            this.endCell = mazeBallPath.endCell;
-        }
-
-
-        public Set<MazeBallPath> possibleExtendedPaths() {
-            Set<MazeBallPath> possibleExtendedPaths = new HashSet<>();
-            MazeBallPath noMovePath = new MazeBallPath(this);
-            noMovePath.ballMoves.add(new MazeBallMove(endCell, endCell, Collections.emptyList()));
-            possibleExtendedPaths.add(noMovePath);
-
-            possibleExtendedPathsDepthFirst(possibleExtendedPaths, endCell, new ArrayList<>());
-            return possibleExtendedPaths;
-        }
-
-        private void possibleExtendedPathsDepthFirst(Set<MazeBallPath> possibleExtendedPaths, MazeCell currentCell,
-                List<Direction> directions) {
-            for (Direction direction : Direction.values()) {
-                if (!currentCell.canAccessCellTo(direction)) {
-                    continue;
-                }
-                MazeCell nextCell = currentCell.cellTo(direction);
-                if (nextCell.equals(endCell)) {
-                    continue;
-                }
-
-                directions.add(direction);
-                MazeBallPath newBallPath = new MazeBallPath(this);
-                MazeBallMove ballMove = new MazeBallMove(this.endCell, nextCell, directions);
-                newBallPath.ballMoves.add(ballMove);
-                newBallPath.endCell = nextCell;
-
-                boolean isNewPossibleBallPath = possibleExtendedPaths.add(newBallPath);
-                if (isNewPossibleBallPath) {
-                    possibleExtendedPathsDepthFirst(possibleExtendedPaths, nextCell, directions);
-                }
-                directions.remove(directions.size() - 1);
-            }
-        }
-
-
-        public Stream<MazeBallMove> ballMoves() {
-            return ballMoves.stream();
-        }
-
-
-        public int length() {
-            return ballMoves.size();
+            this.endCell = endCell.asNextInterval();
+            this.directions = new ArrayDeque<>(directions);
         }
 
 
@@ -359,35 +434,29 @@ public class MazeSolver {
             return startCell;
         }
 
-        public boolean startsWith(MazeCell mazeCell) {
-            return startCell.equals(mazeCell);
-        }
-
 
         public MazeCell getEndCell() {
             return endCell;
         }
 
-        public boolean endsWith(MazeCell mazeCell) {
-            return endCell.equals(mazeCell);
+
+        public Stream<Direction> directions() {
+            return directions.stream();
+        }
+
+        public String directionAsString() {
+            return directions().map(Direction::toString).collect(Collectors.joining());
+        }
+
+        public int length() {
+            return directions.size();
         }
 
 
         @Override
         public int compareTo(MazeBallPath otherBallPath) {
-            Iterator<MazeBallMove> myBallMoves = this.ballMoves().iterator();
-            Iterator<MazeBallMove> otherBallMoves = otherBallPath.ballMoves().iterator();
-            while (myBallMoves.hasNext() && otherBallMoves.hasNext()) {
-                MazeBallMove myBallMove = myBallMoves.next();
-                MazeBallMove otherBallMove = otherBallMoves.next();
-                int ballMoveCompare = myBallMove.compareTo(otherBallMove);
-                if (ballMoveCompare != 0) {
-                    return ballMoveCompare;
-                }
-            }
-            return Boolean.compare(myBallMoves.hasNext(), otherBallMoves.hasNext());
+            return Integer.compare(this.length(), otherBallPath.length());
         }
-
 
         @Override
         public boolean equals(Object o) {
@@ -410,87 +479,7 @@ public class MazeSolver {
 
         @Override
         public String toString() {
-            StringBuilder sb = new StringBuilder("Path from ").append(startCell);
-            for (MazeBallMove ballMove : ballMoves) {
-                String joinedDirectionsStr = ballMove.directions()
-                        .map(Direction::toString)
-                        .collect(Collectors.joining(""));
-                sb.append(String.format(" [%6s] ", joinedDirectionsStr)).append(ballMove.getToCell());
-            }
-            List<String> joinedBallMovesStr = ballMoves().map(MazeBallMove::directions)
-                    .map(directionStream -> directionStream.map(Direction::toString).collect(Collectors.joining()))
-                    .collect(Collectors.toList());
-            sb.append(" = ").append(joinedBallMovesStr);
-            return sb.toString();
-        }
-
-    }
-
-
-    static class MazeBallMove implements Comparable<MazeBallMove> {
-
-        private final MazeCell fromCell;
-        private final MazeCell toCell;
-        private final List<Direction> directions;
-
-
-        public MazeBallMove(MazeCell fromCell, MazeCell toCell, List<Direction> directions) {
-            this.fromCell = fromCell;
-            this.toCell = toCell;
-            this.directions = new ArrayList<>(directions);
-        }
-
-
-        public MazeCell getFromCell() {
-            return fromCell;
-        }
-
-        public MazeCell getToCell() {
-            return toCell;
-        }
-
-
-        public Stream<Direction> directions() {
-            return directions.stream();
-        }
-
-        public int length() {
-            return directions.size();
-        }
-
-
-        @Override
-        public int compareTo(MazeBallMove otherBallMove) {
-            return Integer.compare(this.length(), otherBallMove.length());
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o)
-                return true;
-
-            if (!(o instanceof MazeBallMove))
-                return false;
-
-            MazeBallMove that = (MazeBallMove) o;
-            return new EqualsBuilder().append(getFromCell(), that.getFromCell())
-                    .append(getToCell(), that.getToCell())
-                    .append(directions, that.directions)
-                    .isEquals();
-        }
-
-        @Override
-        public int hashCode() {
-            return new HashCodeBuilder(17, 37).append(getFromCell())
-                    .append(getToCell())
-                    .append(directions)
-                    .toHashCode();
-        }
-
-        @Override
-        public String toString() {
-            String joinedDirectionsStr = directions().map(Direction::toString).collect(Collectors.joining(""));
-            return String.format("Move from %s over %6s to %s", fromCell, joinedDirectionsStr, toCell);
+            return "Path from " + startCell + " " + directionAsString() + " to " + endCell;
         }
 
     }
