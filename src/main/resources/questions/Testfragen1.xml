@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/Definitiv keine medizinischen Fragen</text>
+
+    </category>
+  </question>
+
+
+<!-- question: 691  -->
+  <question type="multichoice">
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format="html">
+      <text>Wie verhält sich ein frisches Ei in einem Glas mit kaltem Wasser?</text>
+    </questiontext>
+    <answer fraction="100" format="html">
+      <text>Es bleibt am Boden liegen.</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Es dreht sich um eigene Achse.</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Es schwimmt an der Oberfläche.</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Es richtet sich am Boden auf.</text>
+    </answer>
+  </question>
+  
+  <question type="multichoice">
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format="html">
+      <text>Wie nennt der Kenner die großen Eichenfässer, in denen Wein gelagert wird?</text>
+    </questiontext>
+    <answer fraction="100" format="html">
+      <text>Barrique</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Barolo</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Burgunder</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Beaujolais</text>
+    </answer>
+  </question>
+  
+  <question type="multichoice">
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format="html">
+      <text>Wer war von 1991 bis 1994 Bundesminister/in für Frauen und Jugend?</text>
+    </questiontext>
+    <answer fraction="100" format="html">
+      <text>Angela Merkel</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gerhard Schröder</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Helmut Kohl</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ursula von der Leyes</text>
+    </answer>
+  </question>
+  
+   <question type="multichoice">
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format="html">
+      <text>Wie viele Stimmen hat Berlin im Bundesrat?</text>
+    </questiontext>
+    <answer fraction="100" format="html">
+      <text>4</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>6</text>
+    </answer>
+  </question>
+  
+  <question type="multichoice">
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format="html">
+      <text>Wer setzt die Abkürzung "ppa" vor seine Unterschrift?</text>
+    </questiontext>
+    <answer fraction="100" format="html">
+      <text>Ein Prokurist</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ein Protokollführer</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ein Prozess-Bevollmächtigter</text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ein Planungs-Beauftragter</text>
+    </answer>
+  </question>
+</quiz>

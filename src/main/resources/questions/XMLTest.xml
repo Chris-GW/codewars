@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/EbM-Vorabtest</text>
+
+    </category>
+  </question>
+
+<!-- question: 568  -->
+  <question type="cloze">
+    <name>
+      <text>T7 Framing numerisch</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Für eine innovative Therapie einer Erkrankung
+ergaben Studien, dass unter der Therapie ein Risiko von 9 von 1.000 besteht, an
+der Krankheit sterben. Sie möchten einem Patienten neben dem Risiko auch die
+Chancen der Therapie mitteilen. Bitte ergänzen Sie die ergänzende (duale)
+Formulierung:</span></p>
+
+<span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">„Ihre Heilungschance bei dieser Therapie beträgt {1:NUMERICAL:=991}
+von 1.000.“ </span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 681  -->
+  <question type="cloze">
+    <name>
+      <text>T9 Absolute RR</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Gesundheitsexperten diskutieren die
+Einführung eines Screening-Programms, in welchem die Teilnehmer über 20 Jahre
+lang alle drei Jahre untersucht werden. Die Teilnahme am Screening reduziert
+das relative Risiko, während der 20 Jahre an der zu diagnostizierenden
+Krankheit zu sterben um 50%. Ohne Screening sterben während des Zeitraums 4 von
+1000 Personen an der Krankheit. Wie groß ist die absolute Risikoreduktion?</span></p>
+
+<span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Die absolute Risikoreduktion beträgt {1:NUMERICAL:=0.2} Prozent.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 691  -->
+  <question type="multichoice">
+    <name>
+      <text>T1 Start 5-Jahresüberlebensrate</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Sie wollen für eine Studie zur
+Mortalität einer Erkrankung die 5-Jahres-Überlebensraten bestimmen. Ab wann
+beginnt das 5-Jahres-Intervall?</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Zeitpunkt der Erstdiagnose</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Zeitpunkt des Studienbeginns</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Zeitpunkt des Therapiebeginns</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Zeitpunkt der Randomisierung</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Zeitpunkt des ersten
+Todesfalls in der Studienpopulation</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 692  -->
+  <question type="multichoice">
+    <name>
+      <text>T10 Vorhersage Trisomie</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Bei Frauen im Alter von 40 tritt in ca. 1%
+der Schwangerschaften eine Trisomie 21
+auf. Nicht-invasive Tests zur Pränataldiagnostik
+(z.B. kombinierter NT-Test / Triple-Test) erreichen eine Sensitivität von ca. 90% und eine
+Spezifität von ca. 95% </span></p>
+
+<span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Wie wahrscheinlich ist es im Fall einer 40-Jährigen
+mit positivem Testergebnis, dass tatsächlich in der Schwangerschaft <span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">eine Trisomie 21</span> vorliegt?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ca. 85%<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ca. 10%<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ca. 5%<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>ca. 15%<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ca. 50%<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 693  -->
+  <question type="multichoice">
+    <name>
+      <text>T2 Duale Formulierung (Erinnerung an EbM-1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Für der Mitteilung von
+Risiken ist eine „duale Formulierung“ vorzuziehen: z.B. sollte den Patienten derselbe
+Sachverhalt als Änderung der Mortalität und zusätzlich als Änderung der
+Überlebensrate mitgeteilt werden.</span></p>
+
+<p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Welcher Effekt soll so vermieden
+werden?"</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Framing</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Selection Bias</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Confounding</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Base Rate Neglect</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Measurement Bias</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 694  -->
+  <question type="multichoice">
+    <name>
+      <text>T3 Interpretation diagnostischer Kennzahlen - Behandlungsfehler</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">In einem Gerichtsverfahren zu
+einem möglichen Behandlungsfehler geht es aktuell darum, diagnostische Tests
+als Beweis zuzulassen. Welche Tests wären für das beklagte Krankenhaus
+ungünstig, da es häufig vorkommen kann, dass diese eine Erkrankung anzeigen, die
+in Wirklichkeit gar nicht vorliegt?</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tests mit niedrigem negativen prädiktiven Wert</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tests mit niedriger Spezifität</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tests mit niedriger
+Sensitivität</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Test mit niedriger Prävalenz</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tests mit niedrigem positiven prädiktiven Wert</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 695  -->
+  <question type="multichoice">
+    <name>
+      <text>T4 Diagnostische Kennzahlen - Beratung</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Sie wollen einem Patienten mitteilen, wie wahrscheinlich
+es ist, bei einem positiven Testergebnis tatsächlich erkrankt zu sein.</span></p>
+
+<p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Welche Formulierung ist in diesem Fall NICHT geeignet?</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">In 70% aller Fälle weist der
+Test die Erkrankung korrekt nach.</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Der positive prädiktive Wert
+ist 0,7</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Die bedingte
+Wahrscheinlichkeit für die Erkrankung bei Ihrem Testergebnis ist 70%</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Von 10 Patienten mit Ihrem
+Testergebnis sind im Mit</span><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">tel 7 erkrankt</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Von 10 Patienten mit Ihrem
+Testergebnis sind im Mittel 3 gesund</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 696  -->
+  <question type="multichoice">
+    <name>
+      <text>T5 ARR vs. RRR</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Sie stehen vor einer
+Therapieentscheidung. Bei einer Literaturrecherche finden Sie zwei relevante
+randomisierte kontrollierte Studien. Die eine Studie ergab, dass die Therapie A
+zu einer absoluten Risikoreduktion von 1% führt. Die andere Studie ergab, dass
+die Therapie B zu einer relativen Risikoreduktion von 4% führt.</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Die Informationen lassen
+keinen Vergleich zu</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Therapie A ist der Therapie B
+überlegen</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Therapie B ist der Therapie A
+überlegen</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Die beiden Therapien sind
+ungefähr gleich wirksam</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Keine der beiden Therapien hat
+einen ausreichend großen Effekt</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 697  -->
+  <question type="multichoice">
+    <name>
+      <text>T6 Interpretation 5-Jahres-Überlebensrate</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Durch eine Screening-Maßnahme wurde die
+5-Jahres-Überlebensrate der betrachteten Tumorerkrankung von 30% auf 100%
+gesteigert. Klinische Studien ergeben allerdings gleichzeitig, dass die mittlere
+Lebenserwartung derjenigen, die am Screening teilnehmen, genau so groß ist, wie
+die mittlere Lebenserwartung derjenigen, die nicht teilnehmen.</span></p>
+
+<p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Woran liegt das?</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Am unterschiedlichen Zeitpunkt der Erstdiagnose<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Mortalität und Letalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Inzidenz und Mortalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Korrelation und Kausalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am unterschiedlichen Zeitpunkt des Therapiebeginns<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 698  -->
+  <question type="multichoice">
+    <name>
+      <text>T6_2 Interpretation 5-Jahres-Überlebensrate</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Durch eine Screening-Maßnahme wurde die
+5-Jahres-Überlebensrate der betrachteten Tumorerkrankung von 50% auf 99%
+gesteigert. Klinische Studien ergeben allerdings gleichzeitig, dass die mittlere
+Lebenserwartung derjenigen, die am Screening teilnehmen, genau so groß ist, wie
+die mittlere Lebenserwartung derjenigen, die nicht teilnehmen.</span></p>
+
+<p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Woran liegt das?</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[Nein, das ist nicht der Grund. Das Phänomen tritt auf, weil die Screening-Maßnahme&nbsp; der Frügerkennung dient, die Erkrankung also früher erkannt wird. Dass die frühe Diagnose langfristig die Heilungschancen verbessert ist nicht notwenidgerweise gegeben.<br>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Am unterschiedlichen Zeitpunkt der Erstdiagnose<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Mortalität und Letalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Inzidenz und Mortalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am Unterschied zwischen Korrelation und Kausalität<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Am unterschiedlichen Zeitpunkt des Therapiebeginns<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 699  -->
+  <question type="multichoice">
+    <name>
+      <text>T8 Berechnung TP</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+
+</p><p style="line-height:150%;
+text-autospace:none"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Eine Erkrankung tritt in der Bevölkerung mit
+einer Prävalenz von 0,1% auf. Ein diagnostischer Test auf diese Erkrankung hat
+eine Sensitivität von 90%.</span></p>
+
+<span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Bei wie vielen von 10.000 Patienten weist der Test
+eine vorliegende Erkrankung korrekt nach?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Die Antwort ist richtig</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Die Antwort ist teilweise richtig.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Die Antwort ist falsch</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>90<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

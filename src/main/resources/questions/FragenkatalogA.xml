@@ -1,0 +1,3905 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/Fragenkatalog A</text>
+    </category>
+  </question>
+
+
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-1 Welches Informationssystem wird in Deutschland vor allem in Krankenh&#228;usern verwendet?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M-Health</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-2 Welches Informationssystem wird in Deutschland vor allem in Krankenh&#228;usern verwendet?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Health Level 7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT-Familie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Digital Imaging and Communications in Medicine</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mobile Health</text>
+    </answer>
+  </question>
+
+
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-3 Welches Informationssystem wird vor allem f&#252;r den Datenaustausch im niedergelassenen Bereich
+        verwendet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>xDT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M-Health</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-5 Welches Informationssystem wird vor allem zur Speicherung und Bearbeitung von medizinischer Bildgebung
+        verwendet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-6 Welches Informationssystem wird vor allem zum Drucken und Abrufen von medizinischer Bildgebung
+        verwendet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MeSH</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-10 Was ist am ehesten ein Problem bei xDT und HL7</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kein direkter Datenaustausch m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kein Zugriff auf Wissensbasen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Automatisierung von Routineaufgaben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ersetzen menschlicher Arbeitskraft</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-11 Smartphones, Tablets und tragbare Sensoren sind am ehesten Teil von?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-12 Public Health Services, die &#252;ber Smartphones oder &#228;hnliche Ger&#228;te genutzt werden sind
+        am ehesten Teil von? (1)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-13 Wovon erhofft sich die WHO am ehesten das Erreichen von Millenium Goals in L&#228;ndern mit geringem
+        Grundeinkommen? (1)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-16 Ein Programm, das Smartphone-Funktionen, beispielsweise Kamera, Touchscreen oder Bluetooth nutzt, um
+        medizinische Informationen zu erhalten ist am ehesten Teil von?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-21 Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Permanente Evidenzgenerierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringe Anwendervariabilit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohe Datensicherheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gute Qualit&#228;tskontrollen m&#246;glich</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-22 Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Auch in Schwellenl&#228;ndern gut nutzbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringe Anwendervariabilit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohe Datensicherheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gute Qualit&#228;tskontrollen m&#246;glich</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-23 Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Mangelnde Qualit&#228;tskontrolle</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schlechte Verf&#252;gbarkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Begrenzung auf Industrienationen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezielle Ausbildung f&#252;r Personal n&#246;tig</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-24 Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Starke Technikabh&#228;ngigkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schlechte Verf&#252;gbarkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Begrenzung auf Industrienationen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Langwieriger Zulassungsprozess</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-25 Eine App, die in L&#228;ndern mit niedrigem Grundeinkommen bei der Diagnostik von Pr&#228;eklampsie
+        helfen kann ist am ehesten Teil von?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-26 Um zur HIV Pr&#228;vention beizutragen wurde eine App entwikelt, die junge M&#228;nner &#252;ber die
+        Gefahren einer Ansteckung informieren soll (2). Eine solche Anwendung ist am eheste Teil von?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>mHealth</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>xDT</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-27 Wie lautet die Abk&#252;rzung f&#252;r das sozio-technische Teilsystem eines Krankenhauses, das
+        informationsverarbeitenden Prozesse, sowie menschlichen und maschinellen Handlungstr&#228;ger in ihrer
+        informationsverarbeitenden Rolle umfasst?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>SESP</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MLN</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-30 Was ist am ehesten kein Anteil des Krankenhausinformationssystems?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kooperierende Praxen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geb&#228;ude</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Arbeitende Personen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Alle Abteilungen des Hauses</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-33 Was ist am ehesten keine Aufgabe des Krankenhausinformationssystems (KIS)?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Weiterbehandlung nach Entlassung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Therapieplanung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patientenaufnahme</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pflegedokumentation</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-35 Darf von Leitlinien abgewichen werden?(4)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Ja, in begr&#252;ndeten F&#228;llen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nein, das ist eine Ordnungswidrigkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nein, das ist eine Straftat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ja, auch unbegr&#252;ndet</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-36 Was stellt am ehesten die Grundlage f&#252;r Leitlinien dar? (4)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Systematische Literaturrecherche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Expertenmeinung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Beobachtungsstudien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erfahrung im klinischen Alltag</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-37 Im Gegensatz zu einer anderen systematischen &#220;bersichtsarbeit bietet eine Leitlinie? (4)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Eine ausformulierte Entscheidungshilfe</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einen geringeren Evidenzgrad</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rechtliche Bindung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keine Nutzensanalyse</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-38 Der Einfluss von Leitlinien auf die Ergebnisqualit&#228;t des Gesundheitswesens? (4)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Ist nachgewiesen positiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wird stark vermutet</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wurde evident widerlegt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wird heute vermehrt angezweifelt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-39 Worauf ist beim Erstellen von Leitlinien am ehesten zu achten? (4)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Umsetzbarkeit in der Praxis</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M&#246;glichst Expertenmeinung Wiedergeben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vermeiden vom Aufbau auf alten Leitlinien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kostenreduktion steht im Vordergrund</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-42 Ein Arzt m&#246;chte seinem 50-j&#228;hrigen Patienten eben zu einem Stuhltest auf okkultes Blut
+        raten, und gibt die entsprechenden Daten in seinen PC ein. Da erscheint allerdings eine Erinnerung, dass der
+        Patient bereits einen unauff&#228;lligen Koloskopiebefund erhalten hat. Somit ben&#246;tigt er keinen Stuhltest.
+        Welche Programmart hat hier am ehesten &#220;berdiagnostik verhindert?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>CDSS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M-Health</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>HL7</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-43 Wobei sollen CDSS &#196;rzte am ehesten unterst&#252;tzen? (5)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Leitlinienadh&#228;renz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Literaturrecherche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intersektorale Kommunikation</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenschutz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-44 Ein Programm, das patientenspezifische Daten mit wissenschaftlichen Erkenntnissen algorithmisch verkn&#252;pft
+        um somit Klinikern fallspezifische Hilfe bietet wird am ehesten bezeichnet als? (5)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>CDSS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>KIS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M-Health</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-45 Wof&#252;r steht CDSS?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Clinical descision support system</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Critical descision support system</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Christopher street day</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Cochrane develloped support system</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-47 Welche Auswirkung hat CDSS auf die Leitlinienadh&#228;renz von Klinikern am ehesten? (5)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Erh&#246;ht sie nachweislich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Reduziert sie nachweislich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keinen Einfluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vermutete Erh&#246;hung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-48 Welche Programmart konnte am ehesten nachweislich die Sicherheit von Medikamentenverschreibung erh&#246;hen
+        und dir Rate an Fehlern die dabei auftreten verringern? (5)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>CDSS</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>DICOM</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>M-Health</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-49 Ein Aspekt des Datenschutzes in Krankenhausinformationssystemen ist, dass nicht jede Person auf alle
+        Daten zugreifen kann, dies bezeichnet man am ehesten als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Rollen-/ Rechtekonzept</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unver&#228;nderbarkeit von Daten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gesch&#252;tzte Netzumgebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pseudonymisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-50 Obwohl die Rezeptionistin eines Krankenhauses Zugriff auf das Krankenhausinformationssystem hat, kann
+        sie nicht auf die Pflegedokumentation zugreifen. Dieser Aspekt des Datenschutzes wird am ehesten bezeichnet als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Rollen-/ Rechtekonzept</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unver&#228;nderbarkeit von Daten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gesch&#252;tzte Netzumgebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pseudonymisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-51 Werden Name und Anschrift eines Patienten im Krankenhausinformationssystem durch ein spezielles
+        Kennzeichen ersetzt, sodass Au&#223;enstehende nicht auf den Patienten r&#252;ckschlie&#223;en k&#246;nnen,
+        jedoch durch die Zuordnungsregel eine Identifikation m&#246;glich ist, so spricht man am ehesten von? (6)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Pseudonymisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Anonymisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rollenkonzept</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autorisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-53 Herr M&#252;ller ist als Mitarbeiter des Hauses besorgt, dass einer seiner Kollegen &#252;ber seinen
+        Aufenthalt im Krankenhaus erfahren k&#246;nnte. Sein Arzt erkl&#228;rt ihm, dass Herrn M&#252;llers
+        personenbezogene Daten im Krankenhausinformationssystem so ver&#228;ndert werden k&#246;nnen, dass danach keiner
+        mehr auf seine eigentliche Identit&#228;t schlie&#223;en kann. Dies entspricht am ehesten einer/ einem? (6)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Anonymisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pseudonymisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rollenkonzept</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autorisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-55 Was ist am ehesten ein Element des Datenschutzes im Krankenhausinformationsystem?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Autorisierung von Personal</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intersektorale Kommunikation</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Dokumentation Versicherungsverh&#228;ltnisse</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verf&#252;gbarkeit von Wissensbasen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-56 Was sorgt am ehesten f&#252;r Abgrenzung zur Au&#223;enwelt im Krankenhausinformationssystem?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Verschl&#252;sselte Kommunikation</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rollen-/ Rechtekonzept</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unver&#228;nderbarkeit von Daten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verf&#252;gbarkeit von Wissensbasen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AI-57 Was ist am ehesten ein Element der Datensicherheit im Krankenhausinformationssystem?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gesch&#252;tzte Netzumgebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intersektorale Kommunikation</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Dokumentation Versicherungsverh&#228;ltnisse</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verf&#252;gbarkeit von Wissensbasen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-1 In einer Studie werden 50 Patienten mit Lungenkrebs mit 50 Gesunden verglichen. Die Probanden sollen
+        genau ihre fr&#252;heren Rauchgewohnheiten angeben. Um welches Studiendesign handelt es sich am ehesten? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte kontrollierte Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-2 In einer Studie wird bei Probanden &#252;ber 30 Jahre, alle 2 Jahre der Blutdruck, das Gewicht, sowie
+        der Cholesterinwert gemessen. Um welches Studiendesign handelt es sich am ehesten?(7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte kontrollierte Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-5 Was trifft f&#252;r die Fall-Kontroll-Studie zu? (7)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Meist Retrospektive Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte Einteilung in Kontrolle- und Fallgruppe</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Meist medikament&#246;se Intervention</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswahl der F&#228;lle anhand der Exposition</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-6 Was trifft am ehesten f&#252;r die Kohortenstudie zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Gruppeneinteilung nach Exposition</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Meist weniger aufw&#228;ndig als Fall-Kontroll-Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Meist medikament&#246;se Intervention</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Retrospektive Datenerhebung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-12 Eine Fall-Kontroll Studie ist eine Form der? (7)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Beobachtungsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Interventionsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-17 Eine Studie von 1961 untersuchte den Zusammenhang zwischen Thalidomid Einnahme der M&#252;tter und
+        Extremit&#228;tenfehlbildungen bei Kindern zwischen 1959 bis 1960. Es wurden betroffene mit gesunden Kinder
+        verglichen. Von 46 Betroffenen hatten 41 M&#252;tter Thalidomid eingenommen, von 300 M&#252;ttern gesunder
+        Kinder, keine. Um welches Studiendesign handelt es sich am ehesten? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte kontrollierte Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-19 Wonach erfolgt die Gruppenzuteilung bei einer Kohortenstudie? (7)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Exposition</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Krankheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zufall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intervention</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-20 Bei einer Kohortenstudie handelt es sich am ehesten um eine?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Longitudinalstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Interventionsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-21 Wer dient als Ausgangspukt einer Kohortenstudie? (7)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Gesunde Probanden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gesamte Population</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Exponierte Probanden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erkrankte Probanden</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-23 Welches Studiendesign eignet sich am ehesten, um eine Krankheit mit langer Latenzzeit zu untersuchen?
+        (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenzstudie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-24 In einer prospektiven Studie erfolgt die Hypothesengenerierung am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Vor Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nach der Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Im Beobachtungszeitraum</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nach Versuchsdurchf&#252;hrung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-25 In einer retrospektiven Studie erfolgt die Hypothesengenerierung am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Nach Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vor Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Parallel zur Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zu beliebigem Zeitpunkt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-31 Verglichen mit einer prospektiven Studie gilt f&#252;r eine retrospektive Studie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Weniger Daten Drop-outs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Weniger Daten erhoben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bedingungen besser kontrollierbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>L&#228;ngere Wartezeit bis Endergebnis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-32 Verglichen mit einer prospektiven Studie gilt f&#252;r eine retrospektive Studie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kosteng&#252;nstiger</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Weniger Daten erhoben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bedingungen besser kontrollierbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>L&#228;ngere Wartezeit bis Endergebnis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-33 Verglichen mit einer prospektiven Studie gilt f&#252;r eine retrospektive Studie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Bedingungen weniger kontrollierbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kostenintensiver</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Weniger Daten erhoben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>L&#228;ngere Wartezeit bis Endergebnis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-35 Verglichen mit einer prospektiven Studie gilt f&#252;r eine retrospektive Studie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>K&#252;rzere Wartezeit bis Endergebnis</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bedingungen besser kontrollierbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehr Daten Drop-outs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kostenintensiver</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-36 Verglichen mit einer prospektiven Studie gilt f&#252;r eine retrospektive Studie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Mehr Daten erhoben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bedingungen besser kontrollierbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kostenintensiver</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>L&#228;ngere Wartezeit bis Endergebnis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-37 F&#252;r eine Studie sucht ein Student aus Datenbanken gesammelte Daten zusammen. Dieses
+        Studiendesign ist am ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Retrospektiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Prospektiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Experimentell</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Longitudinal</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-40 Welche dieser Studien hat am ehesten die h&#246;chste Evidenz?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Nicht-randomisierte kontrollierte Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Expertenberichte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fall-Kontroll Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-42 Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft zu?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Eine Metaanalyse hat eine h&#246;here Evidenz als mehrere RCTs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehrere RCTs entsprechen h&#246;chstem Evidenzgrad</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehrere hochwertige Beobachtungsstudien entsprechen h&#246;herem Evidenzgrad als eine quasi-experimentelle
+        Studie
+      </text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringste Evidenz hat eine nicht-experimentelle Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-43 Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft am ehesten zu?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Helfen bei Einsch&#228;tzung wissenschaftlicher Basis einer Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autorit&#228;tenmeinungen sind eine der h&#246;chsten Evidenzstufen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Studien mit geringem Evidenzgrad ist wahrscheinlich nicht vertrauensw&#252;rdig</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unterschieden werden Studien der Evidenzgrade I-X</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-47 Wieviele Evidenzgrade werden am ehesten unterschieden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>I-V</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>I-X</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>I-III</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>I-XII</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-57 Ein Evidenzgrad von Ia entspricht am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Systematisches Review zu RCT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mindestens ein RCT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Quasiexperimentelle Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ein RCT</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-58 Ein Evidenzgrad von Ib eintspricht am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Hochwertige RCT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fallstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Systematisches Review zu RCT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kontrollierte Studie ohne Randomisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-60 Welche Voraussetzung muss eine experimentelle Studie am ehesten erf&#252;llen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Prospektive Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datengenerieren vor Fragestellung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierung der Probanden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mindeststichprobengr&#246;&#223;e</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-61 Welche Voraussetzung muss eine experimentelle Studie am ehesten erf&#252;llen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Aktive Intervention</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Retrospektive Datenerhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierung der Probanden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Follow-up</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-62 Eine Studie, bei der Daten erst nach Fragestellung erhoben werden und bei der aktiv eine Intervention
+        zugeschaltet wird, wird am ehesten bezeichnet als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Experimentell</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Retrospektiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Deskriptiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Analytisch</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-63 wobei handelt es sich um eine experimentelle Studie?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Randomisierte kontrollierte Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Querschnittsstudie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fall-Kontroll-Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kohortenstudie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-65 Ein Doktorand plant eine Studie, bei der untersucht werden soll, wie sich eine neue Fitness&#252;bung
+        auf die Herzfrequenz in Ruhe auswirkt. Hierf&#252;r erh&#228;lt die Interventionsgruppe eine Fitness-DVD. Vier
+        Wochen sp&#228;ter wird die Ruhefrequenz bei allen Probanden gemessen. Dieses Studiendesign ist am ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Experimentell</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Deskriptiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Retrospektiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Analytisch</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-69 In einer systematische Arbeit werden viele Studien, die das gleiche Thema behandeln quantitativ
+        zusammengefasst und analysiert. Die Studien werden nach harten Kriterien ausgew&#228;hlt und alles genau
+        dokumentiert. Um welchen Studientyp handelt es sich hierbei?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Meta-Analyse</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Review</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte kontrollierte Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fall-Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AII-70 Was z&#228;hlt nicht zu den Schritten der Erstellung einer Meta-Analyse?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Probanden Rekrutierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Literaturqualit&#228;t Bewerten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Evidenz Zusammenfassen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Klare Fragenformulierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-14 Ein Patient wurde im ELISA positiv auf HIV getestet. Er fragt den behandelnden Arzt, wie hoch nun
+        seine Wahrscheinlichkeit ist, infiziert zu sein. Was sollte der Arzt im nun am besten mitteilen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-28 Nach einem negativen Triple-Test m&#246;chte eine besorgte Mutter wissen, wie hoch die
+        Wahrscheinlichkeit ist, dass ihr Kind tats&#228;chlich kein Down-Syndrom hat. Welchen Wert sollte der Arzt ihr
+        am ehesten mitteilen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-29 Die Wahrscheinlichkeit, dass eine Person bei einem positiven Testergebnis erkrankt ist wird am
+        ehesten beschrieben durch?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positiv pr&#228;diktiven Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-30 Die Wahrscheinlichkeit, mit der eine negativ getestete Person tats&#228;chlich gesund ist wird am
+        ehesten beschrieben als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Negativ pr&#228;diktiven Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-31 Bei einer Schwangeren wird ein R&#246;teln Antik&#246;rpertiter bestimmt. Der Test f&#228;llt
+        positiv aus. Sie fragt ihren Arzt, mit welcher Wahrscheinlichkeit sie mit Rubella Viren infiziert ist. Welcher
+        Wert sollte ihr am ehesten mitgeteilt werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-33 Welcher der folgenden Kennzahlen diagnostischer Tests beschreibt ein Wahrscheinlichkeitsverh&#228;ltnis?
+        (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1-Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-34 Wie gro&#223; ist die Likelihood Ratio, wenn die Wahrscheinlichkeit auf ein positives Testergebnis
+        bei Kranken wie Gesunden gleichgro&#223; ist? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,5</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,25</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-35 Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines positiven Testergebnisses bei
+        Krankheit / Wahrscheinlichkeit eines positiven Ergebnisses bei Gesundheit? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Positive Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-36 Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines negativen Testergebnisses bei
+        Gesundheit / Wahrscheinlichkeit eines negativen Testergebnisses bei Krankheit? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Negative Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-38 Bei einem neuen diagnostischen Test ist die Wahrscheinlichkeit auf ein negatives Testergebnis f&#252;r
+        erkrankte Patienten nur halb so gro&#223; wie f&#252;r Gesunde. Welche Aussage zur Likelihood Ratio trifft hierf&#252;r
+        am ehesten zu? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Negative Likelihood Ratio 0,5</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positive Likelihood Ratio 2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negative Likelihood Ratio 2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positive Likelihood Ratio 0,5</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-39 Welche diagnostische Kennzahl kann alternativ zu Sensitivit&#228;t und Spezifit&#228;t angegeben
+        werden, um die G&#252;te eines diagnostischen Tests widerzugeben? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-41 Was ist auf der X-Achse der ROC-Kurve aufgetragen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Falsch-Positiv Rate</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positive Pr&#228;diktive Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-42 Was wird in einer ROC Kurve gegeneinander aufgetragen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Richtig positiv Rate gegen falsch positiv Rate</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz gegen Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t gegen positiv pr&#228;diktiven Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio gegen Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-43 Welche Area under the Curve der ROC-Kurve entspricht am ehesten einem optimalen diagnostischen
+        Test?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,5</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>-0,5</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-45 Was beschreibt die Area under the curve der ROC-Kurve am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Qualit&#228;t diagnostischen Tests</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Richtig positiv-Rate</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-46 Was ist auf der X-Achse der ROC-Kurve aufgetragen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>1-Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1-Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-47 Was ist auf der Y-Achse der ROC-Kurve aufgetragen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1-Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1-Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-67 Eine Patientin wird auf HCV gescreent. Sie wei&#223; es noch nicht, jedoch ist sie tatschlich
+        infiziert. Was beschreibt am ehesten die Wahrscheinlichkeit, mit der der Test positiv ausfallen wird?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-71 Eine neue, verbesserte Screeningmethode auf Prostatakarzinom soll eingef&#252;hrt werden. Den
+        Herstellern ist vor allem wichtig, dass bei Erkrankten der Test auf jeden Fall positiv ausf&#228;llt. Das hei&#223;t
+        der Test hat eine besonders hohe/ einen hohen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-73 W&#228;hrend einer Famulatur hat sich eine Studentin an der Nadel eines HCV-positiven Patienten
+        gestochen. Daraufhin wird ihr Anti-HCV Titer bestimmt. Zum Gl&#252;ck hat sie sich nicht infiziert! Die
+        Wahrscheinlichkeit, mit der ihr Test negativ ausf&#228;llt beschreibt am ehesten die/den?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>positiv pr&#228;diktiven Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>negativ pr&#228;diktiven Wert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-99 Was entspricht am ehesten der Posttestwahrscheinlichkeit?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-101 Was kann direkt aus Pr&#228;testwahrscheinlichkeit und Sensitivit&#228;t bestimmt werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Posttest-Wahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Negativ pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-102 Was entspricht am ehesten der Pr&#228;test-Wahrscheinlichkeit?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiv pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-103 Wovon h&#228;ngt die Pr&#228;testwahrscheinlichkeit am ehesten ab?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Patientenkollektiv</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Diagnostische Sicherheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Richtig-Positiv Rate</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-104 1 ? negativ pr&#228;diktiver Wert entspricht am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Negativer Posttestwahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Posttest Wahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-105 Die Wahrscheinlichkeit unter der Bedingung eines positiven Testergebnisses tats&#228;chlich
+        erkrankt zu sein, entspricht am ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Posttestwahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;testwahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-108 Der positive pr&#228;diktive Wert?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Beschreibt eine bedingte Wahrscheinlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Berechnet sich aus Anzahl richtig positiv getesteter und Anzahl aller Erkrankten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Beschreibt wie wahrscheinlich ein Kranker positiv getestet wird</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Entspricht der Pr&#228;testwahrscheinlichkeit</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-109 Eine Patientin mit positivem HIV-ELISA m&#246;chte nun wissen, ob sie HIV-positiv ist. (HIV-ELISA:
+        Sensitivit&#228;t 99%, Spezifit&#228;t 98%, Positiv-pr&#228;diktiver Wert 10%, HIV-Pr&#228;valenz 0,01%). Wie
+        hoch ist die Wahrscheinlichkeit, dass sie HIV-positiv ist?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>10%.</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>99%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>98%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,01%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-110 Wobei handelt es sich nicht um eine bedingte Wahrscheinlichkeit? (8)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiver pr&#228;diktiver Wert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-112 In einer Population von 10.000 Individuen sind ca. 10 Individuen HIV infiziert. Welche Aussage
+        trifft zu? Die Pr&#228;valenz von HIV betr&#228;gt in diesem Fall? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>0,1%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,01%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>0,001%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-113 Was kann die Pr&#228;valenz einer Erkrankung erh&#246;hen? (7)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Neue, lebensverl&#228;ngernde Therapie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Abwanderung erkrankter Individuen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Abnahme der Inzidenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohe Sterblichkeit der Erkrankten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-116 Wie verh&#228;lt sich die Inzidenz und Pr&#228;valenz bei einer h&#228;ufig auftretenden Krankheit
+        mit sehr akutem, letalen Verlauf am ehesten? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Inzidenz gro&#223;, Pr&#228;valenz kleiner</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz gro&#223;, Pr&#228;valenz gr&#246;&#223;er</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz gering, Pr&#228;valenz gr&#246;&#223;er</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz gering, Pr&#228;valenz geringer</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-118 (Anzahl der erkrankten Personen zu Zeitpunkt t) / (Anzahl der Personen einer Risikopopulation zu
+        Zeitpunkt t) = ? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIII-119 Der Anteil der erkrankten Personen an der Gesamtheit der Risikopersonen einer Population wird am
+        ehesten bezeichnet als? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-1 Welche Anwendung kann am ehesten bei der Einsch&#228;tzung der Evidenz von Studien hilfreich sein?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Cochrane Risk of Bias Tool</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PubMed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Medical Subject Headings</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MEDLINE</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-2 Ein Instruments der Cochrane Collaboration erleichtert es uns am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Bias-Risiko in Studien einzusch&#228;tzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>In medizinischen Bibliotheken zu suchen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verschlagwortung von Konzepten zur Literatursuche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Komplizierte Rechenwege nachzuvollziehen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-3 Das Instrument des Cochrane Risk of Bias Tools basiert auf? (10)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>6 Dom&#228;nen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3 medizinischen Datenbanken</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>&#220;ber 1000 Schlagworten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Generierung 7-stelliger Codes</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-5 Im Cochrane Risk of Bias Tool wird beurteilt, wie die Geheimhaltung der Gruppenzuteilung einer Studie
+        erfolgt ist. Welche Art des Fehlers soll hierdurch am ehesten eingesch&#228;tzt werden? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-9 In einer Studie wird ein neuer Lipidsenker gegen Statine getestet. Welche Patienten welcher Gruppe
+        zugeteilt werden wird per W&#252;rfelwurf entschieden. Wie ist diese Generierung der Randomisierungssequenz im
+        Cochrane Risk of Bias Tool am eheten einzusch&#228;tzen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-10 Welcher Fehler kann bei einer mangelhaften Geheimhaltung der Gruppenzuteilung einer Studie am ehesten
+        entstehen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performanche Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-12 Die Teilnehmer einer Studie werden alternierend der Test- bzw. der Kontrollgruppe zugeteilt. Wie w&#228;re
+        dies am ehesten in der Dom&#228;ne der verdeckten Gruppenzuweisung des Cochrane Risk of Bias Tools zu bewerten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-13 F&#252;r eine geplante Meta-Analyse soll f&#252;r alle Studien bewertet werden, ob die Teilnehmer und
+        das Studienpersonal von Gruppenzuteilung gewusst haben k&#246;nnten. Welcher Fehler soll hiermit am ehesten
+        eingesch&#228;tzt werden? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Reporting Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Publication Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-14 Was ist keine Dom&#228;ne des Cochrane Risk of Bias Tools? (10)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Anteil publizierter Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Generierung der Randomisierungssequenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verblindung der Endpunkterhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unvollst&#228;ndige Daten zu Endpunkten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-19 In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der
+        Verdacht aufdr&#228;ngt, das Studienergebnis k&#246;nnte hierdurch verf&#228;lscht worden sein. Welcher Dom&#228;ne
+        des Cochrane Risk of Bias Tool ist dieser Aspekt am ehesten zuzuordnen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Unvollst&#228;ndige Daten zu Endpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verblindung der Enpunkterhebung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Generierung der Randomisierungssequenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selektives Berichten zu Endpunkten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-20 In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der
+        Verdacht aufdr&#228;ngt, das Studienergebnis k&#246;nnte hierdurch verf&#228;lscht worden sein. Wie ist dies
+        mittels des Cochrane Risk of Bias Tools einzusch&#228;tzen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-21 In einer Studie schieden in etwa gleichviele Probanden aus Test- und Kontrollgruppe wegen
+        Non-Compliance aus. Wie ist dies mithilfe des Cochrane Risk of Bias Tools zu bewerten? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-25 In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verf&#252;gbar. Es zeigt,
+        dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgef&#252;hrt worden ist. In
+        welche Dom&#228;ne des Cochrane Risk of Bias Tools ist dies am ehesten einzuordnen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Selektives Berichten zu Endpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unvollst&#228;ndige Daten zu Endpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verdeckte Gruppenzuteilung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Generierung der Randomisierungssequenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-26 In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verf&#252;gbar. Es zeigt,
+        dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgef&#252;hrt worden ist. Wie
+        ist dies mithilfe des Cochrane Risk of Bias Tools einzuordnen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-27 Obwohl vor Beginn einer Studie der TSH-Wert der Probanden als Endpunkt festgelegt wurde, wird zum
+        Ende hin der fT3- und fT4-Spiegel als Endpunkt berichtet. Welcher Dom&#228;ne des Cochrane Risk of Bias Tools
+        ist dies am ehesten zuzuordnen? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Selektives Berichten zu Endpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unvollst&#228;ndige Daten zu Endpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verdeckte Gruppenzuteilung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Generierung der Randomisierungssequenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AIV-28 Obwohl vor Beginn einer Studie der TSH-Wert der Probanden als Endpunkt festgelegt wurde, wird zum
+        Ende hin der fT3- und fT4-Spiegel als Endpunkt berichtet. Wie ist dies mithilfe des Cochrane Risk of Bias Tools
+        zu bewerten? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Hohes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringes Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unklares Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittleres Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-1 Welche Aussage beschreibt die Dual Processing Theorie am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Zwei Systeme der Informationsverarbeitung im Hirn</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Biasreduktion durch doppelte Verblindung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Besseres Patienten-Outcome durch Konzil zweiter &#196;rzte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Duale Formulierung zur Risikokommunikation</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-2 Welches Informationsverarbeitungssystem arbeitet nach der dual Processing Theory am ehesten langsam,
+        bewusst und analytisch?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>System 2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 4</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 3</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-4 ?Wenn ein Patient ein Tumorleiden hat, dann verliert er Gewicht. Dieser Patient hat kein Gewicht
+        verloren, demnach hat er auch keinen Tumor.? Bei dieser Aussage handelt es sich am ehesten um?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Formalen Fehlschluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fehlinterpretation einer Statistik</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-7 Ein Sozialwissenschaftler ist sehr aufgeregt. Heute hat er eine unfassbare Entdeckung gemacht: In Japan
+        leben besonders viele alte Menschen und es werden besonders viele Kirschbl&#252;ten beobachtet. ?Wahnsinn! Wer
+        Kirschbl&#252;ten beobachtet lebt also l&#228;nger!?, schlie&#223;t er. Worum handelt es sich hierbei?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Statistischer Fehlschluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formaler Interpretationsfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-8 Ein erfahrener Hausarzt untersucht einen Patienten. Seine Intuition und gro&#223;e Erfahrung sagen ihm,
+        dass der Patient wahrscheinlich nur eine leichte Erk&#228;ltung hat. Schnell verschreibt er ihm Ibuprofen und
+        spart sich weitere, zeitaufw&#228;ndige Untersuchungen. Welches Informationsverarbeitende System nutzt der Arzt
+        hier, gem&#228;&#223; der Dual Processing Theory am ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>System 1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 4</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-9 Ein Patient auf Station ist sehr informiert &#252;ber das aktuelle politische Geschehen und liest sehr
+        viele Politikzeitschriften, die er abonniert hat. Welchen Beruf hat er am wahrscheinlichsten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Lagerarbeiter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Politikwissenschaftler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unternehmensleiter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Arzt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-10 Bei der Blutentnahme erz&#228;hlt ein Patient seinem Hausarzt sehr detailliert von wirtschaftlichen
+        Abl&#228;ufen. ?Der Mann ist sicherlich ein gro&#223;er Unternehmensleiter?, denk sich der Arzt. Bei der
+        Berufsanamnese stellt sich schlie&#223;lich heraus, dass der Mann Post-Beamter ist. Welcher Fehler ist dem Arzt
+        unterlaufen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formaler Fehlschluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-11 Klaus ist 22 und macht eine Ausbildung. Seine Freizeit verbringt er sehr gerne mit Sport jeglicher
+        Art. Seine Freunde beschreiben ihn als einen gro&#223;en Wettstreiter mit Kampfgeist. Klaus ist am ehesten? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Bankangestellter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bankangestellter, der in seiner Freizeit Marathon l&#228;uft</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bankangestellter, der mit dem Fahrrad zur Arbeit f&#228;hrt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bankangestellter, der seinen Job nicht mag</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-12 Uwe ist 22 Jahre alt. In einem Interview auf einem Kongress, an dem 70 Medizinstudenten und 30
+        Maschinenbaustudenten teilnehmen, erfahren wir von ihm, dass er alleinstehend ist, in seiner Freizeit gerne
+        Videospiele spielt und feiern geht. Er tr&#228;gt Jeans und ein kariertes Hemd. Wie wahrscheinlich ist es ungef&#228;hr,
+        dass Uwe Maschinenbau studiert? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>30%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>50%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>70%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>90%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-15 Im R&#246;ntgenbild zeigt sich ein Metallsplitter in der Wunde eines Werksarbeiters. In einem
+        langwierigen und aufw&#228;ndigen Prozedere entfernt der Arzt einen gro&#223;en Splitter. Erleichtert verschlie&#223;t
+        er die Wunde, ohne sie noch einmal zu inspizieren. Ein paar Tage sp&#228;ter stellt sich der Patient mit entz&#252;ndeter
+        Naht erneut vor. Es stellt sich heraus, dass ein weiterer, kleinerer Splitter in der Wunde verblieben ist.
+        Welcher Fehler ist dem Arzt hier am ehesten unterlaufen? (13) (14)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-17 Ein Patient stellt sich mit Knieschmerzen vor. Der Arzt stellt einen Kniegelenkserguss fest. Hiernach
+        beendet er die orthop&#228;dische Untersuchung, ohne weitere Untersuchung der H&#252;fte. Welcher Fehler k&#246;nnte
+        ihm hier am ehesten unterlaufen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Premature closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-18 Ein Arzt ist sehr &#252;berzeugt von einer neuen Therapieform der Hypertonie. Die Literatur zeigt sich
+        allerdings uneinig &#252;ber deren Wirksamkeit. Bei gr&#252;ndlicher Literaturrecherche gewichtet der Arzt
+        unbewusst Studien, die seine Meinung zur neuen Therapie best&#228;tigen h&#246;her als solche, die sie
+        widerlegen. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Error</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-19 Frau Becker glaubt an das &#220;bernat&#252;rliche. ?Zuletzt habe ich an meine Mutter gedacht und ein
+        paar Minuten sp&#228;ter hat sie angerufen!?, erz&#228;hlt sie begeistert. Dabei ignoriert sie, dass sie viel h&#228;ufiger
+        an ihre Mutter denkt, ohne dass diese anruft und auch dass ihre Mutter viel &#246;fter anruft, ohne dass sie an
+        sie denkt. Welcher Fehler unterl&#228;uft ihr hier? (15)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Statistischer Fehlschluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formaler Fehlschluss</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-23 Revierderby: Der Schiedsrichter pfeift einen Elfmeter f&#252;r Dortmund. ?Schwalbe!?, &#228;rgert sich
+        der Schalke-Fan. ?Klarer Elfmeter!?, meint der BVB-Fan. Was f&#252;hrt am ehesten zu den unterschiedlichen
+        Einsch&#228;tzungen der gleichen Situation?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formaler Fehlschluss</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-24 Eine Aachener Medizinstudentin &#252;berlegt: Auf dem Hinweg bin ich Fahrrad gefahren und es hat
+        geregnet. Es regnet also, wenn ich Fahrrad fahre. Das hei&#223;t, ich werde mein Fahrrad auf dem R&#252;ckweg
+        schieben, dann werde ich nicht nass. Hierbei handelt es sich am ehesten um?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Formalen Fehschluss</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-27 Auf welchen Effekt ist es am ehesten zur&#252;ckzuf&#252;hren, wenn Probanden, die zuvor das Wort
+        ?Garten? geh&#246;rt haben, das Wort ?Blume? schneller verarbeiten k&#246;nnen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Priming</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Cofirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-30 Wird die Verarbeitungsgeschwindigkeit und Interpretation eines Reizes durch einen vorangehenden Reiz
+        beeinflusst, so handelt es sich am ehesten um?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Priming</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Framing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-32 Die F&#228;higkeit, Mehrdeutigkeit aus dem Kontext zu entschl&#252;sseln bezeichnet man als?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Dual Processing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-33 Obwohl sowohl Harnwegsinfekt als auch Hinterwandinfarkt mit HWI abgek&#252;rzt werden, wird beides im
+        Kontext von Klinikern in meistens richtig ?entschl&#252;sselt?. Worauf ist dies am ehesten zur&#252;ckzuf&#252;hren?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Premature Closure</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-35 In einer Studie zeigte sich, dass Probanden Warnungen auf Lebensmitteln unterschiedlich stark dazu
+        motivierten, ges&#252;nder zu essen, je nachdem, ob diese Warnungen positiv oder negativ formuliert waren.
+        (17)Auf welchen Effekt ist dies am ehesten zur&#252;ckzuf&#252;hren?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Framing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Priming</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Dual Processing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-36 Wie bezeichnet man den Effekt, dass Menschen Informationen anders aufnehmen, je nachdem wie diese
+        formuliert werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Framing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Priming</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Dual Processing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-38 Ein Arzt f&#252;hrt ein Patientengespr&#228;ch, nach einem positiven H&#228;moccult-Test. ?Die Chance,
+        dass sie Darmkrebs haben betr&#228;gt 50%, die Chance, dass sie keinen Darmkrebs haben betr&#228;gt 50%?.
+        Welchen verzerrenden Effekt versucht er mit dieser Formulierung am ehesten zu vermindern?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Framing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-39 In einer Studie zeigte sich, dass Studenten eher Sonnenschutz auftragen, wenn darauf in warmen Farben
+        positiv formulierte Warnungen abgebildet sind, als bei negativ formulierten Warnungen in kalten Farben. (18)
+        Worauf ist dies am ehesten zur&#252;ckzuf&#252;hren?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Framing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Disambiguierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-42 Weil sich Streits mit seinem Vorgesetzten besonders stark in das Ged&#228;chtnis eines Arztes eingepr&#228;gt
+        haben, sch&#228;tzt er deren H&#228;ufigkeit nun gr&#246;&#223;er ein, als dies tats&#228;chlich der Fall war.
+        Worauf ist dieser Effekt am ehesten zur&#252;ckzuf&#252;hren?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Availability Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-43 Eine Studentin erz&#228;hlt ihrer Freundin: ?Nie sp&#252;lt mein Mitbewohner das Geschirr ab?, dabei
+        blieben ihr die Wochen, in denen der Mitbewohner nicht gesp&#252;lt hat einfach besonders im Ged&#228;chtnis,
+        sodass ihr dies nun h&#228;ufiger erscheint. Worauf ist dies zur&#252;ckzuf&#252;hren?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Availability Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-44 Welches Informationsverarbeitende System arbeitet nach der Dual Processing Theory am ehesten schnell,
+        intuitiv und unbewusst?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>System 1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>System 4</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-45 Welche Aussage zum Selection Bias trifft am ehesten zu?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Stichprobe nicht repr&#228;sentativ</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verschiedene Behandlungen Testgruppen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unterschiedliche Auswertung der Gruppen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Unterschiedliche Akzeptanz der Behandlungen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-46 In einer Studie wird ein neues Medikament gegen Juckreiz mit einer Kontrollgruppe verglichen, die
+        keine Behandlung bekommt. Die Probanden in der Kontrollgruppe sind unzufrieden, weshalb sich viele zus&#228;tzlich
+        selbsttherapieren. Welcher Fehler kann hierdurch am ehesten auftreten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Publication Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascerteinment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-47 Eine Studie testet eine naturheilkundliche Therapie gegen die etablierte Therapie. Viele Probanden
+        nahmen teil, weil sie sich erhofften, der naturheilkundlichen Gruppe zugeordnet zu werden. War dies nicht der
+        Fall, so erschienen manche weniger zuverl&#228;ssig zu den Untersuchungsterminen oder schieden ganz aus der
+        Studie aus. Welcher Fehler kann hierdurch am ehesten auftreten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-48 In einer Studie soll ein neues Blutverd&#252;nnungsmittel mit Heparin verglichen werden. W&#228;hrend
+        Heparin subcutan gespritzt wird, kann die neue Therapie oral verabreicht werden. Leider haben manche Probanden
+        Hemmungen sich zu spritzen, weshalb viele nicht mehr zu den Kontrollen kommen und aus der Studie ausscheiden. Zu
+        welchem systematischen Fehler kann es hier am ehesten kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Publication Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-49 In einer Studie werden zwei verschiedene Di&#228;ten verglichen. Die Probanden der ersten Di&#228;t
+        werden in einer diabetologischen Ambulanz rekrutiert, die andere in einer chirurgischen Praxis. Zu welcher Art
+        der Verzerrung kann es bei dieser Studie am ehesten kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-51 Welcher systematische Fehler tritt am ehesten auf, wenn die Auswertung eines Endpunktes von der Art
+        der Behandlung beeinflusst wird?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-52 In einer Studie wird die Kontrollgruppe im Altbau eines Krankenhauses behandelt, die
+        Interventionsgruppe im attraktiven Neubau. Zu welchem systematischen Fehler kann es hierbei kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-54 Eine neue Studie m&#246;chte ein Nahrungserg&#228;nzungsmittel f&#252;r Schlaganfallpatienten testen.
+        Die Probanden der Testgruppe werden auf der neurologischen Station rekrutiert, f&#252;r die Kontrollgruppe
+        werden Medizinstudenten angesprochen. Zu welchem systematischen Fehler kann es hierbei am ehesten kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-56 In welcher Phase einer Studie kommt es am ehesten zu Performance Bias?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Behandlung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ver&#246;ffentlichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rekrutierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-57 In welcher Phase einer Studie kommt es am ehesten zu Selection Bias?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Rekrutierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ver&#246;ffentlichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-58 In welcher Phase einer Studie kommt es am ehesten zu Attrition Bias?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Behandlung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ver&#246;ffentlichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rekrutierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-59 Herr Kummers neue Studie zeigte, dass das neue Medikament keinen Effekt auf das Patientenoutcome hat.
+        Mit dem negativen Ergebnis f&#228;llt es ihm schwer, sie in einem gro&#223;en Journal unterzubringen. Zu welchem
+        systematischen Fehler kann es hier am ehesten kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Publication Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-60 Eine Studie vergleicht eine neue Schmerztherapie mit einer Etablierten. Der Auswerter hat gro&#223;e
+        Hoffnungen in die neue Therapie, daher befragt er die Interventionsgruppe ausf&#252;hrlicher und l&#228;nger,
+        als die Kontrollen. Welcher systematische Fehler kann hier am ehesten auftreten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Publication Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-61 In einer Studie wurde auf Verblindung bei der Auswertung verzichtet. Unbewusst sch&#228;tzen die
+        Auswerter nun den Gesundheitszustand der Interventionsgruppe besser ein, als den der Kontrollen. Zu welchem
+        systematischen Fehler kann es hier am ehesten kommen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-62 Welche Aussage zum prinzipiellen Messfehlern trifft zu?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Verringerung durch Messwiederholung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Aufhebung durch Verfeinerung der Apparatur</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>grunds&#228;tzlich ungerichtet</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Minimierung durch Randomisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-63 Wodurch kann ein systematischer Messfehler am wenigsten reduziert werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Messwiederholung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Justieren des Messger&#228;ts</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wahrnehmungsfehler bei Skalenablesen vermeiden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Eichen der Apparatur vor Messbeginn</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-64 Wodurch k&#246;nnen Messfehler am wenigsten verringert werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Messwiederholung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behebung von Fehljustierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verfeinerung des Messger&#228;ts</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-65 Welche Arten der Messfehler werden am ehesten unterschieden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Prinzipiell und systematisch</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Organisch und maschinell</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intern und extern</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Assoziativ und konkret</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AV-66 Welche Aussage zu Messfehlern trifft am ehesten zu?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Verringerung durch Verfeinern der Apparatur</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Aufhebung durch Messwiederholung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>grunds&#228;tzlich ungerichtet</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Minimierung durch Randomisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-1 Sinnvoll f&#252;r die Risikokommunikation mit Patienten w&#228;re am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positive sowie negative Formulierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fokussierung auf potentiellen Schaden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patienten Entscheidung abnehmen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gezielter Einsatz von Framing</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-2 ?Bei der Koloskopie kommt es in 1 von 5000 F&#228;llen zu einer nicht endoskopisch behebbaren
+        Komplikation, in 4999 von 5000 F&#228;llen nicht.?, wodurch wird hierbei die Patientenkommunikation am ehesten
+        erleichtert?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Positive und negative Formulierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schadensrisiko steht zu Beginn des Satzes</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verwendung von Fachbegriffen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verwendung des relativen Risikos</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-5 Nachdem eine Tumorpatientin von ihrem Arzt ausf&#252;hrlich &#252;ber Vor- und Nachteile einer m&#246;glichen
+        Therapieeskalation aufgekl&#228;rt wurde, entscheidet sie nun selbst, dass sie lediglich eine palliative
+        Versorgung m&#246;chte. Hierbei handelt es sich am ehesten um ein Beispiel f&#252;r?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Informed Consent</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>&#220;beraufkl&#228;rung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patriarchische Entscheidungsfindung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-6 Der Prozess, indem ein ganzheitlich informierter Patient eigene Entscheidungen &#252;ber seine weitere
+        medizinische Behandlung treffen kann wird am ehesten bezeichnet als? (20)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Informed Consent</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Evidenz basierte Medizin</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patriarchische Entscheidungsfindung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-7 Wobei handelt es sich am ehesten um eine Vorraussetzung f&#252;r Informed Consent? (20)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Respekt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autorit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Codierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Homogenit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-8 Wobei handelt es sich am ehesten um eine Vorraussetzung f&#252;r Informed Consent? (20)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Verst&#228;ndlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autorit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Freundlichkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bestimmtheit</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVI-11 Was muss beim Informed Consent am ehesten nicht thematisiert bzw. abgekl&#228;rt werden? (20)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Experimentelle Therapieoptionen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Therapieakzeptanz des Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Risiken und Nutzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verst&#228;ndnis des Patienten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVII-3 Was ist beim Sammeln relevanter Literatur am ehesten zu beachten? (21)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Verwaltung in Literaturverwaltungsprogramm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ausschlie&#223;liche Literatursuche in MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kombinationen von Suchbegriffen vermeiden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keinen Thesaurus verwenden</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVII-5 Werden f&#252;r eine systematische &#220;bersichtsarbeit Studien ausgeschlossen, so sollte am ehesten
+        genau dokumentiert werden deren? (21)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Ausschlussgrund</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ursprungs-Datenbank</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suchbegriffs-kombination</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Thesaurus</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVII-6 Was kann bei der Suche nach geeigneten Datenbanken f&#252;r die Literaturrecherche einer
+        systematischen &#220;bersichtsarbeit besonders hilfreich sein (21)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Datenbankhandbuch des DIMDI</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenbankrangliste von MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenbank-Scores von MeSH</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenbankempfehlungsliste des ICD</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVII-7 F&#252;r eine besonders hohe Qualit&#228;t einer systematischen &#220;bersichtsarbeit empfiehlt sich,
+        die grafische Darstellung ausgeschlossener Studien mit Anzahl und Ausschlussgrund in einem/einer? (21)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Flussdiagramm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>S&#228;ttigungskurve</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Balkendiagramm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Tortendiagramm</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>AVII-8 Werden f&#252;r eine systematische &#220;bersichtsarbeit Studien ausgeschlossen, so sollte am ehesten
+        genau dokumentiert werden deren? (21)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Anzahl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stichprobenumfang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenbank</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Thesaurus</text>
+    </answer>
+  </question>
+</quiz>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

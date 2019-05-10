@@ -1,0 +1,4133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/Fragenkatalog B</text>
+    </category>
+  </question>
+
+
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-20 Der Nutzen in einem Entscheidungsbaum ist am ehesten abh&#228;ngig von?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Individueller Bewertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Quantitativen Skalen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ICD-10 Codierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zufallsknoten-Anzahl</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-21 Was versteht man am ehesten unter dem Konzept der rationalen Entscheidung?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Handeln nach gr&#246;&#223;tm&#246;glichem Nutzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Duale Formulierung im Patientengespr&#228;ch</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Voraussetzung f&#252;r diagnostischen Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Strategie zur Bias-Minimierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-22 Ein Arzt behandelt eine Patientin mit unkomplizierter Sigmadivertikulitis. Er entscheidet sich zun&#228;chst
+        f&#252;r eine Antibiose, da hier das Risiko f&#252;r die Patientin am geringsten und der Nutzen am gr&#246;&#223;ten
+        ist. Der Arzt handelt am ehesten nach dem Konzept der/des?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Rationalen Entscheidung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Evidenzbasierten Medizin</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Informierten Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Autonomen Arztes</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-23 Nach dem Konzept der rationalen Entscheidung handelt man am ehesten, w&#228;hlt man die Alternative?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>mit gr&#246;&#223;tem zu erwartenden Nutzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>gemeinsam mit dem Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>mit gr&#246;&#223;ter Chance auf k&#246;rperliche Unversehrtheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>mit geringstem Aufwand und Kosten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-24 Eine Bedingung f&#252;r eine rationale Entscheidung ist am ehesten?(2)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Definition des Behandlungsziels</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswahl kosteng&#252;nstigste Alternative</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ausschalten jeder diagnostischer Unsicherheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patriarchische Entscheidungsfindung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BI-25 Nach dem Konzept der rationalen Entscheidung wird am ehesten jene Alternative gew&#228;hlt, mit? (2)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Gr&#246;&#223;tem Nutzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringsten Kosten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringstem Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gr&#246;&#223;ter Evidenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-1 Was steht am ehesten zu Beginn der 5A-Regel?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Fragenformulierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Literaturrecherche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kritische Quellenabw&#228;gung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Anwendung in Praxis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-2 Was ist kein Bestandteil der 5A-Regel?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Attrition</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ask</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Assess</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Apply</text>
+    </answer>
+  </question>
+
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-3 Wobei wird die 5-A Regel am ehesten angewandt?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>L&#246;sung klinisches Problem</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Aufstellung Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vollst&#228;ndige Verblindung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Datenaustausch Krankenhaus</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-4 Ein Arzt m&#246;chte ein klinisches Problem l&#246;sen, hierf&#252;r &#252;berlegt er sich zun&#228;chst
+        eine klare Fragestellung, dann sucht er nach relevanter Literatur, w&#228;gt seine Suchergebnisse kritisch ab
+        und versucht das Resultat in der Praxis anzuwenden. Zuletzt &#252;berpr&#252;ft er seinen Erfolg. Nach welchem
+        Schema geht er hier am ehesten vor?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>5A</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PICOT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PRISMA</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-5 Ein Patient hat ein sehr spezielles Problem und sein Arzt m&#246;chte evidente neue Therapiem&#246;glichkeiten
+        f&#252;r ihn recherchieren und anwenden. An welchem Schema kann er sich am ehesten von der Fragestellung bis zur
+        &#220;berpr&#252;fung des Erfolges orientieren?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>5A</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PICOT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PRISMA</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>SE-SP</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-6 Die richtige Reihenfolge der 5A- Regel lautet am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ask, Acquire, Appraise, Apply, Assess</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Assess, Appraise, Ask, Acquire, Apply</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Apply, Ask, Acquire, Assess, Appraise</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Appraise, Apply, Assess, Ask, Acquire</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-7 Was folgt laut der 5a-Regel am ehesten auf die konkrete Formulierung einer Fragestellung?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Acquire</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Appraise</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Apply</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Assess</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-8 Was sollte in der 5A-Regel bei ?Ask? am ehesten beachtet werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Suchbarkeit der Formulierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kritisches Abw&#228;gen der Quellen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relevante Literatur identifizieren</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erfolg &#252;berpr&#252;fen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-9 Was sollte beim zweiten Punkt der 5A-Regel ?Acquire? am ehesten beachtet werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Relevante Literatur finden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Klar Suchbare Frage formulieren</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Praxisrelevante Angaben extrahieren</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kritisch Quellen abw&#228;gen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-10 Was sollte beim dritten Punkt der 5A-Regel, ?Appraise? am ehesten beachtet werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Quellen kritisch abw&#228;gen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relevante Literatur finden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fragestellung klar formulieren</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erfolg genau &#252;berpr&#252;fen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-11 Was sollte beim vierte Punkt der 5A regel, ?Apply? am ehesten beachtet werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Klinisch relevante Angabe anwenden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erfolg &#252;berpr&#252;fen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Literatur kritisch abw&#228;gen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relevante Literatur identifizieren</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-12 Was sollte beim letzten Punkt der 5A-Regel, ?Assess? am ehesten beachtet werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Erfolg genau &#252;berpr&#252;fen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Quellen kritisch abw&#228;gen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Resultate in Praxis umsetzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relevante Literatur identifizieren</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-13 Wozu dient das PICOT Schema am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Formulierung wissenschaftlicher Fragestellung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Aufdecken von Publication Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Quantitative Auswertung in Meta-Analyse</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Berechnen von mittlerem Nutzen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-14 Im PICOT Schema steht das P am ehesten f&#252;r:</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Population</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Positiver pr&#228;diktiver Wert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;-Test Wahrscheinlichkeit</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-15 Das C im PICOT Schema steht f&#252;r:</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Alternative Ma&#223;nahmen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlungsziel</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patientenproblem</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-16 Welches Schema kann am ehesten verwendet werden, um eine Review-Frage zu formulieren?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>PICOT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>5-A</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PRISMA</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-18 Der Titel einer Meta-Analyse lautet ?The use of a novel non-steroidal mineralocorticoid receptor
+        antagonist finerenone for the treatment of chronic heart failure? (3)
+      </text>
+    </questiontext>
+
+
+    <answer fraction='100' format='html'>
+      <text>I</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>P</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>O</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>C</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-19 In einem systematischen Review wird die Auswirkung auf den HbA1C-Wert eines neuen Antidiabetikums
+        verglichen mit Metformin untersucht.
+      </text>
+    </questiontext>
+
+
+    <answer fraction='100' format='html'>
+      <text>C</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>I</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>P</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>O</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BII-20 Dr. Kinsky &#252;berlegt sich eine Fragestellung f&#252;r ein systematisches Review. Er m&#246;chte
+        untersuchen wie sich ein neues Medikament auf das Diabetesrisiko von Schwangeren auswirkt.
+      </text>
+    </questiontext>
+
+
+    <answer fraction='100' format='html'>
+      <text>O</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>P</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>I</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>C</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-1 Welche Form des systematischen Fehlers wird am ehesten durch Randomisierung vermieden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-2 Welche Form des systematischen Fehlers wird am ehesten durch Randomisierung vermieden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Sampling Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Performance Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Attrition Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ascertainment Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-3 Was ist in experimentellen Studien die sicherste Methode, um Eigenschaften gleichm&#228;&#223;ig auf
+        alle Gruppen zu verteilen? (4)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Matching</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Restriktion</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-4 Wodurch kann bei einer experimentellen Studie ein Zusammenhang zwischen potentiellen Fehlerquellen
+        und der eigentlich untersuchten Intervention bzw. Exposition am ehesten ausgeschlossen werden? (4)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Matching</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Restriktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-6 Was ist am ehesten ein Nachteil bei der einfachen Randomisierung?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ungleiche Gruppengr&#246;&#223;e</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auftreten Sampling Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;er Zeitaufwand</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>St&#246;rgr&#246;&#223;en m&#252;ssen bekannt sein</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-7 Verglichen mit einer einfachen Randomisierung ist eine balancierte Randomisierung am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Fallzahl basiert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehrschichtig</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Weniger vorhersehbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Weniger aufw&#228;ndig</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-8 Werden bei einem Experiment die Probanden und somit die St&#246;rgr&#246;&#223;en zuf&#228;llig auf
+        verschiedene Gruppen aufgeteilt, so spricht man am ehesten von?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Restriktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Matching</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-9 Im Vergleich zu einer balancierten Randomisierung sind die Gruppen bei einer einfachen Randomisierung
+        eher?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ungleich gro&#223;</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gr&#246;&#223;er</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kleiner</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inhomogener</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-10 Bei welcher Art der Randomisierung erfolgt die Zuweisung der Probanden zu den Testgruppen einschr&#228;nkungslos
+        zuf&#228;llig? (5)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Einfache Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Block-Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Balancierte Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-11 Welche der folgenden Randomisierungstechniken ist am wenigsten vorhersehbar? (5)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Einfache Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Block-Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Balancierte Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-15 Ein Student m&#246;chte die Gruppen f&#252;r seine Doktorarbeit gleichgro&#223;e Interventions- und
+        Kontrollgruppe. Au&#223;erdem m&#246;chte er Selection-Bias m&#246;glichst ausschalten. Welche Strategie der
+        Gruppenzuteilung w&#228;re hier am ehesten zu empfehlen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Balancierte Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfache Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Matching</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-16 Was muss Faktoren, nach denen stratifiziert wird am ehesten zugrunde liegen?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>evidenter Einfluss auf Zielgr&#246;&#223;e</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>h&#228;ufiges Auftreten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>gleichh&#228;ufiges Auftreten in beiden Test-populationen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Es darf nur nach einem Faktor stratifiziert werden</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-17 In einer Studie werden zun&#228;chst die Teilnehmer in Altersgruppen aufgeteilt und dann zuf&#228;llig
+        einer Interventions- und einer Kontrollgruppe zugeteilt werden. Ausgehend vom Alter erfolgt hier also? (4)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Stratifizierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Matching</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Restriktion</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-19 In einer Studie erfolgt die Stratifizierung der Probanden, zun&#228;chst nach Geschlecht, dann nach
+        Rauch-Gewohnheiten, zuletzt nach Alter. Wann erfolgt die randomisierte Zuteilung zu Test- bzw. Kontrollgruppe am
+        ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ganz zuletzt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nach der Stratifizierung nach Geschlecht</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vor der Stratifizierung nach Alter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vor jeglicher Stratifizierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-21 Was ist am ehesten Bedingung vor einer Verblindung?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Informed Consent des Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einverst&#228;ndnis der Auswerter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Reproduzierbares Vorgehen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vollst&#228;ndige Randomisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-22 Welche Voraussetzung muss vor einer Verblindung am ehesten erf&#252;llt sein?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Notfallumschl&#228;ge mit Gruppenzugeh&#246;rigkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einverst&#228;ndnis der Auswerter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Reproduzierbares Vorgehen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vollst&#228;ndige Randomisierung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-23 Wie kann in einer Studie Autosuggestion des Patienten am ehesten verhindert werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Verblindung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Hoher Evidenzgrad</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Placebo Verwendung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-24 Eine Studie, in der die Probanden alleine nicht wissen, ob sie der Kontroll- oder der
+        Interventionsgruppe zugeteilt wurden, wird am ehesten bezeichnet als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Maskierte Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>offen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-25 Dr. M&#252;ller untersucht Patienten f&#252;r eine Studie. Er wei&#223; nicht, ob diese dabei der
+        Interventions- oder der Kontrollgruppe zugeteilt sind. Die Patienten selbst wissen es auch nicht. Wie wird ein
+        solches Studiendesign am ehesten bezeichnet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Offen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Maskierte Auswertung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-26 Welches Studiendesign empfiehlt sich am ehesten, um sowohl Autosuggestion als auch verzerrte
+        Beobachtungen zu vermeiden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Offen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisiert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-27 Welches Studiendesign empfiehlt sich am ehesten, um sowohl Autosuggestion als auch
+        Fehlinterpretation zu vermeiden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Maskierte Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Offen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-28 Ein Student wertet die Daten f&#252;r seine Doktorarbeit aus. Er wei&#223; dabei noch immer nicht,
+        welche Patienten der Kontroll- und welche der Interventionsgruppe zugeteilt wurden. Ein solches Studiendesign
+        bezeichnet man am ehesten als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Maskierte Auswertung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Offen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIII-29 Ein Studiendesign indem dem Patienten seine Zugeh&#246;rigkeit zu Kontroll- oder Interventionsgruppe
+        bekannt ist wird am ehesten bezeichnet als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Offen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einfachblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Doppelblind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Maskierte Auswertung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-1 Das Verh&#228;ltnis von der Risikoreduktion zum Ausgangsrisiko bezeichnet man als</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absolute Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nutzensfunktion</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-3 Wobei handelt es sich am ehesten um eine Ma&#223;zahl f&#252;r den Nutzen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>NNT</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>SE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>SP</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-4 Wobei handelt es sich um eine Ma&#223;zahl f&#252;r den Nutzen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Erh&#246;hung der Lebenserwartung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Porsitiver pr&#228;diktiver Wert</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-5 Wobei handelt es sich um eine Kennzahl f&#252;r den Nutzen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Absolute Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-6 Patienten, die mit Blutdrucksenker A behandelt wurden erlitten in ca. 12% der F&#228;lle ein
+        kardiovaskul&#228;res Ereignis. Patienten, die mit Blutdrucksenker B therapiert wurden in 10%. Wie gro&#223; ist
+        die relative Risikoreduktion bei der Therapie B verglichen mit A?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>16%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>8%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>10%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-7 Das Risiko der Arbeitsunf&#228;higkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie
+        Methode von urspr&#252;nglich 60% auf 6% reduziert.
+      </text>
+    </questiontext>
+
+
+    <answer fraction='100' format='html'>
+      <text>90%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>54%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>6%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>10%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-8 Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation betr&#228;gt 1/7000, bei einer
+        Pille 3. Generation 2/7000. Wie gro&#223; ist die relative Risikoreduktion, bei einer Pille der 2. Generation
+        verglichen mit jener 3. Generation?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>50%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/7000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>70%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-9 Unter der etablierten Therapie kommt es in 45% der F&#228;lle zu einer Komplikation. Unter einer neuen
+        Therapie in 30% der F&#228;lle. Durch das neue Medikament konnte, verglichen zur Standardtherapie das Auftreten
+        einer Komplikation um 33% gesenkt werden. Diese Zahl entspricht am ehesten dem/der?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>relativen Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>relativen Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>absoluten Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>absoluten Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-10 Risiko an Brustkrebs zu sterben ohne Screening: 4?; Risiko an Brustkrebs zu sterben mit Screening:3?;
+        (4? - 3?) / 4? = 25%; 25% entsprechen hier am ehesten dem/der?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Relativen Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absoluten Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absoluten Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-11 Risiko an Brustkrebs zu sterben ohne Screening: 4?; Risiko an Brustkrebs zu sterben mit Screening:3?;
+        4? - 3? = 1?; 1? entspricht hier am ehesten dem/der?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Absoluten Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absoluten Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-12 Unter der etablierten Therapie kommt es in 45% der F&#228;lle zu einer Komplikation. Unter einer
+        neuen Therapie in 30% der F&#228;lle. Die Differenz zwischen dem Komplikationsrisiko unter der neuen Therapie
+        und dem der etablierten Therapie betr&#228;gt 15% Diese Zahl entspricht hier am ehesten dem/der?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Absoluten Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-13 Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation betr&#228;gt 1/7000, bei einer
+        Pille 3. Generation 2/7000. Wie gro&#223; ist die absolute Risikoreduktion, bei einer Pille der 2. Generation
+        verglichen mit jener der 3. Generation?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>1/7000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>50%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2/7000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>25%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-14 Die Differenz zwischen dem Risiko der Interventionsgruppe und dem der Kontrollgruppe beschreibt am
+        ehesten die/das?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Absolute Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absolute Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-15 Das Risiko der Arbeitsunf&#228;higkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie
+        Methode von urspr&#252;nglich 60% auf 6% reduziert. Wie gro&#223; ist die absolute Risikoreduktion durch diese
+        Methode?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>54%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>90%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>66%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>15%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-16 In einer Studie wird die Schlaganfallrate bei transkatheter Aortenklappenimplantation (TAVI) mit der
+        einer herk&#246;mmlichen chirurgischen Klappenimplantation verglichen. Das Risiko auf einen Schlaganfall unter
+        TAVI betr&#228;gt ca. 7%, unter herk&#246;mmlicher chirurgischen Therapie 12%. Wie gro&#223; w&#228;re in dieser
+        Studie die absolute Risikoreduktion durch eine TAVI?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>5%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>40%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>50%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>10%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-17 Die Angabe der relativen Risikoreduktion beim Aufkl&#228;rungsgespr&#228;ch mit Patienten wenig
+        sinnvoll, denn die relative Risikoreduktion?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Macht keine Aussage &#252;ber Base Rate</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stellt kein Wahrscheinlichkeitsverh&#228;ltnis dar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ist h&#228;ufig kleiner als die absolute Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ist keine Ma&#223;zahl f&#252;r Nutzen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-18 Eine Studie stellte fest, t&#228;glich k&#246;rperliche Aktivit&#228;t von ca. 15 Minuten k&#246;nnte
+        die Bev&#246;lkerung im Mittel 6 Monate l&#228;nger leben.(6) Die hierbei verwendete Kennzahl des Nutzens ist?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Erh&#246;hung der mittleren Lebenserwartung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Absolute Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-19 Welche dieser Kennzahlen spricht am ehesten f&#252;r einen Nutzen eines Krebs-Screening Tests? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Mortalit&#228;t reduziert von 1,5 auf 1,3/ 1000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>5-Jahres-&#220;berleben erh&#246;ht von 60% auf 80%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fr&#252;herkennungsrate erh&#246;ht von 30% auf 65%</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nachbeobachtungszeitraum reduziert von 5J auf 3J</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-20 Letalit&#228;t * Inzidenz beschreiben am ehesten? (8)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Mortalit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pr&#228;valenz</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Morbidit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Lebenserwartung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-21 Bei einer Krankheit mit einer Inzidenz von 1/1000/Jahr und einer Letalit&#228;t von 20%, wie gro&#223;
+        ist die Mortalit&#228;tsrate? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>0,2/1000/Jahr</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/1000/Jahr</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2/1000/Jahr</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>20%</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-22 Die Zahl der, in einem Zeitraum an einer Krankheit Verstorbenen durch die Anzahl der Erkrankten
+        beschreibt die? (8)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Letalit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mortalit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Morbidit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Inzidenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-23 Die Letalit&#228;t einer Krankheit kann am ehesten Angesehen werden als ein Ma&#223; f&#252;r deren?
+        (9)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Schweregrad</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>H&#228;ufigkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Krankheitsdauer</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erkrankungsalter</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-32 Viele Kliniker &#252;bersch&#228;tzen den Nutzen von Screeningtests und untersch&#228;tzen den
+        Schaden, der durch &#220;berdiagnostik und falsch-positive Ergebnisse entsteht. Dies ist am ehesten zu erkl&#228;ren
+        durch? (11)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Zahlenblindheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formale Fehlschl&#252;sse</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-33 Viele Medizinstudierende haben Schwierigkeiten, Risikoreduktion richtig einzusch&#228;tzen. Dies wird
+        am ehesten bezeichnet als? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Zahlenblindheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formaler Fehlschluss</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-34 In einer Studie zeigte sich, dass ca. die H&#228;lfte aller befragten &#196;rzte eine erh&#246;hte
+        Detektionsrate f&#252;r Krebs f&#252;r einen sicheren Beweis daf&#252;r hielten, dass Screeningtest Leben
+        rettet. Dies ist am ehesten ein Beispiel f&#252;r? (7)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Zahlenblindheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confirmation Error</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Base Rate Neglect</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Selection Bias</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-35 In einer kontrollierten klinischen Studie wurde ein neues Medikament gegen Herzinfarkt getestet. In
+        der Kontrollgruppe erlitten von 2000 Personen 200 einen Infarkt, in der Testgruppe von 2000 Personen nur 100.
+        Wie gro&#223; ist die Number needed to treat? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>20</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>10</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>500</text>
+    </answer>
+  </question>
+
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-36 Die Number Needed to Treat kann direkt berechnet werden aus dem Kehrwert der? (12)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Absoluten Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relativen Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number Needed to Harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-37 Der Kehrwert der absoluten Risikoreduktion entspricht der/dem? (12)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-38 Das Verh&#228;ltnis von Risiko in der Interventionsgruppe zu dem der Kontrollgruppe beschreibt am
+        ehesten das/die?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Relative Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-39 (Wahrscheinlichkeit eines Events in Intervetionsgruppe) / (Wahrscheinlichkeit eines Events in
+        Kontrollgruppe) = ?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Relatives Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relative Risikoreduktion</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-40 Das relative Risiko an Darmkrebs zu erkranken bei einer neuen Hormontherapie ist gr&#246;&#223;er 1,
+        das bedeutet am ehesten, die Therapie?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>ist Risikofaktor f&#252;r Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>sch&#252;tzt vor Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wirkt verst&#228;rkt bei Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>hat keinen Einfluss auf Darmkrebs</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-41 Das relative Risiko an Darmkrebs zu erkranken bei regelm&#228;&#223;igen Koloskopien ist kleiner 1,
+        das bedeutet am ehesten, die Koloskopie?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>sch&#252;tzt vor Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>beg&#252;nstigt Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>hat keinen Einfluss auf Darmkrebsh&#228;ufigkeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>verursacht Darmkrebs</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-42 Ein relatives Risiko von kleiner 1 bei einer Intervention bedeutet am ehesten, die Intervention?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>verringert das Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>erh&#246;ht das Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>hat keinen Einfluss auf das Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>h&#228;ngt kausal mit dem Event zusammen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-43 Eine Studie soll untersuchen, ob unter einer neuen Interventionsmethode ein ung&#252;nstiges Ereignis
+        weniger h&#228;ufig auftritt, als bei Kontrollen. Die Intervention zeigt im Vergleich ein relatives Risiko von
+        gr&#246;&#223;er 1. Das bedeutet am ehesten, die Intervention?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>schadet dem Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>sch&#252;tzt den Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>hat keinen Einfluss auf das Ereignis</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>verursacht das Ereignis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-44 Ein neues Medikament soll das Risiko auf einen Schlaganfall bei Vorhofflimmern senken. In Tests
+        zeigte sich ein relatives Risiko gleich der Odds Ratio. Dieses Ergebnis deutet am ehesten darauf hin, dass das
+        neue Medikament?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>keinen Einfluss auf das Schlaganfallrisiko hat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>das Schlaganfallrisiko verringert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>das Schlaganfallrisiko erh&#246;ht</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schlaganf&#228;lle verursacht</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-45 Die absolute Risikoreduktion unter einem neuen Antihypertensivum ein kardiovaskul&#228;res Ereignis
+        zu erleiden betr&#228;gt 1/3. Wie gro&#223; ist die Number needed to treat? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keine Aussage m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/3</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-46 Eine Number needed to treat von 30 bedeutet?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Es m&#252;ssen 30 Patienten behandelt werden, um ein Ereignis zu verhindern</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Von 30 Patienten erleidet einer ein Ereignis</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das Risiko auf ein Ereignis ist um 30% verringert worden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>30% der Patienten erleiden kein Ereignis</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-47 Unter einer neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie gro&#223;
+        ist die Zahl von Patienten, die damit behandelt werden m&#252;ssen, um bei einem Patienten eine Komplikation zu
+        verhindern? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>20</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>10</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>5</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-48 In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien
+        behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500.
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>50</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>200</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>500</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-49 Ein neues Therapeutikum f&#252;r COPD-Patienten soll getestet werden. Von 1000 Patienten der
+        Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie gro&#223; ist
+        die Number needed to treat der neuen Therapie? (12)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>20</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-50 Ein neues Therapeutikum f&#252;r COPD-Patienten soll getestet werden. Von 1000 Patienten der
+        Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie gro&#223; ist
+        das relative Risiko der neuen Therapie?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>3/4</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/4</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3/100</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-51 In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien
+        behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500. Wie
+        gro&#223; ist das relative Risiko von A im Vergleich zu B?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>1/3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2/100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2/3</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-52 Unter einer neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie gro&#223;
+        ist das relative Risiko des neuen Medikaments?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>2/3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3/20</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/3</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1/10</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-53 Welche Eigenschaft eines Medikaments w&#228;re am ehesten g&#252;nstig f&#252;r einen Patienten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kleine Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kleine Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;es relatives Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kleine AUC</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-54 Welche Eigenschaft eines neuen Medikaments w&#228;re am ehesten g&#252;nstig f&#252;r einen
+        Patienten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gro&#223;e Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;e Number needed to treat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;es relatives Risiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;e Pr&#228;valenz</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-55 Die Anzahl der Patienten, die mit einem Medikament behandelt werden m&#252;ssen, bis einer von ihnen
+        eine signifikante Nebenwirkung erleidet wird bezeichnet als?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Number needed to harm</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to hurt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to damage</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Number needed to affect</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-56 Eine Studie vergleicht die blutdrucksenkende Wirkung eines Medikaments in verschiedenen Dosierungen.
+        Jedoch steigen auch die unerw&#252;nschten Nebenwirkungen mit der Dosis an. Bei 10mg liegen erlitten noch 2%
+        Nebenwirkungen, bei 20mg schon 3%. Wie gro&#223; ist die Number needed to harm?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>50</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>30</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>70</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-57 Ein neuer ACE-Hemmer soll getestet werden. W&#228;hrend ein etablierter ACE-Hemmer in 200 von 1000 F&#228;llen
+        trockenen Reizhusten verursacht, tritt diese Nebenwirkung bei der neuen Substanz in 202 von 1000 F&#228;llen
+        auf. Wie gro&#223; ist die Number needed to harm des neuen ACE-Hemmers?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>500</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>250</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>100</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>50</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-58 Ein neues Medikament verspricht, &#220;belkeit bei Tumorpatienten zu senken. Erste Studien zeigen
+        tats&#228;chlich einen R&#252;ckgang der &#220;belkeit, daf&#252;r treten nun h&#228;ufiger orthostatische
+        Dysregulationen auf. W&#228;hrend zuvor 18% der Patienten daran litten, waren es unter dem neuen Medikament 20%.
+        Wie viele Patienten m&#252;ssen mit dem neuen Therapeutikum behandelt werden, damit es bei einem Patienten
+        orthostatische Dysregulation ausl&#246;st?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>50</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>5</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>20</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>2</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BIV-59 Von 1000 Frauen, die mit einer Kupferspirale verh&#252;ten, werden ca. 30 pro Jahr schwanger. Bei
+        einer Hormonspirale sind es ca. 3 von 1000. Wie gro&#223; ist das Relative Risiko mit einer hormonspirale
+        schwanger zu werden, verglichen mit einer Kupferspirale?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>1/10</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3/1000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>17/1000</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3/10</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-1 Wenn in Google eingegebene Suchbegriffe gemeinsam in Anf&#252;hrungsstrichen gesetzt werden (zum
+        Beispiel ?evidenzbasierte Medizin?) werden Seiten gesucht, auf denen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Begriffe wie angegeben hinter einander stehen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Begriffe beide enthalten sind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mindestens einer der beiden Begriffe enthalten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Begriffe zynisch gemeint sind</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-2 Was trifft auf Wolfram alpha am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Komplexe Berechnungen l&#246;sen und graphisch darstellen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kalkulation in der Regel schneller als in Google</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suchergebnisse normalerweise Hyperlinks zu relevanten Webseiten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Die verwendete Datenbasis ist gr&#246;&#223;er als jene von Bing</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-3 Was trifft auf die Suche bei Wolfram alpha am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Schrittweise Darstellung Rechenweg m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formulierung Suchanfragen auch auf Deutsch m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suchanfragenformulierung als nat&#252;rliche Fragen nicht m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Darstellung relevantester Webseiten zuoberst</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-4 Was trifft auf Wolfram alpha am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Algorithmen generieren neue Daten auf Basis von Fakten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>angelnde Quellenangabe zu gefundener Information</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Anzahl angezeigter Websites nach Suchanfrage vergleichbar mit Bing</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Anzeige aktueller Webseiten als Suchergebnisse zuoberst</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-5 Was trifft auf Wolfram alpha am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Statistische Daten k&#246;nnen abgerufen werden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verzicht auf Erkennung von Nutzerstandpunkten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verst&#228;ndnisprobleme von Suchanfragen kommen kaum vor</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Einstellung einer erweiterten Suchmaske m&#246;glich</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-6 Was trifft auf Google Scholar am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Gezielte Suche nach Artikeln eines Autors m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zugrundeliegende Datenbank nicht sehr umfassend</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Filter nach akademischen Fachgebiet in erweiterter Suchfunktion</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Volltexte selten verf&#252;gbar</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-7 Was trifft am ehesten auf Google Scholar zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Starke Varianz wissenschaftlicher Qualit&#228;t der Artikel</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nur in englischer Sprache verf&#252;gbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keine kostenpflichtigen Texte verf&#252;gbar</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ranking der Suchergebnisse nach Wissenschaftlichkeit</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-8 Die National Library of Medicine stellt MEDLINE zur Verf&#252;gung. Dabei handelt es sich am ehesten um
+        deren?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>™ffentlich zug&#228;ngliche zentrale Datenbank</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Online Suchportal der Datenbank</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Seite f&#252;r Meta-Analysen und &#220;bersichtsarbeiten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Literaturverwaltungsprogramm</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-9 Bei Pubmed handelt es sich am ehesten um?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>online Suchmaschine f&#252;r MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>zentrale online Datenbank der National Library of Medicine (USA)</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>biomedizinische Volltextsammung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Verschlagwortungsprogramm</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-10 Welche M&#246;glichkeit er&#246;ffnet die erweiterte Suche bei Google am ehesten nicht?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Ranking nach wissenschaftlicher Qualit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Eingabefelder die Boole?schen Operatoren ersetzen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Filterung nach Sprache und Land</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suche nach bestimmtemy Dateiformat</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-11 Welche M&#246;glichkeit bietet die erweiterte Suche mit Google am ehesten nicht?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Suche nach ausschlie&#223;lich wissenschaftlichen Ergebnissen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehrere Filter auf einmal einstellen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Filtern nach Seiten, die das Schlagwort im Titel enthalten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Begriffsuche auf einer bestimmten Webseite</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-12 Ein Student gibt folgende Begriffe in die Suchmaske von Google ein: Borrelia OR Erythema. Webseiten
+        mit welcher Schlagwortkombination werden ihm jetzt am ehesten angezeigt?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Entweder Borrelia oder Erythema, sowie beides</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Entweder Borrelia oder Erythema</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Borrelia und Erythema gemeinsam</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Borrelia und Erythema hintereinander</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-13 Peter m&#246;chte einen Rucksack finden, der entweder Blau oder gr&#252;n, seinetwegen auch blau-gr&#252;n,
+        aber auf keinen Fall rot ist. Wie kann er seinen Wunsch mithilfe Boole?scher Operatoren am ehesten in eine
+        Suchmaske eingeben?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Rucksack AND (blue OR green) NOT red</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rucksack AND blue OR green NOT red</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rucksack AND blue AND green NOT red</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Rucksack OR blue AND green NOT red</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-14 Peter gibt +Tea +(black green) -aroma in die Suchmaske von Google ein. Welche Suchergebniss findet er
+        am ehesten?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Entweder schwarzen oder gr&#252;nen Tee, beides ohne Aroma</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schwarzen und gr&#252;nen Tee ohne Aroma</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Entweder Schwarztee oder aromatisierten Gr&#252;ntee</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Schwarztee und Gr&#252;ntee, beides mit Aroma</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-15 Peter sucht nach Kuchen mit Kirschen oder &#196;pfeln, seinetwegen auch Apfel-Kirschkuchen, aber ohne
+        N&#252;sse. In die Suchmaske von Google gibt er ein: cake AND cherry OR apple NOT nut. Wie kann er die
+        Bool?schen Operatoren ver&#228;ndern, um gezielt nach seinem Wunschkuchen zu suchen?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Klammern setzen um ?cherry OR apple?</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Keine Leerstelle zwischen Bool?schen Operator und dahinterliegendem Wort</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bool?sche Operatoren kleinschreiben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bool?sche Operatoren fettgedruckt schreiben</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-16 Was trifft auf die Boole?schen Operatoren zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>K&#246;nnen durch + und ? ersetzt werden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>WITH und WITHOUT sind Beispiele f&#252;r Boole?sche Operatoren</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zwischen Operator und Begriff darf keine Leerstelle stehen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fehlt Operator vor Begriff, ist Begriff obligat in Suchergebnissen enthalten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-17 Was trifft auf die erweiterte Suche bei Pubmed am ehesten nicht zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Es wird kein Suchverlauf angezeigt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suche nach Begriff im Titel m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auswahl Suchoptionen (z.B. Journal) aus Indexliste m&#246;glich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suche nach MeSH Terms m&#246;glich</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-18 Otto m&#246;chte Artikel des ber&#252;hmten Autors B. Bl&#252;mchen auf Pubmed recherchieren. Wie kann
+        er seine Suche vereinfachen?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Unter erweiterter Suche die Option ?Author? ausw&#228;hlen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?B. Bl&#252;mchen (Author)? in die Suchmaske eingeben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nach Suchanfrage Auswahl Filter ?Author?</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?B. Bl&#252;mchen Author? in die Suchmaske eingeben</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-19 Otto m&#246;chte auf Pubmed nur Volltextartikel seines Lieblingsautors angezeigt bekommen. Wie kann er
+        diese Suche am ehesten geschickt anstellen?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>In erweiterter Suche Autor suchen, dann Volltext filtern</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>In erweiterter Suche Optionen Volltext und Author eingeben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Eingabe ?(Author)? und ?(fulltext)? in Suchmaske</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suche nach Autor, unter entsprechenden Suchergebnissen wird ?Volltext? angezeigt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-21 Welche Aussage zu den Medical Subject Headings (MeSH) ? Codes trifft am ehesten zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Jeder MeSH-Term entspricht einem MeSH-Code</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Jeder MEDLINE Artikel hat spezifischen MeSH-Code</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sie Codieren f&#252;r verschiedene Krankheiten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sie sind stets 7-stellig</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-22 Welche Aussage trifft zu Medical Subject Headings zu?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Folgt einer hierarchischen Gliederung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Suchmaschine f&#252;r MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Online Datenbank der National Library of Medicine (USA)</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Codes Verschl&#252;sseln Krankheiten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-23 Wobei handelt es sich am ehesten um einen Thesaurus?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>MeSH</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pubmed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>GoPubmed</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-24 Bei einer Suche in PubMed mithilfe eines MeSH Schlagwortes findet man gezielt Artikel, die?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Thematisch dem Schlagwort zugeordnet sind</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das Schlagwort in positiver Formulierung enthalten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>In Titel und Volltext das Schlagwort beinhalten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das Schlagwort in einer Fremdsprache enthalten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-25 Wie kann das MeSH Schlagwort ?diabetic Foot? in die Suchmaske von PubMed eingef&#252;gt werden?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Diabetic Foot [MeSH Term]</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Diabetic Foot (MeSH Term)</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Diabetic Foot [MeSH]</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Diabetic Foot (MeSH)</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-26 Was ist bei der Suche von MeSH Terms auf Pubmed am ehesten zu beachten?</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Englische Begriffe erh&#246;hen Erfolgschancen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MeSH Terms sollten nicht kopiert und eingef&#252;gt werden</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Eingrenzung der Suchergebnisse durch MeSH-Filter</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nach Schlagwort in Suchmaske ?(MeSH)? einf&#252;gen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-27 Welche der folgenden Internetseiten schl&#228;gt dem Nutzer mit dem Suchbegriff verwandte Konzepte f&#252;r
+        die Literaturrecherche vor?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>GoPubMed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MeSH</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PubMed</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-28 Ein Student m&#246;chte wissen, auf welchen Gebieten ein bestimmter Autor forscht. Er gibt den Namen
+        in die Suchmaske einer Webseite ein und sofort erscheinen links Konzepte, die in den Publikationen dieses Autors
+        h&#228;ufig vorkommen. Dazu kann der Student Abstracts dieser Artikel sehen und diese auch nach Konzepten
+        aussortieren. Auf welcher Webseite ist der Student am ehesten?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>GoPubMed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MeSH</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MEDLINE</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wolfram alpha</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-29 Welche der Folgenden Webseiten nutzt eine Ontologie, um wissenschaftliche Artikel zu kategorisieren
+        und somit gezielter und &#252;bersichtlicher nach Inhalten zu suchen?
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>GoPubMed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MeSH</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PubMed</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>MEDLINE</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BV-30 Otto m&#246;chte seine Suchanfrage von ?HPV vaccines? auf GoPubMed weiter verfeinern und w&#228;hlt
+        das Konzept ?human papillomavirus?. Er w&#228;hlt with?human papillomavirus?. Welche Ergebnisse erh&#228;lt er
+        am ehesten? (13)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Abstracts, mit Erw&#228;hnung beider Suchworte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Volltexte, mit Vorkommen beider MeSH Terms</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Meistpublizierende Autoren zu diesen Suchworten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Journals, mit Ver&#246;ffentlichungen zu diesen MeSH Terms</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-1 Wobei handelt es sich am ehesten um eine bin&#228;re Zielgr&#246;&#223;e?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Diastolischer Blutdruckabfall auf unter 80mmHg</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittlere Senkung des Blutdrucks</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>H&#246;he des Blutdrucks nach 2 Monaten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz systolischem zu diastolischem Blutdruck</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-2 Wobei handelt es sich am ehesten um eine bin&#228;re Zielgr&#246;&#223;e?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Auftreten von Lungenkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>PSA-Spiegel im Serum</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>K&#246;rpergr&#246;&#223;e</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>APGAR-Score</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-3 Wobei handelt es sich am ehesten um eine kontinuierliche Zielgr&#246;&#223;e?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>T&#228;glich gerauchte Zigaretten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Raucher oder Nichtraucher</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Auftreten von Lungenkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mehr als 10 pack years geraucht</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-4 Wobei handelt es sich am ehesten um eine kontinuierliche Zielgr&#246;&#223;e?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>GCS-Score</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Vorhandensein von UAW</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>LDL-Spiegel >190mg/dl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ST-Hebungen im EKG</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-5 F&#252;r eine Studie zu einem neuen Antidiabetikum wird als Zielgr&#246;&#223;e die mittlere Senkung
+        des Blutzuckerspiegels festgesetzt. Diese Zielgr&#246;&#223;e ist am ehesten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kontinuierlich</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bin&#228;r</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kategorial</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ordin&#228;r</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-6 In einer Studie soll getestet werden, ob unter einem neuen Lipidsenker das Gesamtcholesterin auf ?
+        200mg/dl gesenkt werden konnte. Welcher Wert bietet sich hier am ehesten zur Darstellung des Effektma&#223; an?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Mittelwerte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolter Sch&#228;tzer mit Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfehler</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-7 In einer Studie soll untersucht werden, ob Antikontrazeptiva das Risiko auf Darmkrebs erh&#246;hen.
+        Die Odds Ratio betr&#228;gt 1, das bedeutet wahrscheinlich? (14)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>besteht kein Zusammenhang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>erh&#246;ht sich das Darmkrebsrisiko</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>sch&#252;tzen Antikontrazeptiva vor Darmkrebs</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>erkranken Probanden die Antikontrazeptiva einnehmen h&#228;ufiger an Darmkrebs</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-16 In einer Studie zum Auftreten von Reizhusten bei Betablockergabe werden zwei Gruppen verglichen.
+        Gruppe eins erh&#228;lt ein neues Pr&#228;parat, Gruppe 2 ein Etabliertes. Im Vergleich zeigt sich eine Odds
+        Ratio von 1. Das bedeutet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Beide pr&#228;perate verursachen gleichh&#228;ufig Reizhusten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das neue Pr&#228;perat verursacht keinen Reizhusten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das alte Pr&#228;perat verursacht doppelt so h&#228;ufig Reizhusten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Das alte Pr&#228;perat verursacht weniger Reizhusten</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-17 In einer Studie wird gemessen, wie stark der Blutdruck bei Einnahme eines neuen Antihypertensivums
+        sinkt, verglichen mit einem Placebo. Die Werte f&#252;r beide Gruppen werden gesammelt. Welcher Wert eignet sich
+        besonders gut als Effektma&#223; dieser kontinuierlichen Zielgr&#246;&#223;e?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Differenz der Mittelwerte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolter Sch&#228;tzer mit Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Test-Power</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-19 F&#252;r welche Art der Zielgr&#246;&#223;e eignet sich die Darstellung des Effektma&#223;es als
+        Standardisierte Differenz der Mittelwerte?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kontinuierliche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bin&#228;re</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kategorische</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolte</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-20 In einer Studie wird ein neues Antidiabetikum mit einem etablierten verglichen. Die mittlere
+        Blutzuckersenkung durch das neue Pr&#228;parat betrug 20mg/dl, durch das etablierte 25mg/dl. Wie gro&#223; ist
+        die Differenz der Mittelwerte?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>-5mg/dl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>-7mg/dl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>-10mg/dl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>-2mg/dl</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-21 Ein neues Medikament gegen Hypertonie soll getestet werden. Die mittlere systolische Blutdrucksenkung
+        betrug 20mmHg beim neuen Pr&#228;parat und 18mmHg bei der Kontrolle. Wie gro&#223; ist die Differenz der
+        Mittelwerte?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>2mmHg</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>3mmHg</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>4mmHg</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1mmHg</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-22 Was wird h&#228;ufig zus&#228;tzlich zum Mittelwert mitangegeben, um das Effektma&#223; einer Studie
+        darzustellen?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolter Standardfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sensitivit&#228;t und Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relatives Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-23 Welche Darstellung w&#228;re f&#252;r das Effektma&#223; einer Studie mit kontinuierlicher Zielgr&#246;&#223;e
+        zus&#228;tzlich zur Differenz der Mittelwerte am ehesten denkbar?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Populationsgr&#246;&#223;e</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Relatives Risiko</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-24 Was w&#228;re am wenigsten geeignet f&#252;r die Darstellung des Effektma&#223;es einer Studie mit
+        kontinuierlicher Zielgr&#246;&#223;e?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gepoolter Sch&#228;tzer + 95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Mittelwerte + Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Mittelwerte + 95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardisierte Differenz der Mittelwerte</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-26 Das Effektma&#223; einer Studie wird als Differenz der Mittelwerte mit 95% Konfidenzintervall
+        angegeben. Das bedeutet also, am ehesten ist mit 95% Wahrscheinlichkeit in diesem Intervall enthalten?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Wahre Differenz der Mittelwerte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sch&#228;tzer der Mittelwerte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wahre Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolten Sch&#228;tzer</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-27 In einer Studie wird das Effektma&#223; als Differenz der Mittelwerte mit 95% Konfidenzintervall
+        dargestellt. Das bedeutet am ehesten, die wahre Differenz der Mittelwerte liegt?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Zu 5% nicht im Intervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sicher im 95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zu 95% innerhalb der Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Zu 5% innerhalb des Standardfehlers</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-27 Zur Darstellung des Effektma&#223;es wird h&#228;ufig zus&#228;tzlich zum Mittelwert der
+        Standardfehler statt die Standardabweichung angegeben, denn der Standardfehler ist?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>kleiner</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>eine ganze Zahl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>unabh&#228;ngig von Stichprobenumfang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>gepoolt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-28 Wie kann der Standardfehler aus der Standardabweichung ? und Stichprobenumfang n berechnet werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>? / ?n</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?/ n</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?* ?n</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?*n</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-29 Was trifft am ehesten zu? Je kleiner der Standardfehler, desto gr&#246;&#223;er?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Stichprobe</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stichprobenfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Irrtumswahrscheinlichkeit</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-30 Was trifft am ehesten zu? Je gr&#246;&#223;er der Stichprobenumfang, desto?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>kleiner der Standardfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>kleiner der Mittelwert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>gr&#246;&#223;er das 95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>gr&#246;&#223;er die Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-31 Durch die Verwendung des Standardfehlers statt der Standardabweichung kann man am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>unterschiedlich gro&#223;e Studien vergleichen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>die Streuung der Stichproben angeben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>eine Normalverteilung darstellen</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>direkt auf die Odds Ratio schlie&#223;en</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-32 Wie k&#246;nnen die Grenzen eines 95% Konfidenzintervalls einer kontinuierlichen Zielgr&#246;&#223;e
+        am ehesten berechnet werden? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Mittelwert +/- Konfidenzkoeffizient * Standardfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio +/- Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittelwert +/- Konfidenzkoeffizient * Standardabweichung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittelwert +/- Standardabweichung * Stichprobenumfang</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-33 Was wird am wenigsten ben&#246;tigt, um die Grenzen eines 95% Konfidenzintervalls zu berechnen?
+        (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Likelihood Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Mittelwert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Konfidenzkoeffizient</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfehler</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-34 Wie kann der Konfidenzkoeffizient f&#252;r das gew&#228;hlte Konfidenzlevel (zum Beispiel 95%)
+        bestimmt werden? (10)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Nachschlagen in einer Tabelle</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Berechnet aus Varianz und Mittelwert</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Berechnet au Konfidenzlevel und Effektsch&#228;tzer</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ablesen aus ROC-Kurve</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-35 Welche Aussage zu Konfidenzintervallen trifft am ehesten zu? Konfidenzintervalle?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Werden auch mit Odds Ratios berechnet</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>werden bis maximal 95% angegeben</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>vergr&#246;&#223;ern sich mit dem Stichprobenumfang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Werden in ROC Kurven dargestellt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-36 Das 95%-Konfidenzintervall berechnet sich aus einer Odds Ratio: Ln(OR) +/- Konfidenzkoeffizient *
+        ?(VAR ln(OR)). Wie wird VAR ln(OR) am ehesten berechnet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Summe aller Kehrwerte der Vierfeldertafel</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kehrwert der Odds Ratio</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wurzel aus der Summe der Vierfeldertafel</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wurzel des Kehrwerts der Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-37 Wie kann das Effektma&#223; mehrerer Studien am ehesten zusammengefasst dargestellt werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gepoolter Sch&#228;tzer mit 95% Konfidenzintervall</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Mittelwerte</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Odds Ratios mit Standardfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Differenz der Mittelwerte mit Standardabweichung</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-40 Die beiden Modelle nach denen eine Meta-Analyse durchgef&#252;hrt werden kann sind am ehesten fixed
+        effects Model und?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Random effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Variable effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Confidence effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pooled effects Model</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-41 Die beiden Modelle nach denen eine Meta-Analyse am ehesten durchgef&#252;hrt werden kann sind random
+        effects Model und?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Fixed effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Error effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standard effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Summary effects Model</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-42 Dr. M&#252;ller m&#246;chte eine Meta-Analyse verschiedener Studien machen. Dabei geht er davon aus,
+        dass zus&#228;tzlich zu den zuf&#228;lligen Schwankungen innerhalb der einzelnen Studien noch weitere
+        Schwankungen durch Heterogenit&#228;t zwischen den Studien bestehen. Von welchem Modell der Meta-Analyse geht er
+        dabei am ehesten aus?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Random effects</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fixed effects</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Plausible effects</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pooled effects</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-43 Welche Aussage zu random effects (1) und fixed effects Model (2) der Meta-Analyse trifft am ehesten
+        zu?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gewichtung verschiedenen Studien balancierter unter (1)</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfehler unter (2) gr&#246;&#223;er</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Konfidenzintervall unter (1) kleiner</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;e Studien unter (2) relativ geringere gewichtet</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-44 Es sollen verschiedene Studien in einer Meta-Analyse zusammengefasst werden. Alle Studien wurden vom
+        selben Pharmakonzern auf dieselbe Art durchgef&#252;hrt und gleichgro&#223;e Stichproben entnommen. Nach welchem
+        selten genutzten Modell kann hier ausnahmsweise untersucht werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Fixed effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Random effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Controlled effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sample effects Model</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-45 Wovon sollte die Entscheidung, welches Model der Meta-Analyse zum Zusammenfassen der Evidenz gew&#228;hlt
+        wird, am ehesten abh&#228;ngig gemacht werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Vorheriges Abw&#228;gen der Eigenschaften der Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Test auf Heterogenit&#228;t der Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gr&#246;&#223;e des gepoolten Standardfehlers</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Wichtung der einzelnen Studien</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-46 Welches Model der Meta-Analyse sollte im Zweifelsfall eher gew&#228;hlt werden, wenn davon
+        ausgegangen wird, dass wahrscheinlich Schwankungen zwischen den Studien vorhanden sind?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Random effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fixed effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Controlled effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sampler effects Model</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-47 Wie wird im fixed effects Model der Meta-Analyse die Wichtung einer Studie bestimmt? Kehrwert aus?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Varianz dieser Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfehlers dieser Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>geteilt durch Stichprobenumfang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>(Varianz dieser Studie + Varianz zwischen den Studien)</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-48 Wie berechnet sich im random effects Model der Meta-Analyse die Wichtung einer Studie?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kehrwert aus (Varianz dieser Studie + Varianz zwischen den Studien)</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kehrwert der Varianz dieser Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kehrwert des Standardfehlers dieser Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Kehrwert aus (Varianz geteilt durch Stichprobenumfang)</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-49 Die Wichtung einer Studie im random effects Model der Meta-Analyse ist abh&#228;ngig von Varianz
+        dieser Studie und?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Varianz unter den Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfahler dieser Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Stichprobenumfang aller Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Freiheitsgrade der Studien</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-50 Die Wichtung w einer Studie i wird im random effects Model der Meta-Analyse folgenderma&#223;en
+        berechnet:
+      </text>
+    </questiontext>
+
+
+    <answer fraction='100' format='html'>
+      <text>Varianz unter den Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standardfehler der Studie</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Freiheitsgrade der Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gepoolter Effektsch&#228;tzer</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-51 Die Ergebnisse einer Meta-Analyse sollen &#252;ber die getestete Population hinaus verallgemeinert
+        werden. Welches Modell wird hier am ehesten angewendet?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Random effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Fixed effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Standarlized effects Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Pooled effects Model</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-52 Unter welcher Bedingung hat der Sch&#228;tzer f&#252;r die Varianz zwischen den Studien im random
+        effects Model der Meta-Analyse am wenigsten Aussagekraft?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Kleine Studienanzahl</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Geringe Varianz zwischen den Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;e Varianz einzelner Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gro&#223;er Freiheitsgrad der Analyse</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-53 Ein Pharmakonzern testet ein neues Pr&#228;parat f&#252;r eine seltene Krankheit. Hierf&#252;r werden
+        mehrere methodisch gleiche Studien durchgef&#252;hrt und die Ergebnisse in einer Meta-Analyse im fixed effects
+        Model zusammengefasst. Der gepoolte Effektsch&#228;tzer kann anschlie&#223;end &#252;bertragen werden auf?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Ausschlie&#223;lich die getestete Population</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Die Allgemeinheit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Die entsprechende Altersgruppe</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Alleine die Risikogruppe</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-54 Was bewertet der Q-Test der Meta-Analyse am ehesten?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Statistische Heterogenit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Methodische Heterogenit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Klinische Heterogenit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Randomisierte Heterogenit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-55 Die klinische Heterogenit&#228;t zwischen verschiedenen Studien wird am wenigsten bestimmt durch
+        Unterschiede in?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Studiendesign</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Erfassung der Zielkriterien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Patientencharakteristika</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-56 Die methodische Heterogenit&#228;t zwischen verschiedenen Studien wird am ehesten begr&#252;ndet
+        durch Unterschiede in?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Studiendesign</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlungseffekt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Population</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Endpunkt</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-57 Die methodische Heterogenit&#228;t zwischen verschiedenen Studien wird am ehesten begr&#252;ndet
+        durch Unterschiede in?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Studienqualit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Intervention</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Behandlungseffekt</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Population</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-58 Mit welchem Test kann die Heterogenit&#228;t im Therapieeffekt zwischen verschiedenen Studien
+        bewertet werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Q-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>T-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Chi2-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>?-Test</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-59 Mit welchem Test kann die Heterogenit&#228;t zwischen verschiedenen Studien quantifiziert werden?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>I2-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Chi2-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Q-Test</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>T-Test</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-60 Der Q-Test f&#252;r Heterogenit&#228;t im Behandlungseffekt verschiedener Studien?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Hat nur geringe Power</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Entscheidet &#252;ber Meta-Analysen-Model</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Bewertet quantitativ</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ist unabh&#228;ngig vom gepoolten Effektsch&#228;tzer</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-61 In einer Meta-Analyse zeigt der I2-Test auf Heterogenit&#228;t ein Ergebnis von 20%, das bedeutet,
+        die Heterogenit&#228;t zwischen den Studien ist?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Eher unbedeutend</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Sehr bedeutend</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Moderat</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Nicht vorhanden</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-62 In einer Meta-Analyse zeigt sich im I2-Test auf Heterogenit&#228;t ein Wert von 40%. Das bedeutet am
+        ehesten, 40% der Gesamtheterogenit&#228;t entsteht durch?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Heterogenit&#228;t zwischen den Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Heterogenit&#228;t der einzelnen Studien</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Klinische Heterogenit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Methodische Heterogenit&#228;t</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-63 Mithilfe welches Tools kann am ehesten Publication Bias am ehesten identifiziert werden?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Funnel-Plot</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Roc-Kurve</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Forest-Plot</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Cochrane Risk of Bias Tool</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-68 Studien, die im Funnel Plot weiter oben eingezeichnet haben sind in der Regel?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Gr&#246;&#223;eren Stichprobenumfang</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Ein Signifikantes Ergebnis</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Breitere Konfidenzintervalle</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Gr&#246;&#223;ere Standardabweichungen</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-69 Was ist auf der Y-Achse des Funnel Plots aufgetragen?</text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Der Standardfehler</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Die Spezifit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>1-Sensitivit&#228;t</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Odds Ratio</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-70 Wie hei&#223;t die Checkliste, bzw. das Flussdiagramm, das Autoren beim Berichten einer Meta-Analyse
+        oder eines systematischen Reviews unterst&#252;tzt? (16)
+      </text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>PRISMA</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>ROC</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>FORREST</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>FUNNEL</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-71 Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (16)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Berichten in Meta-Analyse</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formulierung wissenschaftlicher Fragestellung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Durchf&#252;hrung Literaturrecherche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Planung randomisierter kontrollierter Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVI-72 Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (16)</text>
+    </questiontext>
+    <answer fraction='100' format='html'>
+      <text>Qualit&#228;tsbeurteilung systematischer &#220;bersichtsarbeit</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Formulierung wissenschaftlicher Fragestellung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Durchf&#252;hrung Literaturrecherche</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Planung randomisierter kontrollierter Studie</text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Fragenname</text>
+    </name>
+    <questiontext format='html'>
+      <text>BVII-1 Dr. M&#252;ller nutzt die aktuellen wissenschaftlichen Erkenntnisse, um die individuellen Krankheiten
+        seiner Patienten zu behandeln. Das hei&#223;t, er nutzt am ehesten die/das?
+      </text>
+    </questiontext>
+
+    <answer fraction='100' format='html'>
+      <text>Evidenzbasierte Medizin</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Konzept der rationalen Entscheidung</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Prinzip des informierten Patienten</text>
+    </answer>
+    <answer fraction='0' format='html'>
+      <text>Konzept der Fehlerminimierung</text>
+    </answer>
+  </question>
+</quiz>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
