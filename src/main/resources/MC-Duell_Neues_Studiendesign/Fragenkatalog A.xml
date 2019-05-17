@@ -2,18 +2,17 @@
 <quiz>
   <question type="category">
     <category>
-      <text>$course$/Fragenkatalog B</text>
+      <text>$course$/Fragenkatalog A</text>
     </category>
   </question>
-
   <question type="multichoice">
     <name>
       <text>A1-3</text>
     </name>
     <questiontext format="html">
-      <text>Was ist in experimentellen Studien die sicherste Methode, um Eigenschaften gleichmäßig auf alle Gruppen zu verteilen? (1)</text>
+      <text>A1-3 Was ist in experimentellen Studien die sicherste Methode, um Eigenschaften gleichmäßig auf alle Gruppen zu verteilen? (1)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Randomisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -26,15 +25,14 @@
       <text>Restriktion</text>
     </answer>
   </question>
-
   <question type="multichoice">
     <name>
       <text>A1-8</text>
     </name>
     <questiontext format="html">
-      <text>Werden bei einem Experiment die Probanden und somit die Störgrößen zufällig auf verschiedene Gruppen aufgeteilt, so spricht man am ehesten von…</text>
+      <text>A1-8 Werden bei einem Experiment die Probanden und somit die Störgrößen zufällig auf verschiedene Gruppen aufgeteilt, so spricht man am ehesten von…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Randomisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -52,9 +50,9 @@
       <text>A1-9</text>
     </name>
     <questiontext format="html">
-      <text>Im Vergleich zu einer balancierten Randomisierung sind die Gruppen bei einer einfachen Randomisierung eher…</text>
+      <text>A1-9 Im Vergleich zu einer balancierten Randomisierung sind die Gruppen bei einer einfachen Randomisierung eher…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ungleich groß</text>
     </answer>
     <answer format="html" fraction="0">
@@ -72,9 +70,9 @@
       <text>A1-11</text>
     </name>
     <questiontext format="html">
-      <text>Welche der folgenden Randomisierungstechniken ist am wenigsten vorhersehbar? (2)</text>
+      <text>A1-11 Welche der folgenden Randomisierungstechniken ist am wenigsten vorhersehbar? (2)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Einfache Randomisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -92,9 +90,9 @@
       <text>A1-17</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie werden zunächst die Teilnehmer in Altersgruppen aufgeteilt und dann zufällig einer Interventions- und einer Kontrollgruppe zugeteilt werden. Ausgehend vom Alter erfolgt hier also… (1)</text>
+      <text>A1-17 In einer Studie werden zunächst die Teilnehmer in Altersgruppen aufgeteilt und dann zufällig einer Interventions- und einer Kontrollgruppe zugeteilt werden. Ausgehend vom Alter erfolgt hier also… (1)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Stratifizierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -112,9 +110,9 @@
       <text>A1-19</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie erfolgt die Stratifizierung der Probanden, zunächst nach Geschlecht, dann nach Rauch-Gewohnheiten, zuletzt nach Alter. Wann erfolgt die randomisierte Zuteilung zu Test- bzw. Kontrollgruppe am ehesten?</text>
+      <text>A1-19 In einer Studie erfolgt die Stratifizierung der Probanden, zunächst nach Geschlecht, dann nach Rauch-Gewohnheiten, zuletzt nach Alter. Wann erfolgt die randomisierte Zuteilung zu Test- bzw. Kontrollgruppe am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ganz zuletzt</text>
     </answer>
     <answer format="html" fraction="0">
@@ -132,9 +130,9 @@
       <text>A1-24</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie, in der die Probanden alleine nicht wissen, ob sie der Kontroll- oder der Interventionsgruppe zugeteilt wurden, wird am ehesten bezeichnet als…</text>
+      <text>A1-24 Eine Studie, in der die Probanden alleine nicht wissen, ob sie der Kontroll- oder der Interventionsgruppe zugeteilt wurden, wird am ehesten bezeichnet als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Einfachblind</text>
     </answer>
     <answer format="html" fraction="0">
@@ -152,9 +150,9 @@
       <text>A1-25</text>
     </name>
     <questiontext format="html">
-      <text>Dr. Müller untersucht Patienten für eine Studie. Er weiß nicht, ob diese dabei der Interventions- oder der Kontrollgruppe zugeteilt sind. Die Patienten selbst wissen es auch nicht. Wie wird ein solches Studiendesign am ehesten bezeichnet?</text>
+      <text>A1-25 Dr. Müller untersucht Patienten für eine Studie. Er weiß nicht, ob diese dabei der Interventions- oder der Kontrollgruppe zugeteilt sind. Die Patienten selbst wissen es auch nicht. Wie wird ein solches Studiendesign am ehesten bezeichnet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Doppelblind</text>
     </answer>
     <answer format="html" fraction="0">
@@ -172,9 +170,9 @@
       <text>A1-28</text>
     </name>
     <questiontext format="html">
-      <text>Ein Student wertet die Daten für seine Doktorarbeit aus. Er weiß dabei noch immer nicht, welche Patienten der Kontroll- und welche der Interventionsgruppe zugeteilt wurden. Ein solches Studiendesign bezeichnet man am ehesten als…</text>
+      <text>A1-28 Ein Student wertet die Daten für seine Doktorarbeit aus. Er weiß dabei noch immer nicht, welche Patienten der Kontroll- und welche der Interventionsgruppe zugeteilt wurden. Ein solches Studiendesign bezeichnet man am ehesten als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Maskierte Auswertung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -192,9 +190,9 @@
       <text>A1-29</text>
     </name>
     <questiontext format="html">
-      <text>Ein Studiendesign indem dem Patienten seine Zugehörigkeit zu Kontroll- oder Interventionsgruppe bekannt ist wird am ehesten bezeichnet als…</text>
+      <text>A1-29 Ein Studiendesign indem dem Patienten seine Zugehörigkeit zu Kontroll- oder Interventionsgruppe bekannt ist wird am ehesten bezeichnet als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Offen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -212,9 +210,9 @@
       <text>A2-1</text>
     </name>
     <questiontext format="html">
-      <text>Dr. Müller nutzt die aktuellen wissenschaftlichen Erkenntnisse, um die individuellen Krankheiten seiner Patienten zu behandeln. Das heißt, er nutzt am ehesten die/das…</text>
+      <text>A2-1 Dr. Müller nutzt die aktuellen wissenschaftlichen Erkenntnisse, um die individuellen Krankheiten seiner Patienten zu behandeln. Das heißt, er nutzt am ehesten die/das…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Evidenzbasierte Medizin</text>
     </answer>
     <answer format="html" fraction="0">
@@ -232,9 +230,9 @@
       <text>A3-1</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationssystem wird in Deutschland vor allem in Krankenhäusern verwendet?</text>
+      <text>A3-1 Welches Informationssystem wird in Deutschland vor allem in Krankenhäusern verwendet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>HL7</text>
     </answer>
     <answer format="html" fraction="0">
@@ -252,9 +250,9 @@
       <text>A3-2</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationssystem wird in Deutschland vor allem in Krankenhäusern verwendet?</text>
+      <text>A3-2 Welches Informationssystem wird in Deutschland vor allem in Krankenhäusern verwendet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Health Level 7</text>
     </answer>
     <answer format="html" fraction="0">
@@ -272,9 +270,9 @@
       <text>A3-5</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationssystem wird vor allem zur Speicherung und Bearbeitung von medizinischer Bildgebung verwendet?</text>
+      <text>A3-5 Welches Informationssystem wird vor allem zur Speicherung und Bearbeitung von medizinischer Bildgebung verwendet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>DICOM</text>
     </answer>
     <answer format="html" fraction="0">
@@ -292,9 +290,9 @@
       <text>A3-6</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationssystem wird vor allem zum Drucken und Abrufen von medizinischer Bildgebung verwendet?</text>
+      <text>A3-6 Welches Informationssystem wird vor allem zum Drucken und Abrufen von medizinischer Bildgebung verwendet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>DICOM</text>
     </answer>
     <answer format="html" fraction="0">
@@ -312,9 +310,9 @@
       <text>A3-10</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Problem bei xDT und HL7</text>
+      <text>A3-10 Was ist am ehesten ein Problem bei xDT und HL7</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kein direkter Datenaustausch möglich</text>
     </answer>
     <answer format="html" fraction="0">
@@ -332,9 +330,9 @@
       <text>A3-11</text>
     </name>
     <questiontext format="html">
-      <text>Smartphones, Tablets und tragbare Sensoren sind am ehesten Teil von…</text>
+      <text>A3-11 Smartphones, Tablets und tragbare Sensoren sind am ehesten Teil von…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>mHealth</text>
     </answer>
     <answer format="html" fraction="0">
@@ -352,9 +350,9 @@
       <text>A3-16</text>
     </name>
     <questiontext format="html">
-      <text>Ein Programm, das Smartphone-Funktionen, beispielsweise Kamera, Touchscreen oder Bluetooth nutzt, um medizinische Informationen zu erhalten ist am ehesten Teil von…</text>
+      <text>A3-16 Ein Programm, das Smartphone-Funktionen, beispielsweise Kamera, Touchscreen oder Bluetooth nutzt, um medizinische Informationen zu erhalten ist am ehesten Teil von…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>mHealth</text>
     </answer>
     <answer format="html" fraction="0">
@@ -372,9 +370,9 @@
       <text>A3-21</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
+      <text>A3-21 Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Permanente Evidenzgenerierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -392,9 +390,9 @@
       <text>A3-22</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
+      <text>A3-22 Was ist am ehesten ein Vorteil an mHealth-Programmen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Auch in Schwellenländern gut nutzbar</text>
     </answer>
     <answer format="html" fraction="0">
@@ -412,9 +410,9 @@
       <text>A3-23</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
+      <text>A3-23 Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mangelnde Qualitätskontrolle</text>
     </answer>
     <answer format="html" fraction="0">
@@ -432,9 +430,9 @@
       <text>A3-24</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
+      <text>A3-24 Was ist am ehesten ein Kritikpunkt an mHealth-Anwendungen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Starke Technikabhängigkeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -452,9 +450,9 @@
       <text>A3-27</text>
     </name>
     <questiontext format="html">
-      <text>Wie lautet die Abkürzung für das sozio-technische Teilsystem eines Krankenhauses, das informationsverarbeitenden Prozesse, sowie menschlichen und maschinellen Handlungsträger in ihrer informationsverarbeitenden Rolle umfasst?</text>
+      <text>A3-27 Wie lautet die Abkürzung für das sozio-technische Teilsystem eines Krankenhauses, das informationsverarbeitenden Prozesse, sowie menschlichen und maschinellen Handlungsträger in ihrer informationsverarbeitenden Rolle umfasst?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>KIS</text>
     </answer>
     <answer format="html" fraction="0">
@@ -472,9 +470,9 @@
       <text>A3-35</text>
     </name>
     <questiontext format="html">
-      <text>Darf von Leitlinien abgewichen werden?(3)</text>
+      <text>A3-35 Darf von Leitlinien abgewichen werden?(3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ja, in begründeten Fällen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -492,9 +490,9 @@
       <text>A3-36</text>
     </name>
     <questiontext format="html">
-      <text>Was stellt am ehesten die Grundlage für Leitlinien dar? (3)</text>
+      <text>A3-36 Was stellt am ehesten die Grundlage für Leitlinien dar? (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Systematische Literaturrecherche</text>
     </answer>
     <answer format="html" fraction="0">
@@ -512,9 +510,9 @@
       <text>A3-39</text>
     </name>
     <questiontext format="html">
-      <text>Worauf ist beim Erstellen von Leitlinien am ehesten zu achten? (3)</text>
+      <text>A3-39 Worauf ist beim Erstellen von Leitlinien am ehesten zu achten? (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Umsetzbarkeit in der Praxis</text>
     </answer>
     <answer format="html" fraction="0">
@@ -532,9 +530,9 @@
       <text>A3-42</text>
     </name>
     <questiontext format="html">
-      <text>Ein Arzt möchte seinem 50-jährigen Patienten eben zu einem Stuhltest auf okkultes Blut raten, und gibt die entsprechenden Daten in seinen PC ein. Da erscheint allerdings eine Erinnerung, dass der Patient bereits einen unauffälligen Koloskopiebefund erhalten hat. Somit benötigt er keinen Stuhltest. Welche Programmart hat hier am ehesten Überdiagnostik verhindert?</text>
+      <text>A3-42 Ein Arzt möchte seinem 50-jährigen Patienten eben zu einem Stuhltest auf okkultes Blut raten, und gibt die entsprechenden Daten in seinen PC ein. Da erscheint allerdings eine Erinnerung, dass der Patient bereits einen unauffälligen Koloskopiebefund erhalten hat. Somit benötigt er keinen Stuhltest. Welche Programmart hat hier am ehesten Überdiagnostik verhindert?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>CDSS</text>
     </answer>
     <answer format="html" fraction="0">
@@ -552,9 +550,9 @@
       <text>A3-43</text>
     </name>
     <questiontext format="html">
-      <text>Wobei sollen CDSS Ärzte am ehesten unterstützen? (4)</text>
+      <text>A3-43 Wobei sollen CDSS Ärzte am ehesten unterstützen? (4)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Leitlinienadhärenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -572,9 +570,9 @@
       <text>A3-45</text>
     </name>
     <questiontext format="html">
-      <text>Wofür steht CDSS?</text>
+      <text>A3-45 Wofür steht CDSS?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Clinical descision support system</text>
     </answer>
     <answer format="html" fraction="0">
@@ -592,9 +590,9 @@
       <text>A3-47</text>
     </name>
     <questiontext format="html">
-      <text>Welche Auswirkung hat CDSS auf die Leitlinienadhärenz von Klinikern am ehesten? (4)</text>
+      <text>A3-47 Welche Auswirkung hat CDSS auf die Leitlinienadhärenz von Klinikern am ehesten? (4)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Erhöht sie nachweislich</text>
     </answer>
     <answer format="html" fraction="0">
@@ -612,9 +610,9 @@
       <text>A3-48</text>
     </name>
     <questiontext format="html">
-      <text>Welche Programmart konnte am ehesten nachweislich die Sicherheit von Medikamentenverschreibung erhöhen und dir Rate an Fehlern die dabei auftreten verringern? (4)</text>
+      <text>A3-48 Welche Programmart konnte am ehesten nachweislich die Sicherheit von Medikamentenverschreibung erhöhen und dir Rate an Fehlern die dabei auftreten verringern? (4)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>CDSS</text>
     </answer>
     <answer format="html" fraction="0">
@@ -632,9 +630,9 @@
       <text>A3-50</text>
     </name>
     <questiontext format="html">
-      <text>Obwohl die Rezeptionistin eines Krankenhauses Zugriff auf das Krankenhausinformationssystem hat, kann sie nicht auf die Pflegedokumentation zugreifen. Dieser Aspekt des Datenschutzes wird am ehesten bezeichnet als…</text>
+      <text>A3-50 Obwohl die Rezeptionistin eines Krankenhauses Zugriff auf das Krankenhausinformationssystem hat, kann sie nicht auf die Pflegedokumentation zugreifen. Dieser Aspekt des Datenschutzes wird am ehesten bezeichnet als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Rollen-/ Rechtekonzept</text>
     </answer>
     <answer format="html" fraction="0">
@@ -652,9 +650,9 @@
       <text>A3-51</text>
     </name>
     <questiontext format="html">
-      <text>Werden Name und Anschrift eines Patienten im Krankenhausinformationssystem durch ein spezielles Kennzeichen ersetzt, sodass Außenstehende nicht auf den Patienten rückschließen können, jedoch durch die Zuordnungsregel eine Identifikation möglich ist, so spricht man am ehesten von… (5)</text>
+      <text>A3-51 Werden Name und Anschrift eines Patienten im Krankenhausinformationssystem durch ein spezielles Kennzeichen ersetzt, sodass Außenstehende nicht auf den Patienten rückschließen können, jedoch durch die Zuordnungsregel eine Identifikation möglich ist, so spricht man am ehesten von… (5)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Pseudonymisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -672,9 +670,9 @@
       <text>A3-53</text>
     </name>
     <questiontext format="html">
-      <text>Herr Müller ist als Mitarbeiter des Hauses besorgt, dass einer seiner Kollegen über seinen Aufenthalt im Krankenhaus erfahren könnte. Sein Arzt erklärt ihm, dass Herrn Müllers personenbezogene Daten im Krankenhausinformationssystem so verändert werden können, dass danach keiner mehr auf seine eigentliche Identität schließen kann. Dies entspricht am ehesten einer/ einem… (5)</text>
+      <text>A3-53 Herr Müller ist als Mitarbeiter des Hauses besorgt, dass einer seiner Kollegen über seinen Aufenthalt im Krankenhaus erfahren könnte. Sein Arzt erklärt ihm, dass Herrn Müllers personenbezogene Daten im Krankenhausinformationssystem so verändert werden können, dass danach keiner mehr auf seine eigentliche Identität schließen kann. Dies entspricht am ehesten einer/ einem… (5)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Anonymisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -692,9 +690,9 @@
       <text>A3-55</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Element des Datenschutzes im Krankenhausinformationsystem?</text>
+      <text>A3-55 Was ist am ehesten ein Element des Datenschutzes im Krankenhausinformationsystem?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Autorisierung von Personal</text>
     </answer>
     <answer format="html" fraction="0">
@@ -712,9 +710,9 @@
       <text>A3-56</text>
     </name>
     <questiontext format="html">
-      <text>Was sorgt am ehesten für Abgrenzung zur Außenwelt im Krankenhausinformationssystem?</text>
+      <text>A3-56 Was sorgt am ehesten für Abgrenzung zur Außenwelt im Krankenhausinformationssystem?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verschlüsselte Kommunikation</text>
     </answer>
     <answer format="html" fraction="0">
@@ -732,9 +730,9 @@
       <text>A3-57</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Element der Datensicherheit im Krankenhausinformationssystem?</text>
+      <text>A3-57 Was ist am ehesten ein Element der Datensicherheit im Krankenhausinformationssystem?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Geschützte Netzumgebung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -752,9 +750,9 @@
       <text>A3-4</text>
     </name>
     <questiontext format="html">
-      <text>Durch die Verwendung der Informationssysteme xDT und HL7 wird besonders der Datenaustausch erschwert zwischen…</text>
+      <text>A3-4 Durch die Verwendung der Informationssysteme xDT und HL7 wird besonders der Datenaustausch erschwert zwischen…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Krankenhaus und Niedergelassenen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -772,9 +770,9 @@
       <text>A3-7</text>
     </name>
     <questiontext format="html">
-      <text>Dr. Müller hat eine niedergelassene Praxis für Diabetologie. Welches Informationssystem nutzt er am ehesten um seine Abrechnungsdaten zu verwalten?</text>
+      <text>A3-7 Dr. Müller hat eine niedergelassene Praxis für Diabetologie. Welches Informationssystem nutzt er am ehesten um seine Abrechnungsdaten zu verwalten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>xDT</text>
     </answer>
     <answer format="html" fraction="0">
@@ -792,9 +790,9 @@
       <text>A3-8</text>
     </name>
     <questiontext format="html">
-      <text>Frau Müller ist Stationsärztin in einem Kreiskrankenhaus. Welches Informationssystem nutzt sie am ehesten, um ihre Arztbriefe zu schreiben?</text>
+      <text>A3-8 Frau Müller ist Stationsärztin in einem Kreiskrankenhaus. Welches Informationssystem nutzt sie am ehesten, um ihre Arztbriefe zu schreiben?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>HL7</text>
     </answer>
     <answer format="html" fraction="0">
@@ -812,9 +810,9 @@
       <text>A3-9</text>
     </name>
     <questiontext format="html">
-      <text>Ein häufiger Kritikpunkt am Krankenhausinformationssystem ist die Hürde der/des…</text>
+      <text>A3-9 Ein häufiger Kritikpunkt am Krankenhausinformationssystem ist die Hürde der/des…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Intersektorale Kommunikation</text>
     </answer>
     <answer format="html" fraction="0">
@@ -832,9 +830,9 @@
       <text>A3-14</text>
     </name>
     <questiontext format="html">
-      <text>Weshalb erhofft sich die WHO großen Nutzen von mHealth Programmen in Entwicklungsländern? (6)</text>
+      <text>A3-14 Weshalb erhofft sich die WHO großen Nutzen von mHealth Programmen in Entwicklungsländern? (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mobiles Netzwerk besser ausgebaut als andere Infrastrukturen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -852,9 +850,9 @@
       <text>A3-15</text>
     </name>
     <questiontext format="html">
-      <text>Hotlines, bei denen man bezüglich medizinischer Fragestellungen anrufen kann sind am ehesten Teil von… (6)</text>
+      <text>A3-15 Hotlines, bei denen man bezüglich medizinischer Fragestellungen anrufen kann sind am ehesten Teil von… (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>mHealth</text>
     </answer>
     <answer format="html" fraction="0">
@@ -872,9 +870,9 @@
       <text>A3-18</text>
     </name>
     <questiontext format="html">
-      <text>Ein Radiologe träumt von einem Programm, das es ihm erlauben würde auch zuhause über sein Tablett radiologische Bilder zu befunden. So ein Programm wäre am ehesten Teil von…</text>
+      <text>A3-18 Ein Radiologe träumt von einem Programm, das es ihm erlauben würde auch zuhause über sein Tablett radiologische Bilder zu befunden. So ein Programm wäre am ehesten Teil von…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>mHealth</text>
     </answer>
     <answer format="html" fraction="0">
@@ -892,9 +890,9 @@
       <text>A3-29</text>
     </name>
     <questiontext format="html">
-      <text>Ein Krankenhaus-Computersystem, das sich hauptsächlich mit Menschen und deren Verhalten befasst wird am ehesten bezeichnet als… (7)</text>
+      <text>A3-29 Ein Krankenhaus-Computersystem, das sich hauptsächlich mit Menschen und deren Verhalten befasst wird am ehesten bezeichnet als… (7)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Sozio-technisch</text>
     </answer>
     <answer format="html" fraction="0">
@@ -912,9 +910,9 @@
       <text>A3-31</text>
     </name>
     <questiontext format="html">
-      <text>Wer/Was ist am ehesten kein Teil des Krankenhausinformationssystems (KIS)?</text>
+      <text>A3-31 Wer/Was ist am ehesten kein Teil des Krankenhausinformationssystems (KIS)?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Benachbarter Hausarzt</text>
     </answer>
     <answer format="html" fraction="0">
@@ -932,9 +930,9 @@
       <text>A3-32</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten kein Ziel des Krankenhausinformationssystems (KIS)?</text>
+      <text>A3-32 Was ist am ehesten kein Ziel des Krankenhausinformationssystems (KIS)?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Einsparen von Arbeitsstellen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -952,9 +950,9 @@
       <text>A3-34</text>
     </name>
     <questiontext format="html">
-      <text>Bei einer systematisch entwickelten Aussage, die die Entscheidungsfindung von Ärzten und Patienten unterstützt, indem eine sinnvolle Vorgehensweise bei spezifischen Gesundheitsproblemen vorgegeben wird handelt es sich am ehesten um… (3)</text>
+      <text>A3-34 Bei einer systematisch entwickelten Aussage, die die Entscheidungsfindung von Ärzten und Patienten unterstützt, indem eine sinnvolle Vorgehensweise bei spezifischen Gesundheitsproblemen vorgegeben wird handelt es sich am ehesten um… (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Leitlinie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -972,9 +970,9 @@
       <text>A3-40</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten das Ziel einer medizinischen Leitlinie? (3)</text>
+      <text>A3-40 Was ist am ehesten das Ziel einer medizinischen Leitlinie? (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Positiver Einfluss auf Patientenoutcome</text>
     </answer>
     <answer format="html" fraction="0">
@@ -992,9 +990,9 @@
       <text>A3-41</text>
     </name>
     <questiontext format="html">
-      <text>Ein Hausarzt möchte einem KHK Patienten Nitrate verschreiben. Während er dies in den Computer eingibt, erscheint eine Warnung, denn der Patient nimmt auch Sildenafil ein. Das Programm, das den Arzt gewarnt hat ist am ehesten ein…</text>
+      <text>A3-41 Ein Hausarzt möchte einem KHK Patienten Nitrate verschreiben. Während er dies in den Computer eingibt, erscheint eine Warnung, denn der Patient nimmt auch Sildenafil ein. Das Programm, das den Arzt gewarnt hat ist am ehesten ein…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>CDSS</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1012,9 +1010,9 @@
       <text>A3-46</text>
     </name>
     <questiontext format="html">
-      <text>Was wird in einem CDSS am ehesten mit Evidenzbasiertem Wissen verknüpft? (4)</text>
+      <text>A3-46 Was wird in einem CDSS am ehesten mit Evidenzbasiertem Wissen verknüpft? (4)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Patientenspezifische Daten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1032,9 +1030,9 @@
       <text>A3-52</text>
     </name>
     <questiontext format="html">
-      <text>Werden im Krankenhausinformationssystem die personenbezogenen Daten so verändert, dass danach von niemandem mehr auf die eigentliche Identität geschlossen werden kann, so bezeichnet man das am ehesten als…(5)</text>
+      <text>A3-52 Werden im Krankenhausinformationssystem die personenbezogenen Daten so verändert, dass danach von niemandem mehr auf die eigentliche Identität geschlossen werden kann, so bezeichnet man das am ehesten als…(5)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Anonymisierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1052,9 +1050,9 @@
       <text>A3-54</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten ein Element des Datenschutzes im Krankenhausinformationsystem?</text>
+      <text>A3-54 Was ist am ehesten ein Element des Datenschutzes im Krankenhausinformationsystem?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unveränderbarkeit der Daten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1072,9 +1070,9 @@
       <text>A4-6</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft am ehesten für die Kohortenstudie zu?</text>
+      <text>A4-6 Was trifft am ehesten für die Kohortenstudie zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Gruppeneinteilung nach Exposition</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1092,9 +1090,9 @@
       <text>A4-19</text>
     </name>
     <questiontext format="html">
-      <text>Wonach erfolgt die Gruppenzuteilung bei einer Kohortenstudie? (8)</text>
+      <text>A4-19 Wonach erfolgt die Gruppenzuteilung bei einer Kohortenstudie? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Exposition</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1112,9 +1110,9 @@
       <text>A4-20</text>
     </name>
     <questiontext format="html">
-      <text>Bei einer Kohortenstudie handelt es sich am ehesten um eine…</text>
+      <text>A4-20 Bei einer Kohortenstudie handelt es sich am ehesten um eine…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Longitudinalstudie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1132,9 +1130,9 @@
       <text>A4-23</text>
     </name>
     <questiontext format="html">
-      <text>Welches Studiendesign eignet sich am ehesten, um eine Krankheit mit langer Latenzzeit zu untersuchen? (8)</text>
+      <text>A4-23 Welches Studiendesign eignet sich am ehesten, um eine Krankheit mit langer Latenzzeit zu untersuchen? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Fall-Kontroll Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1152,9 +1150,9 @@
       <text>A4-24</text>
     </name>
     <questiontext format="html">
-      <text>In einer prospektiven Studie erfolgt die Hypothesengenerierung am ehesten…</text>
+      <text>A4-24 In einer prospektiven Studie erfolgt die Hypothesengenerierung am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Vor Datenerhebung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1172,9 +1170,9 @@
       <text>A1A4-31</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A1A4-31 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Weniger Daten Drop-outs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1192,9 +1190,9 @@
       <text>A4-32</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A4-32 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kostengünstiger</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1212,9 +1210,9 @@
       <text>A4-33</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A4-33 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Bedingungen weniger kontrollierbar</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1232,9 +1230,9 @@
       <text>A4-35</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A4-35 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kürzere Wartezeit bis Endergebnis</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1252,9 +1250,9 @@
       <text>A4-40</text>
     </name>
     <questiontext format="html">
-      <text>Welche dieser Studien hat am ehesten die höchste Evidenz?</text>
+      <text>A4-40 Welche dieser Studien hat am ehesten die höchste Evidenz?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Nicht-randomisierte kontrollierte Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1272,9 +1270,9 @@
       <text>A4-42</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft zu?</text>
+      <text>A4-42 Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Eine Metaanalyse hat eine höhere Evidenz als mehrere RCTs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1292,9 +1290,9 @@
       <text>A4-43</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft am ehesten zu?</text>
+      <text>A4-43 Welche Aussage zu den Evidenzgraden verschiedener Studientypen trifft am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Helfen bei Einschätzung wissenschaftlicher Basis einer Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1312,9 +1310,9 @@
       <text>A4-47</text>
     </name>
     <questiontext format="html">
-      <text>Wieviele Evidenzgrade werden am ehesten unterschieden?</text>
+      <text>A4-47 Wieviele Evidenzgrade werden am ehesten unterschieden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>I-V</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1332,9 +1330,9 @@
       <text>A4-57</text>
     </name>
     <questiontext format="html">
-      <text>Ein Evidenzgrad von Ia entspricht am ehesten…</text>
+      <text>A4-57 Ein Evidenzgrad von Ia entspricht am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Systematisches Review zu RCT</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1352,9 +1350,9 @@
       <text>A4-60</text>
     </name>
     <questiontext format="html">
-      <text>Welche Voraussetzung muss eine experimentelle Studie am ehesten erfüllen?</text>
+      <text>A4-60 Welche Voraussetzung muss eine experimentelle Studie am ehesten erfüllen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prospektive Datenerhebung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1372,9 +1370,9 @@
       <text>A4-62</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie, bei der Daten erst nach Fragestellung erhoben werden und bei der aktiv eine Intervention zugeschaltet wird, wird am ehesten bezeichnet als…</text>
+      <text>A4-62 Eine Studie, bei der Daten erst nach Fragestellung erhoben werden und bei der aktiv eine Intervention zugeschaltet wird, wird am ehesten bezeichnet als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Experimentell</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1392,9 +1390,9 @@
       <text>A4-63</text>
     </name>
     <questiontext format="html">
-      <text>wobei handelt es sich um eine experimentelle Studie?</text>
+      <text>A4-63 wobei handelt es sich um eine experimentelle Studie?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Randomisierte kontrollierte Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1412,9 +1410,9 @@
       <text>A4-69</text>
     </name>
     <questiontext format="html">
-      <text>In einer systematische Arbeit werden viele Studien, die das gleiche Thema behandeln quantitativ zusammengefasst und analysiert. Die Studien werden nach harten Kriterien ausgewählt und alles genau dokumentiert. Um welchen Studientyp handelt es sich hierbei?</text>
+      <text>A4-69 In einer systematische Arbeit werden viele Studien, die das gleiche Thema behandeln quantitativ zusammengefasst und analysiert. Die Studien werden nach harten Kriterien ausgewählt und alles genau dokumentiert. Um welchen Studientyp handelt es sich hierbei?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Meta-Analyse</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1432,9 +1430,9 @@
       <text>A4-70</text>
     </name>
     <questiontext format="html">
-      <text>Was zählt nicht zu den Schritten der Erstellung einer Meta-Analyse?</text>
+      <text>A4-70 Was zählt nicht zu den Schritten der Erstellung einer Meta-Analyse?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Probanden Rekrutierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1452,9 +1450,9 @@
       <text>A4-3</text>
     </name>
     <questiontext format="html">
-      <text>Zu einem festgelegten Zeitpunkt werden bei Probanden einmalig Blutdruck und Nierenwerte gemessen. Es zeigt sich, dass bei älteren Studienteilnehmern Blutdruck und Kreatinin eher erhöht sind, als bei jüngeren. Um welches Studiendesign handelt es sich am ehesten? (8)</text>
+      <text>A4-3 Zu einem festgelegten Zeitpunkt werden bei Probanden einmalig Blutdruck und Nierenwerte gemessen. Es zeigt sich, dass bei älteren Studienteilnehmern Blutdruck und Kreatinin eher erhöht sind, als bei jüngeren. Um welches Studiendesign handelt es sich am ehesten? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Querschnittsstudie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1472,9 +1470,9 @@
       <text>A4-4</text>
     </name>
     <questiontext format="html">
-      <text>Es soll untersucht werden, ob Rauchen einen Risikofaktor für das Nierenversagen darstellt. Welches Design entspricht hierbei am ehesten einer Fall-Kontroll Studie? (8)</text>
+      <text>A4-4 Es soll untersucht werden, ob Rauchen einen Risikofaktor für das Nierenversagen darstellt. Welches Design entspricht hierbei am ehesten einer Fall-Kontroll Studie? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Befragung von 20 Erkrankte und 20 Gesunden zu früherem Rauchverhalten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1492,9 +1490,9 @@
       <text>A4-9</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft am ehesten auf eine Querschnittsstudie zu? (8)</text>
+      <text>A4-9 Was trifft am ehesten auf eine Querschnittsstudie zu? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Misst oft Krankheitsprävalenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1512,9 +1510,9 @@
       <text>A4-10</text>
     </name>
     <questiontext format="html">
-      <text>Eine Querschnittsstudie ist einer Form der… (8)</text>
+      <text>A4-10 Eine Querschnittsstudie ist einer Form der… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Beobachtungsstudie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1532,9 +1530,9 @@
       <text>A4-11</text>
     </name>
     <questiontext format="html">
-      <text>Eine Kohortenstudie ist eine Form der… (8)</text>
+      <text>A4-11 Eine Kohortenstudie ist eine Form der… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Beobachtungsstudie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1552,9 +1550,9 @@
       <text>A4-26</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
+      <text>A4-26 Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ressourcenaufwändiger</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1572,9 +1570,9 @@
       <text>A4-27</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
+      <text>A4-27 Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mehr Daten Drop-outs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1592,9 +1590,9 @@
       <text>A4-28</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
+      <text>A4-28 Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Externer Einfluss geringer</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1612,9 +1610,9 @@
       <text>A4-29</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
+      <text>A4-29 Verglichen mit einer retrospektiven Studie gilt für eine prospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Bedingungen besser kontrollierbar</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1632,9 +1630,9 @@
       <text>A4-30</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A4-30 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mehr Daten erhoben</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1652,9 +1650,9 @@
       <text>A4-34</text>
     </name>
     <questiontext format="html">
-      <text>Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
+      <text>A4-34 Verglichen mit einer prospektiven Studie gilt für eine retrospektive Studie am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Weniger Ressourcenaufwändig</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1672,9 +1670,9 @@
       <text>A4-38</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie sollen nach Hypothesengenerierung Daten aus einem Experiment erhoben werden. Welchem Studientyp entspricht dies am ehesten?</text>
+      <text>A4-38 In einer Studie sollen nach Hypothesengenerierung Daten aus einem Experiment erhoben werden. Welchem Studientyp entspricht dies am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prospektive Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1692,9 +1690,9 @@
       <text>A4-39</text>
     </name>
     <questiontext format="html">
-      <text>Welche dieser Studien hat am ehesten die höchste Evidenz?</text>
+      <text>A4-39 Welche dieser Studien hat am ehesten die höchste Evidenz?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Randomisierte kontrollierte Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1712,9 +1710,9 @@
       <text>A4-41</text>
     </name>
     <questiontext format="html">
-      <text>Welcher der hier beschriebenen Studien hat die niedrigste Evidenz?</text>
+      <text>A4-41 Welcher der hier beschriebenen Studien hat die niedrigste Evidenz?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Befragung Gesunder und Mamma-Ca-Patienten zu früheren Rauchgewohnheiten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1732,9 +1730,9 @@
       <text>A4-44</text>
     </name>
     <questiontext format="html">
-      <text>An einer Studie nehmen 20 Probanden mit Bluthochdruck teil. Untersucht wird das Eintreffen von cardiovaskulären Events. Welchen Evidenzgrad hat diese Studie wahrscheinlich?</text>
+      <text>A4-44 An einer Studie nehmen 20 Probanden mit Bluthochdruck teil. Untersucht wird das Eintreffen von cardiovaskulären Events. Welchen Evidenzgrad hat diese Studie wahrscheinlich?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Grad III</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1752,9 +1750,9 @@
       <text>A4-46</text>
     </name>
     <questiontext format="html">
-      <text>Ein sehr renommierter und fachlich exzellenter Gastroenterologe verwendet vor allem die Gastroskope einer speziellen Firma, da er mit diesen gute Erfahrungen im Alltag gesammelt hat. Welchen Evidenzgrad hat seine Meinung?</text>
+      <text>A4-46 Ein sehr renommierter und fachlich exzellenter Gastroenterologe verwendet vor allem die Gastroskope einer speziellen Firma, da er mit diesen gute Erfahrungen im Alltag gesammelt hat. Welchen Evidenzgrad hat seine Meinung?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Grad V</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1772,9 +1770,9 @@
       <text>A4-55</text>
     </name>
     <questiontext format="html">
-      <text>Einen Evidenzgrad von III hat am ehesten eine…</text>
+      <text>A4-55 Einen Evidenzgrad von III hat am ehesten eine…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Nicht experimentelle Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1792,9 +1790,9 @@
       <text>A4-56</text>
     </name>
     <questiontext format="html">
-      <text>Einen Evidenzgrad von IIa hat am ehesten…</text>
+      <text>A4-56 Einen Evidenzgrad von IIa hat am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Nicht-randomisierte kontrollierte Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1812,9 +1810,9 @@
       <text>A4-59</text>
     </name>
     <questiontext format="html">
-      <text>Ein Evidenzgrad von V entspricht am ehesten…</text>
+      <text>A4-59 Ein Evidenzgrad von V entspricht am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Expertenmeinung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1832,9 +1830,9 @@
       <text>A4-66</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am wenigsten Teil eines systematischen Reviews?</text>
+      <text>A4-66 Was ist am wenigsten Teil eines systematischen Reviews?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Evidenz quantitativ analysieren</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1852,9 +1850,9 @@
       <text>A4-67</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft am ehesten auf ein systematisches Review zu?</text>
+      <text>A4-67 Was trifft am ehesten auf ein systematisches Review zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kritische Bewertung von Studien</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1872,9 +1870,9 @@
       <text>A4-71</text>
     </name>
     <questiontext format="html">
-      <text>Im Gegensatz zu einem systematischen Review werden für eine Meta-Analyse…</text>
+      <text>A4-71 Im Gegensatz zu einem systematischen Review werden für eine Meta-Analyse…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Daten quantitativ zusammengefasst</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1892,9 +1890,9 @@
       <text>A5-3</text>
     </name>
     <questiontext format="html">
-      <text>Was ist beim Sammeln relevanter Literatur am ehesten zu beachten? (9)</text>
+      <text>A5-3 Was ist beim Sammeln relevanter Literatur am ehesten zu beachten? (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verwaltung in Literaturverwaltungsprogramm</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1912,9 +1910,9 @@
       <text>A5-1</text>
     </name>
     <questiontext format="html">
-      <text>Was steht am Beginn der Extraktion relevanter Literatur für eine systematische Übersichtsarbeit? (9)</text>
+      <text>A5-1 Was steht am Beginn der Extraktion relevanter Literatur für eine systematische Übersichtsarbeit? (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Sammeln potentiell relevanter Literatur</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1932,9 +1930,9 @@
       <text>A5-4</text>
     </name>
     <questiontext format="html">
-      <text>In eine systematische Übersichtsarbeit sollten am ehesten nur Studien eingeschlossen werden, die… (9)</text>
+      <text>A5-4 In eine systematische Übersichtsarbeit sollten am ehesten nur Studien eingeschlossen werden, die… (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Alle Einschlusskriterien und kein Ausschlusskriterium erfüllen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1952,9 +1950,9 @@
       <text>A5-7</text>
     </name>
     <questiontext format="html">
-      <text>Für eine besonders hohe Qualität einer systematischen Übersichtsarbeit empfiehlt sich, die grafische Darstellung ausgeschlossener Studien mit Anzahl und Ausschlussgrund in einem/einer… (9)</text>
+      <text>A5-7 Für eine besonders hohe Qualität einer systematischen Übersichtsarbeit empfiehlt sich, die grafische Darstellung ausgeschlossener Studien mit Anzahl und Ausschlussgrund in einem/einer… (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Flussdiagramm</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1972,9 +1970,9 @@
       <text>A5-8</text>
     </name>
     <questiontext format="html">
-      <text>Werden für eine systematische Übersichtsarbeit Studien ausgeschlossen, so sollte am ehesten genau dokumentiert werden deren… (9)</text>
+      <text>A5-8 Werden für eine systematische Übersichtsarbeit Studien ausgeschlossen, so sollte am ehesten genau dokumentiert werden deren… (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Anzahl</text>
     </answer>
     <answer format="html" fraction="0">

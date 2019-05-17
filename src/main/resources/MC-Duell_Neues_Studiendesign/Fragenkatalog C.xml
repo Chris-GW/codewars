@@ -2,7 +2,7 @@
 <quiz>
   <question type="category">
     <category>
-      <text>$course$/Fragenkatalog B</text>
+      <text>$course$/Fragenkatalog C</text>
     </category>
   </question>
   <question type="multichoice">
@@ -10,9 +10,9 @@
       <text>C1-1</text>
     </name>
     <questiontext format="html">
-      <text>Das Verhältnis von der Risikoreduktion zum Ausgangsrisiko bezeichnet man als</text>
+      <text>C1-1 Das Verhältnis von der Risikoreduktion zum Ausgangsrisiko bezeichnet man als</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Relative Risikoreduktion</text>
     </answer>
     <answer format="html" fraction="0">
@@ -30,9 +30,9 @@
       <text>C1-4</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich um eine Maßzahl für den Nutzen?</text>
+      <text>C1-4 Wobei handelt es sich um eine Maßzahl für den Nutzen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Erhöhung der Lebenserwartung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -50,9 +50,9 @@
       <text>C1-5</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich um eine Kennzahl für den Nutzen?</text>
+      <text>C1-5 Wobei handelt es sich um eine Kennzahl für den Nutzen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Absolute Risikoreduktion</text>
     </answer>
     <answer format="html" fraction="0">
@@ -70,9 +70,9 @@
       <text>C1-7</text>
     </name>
     <questiontext format="html">
-      <text>Das Risiko der Arbeitsunfähigkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie Methode von ursprünglich 60% auf 6% reduziert. Wie groß ist die relative Risikoreduktion durch diese Methode?</text>
+      <text>C1-7 Das Risiko der Arbeitsunfähigkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie Methode von ursprünglich 60% auf 6% reduziert. Wie groß ist die relative Risikoreduktion durch diese Methode?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>90%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -90,9 +90,9 @@
       <text>C1-8</text>
     </name>
     <questiontext format="html">
-      <text>Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation beträgt 1/7000, bei einer Pille 3. Generation 2/7000. Wie groß ist die relative Risikoreduktion, bei einer Pille der 2. Generation verglichen mit jener 3. Generation?</text>
+      <text>C1-8 Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation beträgt 1/7000, bei einer Pille 3. Generation 2/7000. Wie groß ist die relative Risikoreduktion, bei einer Pille der 2. Generation verglichen mit jener 3. Generation?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>50%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -110,9 +110,9 @@
       <text>C1-9</text>
     </name>
     <questiontext format="html">
-      <text>Unter der etablierten Therapie kommt es in 45% der Fälle zu einer Komplikation. Unter einer neuen Therapie in 30% der Fälle. Durch das neue Medikament konnte, verglichen zur Standardtherapie das Auftreten einer Komplikation um 33% gesenkt werden. Diese Zahl entspricht am ehesten dem/der…</text>
+      <text>C1-9 Unter der etablierten Therapie kommt es in 45% der Fälle zu einer Komplikation. Unter einer neuen Therapie in 30% der Fälle. Durch das neue Medikament konnte, verglichen zur Standardtherapie das Auftreten einer Komplikation um 33% gesenkt werden. Diese Zahl entspricht am ehesten dem/der…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>relativen Risikoreduktion</text>
     </answer>
     <answer format="html" fraction="0">
@@ -130,9 +130,9 @@
       <text>C1-11</text>
     </name>
     <questiontext format="html">
-      <text>Risiko an Brustkrebs zu sterben ohne Screening: 4‰; Risiko an Brustkrebs zu sterben mit Screening:3‰; 4‰ - 3‰ = 1‰; 1‰ entspricht hier am ehesten dem/der…</text>
+      <text>C1-11 Risiko an Brustkrebs zu sterben ohne Screening: 4‰; Risiko an Brustkrebs zu sterben mit Screening:3‰; 4‰ - 3‰ = 1‰; 1‰ entspricht hier am ehesten dem/der…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Absoluten Risikoreduktion</text>
     </answer>
     <answer format="html" fraction="0">
@@ -150,9 +150,9 @@
       <text>C1-13</text>
     </name>
     <questiontext format="html">
-      <text>Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation beträgt 1/7000, bei einer Pille 3. Generation 2/7000. Wie groß ist die absolute Risikoreduktion, bei einer Pille der 2. Generation verglichen mit jener der 3. Generation?</text>
+      <text>C1-13 Das Risiko einer Thrombose bei Einnahme einer Pille der 2. Generation beträgt 1/7000, bei einer Pille 3. Generation 2/7000. Wie groß ist die absolute Risikoreduktion, bei einer Pille der 2. Generation verglichen mit jener der 3. Generation?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1/7000</text>
     </answer>
     <answer format="html" fraction="0">
@@ -170,9 +170,9 @@
       <text>C1-15</text>
     </name>
     <questiontext format="html">
-      <text>Das Risiko der Arbeitsunfähigkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie Methode von ursprünglich 60% auf 6% reduziert. Wie groß ist die absolute Risikoreduktion durch diese Methode?</text>
+      <text>C1-15 Das Risiko der Arbeitsunfähigkeit nach Bandscheibenvorfall wird durch eine neue Physiotherapie Methode von ursprünglich 60% auf 6% reduziert. Wie groß ist die absolute Risikoreduktion durch diese Methode?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>54%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -190,9 +190,9 @@
       <text>C1-16</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird die Schlaganfallrate bei transkatheter Aortenklappenimplantation (TAVI) mit der einer herkömmlichen chirurgischen Klappenimplantation verglichen. Das Risiko auf einen Schlaganfall unter TAVI beträgt ca. 7%, unter herkömmlicher chirurgischen Therapie 12%. Wie groß wäre in dieser Studie die absolute Risikoreduktion durch eine TAVI?</text>
+      <text>C1-16 In einer Studie wird die Schlaganfallrate bei transkatheter Aortenklappenimplantation (TAVI) mit der einer herkömmlichen chirurgischen Klappenimplantation verglichen. Das Risiko auf einen Schlaganfall unter TAVI beträgt ca. 7%, unter herkömmlicher chirurgischen Therapie 12%. Wie groß wäre in dieser Studie die absolute Risikoreduktion durch eine TAVI?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>5%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -210,9 +210,9 @@
       <text>C1-18</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie von Reimers et Al. Aus 2013 stellte fest, täglich körperliche Aktivität von ca. 15 Minuten könnte die Bevölkerung im Mittel 6 Monate länger leben.(1) Die hierbei verwendete Kennzahl des Nutzens ist…</text>
+      <text>C1-18 Eine Studie von Reimers et Al. Aus 2013 stellte fest, täglich körperliche Aktivität von ca. 15 Minuten könnte die Bevölkerung im Mittel 6 Monate länger leben.(1) Die hierbei verwendete Kennzahl des Nutzens ist…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Erhöhung der mittleren Lebenserwartung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -230,9 +230,9 @@
       <text>C1-19</text>
     </name>
     <questiontext format="html">
-      <text>Welche dieser Kennzahlen spricht am ehesten für einen Nutzen eines Krebs-Screening Tests? (2)</text>
+      <text>C1-19 Welche dieser Kennzahlen spricht am ehesten für einen Nutzen eines Krebs-Screening Tests? (2)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mortalität reduziert von 1,5 auf 1,3/ 1000</text>
     </answer>
     <answer format="html" fraction="0">
@@ -250,9 +250,9 @@
       <text>C1-20</text>
     </name>
     <questiontext format="html">
-      <text>Letalität * Inzidenz beschreiben am ehesten… (3)</text>
+      <text>C1-20 Letalität * Inzidenz beschreiben am ehesten… (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mortalität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -270,9 +270,9 @@
       <text>C1-21</text>
     </name>
     <questiontext format="html">
-      <text>Bei einer Krankheit mit einer Inzidenz von 1/1000/Jahr und einer Letalität von 20%, wie groß ist die Mortalitätsrate? (3)</text>
+      <text>C1-21 Bei einer Krankheit mit einer Inzidenz von 1/1000/Jahr und einer Letalität von 20%, wie groß ist die Mortalitätsrate? (3)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>0,2/1000/Jahr</text>
     </answer>
     <answer format="html" fraction="0">
@@ -290,9 +290,9 @@
       <text>C1-23</text>
     </name>
     <questiontext format="html">
-      <text>Die Letalität einer Krankheit kann am ehesten Angesehen werden als ein Maß für deren… (4)</text>
+      <text>C1-23 Die Letalität einer Krankheit kann am ehesten Angesehen werden als ein Maß für deren… (4)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Schweregrad</text>
     </answer>
     <answer format="html" fraction="0">
@@ -310,9 +310,9 @@
       <text>C1-32</text>
     </name>
     <questiontext format="html">
-      <text>Viele Kliniker überschätzen den Nutzen von Screeningtests und unterschätzen den Schaden, der durch Überdiagnostik und falsch-positive Ergebnisse entsteht. Dies ist am ehesten zu erklären durch… (5)</text>
+      <text>C1-32 Viele Kliniker überschätzen den Nutzen von Screeningtests und unterschätzen den Schaden, der durch Überdiagnostik und falsch-positive Ergebnisse entsteht. Dies ist am ehesten zu erklären durch… (5)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Zahlenblindheit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -330,9 +330,9 @@
       <text>C1-33</text>
     </name>
     <questiontext format="html">
-      <text>Viele Medizinstudierende haben Schwierigkeiten, Risikoreduktion richtig einzuschätzen. Dies wird am ehesten bezeichnet als… (2)</text>
+      <text>C1-33 Viele Medizinstudierende haben Schwierigkeiten, Risikoreduktion richtig einzuschätzen. Dies wird am ehesten bezeichnet als… (2)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Zahlenblindheit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -350,9 +350,9 @@
       <text>C1-34</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie zeigte sich, dass ca. die Hälfte aller befragten Ärzte eine erhöhte Detektionsrate für Krebs für einen sicheren Beweis dafür hielten, dass Screeningtest Leben rettet. Dies ist am ehesten ein Beispiel für… (2)</text>
+      <text>C1-34 In einer Studie zeigte sich, dass ca. die Hälfte aller befragten Ärzte eine erhöhte Detektionsrate für Krebs für einen sicheren Beweis dafür hielten, dass Screeningtest Leben rettet. Dies ist am ehesten ein Beispiel für… (2)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Zahlenblindheit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -370,9 +370,9 @@
       <text>C1-36</text>
     </name>
     <questiontext format="html">
-      <text>Die Number Needed to Treat kann direkt berechnet werden aus dem Kehrwert der… (6)</text>
+      <text>C1-36 Die Number Needed to Treat kann direkt berechnet werden aus dem Kehrwert der… (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Absoluten Risikoreduktion</text>
     </answer>
     <answer format="html" fraction="0">
@@ -390,9 +390,9 @@
       <text>C1-37</text>
     </name>
     <questiontext format="html">
-      <text>Der Kehrwert der absoluten Risikoreduktion entspricht der/dem… (6)</text>
+      <text>C1-37 Der Kehrwert der absoluten Risikoreduktion entspricht der/dem… (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Number needed to treat</text>
     </answer>
     <answer format="html" fraction="0">
@@ -410,9 +410,9 @@
       <text>C1-38</text>
     </name>
     <questiontext format="html">
-      <text>Das Verhältnis von Risiko in der Interventionsgruppe zu dem der Kontrollgruppe beschreibt am ehesten das/die…</text>
+      <text>C1-38 Das Verhältnis von Risiko in der Interventionsgruppe zu dem der Kontrollgruppe beschreibt am ehesten das/die…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Relative Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -430,9 +430,9 @@
       <text>C1-39</text>
     </name>
     <questiontext format="html">
-      <text>(Wahrscheinlichkeit eines Events in Intervetionsgruppe) / (Wahrscheinlichkeit eines Events in Kontrollgruppe) = …</text>
+      <text>C1-39 (Wahrscheinlichkeit eines Events in Intervetionsgruppe) / (Wahrscheinlichkeit eines Events in Kontrollgruppe) = …</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Relatives Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -450,9 +450,9 @@
       <text>C1-40</text>
     </name>
     <questiontext format="html">
-      <text>Das relative Risiko an Darmkrebs zu erkranken bei einer neuen Hormontherapie ist größer 1, das bedeutet am ehesten, die Therapie…</text>
+      <text>C1-40 Das relative Risiko an Darmkrebs zu erkranken bei einer neuen Hormontherapie ist größer 1, das bedeutet am ehesten, die Therapie…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>ist Risikofaktor für Darmkrebs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -470,9 +470,9 @@
       <text>C1-41</text>
     </name>
     <questiontext format="html">
-      <text>Das relative Risiko an Darmkrebs zu erkranken bei regelmäßigen Koloskopien ist kleiner 1, das bedeutet am ehesten, die Koloskopie…</text>
+      <text>C1-41 Das relative Risiko an Darmkrebs zu erkranken bei regelmäßigen Koloskopien ist kleiner 1, das bedeutet am ehesten, die Koloskopie…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>schützt vor Darmkrebs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -490,9 +490,9 @@
       <text>C1-43</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie soll untersuchen, ob unter einer neuen Interventionsmethode ein ungünstiges Ereignis weniger häufig auftritt, als bei Kontrollen. Die Intervention zeigt im Vergleich ein relatives Risiko von größer 1. Das bedeutet am ehesten, die Intervention…</text>
+      <text>C1-43 Eine Studie soll untersuchen, ob unter einer neuen Interventionsmethode ein ungünstiges Ereignis weniger häufig auftritt, als bei Kontrollen. Die Intervention zeigt im Vergleich ein relatives Risiko von größer 1. Das bedeutet am ehesten, die Intervention…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>schadet dem Patienten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -510,9 +510,9 @@
       <text>C1-44</text>
     </name>
     <questiontext format="html">
-      <text>Ein neues Medikament soll das Risiko auf einen Schlaganfall bei Vorhofflimmern senken. In Tests zeigte sich ein relatives Risiko gleich der Odds Ratio. Dieses Ergebnis deutet am ehesten darauf hin, dass das neue Medikament…</text>
+      <text>C1-44 Ein neues Medikament soll das Risiko auf einen Schlaganfall bei Vorhofflimmern senken. In Tests zeigte sich ein relatives Risiko gleich der Odds Ratio. Dieses Ergebnis deutet am ehesten darauf hin, dass das neue Medikament…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>keinen Einfluss auf das Schlaganfallrisiko hat</text>
     </answer>
     <answer format="html" fraction="0">
@@ -530,9 +530,9 @@
       <text>C1-45</text>
     </name>
     <questiontext format="html">
-      <text>Die absolute Risikoreduktion unter einem neuen Antihypertensivum ein kardiovaskuläres Ereignis zu erleiden beträgt 1/3. Wie groß ist die Number needed to treat? (6)</text>
+      <text>C1-45 Die absolute Risikoreduktion unter einem neuen Antihypertensivum ein kardiovaskuläres Ereignis zu erleiden beträgt 1/3. Wie groß ist die Number needed to treat? (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>3</text>
     </answer>
     <answer format="html" fraction="0">
@@ -550,9 +550,9 @@
       <text>C1-46</text>
     </name>
     <questiontext format="html">
-      <text>Eine Number needed to treat von 30 bedeutet…</text>
+      <text>C1-46 Eine Number needed to treat von 30 bedeutet…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Es müssen 30 Patienten behandelt werden, um ein Ereignis zu verhindern</text>
     </answer>
     <answer format="html" fraction="0">
@@ -570,9 +570,9 @@
       <text>C1-47</text>
     </name>
     <questiontext format="html">
-      <text>Unter einem neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie groß ist die Zahl von Patienten, die damit behandelt werden müssen, um bei einem Patienten eine Komplikation zu verhindern? (6)</text>
+      <text>C1-47 Unter einem neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie groß ist die Zahl von Patienten, die damit behandelt werden müssen, um bei einem Patienten eine Komplikation zu verhindern? (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>20</text>
     </answer>
     <answer format="html" fraction="0">
@@ -590,9 +590,9 @@
       <text>C1-48</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500. Wie groß ist die Number needed to treat von A im Vergleich zu B? (6)</text>
+      <text>C1-48 In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500. Wie groß ist die Number needed to treat von A im Vergleich zu B? (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>50</text>
     </answer>
     <answer format="html" fraction="0">
@@ -610,9 +610,9 @@
       <text>C1-49</text>
     </name>
     <questiontext format="html">
-      <text>Ein neues Therapeutikum für COPD-Patienten soll getestet werden. Von 1000 Patienten der Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie groß ist die Number needed to treat der neuen Therapie? (6)</text>
+      <text>C1-49 Ein neues Therapeutikum für COPD-Patienten soll getestet werden. Von 1000 Patienten der Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie groß ist die Number needed to treat der neuen Therapie? (6)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>100</text>
     </answer>
     <answer format="html" fraction="0">
@@ -630,9 +630,9 @@
       <text>C1-50</text>
     </name>
     <questiontext format="html">
-      <text>Ein neues Therapeutikum für COPD-Patienten soll getestet werden. Von 1000 Patienten der Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie groß ist das relative Risiko der neuen Therapie?</text>
+      <text>C1-50 Ein neues Therapeutikum für COPD-Patienten soll getestet werden. Von 1000 Patienten der Interventionsgruppe erlitten 30 eine Exazerbation. Von 1000 Patienten der Kontrollgruppe 40. Wie groß ist das relative Risiko der neuen Therapie?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>3/4</text>
     </answer>
     <answer format="html" fraction="0">
@@ -650,9 +650,9 @@
       <text>C1-51</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500. Wie groß ist das relative Risiko von A im Vergleich zu B?</text>
+      <text>C1-51 In einer Studie werden 1000 Patienten nach einem Schlaganfall mit zwei verschiedenen Antikoagulanzien behandelt. Mit Antikoagulanz A erlitten von 500 Patienten 5 eine Blutung, mit Antikoagulanz B 15 von 500. Wie groß ist das relative Risiko von A im Vergleich zu B?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1/3</text>
     </answer>
     <answer format="html" fraction="0">
@@ -670,9 +670,9 @@
       <text>C1-52</text>
     </name>
     <questiontext format="html">
-      <text>Unter einer neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie groß ist das relative Risiko des neuen Medikaments?</text>
+      <text>C1-52 Unter einer neuen Medikament soll die Komplikationsrate von zuvor 15% auf 10% gesenkt werden. Wie groß ist das relative Risiko des neuen Medikaments?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>2/3</text>
     </answer>
     <answer format="html" fraction="0">
@@ -690,9 +690,9 @@
       <text>C1-53</text>
     </name>
     <questiontext format="html">
-      <text>Welche Eigenschaft eines Medikaments wäre am ehesten günstig für einen Patienten?</text>
+      <text>C1-53 Welche Eigenschaft eines Medikaments wäre am ehesten günstig für einen Patienten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kleine Number needed to treat</text>
     </answer>
     <answer format="html" fraction="0">
@@ -710,9 +710,9 @@
       <text>C1-54</text>
     </name>
     <questiontext format="html">
-      <text>Welche Eigenschaft eines neuen Medikaments wäre am ehesten günstig für einen Patienten?</text>
+      <text>C1-54 Welche Eigenschaft eines neuen Medikaments wäre am ehesten günstig für einen Patienten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Große Number needed to harm</text>
     </answer>
     <answer format="html" fraction="0">
@@ -730,9 +730,9 @@
       <text>C1-55</text>
     </name>
     <questiontext format="html">
-      <text>Die Anzahl der Patienten, die mit einem Medikament behandelt werden müssen, bis einer von ihnen eine signifikante Nebenwirkung erleidet wird bezeichnet als…</text>
+      <text>C1-55 Die Anzahl der Patienten, die mit einem Medikament behandelt werden müssen, bis einer von ihnen eine signifikante Nebenwirkung erleidet wird bezeichnet als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Number needed to harm</text>
     </answer>
     <answer format="html" fraction="0">
@@ -750,9 +750,9 @@
       <text>C1-56</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie vergleicht die blutdrucksenkende Wirkung eines Medikaments in verschiedenen Dosierungen. Jedoch steigen auch die unerwünschten Nebenwirkungen mit der Dosis an. Bei 10mg liegen erlitten noch 2% Nebenwirkungen, bei 20mg schon 3%. Wie groß ist die Number needed to harm?</text>
+      <text>C1-56 Eine Studie vergleicht die blutdrucksenkende Wirkung eines Medikaments in verschiedenen Dosierungen. Jedoch steigen auch die unerwünschten Nebenwirkungen mit der Dosis an. Bei 10mg liegen erlitten noch 2% Nebenwirkungen, bei 20mg schon 3%. Wie groß ist die Number needed to harm?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>100</text>
     </answer>
     <answer format="html" fraction="0">
@@ -770,9 +770,9 @@
       <text>C1-57</text>
     </name>
     <questiontext format="html">
-      <text>Ein neuer ACE-Hemmer soll getestet werden. Während ein etablierter ACE-Hemmer in 200 von 1000 Fällen trockenen Reizhusten verursacht, tritt diese Nebenwirkung bei der neuen Substanz in 202 von 1000 Fällen auf. Wie groß ist die Number needed to harm des neuen ACE-Hemmers?</text>
+      <text>C1-57 Ein neuer ACE-Hemmer soll getestet werden. Während ein etablierter ACE-Hemmer in 200 von 1000 Fällen trockenen Reizhusten verursacht, tritt diese Nebenwirkung bei der neuen Substanz in 202 von 1000 Fällen auf. Wie groß ist die Number needed to harm des neuen ACE-Hemmers?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>500</text>
     </answer>
     <answer format="html" fraction="0">
@@ -790,9 +790,9 @@
       <text>C1-58</text>
     </name>
     <questiontext format="html">
-      <text>Ein neues Medikament verspricht, Übelkeit bei Tumorpatienten zu senken. Erste Studien zeigen tatsächlich einen Rückgang der Übelkeit, dafür treten nun häufiger orthostatische Dysregulationen auf. Während zuvor 18% der Patienten daran litten, waren es unter dem neuen Medikament 20%. Wie viele Patienten müssen mit dem neuen Therapeutikum behandelt werden, damit es bei einem Patienten orthostatische Dysregulation auslöst?</text>
+      <text>C1-58 Ein neues Medikament verspricht, Übelkeit bei Tumorpatienten zu senken. Erste Studien zeigen tatsächlich einen Rückgang der Übelkeit, dafür treten nun häufiger orthostatische Dysregulationen auf. Während zuvor 18% der Patienten daran litten, waren es unter dem neuen Medikament 20%. Wie viele Patienten müssen mit dem neuen Therapeutikum behandelt werden, damit es bei einem Patienten orthostatische Dysregulation auslöst?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>50</text>
     </answer>
     <answer format="html" fraction="0">
@@ -810,9 +810,9 @@
       <text>C1-59</text>
     </name>
     <questiontext format="html">
-      <text>Von 1000 Frauen, die mit einer Kupferspirale verhüten, werden ca. 30 pro Jahr schwanger. Bei einer Hormonspirale sind es ca. 3 von 1000. Wie groß ist das Relative Risiko mit einer hormonspirale schwanger zu werden, verglichen mit einer Kupferspirale?</text>
+      <text>C1-59 Von 1000 Frauen, die mit einer Kupferspirale verhüten, werden ca. 30 pro Jahr schwanger. Bei einer Hormonspirale sind es ca. 3 von 1000. Wie groß ist das Relative Risiko mit einer hormonspirale schwanger zu werden, verglichen mit einer Kupferspirale?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1/10</text>
     </answer>
     <answer format="html" fraction="0">
@@ -830,9 +830,9 @@
       <text>C2-1</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich am ehesten um eine binäre Zielgröße?</text>
+      <text>C2-1 Wobei handelt es sich am ehesten um eine binäre Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Diastolischer Blutdruckabfall auf unter 80mmHg</text>
     </answer>
     <answer format="html" fraction="0">
@@ -850,9 +850,9 @@
       <text>C2-2</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich am ehesten um eine binäre Zielgröße?</text>
+      <text>C2-2 Wobei handelt es sich am ehesten um eine binäre Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Auftreten von Lungenkrebs</text>
     </answer>
     <answer format="html" fraction="0">
@@ -870,9 +870,9 @@
       <text>C2-3</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich am ehesten um eine kontinuierliche Zielgröße?</text>
+      <text>C2-3 Wobei handelt es sich am ehesten um eine kontinuierliche Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Täglich gerauchte Zigaretten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -890,9 +890,9 @@
       <text>C2-4</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich am ehesten um eine kontinuierliche Zielgröße?</text>
+      <text>C2-4 Wobei handelt es sich am ehesten um eine kontinuierliche Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>GCS-Score</text>
     </answer>
     <answer format="html" fraction="0">
@@ -910,9 +910,9 @@
       <text>C2-6</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie soll getestet werden, ob unter einem neuen Lipidsenker das Gesamtcholesterin auf ≤ 200mg/dl gesenkt werden konnte. Welcher Wert bietet sich hier am ehesten zur Darstellung des Effektmaß an?</text>
+      <text>C2-6 In einer Studie soll getestet werden, ob unter einem neuen Lipidsenker das Gesamtcholesterin auf ≤ 200mg/dl gesenkt werden konnte. Welcher Wert bietet sich hier am ehesten zur Darstellung des Effektmaß an?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Odds Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -930,9 +930,9 @@
       <text>C2-7</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie soll untersucht werden, ob Antikontrazeptiva das Risiko auf Darmkrebs erhöhen. Die Odds Ratio beträgt 1, das bedeutet wahrscheinlich… (7)</text>
+      <text>C2-7 In einer Studie soll untersucht werden, ob Antikontrazeptiva das Risiko auf Darmkrebs erhöhen. Die Odds Ratio beträgt 1, das bedeutet wahrscheinlich… (7)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>besteht kein Zusammenhang</text>
     </answer>
     <answer format="html" fraction="0">
@@ -950,9 +950,9 @@
       <text>C2-16</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie zum Auftreten von Reizhusten bei Betablockergabe werden zwei Gruppen verglichen. Gruppe eins erhält ein neues Präparat, Gruppe 2 ein Etabliertes. Im Vergleich zeigt sich eine Odds Ratio von 1. Das bedeutet…(7)</text>
+      <text>C2-16 In einer Studie zum Auftreten von Reizhusten bei Betablockergabe werden zwei Gruppen verglichen. Gruppe eins erhält ein neues Präparat, Gruppe 2 ein Etabliertes. Im Vergleich zeigt sich eine Odds Ratio von 1. Das bedeutet…(7)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Beide präperate verursachen gleichhäufig Reizhusten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -970,9 +970,9 @@
       <text>C2-17</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird gemessen, wie stark der Blutdruck bei Einnahme eines neuen Antihypertensivums sinkt, verglichen mit einem Placebo. Die Werte für beide Gruppen werden gesammelt. Welcher Wert eignet sich besonders gut als Effektmaß dieser kontinuierlichen Zielgröße?</text>
+      <text>C2-17 In einer Studie wird gemessen, wie stark der Blutdruck bei Einnahme eines neuen Antihypertensivums sinkt, verglichen mit einem Placebo. Die Werte für beide Gruppen werden gesammelt. Welcher Wert eignet sich besonders gut als Effektmaß dieser kontinuierlichen Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Differenz der Mittelwerte</text>
     </answer>
     <answer format="html" fraction="0">
@@ -990,9 +990,9 @@
       <text>C2-19</text>
     </name>
     <questiontext format="html">
-      <text>Für welche Art der Zielgröße eignet sich die Darstellung des Effektmaßes als Standardisierte Differenz der Mittelwerte?</text>
+      <text>C2-19 Für welche Art der Zielgröße eignet sich die Darstellung des Effektmaßes als Standardisierte Differenz der Mittelwerte?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kontinuierliche</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1010,9 +1010,9 @@
       <text>C2-21</text>
     </name>
     <questiontext format="html">
-      <text>Ein neues Medikament gegen Hypertonie soll getestet werden. Die mittlere systolische Blutdrucksenkung betrug 20mmHg beim neuen Präparat und 18mmHg bei der Kontrolle. Wie groß ist die Differenz der Mittelwerte?</text>
+      <text>C2-21 Ein neues Medikament gegen Hypertonie soll getestet werden. Die mittlere systolische Blutdrucksenkung betrug 20mmHg beim neuen Präparat und 18mmHg bei der Kontrolle. Wie groß ist die Differenz der Mittelwerte?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>2mmHg</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1030,9 +1030,9 @@
       <text>C2-22</text>
     </name>
     <questiontext format="html">
-      <text>Was wird häufig zusätzlich zum Mittelwert mitangegeben, um das Effektmaß einer Studie darzustellen?</text>
+      <text>C2-22 Was wird häufig zusätzlich zum Mittelwert mitangegeben, um das Effektmaß einer Studie darzustellen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Standardabweichung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1050,9 +1050,9 @@
       <text>C2-23</text>
     </name>
     <questiontext format="html">
-      <text>Welche Darstellung wäre für das Effektmaß einer Studie mit kontinuierlicher Zielgröße zusätzlich zur Differenz der Mittelwerte am ehesten denkbar?</text>
+      <text>C2-23 Welche Darstellung wäre für das Effektmaß einer Studie mit kontinuierlicher Zielgröße zusätzlich zur Differenz der Mittelwerte am ehesten denkbar?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>95% Konfidenzintervall</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1070,9 +1070,9 @@
       <text>C2-24</text>
     </name>
     <questiontext format="html">
-      <text>Was wäre am wenigsten geeignet für die Darstellung des Effektmaßes einer Studie mit kontinuierlicher Zielgröße?</text>
+      <text>C2-24 Was wäre am wenigsten geeignet für die Darstellung des Effektmaßes einer Studie mit kontinuierlicher Zielgröße?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Gepoolter Schätzer + 95% Konfidenzintervall</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1090,9 +1090,9 @@
       <text>C2-27</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird das Effektmaß als Differenz der Mittelwerte mit 95% Konfidenzintervall dargestellt. Das bedeutet am ehesten, die wahre Differenz der Mittelwerte liegt…</text>
+      <text>C2-27 In einer Studie wird das Effektmaß als Differenz der Mittelwerte mit 95% Konfidenzintervall dargestellt. Das bedeutet am ehesten, die wahre Differenz der Mittelwerte liegt…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Zu 5% nicht im Intervall</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1110,9 +1110,9 @@
       <text>C2-27</text>
     </name>
     <questiontext format="html">
-      <text>Zur Darstellung des Effektmaßes wird häufig zusätzlich zum Mittelwert der Standardfehler statt die Standardabweichung angegeben, denn der Standardfehler ist…</text>
+      <text>C2-27 Zur Darstellung des Effektmaßes wird häufig zusätzlich zum Mittelwert der Standardfehler statt die Standardabweichung angegeben, denn der Standardfehler ist…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>kleiner</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1130,9 +1130,9 @@
       <text>C2-28</text>
     </name>
     <questiontext format="html">
-      <text>Wie kann der Standardfehler aus der Standardabweichung σ und Stichprobenumfang n berechnet werden?</text>
+      <text>C2-28 Wie kann der Standardfehler aus der Standardabweichung σ und Stichprobenumfang n berechnet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>σ / √n</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1150,9 +1150,9 @@
       <text>C2-30</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft am ehesten zu? Je größer der Stichprobenumfang, desto…</text>
+      <text>C2-30 Was trifft am ehesten zu? Je größer der Stichprobenumfang, desto…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>kleiner der Standardfehler</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1170,9 +1170,9 @@
       <text>C2-31</text>
     </name>
     <questiontext format="html">
-      <text>Durch die Verwendung des Standardfehlers statt der Standardabweichung kann man am ehesten…</text>
+      <text>C2-31 Durch die Verwendung des Standardfehlers statt der Standardabweichung kann man am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>unterschiedlich große Studien vergleichen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1190,9 +1190,9 @@
       <text>C2-32</text>
     </name>
     <questiontext format="html">
-      <text>Wie können die Grenzen eines 95% Konfidenzintervalls einer kontinuierlichen Zielgröße am ehesten berechnet werden? (8)</text>
+      <text>C2-32 Wie können die Grenzen eines 95% Konfidenzintervalls einer kontinuierlichen Zielgröße am ehesten berechnet werden? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mittelwert +/- Konfidenzkoeffizient * Standardfehler</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1210,9 +1210,9 @@
       <text>C2-34</text>
     </name>
     <questiontext format="html">
-      <text>Wie kann der Konfidenzkoeffizient für das gewählte Konfidenzlevel (zum Beispiel 95%) bestimmt werden? (8)</text>
+      <text>C2-34 Wie kann der Konfidenzkoeffizient für das gewählte Konfidenzlevel (zum Beispiel 95%) bestimmt werden? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Nachschlagen in einer Tabelle</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1230,9 +1230,9 @@
       <text>C2-35</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu Konfidenzintervallen trifft am ehesten zu? Konfidenzintervalle…</text>
+      <text>C2-35 Welche Aussage zu Konfidenzintervallen trifft am ehesten zu? Konfidenzintervalle…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Werden auch mit Odds Ratios berechnet</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1250,9 +1250,9 @@
       <text>C2-36</text>
     </name>
     <questiontext format="html">
-      <text>Das 95%-Konfidenzintervall berechnet sich aus einer Odds Ratio: Ln(OR) +/-  Konfidenzkoeffizient * √(VAR ln(OR)). Wie wird VAR ln(OR) am ehesten berechnet?</text>
+      <text>C2-36 Das 95%-Konfidenzintervall berechnet sich aus einer Odds Ratio: Ln(OR) +/-  Konfidenzkoeffizient * √(VAR ln(OR)). Wie wird VAR ln(OR) am ehesten berechnet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Summe aller Kehrwerte der Vierfeldertafel</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1270,9 +1270,9 @@
       <text>C2-37</text>
     </name>
     <questiontext format="html">
-      <text>Wie kann das Effektmaß mehrerer Studien am ehesten zusammengefasst dargestellt werden?</text>
+      <text>C2-37 Wie kann das Effektmaß mehrerer Studien am ehesten zusammengefasst dargestellt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Gepoolter Schätzer mit 95% Konfidenzintervall</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1290,9 +1290,9 @@
       <text>C2-40</text>
     </name>
     <questiontext format="html">
-      <text>Die beiden Modelle nach denen eine Meta-Analyse durchgeführt werden kann sind am ehesten fixed effects Model und…</text>
+      <text>C2-40 Die beiden Modelle nach denen eine Meta-Analyse durchgeführt werden kann sind am ehesten fixed effects Model und…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Random effects Model</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1310,9 +1310,9 @@
       <text>C2-41</text>
     </name>
     <questiontext format="html">
-      <text>Die beiden Modelle nach denen eine Meta-Analyse am ehesten durchgeführt werden kann sind random effects Model und…</text>
+      <text>C2-41 Die beiden Modelle nach denen eine Meta-Analyse am ehesten durchgeführt werden kann sind random effects Model und…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Fixed effects Model</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1330,9 +1330,9 @@
       <text>C2-42</text>
     </name>
     <questiontext format="html">
-      <text>Dr. Müller möchte eine Meta-Analyse verschiedener Studien machen. Dabei geht er davon aus, dass zusätzlich zu den zufälligen Schwankungen innerhalb der einzelnen Studien noch weitere Schwankungen durch Heterogenität zwischen den Studien bestehen. Von welchem Modell der Meta-Analyse geht er dabei am ehesten aus?</text>
+      <text>C2-42 Dr. Müller möchte eine Meta-Analyse verschiedener Studien machen. Dabei geht er davon aus, dass zusätzlich zu den zufälligen Schwankungen innerhalb der einzelnen Studien noch weitere Schwankungen durch Heterogenität zwischen den Studien bestehen. Von welchem Modell der Meta-Analyse geht er dabei am ehesten aus?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Random effects</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1350,9 +1350,9 @@
       <text>C2-43</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu random effects (1) und fixed effects Model (2) der Meta-Analyse trifft am ehesten zu?</text>
+      <text>C2-43 Welche Aussage zu random effects (1) und fixed effects Model (2) der Meta-Analyse trifft am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Gewichtung verschiedenen Studien balancierter unter (1)</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1370,9 +1370,9 @@
       <text>C2-44</text>
     </name>
     <questiontext format="html">
-      <text>Es sollen verschiedene Studien in einer Meta-Analyse zusammengefasst werden. Alle Studien wurden vom selben Pharmakonzern auf dieselbe Art durchgeführt und gleichgroße Stichproben entnommen. Nach welchem selten genutzten Modell kann hier ausnahmsweise untersucht werden?</text>
+      <text>C2-44 Es sollen verschiedene Studien in einer Meta-Analyse zusammengefasst werden. Alle Studien wurden vom selben Pharmakonzern auf dieselbe Art durchgeführt und gleichgroße Stichproben entnommen. Nach welchem selten genutzten Modell kann hier ausnahmsweise untersucht werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Fixed effects Model</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1390,9 +1390,9 @@
       <text>C2-45</text>
     </name>
     <questiontext format="html">
-      <text>Wovon sollte die Entscheidung, welches Model der Meta-Analyse zum Zusammenfassen der Evidenz gewählt wird, am ehesten abhängig gemacht werden?</text>
+      <text>C2-45 Wovon sollte die Entscheidung, welches Model der Meta-Analyse zum Zusammenfassen der Evidenz gewählt wird, am ehesten abhängig gemacht werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Vorheriges Abwägen der Eigenschaften der Studien</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1410,9 +1410,9 @@
       <text>C2-46</text>
     </name>
     <questiontext format="html">
-      <text>Welches Model der Meta-Analyse sollte im Zweifelsfall eher gewählt werden, wenn davon ausgegangen wird, dass wahrscheinlich Schwankungen zwischen den Studien vorhanden sind?</text>
+      <text>C2-46 Welches Model der Meta-Analyse sollte im Zweifelsfall eher gewählt werden, wenn davon ausgegangen wird, dass wahrscheinlich Schwankungen zwischen den Studien vorhanden sind?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Random effects Model</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1430,9 +1430,9 @@
       <text>C2-47</text>
     </name>
     <questiontext format="html">
-      <text>Wie wird im fixed effects Model der Meta-Analyse die Wichtung einer Studie bestimmt? Kehrwert aus…</text>
+      <text>C2-47 Wie wird im fixed effects Model der Meta-Analyse die Wichtung einer Studie bestimmt? Kehrwert aus…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Varianz dieser Studie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1450,9 +1450,9 @@
       <text>C2-48</text>
     </name>
     <questiontext format="html">
-      <text>Wie berechnet sich im random effects Model der Meta-Analyse die Wichtung einer Studie?</text>
+      <text>C2-48 Wie berechnet sich im random effects Model der Meta-Analyse die Wichtung einer Studie?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kehrwert aus (Varianz dieser Studie + Varianz zwischen den Studien)</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1470,9 +1470,9 @@
       <text>C2-49</text>
     </name>
     <questiontext format="html">
-      <text>Die Wichtung einer Studie im random effects Model der Meta-Analyse ist abhängig von Varianz dieser Studie und…</text>
+      <text>C2-49 Die Wichtung einer Studie im random effects Model der Meta-Analyse ist abhängig von Varianz dieser Studie und…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Varianz unter den Studien</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1490,9 +1490,9 @@
       <text>C2-51</text>
     </name>
     <questiontext format="html">
-      <text>Die Ergebnisse einer Meta-Analyse sollen über die getestete Population hinaus verallgemeinert werden. Welches Modell wird hier am ehesten angewendet?</text>
+      <text>C2-51 Die Ergebnisse einer Meta-Analyse sollen über die getestete Population hinaus verallgemeinert werden. Welches Modell wird hier am ehesten angewendet?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Random effects Model</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1510,9 +1510,9 @@
       <text>C2-52</text>
     </name>
     <questiontext format="html">
-      <text>Unter welcher Bedingung hat der Schätzer für die Varianz zwischen den Studien im random effects Model der Meta-Analyse am wenigsten Aussagekraft?</text>
+      <text>C2-52 Unter welcher Bedingung hat der Schätzer für die Varianz zwischen den Studien im random effects Model der Meta-Analyse am wenigsten Aussagekraft?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kleine Studienanzahl</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1530,9 +1530,9 @@
       <text>C2-53</text>
     </name>
     <questiontext format="html">
-      <text>Ein Pharmakonzern testet ein neues Präparat für eine seltene Krankheit. Hierfür werden mehrere methodisch gleiche Studien durchgeführt und die Ergebnisse in einer Meta-Analyse im fixed effects Model zusammengefasst. Der gepoolte Effektschätzer kann anschließend übertragen werden auf…</text>
+      <text>C2-53 Ein Pharmakonzern testet ein neues Präparat für eine seltene Krankheit. Hierfür werden mehrere methodisch gleiche Studien durchgeführt und die Ergebnisse in einer Meta-Analyse im fixed effects Model zusammengefasst. Der gepoolte Effektschätzer kann anschließend übertragen werden auf…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ausschließlich die getestete Population</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1550,9 +1550,9 @@
       <text>C2-54</text>
     </name>
     <questiontext format="html">
-      <text>Was bewertet der Q-Test der Meta-Analyse am ehesten?</text>
+      <text>C2-54 Was bewertet der Q-Test der Meta-Analyse am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Statistische Heterogenität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1570,9 +1570,9 @@
       <text>C2-55</text>
     </name>
     <questiontext format="html">
-      <text>Die klinische Heterogenität zwischen verschiedenen Studien wird am wenigsten bestimmt durch Unterschiede in…</text>
+      <text>C2-55 Die klinische Heterogenität zwischen verschiedenen Studien wird am wenigsten bestimmt durch Unterschiede in…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Studiendesign</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1590,9 +1590,9 @@
       <text>C2-56</text>
     </name>
     <questiontext format="html">
-      <text>Die methodische Heterogenität zwischen verschiedenen Studien wird am ehesten begründet durch Unterschiede in…</text>
+      <text>C2-56 Die methodische Heterogenität zwischen verschiedenen Studien wird am ehesten begründet durch Unterschiede in…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Studiendesign</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1610,9 +1610,9 @@
       <text>C2-57</text>
     </name>
     <questiontext format="html">
-      <text>Die methodische Heterogenität zwischen verschiedenen Studien wird am ehesten begründet durch Unterschiede in…</text>
+      <text>C2-57 Die methodische Heterogenität zwischen verschiedenen Studien wird am ehesten begründet durch Unterschiede in…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Studienqualität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1630,9 +1630,9 @@
       <text>C2-58</text>
     </name>
     <questiontext format="html">
-      <text>Mit welchem Test kann die Heterogenität im Therapieeffekt zwischen verschiedenen Studien bewertet werden?</text>
+      <text>C2-58 Mit welchem Test kann die Heterogenität im Therapieeffekt zwischen verschiedenen Studien bewertet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Q-Test</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1650,9 +1650,9 @@
       <text>C2-59</text>
     </name>
     <questiontext format="html">
-      <text>Mit welchem Test kann die Heterogenität zwischen verschiedenen Studien quantifiziert werden?</text>
+      <text>C2-59 Mit welchem Test kann die Heterogenität zwischen verschiedenen Studien quantifiziert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>I2-Test</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1670,9 +1670,9 @@
       <text>C2-60</text>
     </name>
     <questiontext format="html">
-      <text>Der Q-Test für Heterogenität im Behandlungseffekt verschiedener Studien…</text>
+      <text>C2-60 Der Q-Test für Heterogenität im Behandlungseffekt verschiedener Studien…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hat nur geringe Power</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1690,9 +1690,9 @@
       <text>C2-61</text>
     </name>
     <questiontext format="html">
-      <text>In einer Meta-Analyse zeigt der I2-Test auf Heterogenität ein Ergebnis von 20%, das bedeutet, die Heterogenität zwischen den Studien ist…</text>
+      <text>C2-61 In einer Meta-Analyse zeigt der I2-Test auf Heterogenität ein Ergebnis von 20%, das bedeutet, die Heterogenität zwischen den Studien ist…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Eher unbedeutend</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1710,9 +1710,9 @@
       <text>C2-62</text>
     </name>
     <questiontext format="html">
-      <text>In einer Meta-Analyse zeigt sich im I2-Test auf Heterogenität ein Wert von 40%. Das bedeutet am ehesten, 40% der Gesamtheterogenität entsteht durch…</text>
+      <text>C2-62 In einer Meta-Analyse zeigt sich im I2-Test auf Heterogenität ein Wert von 40%. Das bedeutet am ehesten, 40% der Gesamtheterogenität entsteht durch…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Heterogenität zwischen den Studien</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1730,9 +1730,9 @@
       <text>C2-63</text>
     </name>
     <questiontext format="html">
-      <text>Mithilfe welches Tools kann am ehesten Publication Bias am ehesten identifiziert werden?</text>
+      <text>C2-63 Mithilfe welches Tools kann am ehesten Publication Bias am ehesten identifiziert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Funnel-Plot</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1750,9 +1750,9 @@
       <text>C2-69</text>
     </name>
     <questiontext format="html">
-      <text>Was ist auf der Y-Achse des Funnel Plots aufgetragen?</text>
+      <text>C2-69 Was ist auf der Y-Achse des Funnel Plots aufgetragen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Der Standardfehler</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1770,9 +1770,9 @@
       <text>C2-70</text>
     </name>
     <questiontext format="html">
-      <text>Wie heißt die Checkliste, bzw. das Flussdiagramm, das Autoren beim Berichten einer Meta-Analyse oder eines systematischen Reviews unterstützt? (9)</text>
+      <text>C2-70 Wie heißt die Checkliste, bzw. das Flussdiagramm, das Autoren beim Berichten einer Meta-Analyse oder eines systematischen Reviews unterstützt? (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>PRISMA</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1790,9 +1790,9 @@
       <text>C2-71</text>
     </name>
     <questiontext format="html">
-      <text>Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (9)</text>
+      <text>C2-71 Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Berichten in Meta-Analyse</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1810,9 +1810,9 @@
       <text>C2-72</text>
     </name>
     <questiontext format="html">
-      <text>Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (9)</text>
+      <text>C2-72 Wobei kann das PRISMA-Flussdiagramm am ehesten hilfreich sein? (9)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Qualitätsbeurteilung systematischer Übersichtsarbeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1830,9 +1830,9 @@
       <text>C3-28</text>
     </name>
     <questiontext format="html">
-      <text>Nach einem negativen Triple-Test möchte eine besorgte Mutter wissen, wie hoch die Wahrscheinlichkeit ist, dass ihr Kind tatsächlich kein Down-Syndrom hat. Welchen Wert sollte der Arzt ihr am ehesten mitteilen?</text>
+      <text>C3-28 Nach einem negativen Triple-Test möchte eine besorgte Mutter wissen, wie hoch die Wahrscheinlichkeit ist, dass ihr Kind tatsächlich kein Down-Syndrom hat. Welchen Wert sollte der Arzt ihr am ehesten mitteilen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Negativ prädiktiver Wert</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1850,9 +1850,9 @@
       <text>C3-29</text>
     </name>
     <questiontext format="html">
-      <text>Die Wahrscheinlichkeit, dass eine Person bei einem positiven Testergebnis erkrankt ist wird am ehesten beschrieben durch…</text>
+      <text>C3-29 Die Wahrscheinlichkeit, dass eine Person bei einem positiven Testergebnis erkrankt ist wird am ehesten beschrieben durch…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Positiv prädiktiven Wert</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1870,9 +1870,9 @@
       <text>C3-30</text>
     </name>
     <questiontext format="html">
-      <text>Die Wahrscheinlichkeit, mit der eine negativ getestete Person tatsächlich gesund ist wird am ehesten beschrieben als…</text>
+      <text>C3-30 Die Wahrscheinlichkeit, mit der eine negativ getestete Person tatsächlich gesund ist wird am ehesten beschrieben als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Negativ prädiktiven Wert</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1890,9 +1890,9 @@
       <text>C3-31</text>
     </name>
     <questiontext format="html">
-      <text>Bei einer Schwangeren wird ein Röteln Antikörpertiter bestimmt. Der Test fällt positiv aus. Sie fragt ihren Arzt, mit welcher Wahrscheinlichkeit sie mit Rubella Viren infiziert ist. Welcher Wert sollte ihr am ehesten mitgeteilt werden?</text>
+      <text>C3-31 Bei einer Schwangeren wird ein Röteln Antikörpertiter bestimmt. Der Test fällt positiv aus. Sie fragt ihren Arzt, mit welcher Wahrscheinlichkeit sie mit Rubella Viren infiziert ist. Welcher Wert sollte ihr am ehesten mitgeteilt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Positiv prädiktiver Wert</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1910,9 +1910,9 @@
       <text>C3-33</text>
     </name>
     <questiontext format="html">
-      <text>Welcher der folgenden Kennzahlen diagnostischer Tests beschreibt ein Wahrscheinlichkeitsverhältnis? (10)</text>
+      <text>C3-33 Welcher der folgenden Kennzahlen diagnostischer Tests beschreibt ein Wahrscheinlichkeitsverhältnis? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1930,9 +1930,9 @@
       <text>C3-34</text>
     </name>
     <questiontext format="html">
-      <text>Wie groß ist die Likelihood Ratio, wenn die Wahrscheinlichkeit auf ein positives Testergebnis bei Kranken wie Gesunden gleichgroß ist? (10)</text>
+      <text>C3-34 Wie groß ist die Likelihood Ratio, wenn die Wahrscheinlichkeit auf ein positives Testergebnis bei Kranken wie Gesunden gleichgroß ist? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1950,9 +1950,9 @@
       <text>C3-35</text>
     </name>
     <questiontext format="html">
-      <text>Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines positiven Testergebnisses bei Krankheit / Wahrscheinlichkeit eines positiven Ergebnisses bei Gesundheit? (10)</text>
+      <text>C3-35 Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines positiven Testergebnisses bei Krankheit / Wahrscheinlichkeit eines positiven Ergebnisses bei Gesundheit? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Positive Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1970,9 +1970,9 @@
       <text>C3-36</text>
     </name>
     <questiontext format="html">
-      <text>Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines negativen Testergebnisses bei Gesundheit / Wahrscheinlichkeit eines negativen Testergebnisses bei Krankheit? (10)</text>
+      <text>C3-36 Was berechnet sich am ehesten aus der Wahrscheinlichkeit eines negativen Testergebnisses bei Gesundheit / Wahrscheinlichkeit eines negativen Testergebnisses bei Krankheit? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Negative Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1990,9 +1990,9 @@
       <text>C3-38</text>
     </name>
     <questiontext format="html">
-      <text>Bei einem neuen diagnostischen Test ist die Wahrscheinlichkeit auf ein negatives Testergebnis für erkrankte Patienten nur halb so groß wie für Gesunde. Welche Aussage zur Likelihood Ratio trifft hierfür am ehesten zu? (10)</text>
+      <text>C3-38 Bei einem neuen diagnostischen Test ist die Wahrscheinlichkeit auf ein negatives Testergebnis für erkrankte Patienten nur halb so groß wie für Gesunde. Welche Aussage zur Likelihood Ratio trifft hierfür am ehesten zu? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Negative Likelihood Ratio 0,5</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2010,9 +2010,9 @@
       <text>C3-39</text>
     </name>
     <questiontext format="html">
-      <text>Welche diagnostische Kennzahl kann alternativ zu Sensitivität und Spezifität angegeben werden, um die Güte eines diagnostischen Tests widerzugeben? (10)</text>
+      <text>C3-39 Welche diagnostische Kennzahl kann alternativ zu Sensitivität und Spezifität angegeben werden, um die Güte eines diagnostischen Tests widerzugeben? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2030,9 +2030,9 @@
       <text>C3-42</text>
     </name>
     <questiontext format="html">
-      <text>Was wird in einer ROC Kurve gegeneinander aufgetragen?</text>
+      <text>C3-42 Was wird in einer ROC Kurve gegeneinander aufgetragen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Richtig positiv Rate gegen falsch positiv Rate</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2050,9 +2050,9 @@
       <text>C3-43</text>
     </name>
     <questiontext format="html">
-      <text>Welche Area under the Curve der ROC-Kurve entspricht am ehesten einem optimalen diagnostischen Test?</text>
+      <text>C3-43 Welche Area under the Curve der ROC-Kurve entspricht am ehesten einem optimalen diagnostischen Test?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2070,9 +2070,9 @@
       <text>C3-45</text>
     </name>
     <questiontext format="html">
-      <text>Was beschreibt die Area under the curve der ROC-Kurve am ehesten?</text>
+      <text>C3-45 Was beschreibt die Area under the curve der ROC-Kurve am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Qualität diagnostischen Tests</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2090,9 +2090,9 @@
       <text>C3-46</text>
     </name>
     <questiontext format="html">
-      <text>Was ist auf der X-Achse der ROC-Kurve aufgetragen?</text>
+      <text>C3-46 Was ist auf der X-Achse der ROC-Kurve aufgetragen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>1-Spezifität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2110,9 +2110,9 @@
       <text>C3-47</text>
     </name>
     <questiontext format="html">
-      <text>Was ist auf der Y-Achse der ROC-Kurve aufgetragen?</text>
+      <text>C3-47 Was ist auf der Y-Achse der ROC-Kurve aufgetragen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Sensitivität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2130,9 +2130,9 @@
       <text>C3-71</text>
     </name>
     <questiontext format="html">
-      <text>Eine neue, verbesserte Screeningmethode auf Prostatakarzinom soll eingeführt werden. Den Herstellern ist vor allem wichtig, dass bei Erkrankten der Test auf jeden Fall positiv ausfällt. Das heißt der Test hat eine besonders hohe/ einen hohen…</text>
+      <text>C3-71 Eine neue, verbesserte Screeningmethode auf Prostatakarzinom soll eingeführt werden. Den Herstellern ist vor allem wichtig, dass bei Erkrankten der Test auf jeden Fall positiv ausfällt. Das heißt der Test hat eine besonders hohe/ einen hohen…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Sensitivität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2150,9 +2150,9 @@
       <text>C3-73</text>
     </name>
     <questiontext format="html">
-      <text>Während einer Famulatur hat sich eine Studentin an der Nadel eines HCV-positiven Patienten gestochen. Daraufhin wird ihr Anti-HCV Titer bestimmt. Zum Glück hat sie sich nicht infiziert! Die Wahrscheinlichkeit, mit der ihr Test negativ ausfällt beschreibt am ehesten die/den…</text>
+      <text>C3-73 Während einer Famulatur hat sich eine Studentin an der Nadel eines HCV-positiven Patienten gestochen. Daraufhin wird ihr Anti-HCV Titer bestimmt. Zum Glück hat sie sich nicht infiziert! Die Wahrscheinlichkeit, mit der ihr Test negativ ausfällt beschreibt am ehesten die/den…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Spezifität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2170,9 +2170,9 @@
       <text>C3-101</text>
     </name>
     <questiontext format="html">
-      <text>Was kann direkt aus Prätestwahrscheinlichkeit und Sensitivität bestimmt werden?</text>
+      <text>C3-101 Was kann direkt aus Prätestwahrscheinlichkeit und Sensitivität bestimmt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Posttest-Wahrscheinlichkeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2190,9 +2190,9 @@
       <text>C3-102</text>
     </name>
     <questiontext format="html">
-      <text>Was entspricht am ehesten der Prätest-Wahrscheinlichkeit?</text>
+      <text>C3-102 Was entspricht am ehesten der Prätest-Wahrscheinlichkeit?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prävalenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2210,9 +2210,9 @@
       <text>C3-103</text>
     </name>
     <questiontext format="html">
-      <text>Wovon hängt die Prätestwahrscheinlichkeit am ehesten ab?</text>
+      <text>C3-103 Wovon hängt die Prätestwahrscheinlichkeit am ehesten ab?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Patientenkollektiv</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2230,9 +2230,9 @@
       <text>C3-104</text>
     </name>
     <questiontext format="html">
-      <text>1 – negativ prädiktiver Wert entspricht am ehesten…</text>
+      <text>C3-104 1 – negativ prädiktiver Wert entspricht am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Negativer Posttestwahrscheinlichkeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2250,9 +2250,9 @@
       <text>C3-105</text>
     </name>
     <questiontext format="html">
-      <text>Die Wahrscheinlichkeit unter der Bedingung eines positiven Testergebnisses tatsächlich erkrankt zu sein, entspricht am ehesten…</text>
+      <text>C3-105 Die Wahrscheinlichkeit unter der Bedingung eines positiven Testergebnisses tatsächlich erkrankt zu sein, entspricht am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Posttestwahrscheinlichkeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2270,9 +2270,9 @@
       <text>C3-108</text>
     </name>
     <questiontext format="html">
-      <text>Der positive prädiktive Wert…</text>
+      <text>C3-108 Der positive prädiktive Wert…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Beschreibt eine bedingte Wahrscheinlichkeit</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2290,9 +2290,9 @@
       <text>C3-109</text>
     </name>
     <questiontext format="html">
-      <text>Eine Patientin mit positivem HIV-ELISA möchte nun wissen, ob sie HIV-positiv ist. (HIV-ELISA: Sensitivität 99%, Spezifität 98%, Positiv-prädiktiver Wert 10%, HIV-Prävalenz 0,01%). Wie hoch ist die Wahrscheinlichkeit, dass sie HIV-positiv ist?</text>
+      <text>C3-109 Eine Patientin mit positivem HIV-ELISA möchte nun wissen, ob sie HIV-positiv ist. (HIV-ELISA: Sensitivität 99%, Spezifität 98%, Positiv-prädiktiver Wert 10%, HIV-Prävalenz 0,01%). Wie hoch ist die Wahrscheinlichkeit, dass sie HIV-positiv ist?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>10%.</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2310,9 +2310,9 @@
       <text>C3-110</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich nicht um eine bedingte Wahrscheinlichkeit? (10)</text>
+      <text>C3-110 Wobei handelt es sich nicht um eine bedingte Wahrscheinlichkeit? (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2330,9 +2330,9 @@
       <text>C3-112</text>
     </name>
     <questiontext format="html">
-      <text>In einer Population von 10.000 Individuen sind ca. 10 Individuen HIV infiziert. Welche Aussage trifft zu? Die Prävalenz von HIV beträgt in diesem Fall… (8)</text>
+      <text>C3-112 In einer Population von 10.000 Individuen sind ca. 10 Individuen HIV infiziert. Welche Aussage trifft zu? Die Prävalenz von HIV beträgt in diesem Fall… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>0,1%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2350,9 +2350,9 @@
       <text>C3-113</text>
     </name>
     <questiontext format="html">
-      <text>Was kann die Prävalenz einer Erkrankung erhöhen? (8)</text>
+      <text>C3-113 Was kann die Prävalenz einer Erkrankung erhöhen? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Neue, lebensverlängernde Therapie</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2370,9 +2370,9 @@
       <text>C3-116</text>
     </name>
     <questiontext format="html">
-      <text>Wie verhält sich die Inzidenz und Prävalenz bei einer häufig auftretenden Krankheit mit sehr akutem, letalen Verlauf am ehesten? (8)</text>
+      <text>C3-116 Wie verhält sich die Inzidenz und Prävalenz bei einer häufig auftretenden Krankheit mit sehr akutem, letalen Verlauf am ehesten? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Inzidenz groß, Prävalenz kleiner</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2390,9 +2390,9 @@
       <text>C3-118</text>
     </name>
     <questiontext format="html">
-      <text>(Anzahl der erkrankten Personen zu Zeitpunkt t) / (Anzahl der Personen einer Risikopopulation zu Zeitpunkt t) = … (8)</text>
+      <text>C3-118 (Anzahl der erkrankten Personen zu Zeitpunkt t) / (Anzahl der Personen einer Risikopopulation zu Zeitpunkt t) = … (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prävalenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2410,9 +2410,9 @@
       <text>C3-119</text>
     </name>
     <questiontext format="html">
-      <text>Der Anteil der erkrankten Personen an der Gesamtheit der Risikopersonen einer Population wird am ehesten bezeichnet als… (8)</text>
+      <text>C3-119 Der Anteil der erkrankten Personen an der Gesamtheit der Risikopersonen einer Population wird am ehesten bezeichnet als… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prävalenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2430,9 +2430,9 @@
       <text>C3-32</text>
     </name>
     <questiontext format="html">
-      <text>Wie verändert sich der positiv prädiktive Wert eines diagnostischen Tests bei konstanter Sensitivität und steigender Prävalenz der Erkrankung?</text>
+      <text>C3-32 Wie verändert sich der positiv prädiktive Wert eines diagnostischen Tests bei konstanter Sensitivität und steigender Prävalenz der Erkrankung?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Er steigt</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2450,9 +2450,9 @@
       <text>C3-37</text>
     </name>
     <questiontext format="html">
-      <text>Ein diagnostischer Test, der besonders gut Gesunde erkennen kann hat am ehesten eine… (10)</text>
+      <text>C3-37 Ein diagnostischer Test, der besonders gut Gesunde erkennen kann hat am ehesten eine… (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Kleine negative Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2470,9 +2470,9 @@
       <text>C3-40</text>
     </name>
     <questiontext format="html">
-      <text>Ein diagnostischer Test, der besonders gut Kranke erkennen kann hat am ehesten eine… (10)</text>
+      <text>C3-40 Ein diagnostischer Test, der besonders gut Kranke erkennen kann hat am ehesten eine… (10)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Große positive Likelihood Ratio</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2490,9 +2490,9 @@
       <text>C3-44</text>
     </name>
     <questiontext format="html">
-      <text>Was ist auf der Y-Achse der ROC-Kurve aufgetragen?</text>
+      <text>C3-44 Was ist auf der Y-Achse der ROC-Kurve aufgetragen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Richtig positiv Rate</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2510,9 +2510,9 @@
       <text>C3-48</text>
     </name>
     <questiontext format="html">
-      <text>Wofür steht ROC?(11)</text>
+      <text>C3-48 Wofür steht ROC?(11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Receiver Operating Characteristic</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2530,9 +2530,9 @@
       <text>C3-54</text>
     </name>
     <questiontext format="html">
-      <text>Wie stellt sich ein optimaler Klassifikator in der ROC Kurve dar? (SE = Sensitivität, SP = Spezifität) (11)</text>
+      <text>C3-54 Wie stellt sich ein optimaler Klassifikator in der ROC Kurve dar? (SE = Sensitivität, SP = Spezifität) (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>SE=1; 1-SP=0</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2550,9 +2550,9 @@
       <text>C3-69</text>
     </name>
     <questiontext format="html">
-      <text>Ein neuer diagnostischer Test für Hepatitis A soll eingeführt werden. Der Test wirbt vor allem mit einer hohen Sensitivität. Das heißt am ehesten…</text>
+      <text>C3-69 Ein neuer diagnostischer Test für Hepatitis A soll eingeführt werden. Der Test wirbt vor allem mit einer hohen Sensitivität. Das heißt am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Infizierte werden fast immer positives getestet</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2570,9 +2570,9 @@
       <text>C3-72</text>
     </name>
     <questiontext format="html">
-      <text>Ein Patient wird auf HBV gescreent. Tatsächlich ist er infiziert. Die Wahrscheinlichkeit, mit der der Test positiv ausfällt entspricht…</text>
+      <text>C3-72 Ein Patient wird auf HBV gescreent. Tatsächlich ist er infiziert. Die Wahrscheinlichkeit, mit der der Test positiv ausfällt entspricht…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Der Sensitivität</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2590,9 +2590,9 @@
       <text>C3-111</text>
     </name>
     <questiontext format="html">
-      <text>Die Prävalenz einer Krankheit beschreibt am ehesten der/dem… (8)</text>
+      <text>C3-111 Die Prävalenz einer Krankheit beschreibt am ehesten der/dem… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Häufigkeit in der Population</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2610,9 +2610,9 @@
       <text>C3-114</text>
     </name>
     <questiontext format="html">
-      <text>Wie verhalten sich Prävalenz und Inzidenz einer Erkältungskrankheit am ehesten? (8)</text>
+      <text>C3-114 Wie verhalten sich Prävalenz und Inzidenz einer Erkältungskrankheit am ehesten? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohe Inzidenz, geringere Prävalenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2630,9 +2630,9 @@
       <text>C3-115</text>
     </name>
     <questiontext format="html">
-      <text>Wie Verhalten sich Prävalenz und Inzidenz des Diabetes Typ I am ehesten? (8)</text>
+      <text>C3-115 Wie Verhalten sich Prävalenz und Inzidenz des Diabetes Typ I am ehesten? (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohe Prävalenz, geringere Inzidenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2650,9 +2650,9 @@
       <text>C3-120</text>
     </name>
     <questiontext format="html">
-      <text>Der Anteil an Neuerkrankungen in einem Zeitraum an der gesamten Risikopopulation wird am ehesten bezeichnet als… (8)</text>
+      <text>C3-120 Der Anteil an Neuerkrankungen in einem Zeitraum an der gesamten Risikopopulation wird am ehesten bezeichnet als… (8)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Inzidenz</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2670,9 +2670,9 @@
       <text>C4-2</text>
     </name>
     <questiontext format="html">
-      <text>„Bei der Koloskopie kommt es in 1 von 5000 Fällen zu einer nicht endoskopisch behebbaren Komplikation, in 4999 von 5000 Fällen nicht.“, wodurch wird hierbei die Patientenkommunikation am ehesten erleichtert?</text>
+      <text>C4-2 „Bei der Koloskopie kommt es in 1 von 5000 Fällen zu einer nicht endoskopisch behebbaren Komplikation, in 4999 von 5000 Fällen nicht.“, wodurch wird hierbei die Patientenkommunikation am ehesten erleichtert?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Positive und negative Formulierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2690,9 +2690,9 @@
       <text>C4-5</text>
     </name>
     <questiontext format="html">
-      <text>Nachdem eine Tumorpatientin von ihrem Arzt ausführlich über Vor- und Nachteile einer möglichen Therapieeskalation aufgeklärt wurde, entscheidet sie nun selbst, dass sie lediglich eine palliative Versorgung möchte. Hierbei handelt es sich am ehesten um ein Beispiel für…</text>
+      <text>C4-5 Nachdem eine Tumorpatientin von ihrem Arzt ausführlich über Vor- und Nachteile einer möglichen Therapieeskalation aufgeklärt wurde, entscheidet sie nun selbst, dass sie lediglich eine palliative Versorgung möchte. Hierbei handelt es sich am ehesten um ein Beispiel für…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Informed Consent</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2710,9 +2710,9 @@
       <text>C4-6</text>
     </name>
     <questiontext format="html">
-      <text>Der Prozess, indem ein ganzheitlich informierter Patient eigene Entscheidungen über seine weitere medizinische Behandlung treffen kann wird am ehesten bezeichnet als… (12)</text>
+      <text>C4-6 Der Prozess, indem ein ganzheitlich informierter Patient eigene Entscheidungen über seine weitere medizinische Behandlung treffen kann wird am ehesten bezeichnet als… (12)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Informed Consent</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2730,9 +2730,9 @@
       <text>C4-7</text>
     </name>
     <questiontext format="html">
-      <text>Wobei handelt es sich am ehesten um eine Vorraussetzung für Informed Consent? (12)</text>
+      <text>C4-7 Wobei handelt es sich am ehesten um eine Vorraussetzung für Informed Consent? (12)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Respekt</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2750,9 +2750,9 @@
       <text>C4-11</text>
     </name>
     <questiontext format="html">
-      <text>Was muss beim Informed Consent am ehesten nicht thematisiert bzw. abgeklärt werden? (12)</text>
+      <text>C4-11 Was muss beim Informed Consent am ehesten nicht thematisiert bzw. abgeklärt werden? (12)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Experimentelle Therapieoptionen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2770,9 +2770,9 @@
       <text>C4-3</text>
     </name>
     <questiontext format="html">
-      <text>„Bei diesem Eingriff kommt es in 20% der Fälle zu Komplikationen, in 80% der Fälle kommt es nicht zu Komplikationen.“, wie könnte diese Formulierung zur besseren Verständlichkeit für Patienten am ehesten verbessert werden? (13)</text>
+      <text>C4-3 „Bei diesem Eingriff kommt es in 20% der Fälle zu Komplikationen, in 80% der Fälle kommt es nicht zu Komplikationen.“, wie könnte diese Formulierung zur besseren Verständlichkeit für Patienten am ehesten verbessert werden? (13)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verwendung von absoluten Häufigkeiten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2790,9 +2790,9 @@
       <text>C4-4</text>
     </name>
     <questiontext format="html">
-      <text>„Bei der ERCP kommt es in 1 von 20 Fällen zu einer Pankreatitis. In 19 von 20 Fällen nicht.“, wie könnte die Risikokommunikation im Aufklärungsgespräch am ehesten verbessert werden?</text>
+      <text>C4-4 „Bei der ERCP kommt es in 1 von 20 Fällen zu einer Pankreatitis. In 19 von 20 Fällen nicht.“, wie könnte die Risikokommunikation im Aufklärungsgespräch am ehesten verbessert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verwendung von Grafiken</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2810,9 +2810,9 @@
       <text>C4-9</text>
     </name>
     <questiontext format="html">
-      <text>Was ist am ehesten eine Grundlage für Informed Consent? (12)</text>
+      <text>C4-9 Was ist am ehesten eine Grundlage für Informed Consent? (12)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Umfassende Informierung</text>
     </answer>
     <answer format="html" fraction="0">

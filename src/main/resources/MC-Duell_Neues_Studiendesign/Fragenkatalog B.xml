@@ -10,9 +10,9 @@
       <text>B1-20</text>
     </name>
     <questiontext format="html">
-      <text>Der Nutzen in einem Entscheidungsbaum ist am ehesten abhängig von…</text>
+      <text>B1-20 Der Nutzen in einem Entscheidungsbaum ist am ehesten abhängig von…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Individueller Bewertung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -30,9 +30,9 @@
       <text>B1-22</text>
     </name>
     <questiontext format="html">
-      <text>Ein Arzt behandelt eine Patientin mit unkomplizierter Sigmadivertikulitis. Er entscheidet sich zunächst für eine Antibiose, da hier das Risiko für die Patientin am geringsten und der Nutzen am größten ist. Der Arzt handelt am ehesten nach dem Konzept der/des…</text>
+      <text>B1-22 Ein Arzt behandelt eine Patientin mit unkomplizierter Sigmadivertikulitis. Er entscheidet sich zunächst für eine Antibiose, da hier das Risiko für die Patientin am geringsten und der Nutzen am größten ist. Der Arzt handelt am ehesten nach dem Konzept der/des…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Rationalen Entscheidung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -50,9 +50,9 @@
       <text>B1-23</text>
     </name>
     <questiontext format="html">
-      <text>Nach dem Konzept der rationalen Entscheidung handelt man am ehesten, wählt man die Alternative…</text>
+      <text>B1-23 Nach dem Konzept der rationalen Entscheidung handelt man am ehesten, wählt man die Alternative…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>mit größtem zu erwartenden Nutzen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -70,9 +70,9 @@
       <text>B1-24</text>
     </name>
     <questiontext format="html">
-      <text>Eine Bedingung für eine rationale Entscheidung ist am ehesten…(1)</text>
+      <text>B1-24 Eine Bedingung für eine rationale Entscheidung ist am ehesten…(1)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Definition des Behandlungsziels</text>
     </answer>
     <answer format="html" fraction="0">
@@ -90,9 +90,9 @@
       <text>B1-25</text>
     </name>
     <questiontext format="html">
-      <text>Nach dem Konzept der rationalen Entscheidung wird am ehesten jene Alternative gewählt, mit… (1)</text>
+      <text>B1-25 Nach dem Konzept der rationalen Entscheidung wird am ehesten jene Alternative gewählt, mit… (1)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Größtem Nutzen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -110,9 +110,9 @@
       <text>B2-1</text>
     </name>
     <questiontext format="html">
-      <text>Was steht am ehesten zu Beginn der 5A-Regel?</text>
+      <text>B2-1 Was steht am ehesten zu Beginn der 5A-Regel?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Fragenformulierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -130,9 +130,9 @@
       <text>B2-3</text>
     </name>
     <questiontext format="html">
-      <text>Wobei wird die 5-A Regel am ehesten angewandt?</text>
+      <text>B2-3 Wobei wird die 5-A Regel am ehesten angewandt?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Lösung klinisches Problem</text>
     </answer>
     <answer format="html" fraction="0">
@@ -150,9 +150,9 @@
       <text>B2-6</text>
     </name>
     <questiontext format="html">
-      <text>Die richtige Reihenfolge der 5A- Regel lautet am ehesten…</text>
+      <text>B2-6 Die richtige Reihenfolge der 5A- Regel lautet am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ask, Acquire, Appraise, Apply, Assess</text>
     </answer>
     <answer format="html" fraction="0">
@@ -170,9 +170,9 @@
       <text>B2-7</text>
     </name>
     <questiontext format="html">
-      <text>Was folgt laut der 5a-Regel am ehesten auf die konkrete Formulierung einer Fragestellung?</text>
+      <text>B2-7 Was folgt laut der 5a-Regel am ehesten auf die konkrete Formulierung einer Fragestellung?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Acquire</text>
     </answer>
     <answer format="html" fraction="0">
@@ -190,9 +190,9 @@
       <text>B2-8</text>
     </name>
     <questiontext format="html">
-      <text>Was sollte in der 5A-Regel bei „Ask“ am ehesten beachtet werden?</text>
+      <text>B2-8 Was sollte in der 5A-Regel bei „Ask“ am ehesten beachtet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Suchbarkeit der Formulierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -210,9 +210,9 @@
       <text>B2-9</text>
     </name>
     <questiontext format="html">
-      <text>Was sollte beim zweiten Punkt der 5A-Regel „Acquire“ am ehesten beachtet werden?</text>
+      <text>B2-9 Was sollte beim zweiten Punkt der 5A-Regel „Acquire“ am ehesten beachtet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Relevante Literatur finden</text>
     </answer>
     <answer format="html" fraction="0">
@@ -230,9 +230,9 @@
       <text>B2-10</text>
     </name>
     <questiontext format="html">
-      <text>Was sollte beim dritten Punkt der 5A-Regel, „Appraise“ am ehesten beachtet werden?</text>
+      <text>B2-10 Was sollte beim dritten Punkt der 5A-Regel, „Appraise“ am ehesten beachtet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Quellen kritisch abwägen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -250,9 +250,9 @@
       <text>B2-11</text>
     </name>
     <questiontext format="html">
-      <text>Was sollte beim vierte Punkt der 5A regel, „Apply“ am ehesten beachtet werden?</text>
+      <text>B2-11 Was sollte beim vierte Punkt der 5A regel, „Apply“ am ehesten beachtet werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Klinisch relevante Angabe anwenden</text>
     </answer>
     <answer format="html" fraction="0">
@@ -270,9 +270,9 @@
       <text>B2-13</text>
     </name>
     <questiontext format="html">
-      <text>Wozu dient das PICOT Schema am ehesten?</text>
+      <text>B2-13 Wozu dient das PICOT Schema am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Formulierung wissenschaftlicher Fragestellung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -290,9 +290,9 @@
       <text>B2-16</text>
     </name>
     <questiontext format="html">
-      <text>Welches Schema kann am ehesten verwendet werden, um eine Review-Frage zu formulieren?</text>
+      <text>B2-16 Welches Schema kann am ehesten verwendet werden, um eine Review-Frage zu formulieren?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>PICOT</text>
     </answer>
     <answer format="html" fraction="0">
@@ -310,9 +310,9 @@
       <text>B3-1</text>
     </name>
     <questiontext format="html">
-      <text>Wenn in Google® eingegebene Suchbegriffe gemeinsam in Anführungsstrichen gesetzt werden (zum Beispiel „evidenzbasierte Medizin“) werden Seiten gesucht, auf denen…</text>
+      <text>B3-1 Wenn in Google® eingegebene Suchbegriffe gemeinsam in Anführungsstrichen gesetzt werden (zum Beispiel „evidenzbasierte Medizin“) werden Seiten gesucht, auf denen…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Begriffe wie angegeben hinter einander stehen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -330,9 +330,9 @@
       <text>B3-2</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf Wolfram alpha® am ehesten zu?</text>
+      <text>B3-2 Was trifft auf Wolfram alpha® am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Komplexe Berechnungen lösen und graphisch darstellen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -350,9 +350,9 @@
       <text>B3-4</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf Wolfram alpha® am ehesten zu?</text>
+      <text>B3-4 Was trifft auf Wolfram alpha® am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Algorithmen generieren neue Daten auf Basis von Fakten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -370,9 +370,9 @@
       <text>B3-5</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf Wolfram alpha® am ehesten zu?</text>
+      <text>B3-5 Was trifft auf Wolfram alpha® am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Statistische Daten können abgerufen werden</text>
     </answer>
     <answer format="html" fraction="0">
@@ -390,9 +390,9 @@
       <text>B3-6</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf Google Scholar® am ehesten zu?</text>
+      <text>B3-6 Was trifft auf Google Scholar® am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Gezielte Suche nach Artikeln eines Autors möglich</text>
     </answer>
     <answer format="html" fraction="0">
@@ -410,9 +410,9 @@
       <text>B3-9</text>
     </name>
     <questiontext format="html">
-      <text>Bei Pubmed® handelt es sich am ehesten um…</text>
+      <text>B3-9 Bei Pubmed® handelt es sich am ehesten um…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>online Suchmaschine für MEDLINE®</text>
     </answer>
     <answer format="html" fraction="0">
@@ -430,9 +430,9 @@
       <text>B3-12</text>
     </name>
     <questiontext format="html">
-      <text>Ein Student gibt folgende Begriffe in die Suchmaske von Google® ein: Borrelia OR Erythema. Webseiten mit welcher Schlagwortkombination werden ihm jetzt am ehesten angezeigt?</text>
+      <text>B3-12 Ein Student gibt folgende Begriffe in die Suchmaske von Google® ein: Borrelia OR Erythema. Webseiten mit welcher Schlagwortkombination werden ihm jetzt am ehesten angezeigt?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Entweder Borrelia oder Erythema, sowie beides</text>
     </answer>
     <answer format="html" fraction="0">
@@ -450,9 +450,9 @@
       <text>B3-13</text>
     </name>
     <questiontext format="html">
-      <text>Peter möchte einen Rucksack finden, der entweder Blau oder grün, seinetwegen auch blau-grün, aber auf keinen Fall rot ist. Wie kann er seinen Wunsch mithilfe Boole’scher Operatoren am ehesten in eine Suchmaske eingeben?</text>
+      <text>B3-13 Peter möchte einen Rucksack finden, der entweder Blau oder grün, seinetwegen auch blau-grün, aber auf keinen Fall rot ist. Wie kann er seinen Wunsch mithilfe Boole’scher Operatoren am ehesten in eine Suchmaske eingeben?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Rucksack AND (blue OR green) NOT red</text>
     </answer>
     <answer format="html" fraction="0">
@@ -470,9 +470,9 @@
       <text>B3-14</text>
     </name>
     <questiontext format="html">
-      <text>Peter gibt +Tea +(black green) -aroma in die Suchmaske von Google ein. Welche Suchergebniss findet er am ehesten?</text>
+      <text>B3-14 Peter gibt +Tea +(black green) -aroma in die Suchmaske von Google ein. Welche Suchergebniss findet er am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Entweder schwarzen oder grünen Tee, beides ohne Aroma</text>
     </answer>
     <answer format="html" fraction="0">
@@ -490,9 +490,9 @@
       <text>B3-15</text>
     </name>
     <questiontext format="html">
-      <text>Peter sucht nach Kuchen mit Kirschen oder Äpfeln, seinetwegen auch Apfel-Kirschkuchen, aber ohne Nüsse. In die Suchmaske von Google® gibt er ein: cake AND cherry OR apple NOT nut. Wie kann er die Bool’schen Operatoren verändern, um gezielt nach seinem Wunschkuchen zu suchen?</text>
+      <text>B3-15 Peter sucht nach Kuchen mit Kirschen oder Äpfeln, seinetwegen auch Apfel-Kirschkuchen, aber ohne Nüsse. In die Suchmaske von Google® gibt er ein: cake AND cherry OR apple NOT nut. Wie kann er die Bool’schen Operatoren verändern, um gezielt nach seinem Wunschkuchen zu suchen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Klammern setzen um ‚cherry OR apple‘</text>
     </answer>
     <answer format="html" fraction="0">
@@ -510,9 +510,9 @@
       <text>B3-16</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf die Boole’schen Operatoren zu?</text>
+      <text>B3-16 Was trifft auf die Boole’schen Operatoren zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Können durch + und – ersetzt werden</text>
     </answer>
     <answer format="html" fraction="0">
@@ -530,9 +530,9 @@
       <text>B3-17</text>
     </name>
     <questiontext format="html">
-      <text>Was trifft auf die erweiterte Suche bei Pubmed® am ehesten nicht zu?</text>
+      <text>B3-17 Was trifft auf die erweiterte Suche bei Pubmed® am ehesten nicht zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Es wird kein Suchverlauf angezeigt</text>
     </answer>
     <answer format="html" fraction="0">
@@ -550,9 +550,9 @@
       <text>B3-18</text>
     </name>
     <questiontext format="html">
-      <text>Otto möchte Artikel des berühmten Autors B. Blümchen auf Pubmed® recherchieren. Wie kann er seine Suche vereinfachen?</text>
+      <text>B3-18 Otto möchte Artikel des berühmten Autors B. Blümchen auf Pubmed® recherchieren. Wie kann er seine Suche vereinfachen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unter erweiterter Suche die Option ‚Author‘ auswählen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -570,9 +570,9 @@
       <text>B3-19</text>
     </name>
     <questiontext format="html">
-      <text>Otto möchte auf Pubmed® nur Volltextartikel seines Lieblingsautors angezeigt bekommen. Wie kann er diese Suche am ehesten geschickt anstellen?</text>
+      <text>B3-19 Otto möchte auf Pubmed® nur Volltextartikel seines Lieblingsautors angezeigt bekommen. Wie kann er diese Suche am ehesten geschickt anstellen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>In erweiterter Suche Autor suchen, dann Volltext filtern</text>
     </answer>
     <answer format="html" fraction="0">
@@ -590,9 +590,9 @@
       <text>B3-21</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu den Medical Subject Headings (MeSH®) – Codes trifft am ehesten zu?</text>
+      <text>B3-21 Welche Aussage zu den Medical Subject Headings (MeSH®) – Codes trifft am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Jeder MeSH®-Term entspricht einem MeSH®-Code</text>
     </answer>
     <answer format="html" fraction="0">
@@ -610,9 +610,9 @@
       <text>B3-22</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage trifft zu Medical Subject Headings (MeSH®) zu?</text>
+      <text>B3-22 Welche Aussage trifft zu Medical Subject Headings (MeSH®) zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Folgt einer hierarchischen Gliederung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -630,9 +630,9 @@
       <text>B3-25</text>
     </name>
     <questiontext format="html">
-      <text>Wie kann das MeSH® Schlagwort ‚diabetic Foot‘ in die Suchmaske von PubMed® eingefügt werden?</text>
+      <text>B3-25 Wie kann das MeSH® Schlagwort ‚diabetic Foot‘ in die Suchmaske von PubMed® eingefügt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Diabetic Foot [MeSH Term]</text>
     </answer>
     <answer format="html" fraction="0">
@@ -650,9 +650,9 @@
       <text>B3-27</text>
     </name>
     <questiontext format="html">
-      <text>Welche der folgenden Internetseiten schlägt dem Nutzer mit dem Suchbegriff verwandte Konzepte für die Literaturrecherche vor?</text>
+      <text>B3-27 Welche der folgenden Internetseiten schlägt dem Nutzer mit dem Suchbegriff verwandte Konzepte für die Literaturrecherche vor?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>GoPubMed®</text>
     </answer>
     <answer format="html" fraction="0">
@@ -670,9 +670,9 @@
       <text>B3-28</text>
     </name>
     <questiontext format="html">
-      <text>Ein Student möchte wissen, auf welchen Gebieten ein bestimmter Autor forscht. Er gibt den Namen in die Suchmaske einer Webseite ein und sofort erscheinen links Konzepte, die in den Publikationen dieses Autors häufig vorkommen. Dazu kann der Student Abstracts dieser Artikel sehen und diese auch nach Konzepten aussortieren. Auf welcher Webseite ist der Student am ehesten?</text>
+      <text>B3-28 Ein Student möchte wissen, auf welchen Gebieten ein bestimmter Autor forscht. Er gibt den Namen in die Suchmaske einer Webseite ein und sofort erscheinen links Konzepte, die in den Publikationen dieses Autors häufig vorkommen. Dazu kann der Student Abstracts dieser Artikel sehen und diese auch nach Konzepten aussortieren. Auf welcher Webseite ist der Student am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>GoPubMed®</text>
     </answer>
     <answer format="html" fraction="0">
@@ -690,9 +690,9 @@
       <text>B3-29</text>
     </name>
     <questiontext format="html">
-      <text>Welche der Folgenden Webseiten nutzt eine Ontologie, um wissenschaftliche Artikel zu kategorisieren und somit gezielter und übersichtlicher nach Inhalten zu suchen?</text>
+      <text>B3-29 Welche der Folgenden Webseiten nutzt eine Ontologie, um wissenschaftliche Artikel zu kategorisieren und somit gezielter und übersichtlicher nach Inhalten zu suchen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>GoPubMed®</text>
     </answer>
     <answer format="html" fraction="0">
@@ -710,9 +710,9 @@
       <text>B4-2</text>
     </name>
     <questiontext format="html">
-      <text>Ein Instruments der Cochrane Collaboration erleichtert es uns am ehesten…</text>
+      <text>B4-2 Ein Instruments der Cochrane Collaboration erleichtert es uns am ehesten…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Bias-Risiko in Studien einzuschätzen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -730,9 +730,9 @@
       <text>B4-3</text>
     </name>
     <questiontext format="html">
-      <text>Das Instrument des Cochrane Risk of Bias Tools basiert auf… (11)</text>
+      <text>B4-3 Das Instrument des Cochrane Risk of Bias Tools basiert auf… (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>6 Domänen</text>
     </answer>
     <answer format="html" fraction="0">
@@ -750,9 +750,9 @@
       <text>B4-12</text>
     </name>
     <questiontext format="html">
-      <text>Die Teilnehmer einer Studie werden alternierend der Test- bzw. der Kontrollgruppe zugeteilt. Wie wäre dies am ehesten in der Domäne der verdeckten Gruppenzuweisung des Cochrane Risk of Bias Tools zu bewerten?</text>
+      <text>B4-12 Die Teilnehmer einer Studie werden alternierend der Test- bzw. der Kontrollgruppe zugeteilt. Wie wäre dies am ehesten in der Domäne der verdeckten Gruppenzuweisung des Cochrane Risk of Bias Tools zu bewerten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -770,9 +770,9 @@
       <text>B4-13</text>
     </name>
     <questiontext format="html">
-      <text>Für eine geplante Meta-Analyse soll für alle Studien bewertet werden, ob die Teilnehmer und das Studienpersonal von Gruppenzuteilung gewusst haben könnten. Welcher Fehler soll hiermit am ehesten eingeschätzt werden? (11)</text>
+      <text>B4-13 Für eine geplante Meta-Analyse soll für alle Studien bewertet werden, ob die Teilnehmer und das Studienpersonal von Gruppenzuteilung gewusst haben könnten. Welcher Fehler soll hiermit am ehesten eingeschätzt werden? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Performance Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -790,9 +790,9 @@
       <text>B4-19</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der Verdacht aufdrängt, das Studienergebnis könnte hierdurch verfälscht worden sein. Welcher Domäne des Cochrane Risk of Bias Tool ist dieser Aspekt am ehesten zuzuordnen? (11)</text>
+      <text>B4-19 In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der Verdacht aufdrängt, das Studienergebnis könnte hierdurch verfälscht worden sein. Welcher Domäne des Cochrane Risk of Bias Tool ist dieser Aspekt am ehesten zuzuordnen? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unvollständige Daten zu Endpunkten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -810,9 +810,9 @@
       <text>B4-20</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der Verdacht aufdrängt, das Studienergebnis könnte hierdurch verfälscht worden sein. Wie ist dies mittels des Cochrane Risk of Bias Tools einzuschätzen? (11)</text>
+      <text>B4-20 In einer Studie sind auffallen viele Teilnehmer der Testgruppe ausgeschieden, sodass sich der Verdacht aufdrängt, das Studienergebnis könnte hierdurch verfälscht worden sein. Wie ist dies mittels des Cochrane Risk of Bias Tools einzuschätzen? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -830,9 +830,9 @@
       <text>B4-21</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie schieden in etwa gleichviele Probanden aus Test- und Kontrollgruppe wegen Non-Compliance aus. Wie ist dies mithilfe des Cochrane Risk of Bias Tools zu bewerten? (11)</text>
+      <text>B4-21 In einer Studie schieden in etwa gleichviele Probanden aus Test- und Kontrollgruppe wegen Non-Compliance aus. Wie ist dies mithilfe des Cochrane Risk of Bias Tools zu bewerten? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Geringes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -850,9 +850,9 @@
       <text>B4-25</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verfügbar. Es zeigt, dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgeführt worden ist. In welche Domäne des Cochrane Risk of Bias Tools ist dies am ehesten einzuordnen? (11)</text>
+      <text>B4-25 In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verfügbar. Es zeigt, dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgeführt worden ist. In welche Domäne des Cochrane Risk of Bias Tools ist dies am ehesten einzuordnen? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Selektives Berichten zu Endpunkten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -870,9 +870,9 @@
       <text>B4-26</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verfügbar. Es zeigt, dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgeführt worden ist. Wie ist dies mithilfe des Cochrane Risk of Bias Tools einzuordnen? (11)</text>
+      <text>B4-26 In einer Studie zu einem neuen Lipidsenker ist das Studienprotokoll frei verfügbar. Es zeigt, dass zu allen vorab festgelegten Endpunkten eine Auswertung und Interpretation durchgeführt worden ist. Wie ist dies mithilfe des Cochrane Risk of Bias Tools einzuordnen? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Geringes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -890,9 +890,9 @@
       <text>B4-28</text>
     </name>
     <questiontext format="html">
-      <text>Obwohl vor Beginn einer Studie der TSH-Wert der Probanden als Endpunkt festgelegt wurde, wird zum Ende hin der fT3- und fT4-Spiegel als Endpunkt berichtet. Wie ist dies mithilfe des Cochrane Risk of Bias Tools zu bewerten? (11)</text>
+      <text>B4-28 Obwohl vor Beginn einer Studie der TSH-Wert der Probanden als Endpunkt festgelegt wurde, wird zum Ende hin der fT3- und fT4-Spiegel als Endpunkt berichtet. Wie ist dies mithilfe des Cochrane Risk of Bias Tools zu bewerten? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -910,9 +910,9 @@
       <text>B4-4</text>
     </name>
     <questiontext format="html">
-      <text>Was gehört nicht zu den drei Kategorien der Beurteilung des Bias-Risikos im Cochrane Risk of Bias Tool?(11)</text>
+      <text>B4-4 Was gehört nicht zu den drei Kategorien der Beurteilung des Bias-Risikos im Cochrane Risk of Bias Tool?(11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Mittleres Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -930,9 +930,9 @@
       <text>B4-7</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie teilt der behandelnde Arzt die Gruppen anhand der klinischen Patientendaten ein. Wie würde das Risiko im Cochrane Risk of Bias Tool am ehesten eingeschätzt werden? (11)</text>
+      <text>B4-7 In einer Studie teilt der behandelnde Arzt die Gruppen anhand der klinischen Patientendaten ein. Wie würde das Risiko im Cochrane Risk of Bias Tool am ehesten eingeschätzt werden? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Hohes Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -950,9 +950,9 @@
       <text>B4-8</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird keine genaue Auskunft über die Generierung der Randomisierungssequenz angegeben. Wie würde dies im Cochrane Rick of Bias Tool am ehesten eingeschätzt werden?</text>
+      <text>B4-8 In einer Studie wird keine genaue Auskunft über die Generierung der Randomisierungssequenz angegeben. Wie würde dies im Cochrane Rick of Bias Tool am ehesten eingeschätzt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unklares Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -970,9 +970,9 @@
       <text>B4-16</text>
     </name>
     <questiontext format="html">
-      <text>Was kann innerhalb einer Studie am ehesten zu Attrition Bias führen?</text>
+      <text>B4-16 Was kann innerhalb einer Studie am ehesten zu Attrition Bias führen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ausscheiden von Teilnehmern</text>
     </answer>
     <answer format="html" fraction="0">
@@ -990,9 +990,9 @@
       <text>B4-17</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird keine Auskunft gegeben, wie viele Teilnehmer aus welcher Gruppe nachträglich ausgeschieden sind. Welcher Domäne des Cochrane Risk of Bias Tools kann dies zugeordnet werden? (11)</text>
+      <text>B4-17 In einer Studie wird keine Auskunft gegeben, wie viele Teilnehmer aus welcher Gruppe nachträglich ausgeschieden sind. Welcher Domäne des Cochrane Risk of Bias Tools kann dies zugeordnet werden? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unvollständige Daten zu Endpunkten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1010,9 +1010,9 @@
       <text>B4-18</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird keine Auskunft gegeben, wie viele Teilnehmer aus welcher Gruppe nachträglich ausgeschieden sind. Wie wäre dies nach dem Cochrane Risk of Bias Tool am ehesten zu bewerten? (11)</text>
+      <text>B4-18 In einer Studie wird keine Auskunft gegeben, wie viele Teilnehmer aus welcher Gruppe nachträglich ausgeschieden sind. Wie wäre dies nach dem Cochrane Risk of Bias Tool am ehesten zu bewerten? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Unklares Risiko</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1030,9 +1030,9 @@
       <text>B4-23</text>
     </name>
     <questiontext format="html">
-      <text>Obwohl zu Beginn einer Studie zu einem neuen Antidiabetikum der HbA1C-Wert als Endpunkt festgelegt wurde, wird in der Auswertung nichts darüber berichtet. Welcher Domäne des Cochrane Risk of Bias Tools ist dies am ehesten zuzuordnen? (11)</text>
+      <text>B4-23 Obwohl zu Beginn einer Studie zu einem neuen Antidiabetikum der HbA1C-Wert als Endpunkt festgelegt wurde, wird in der Auswertung nichts darüber berichtet. Welcher Domäne des Cochrane Risk of Bias Tools ist dies am ehesten zuzuordnen? (11)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Selektives Berichten zu Endpunkten</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1050,9 +1050,9 @@
       <text>B5-1</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage beschreibt die Dual Processing Theorie am ehesten?</text>
+      <text>B5-1 Welche Aussage beschreibt die Dual Processing Theorie am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Zwei Systeme der Informationsverarbeitung im Hirn</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1070,9 +1070,9 @@
       <text>B5-2</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationsverarbeitungssystem arbeitet nach der dual Processing Theory am ehesten langsam, bewusst und analytisch?</text>
+      <text>B5-2 Welches Informationsverarbeitungssystem arbeitet nach der dual Processing Theory am ehesten langsam, bewusst und analytisch?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>System 2</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1090,9 +1090,9 @@
       <text>B5-4</text>
     </name>
     <questiontext format="html">
-      <text>„Wenn ein Patient ein Tumorleiden hat, dann verliert er Gewicht. Dieser Patient hat kein Gewicht verloren, demnach hat er auch keinen Tumor.“ Bei dieser Aussage handelt es sich am ehesten um…</text>
+      <text>B5-4 „Wenn ein Patient ein Tumorleiden hat, dann verliert er Gewicht. Dieser Patient hat kein Gewicht verloren, demnach hat er auch keinen Tumor.“ Bei dieser Aussage handelt es sich am ehesten um…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Formalen Fehlschluss</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1110,9 +1110,9 @@
       <text>B5-8</text>
     </name>
     <questiontext format="html">
-      <text>Ein erfahrener Hausarzt untersucht einen Patienten. Seine Intuition und große Erfahrung sagen ihm, dass der Patient wahrscheinlich nur eine leichte Erkältung hat. Schnell verschreibt er ihm Ibuprofen und spart sich weitere, zeitaufwändige Untersuchungen. Welches Informationsverarbeitende System nutzt der Arzt hier, gemäß der Dual Processing Theory am ehesten?</text>
+      <text>B5-8 Ein erfahrener Hausarzt untersucht einen Patienten. Seine Intuition und große Erfahrung sagen ihm, dass der Patient wahrscheinlich nur eine leichte Erkältung hat. Schnell verschreibt er ihm Ibuprofen und spart sich weitere, zeitaufwändige Untersuchungen. Welches Informationsverarbeitende System nutzt der Arzt hier, gemäß der Dual Processing Theory am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>System 1</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1130,9 +1130,9 @@
       <text>B5-9</text>
     </name>
     <questiontext format="html">
-      <text>Ein Patient auf Station ist sehr informiert über das aktuelle politische Geschehen und liest sehr viele Politikzeitschriften, die er abonniert hat. Welchen Beruf hat er am wahrscheinlichsten?</text>
+      <text>B5-9 Ein Patient auf Station ist sehr informiert über das aktuelle politische Geschehen und liest sehr viele Politikzeitschriften, die er abonniert hat. Welchen Beruf hat er am wahrscheinlichsten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Lagerarbeiter</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1150,9 +1150,9 @@
       <text>B5-10</text>
     </name>
     <questiontext format="html">
-      <text>Bei der Blutentnahme erzählt ein Patient seinem Hausarzt sehr detailliert von wirtschaftlichen Abläufen. ‚Der Mann ist sicherlich ein großer Unternehmensleiter‘, denk sich der Arzt. Bei der Berufsanamnese stellt sich schließlich heraus, dass der Mann Post-Beamter ist. Welcher Fehler ist dem Arzt unterlaufen?</text>
+      <text>B5-10 Bei der Blutentnahme erzählt ein Patient seinem Hausarzt sehr detailliert von wirtschaftlichen Abläufen. ‚Der Mann ist sicherlich ein großer Unternehmensleiter‘, denk sich der Arzt. Bei der Berufsanamnese stellt sich schließlich heraus, dass der Mann Post-Beamter ist. Welcher Fehler ist dem Arzt unterlaufen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Base Rate Neglect</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1170,9 +1170,9 @@
       <text>B5-12</text>
     </name>
     <questiontext format="html">
-      <text>Uwe ist 22 Jahre alt. In einem Interview auf einem Kongress, an dem 70 Medizinstudenten und 30 Maschinenbaustudenten teilnehmen, erfahren wir von ihm, dass er alleinstehend ist, in seiner Freizeit gerne Videospiele spielt und feiern geht. Er trägt Jeans und ein kariertes Hemd. Wie wahrscheinlich ist es ungefähr, dass Uwe Maschinenbau studiert? (12)</text>
+      <text>B5-12 Uwe ist 22 Jahre alt. In einem Interview auf einem Kongress, an dem 70 Medizinstudenten und 30 Maschinenbaustudenten teilnehmen, erfahren wir von ihm, dass er alleinstehend ist, in seiner Freizeit gerne Videospiele spielt und feiern geht. Er trägt Jeans und ein kariertes Hemd. Wie wahrscheinlich ist es ungefähr, dass Uwe Maschinenbau studiert? (12)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>30%</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1190,9 +1190,9 @@
       <text>B5-15</text>
     </name>
     <questiontext format="html">
-      <text>Im Röntgenbild zeigt sich ein Metallsplitter in der Wunde eines Werksarbeiters. In einem langwierigen und aufwändigen Prozedere entfernt der Arzt einen großen Splitter. Erleichtert verschließt er die Wunde, ohne sie noch einmal zu inspizieren. Ein paar Tage später stellt sich der Patient mit entzündeter Naht erneut vor. Es stellt sich heraus, dass ein weiterer, kleinerer Splitter in der Wunde verblieben ist. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen? (13) (14)</text>
+      <text>B5-15 Im Röntgenbild zeigt sich ein Metallsplitter in der Wunde eines Werksarbeiters. In einem langwierigen und aufwändigen Prozedere entfernt der Arzt einen großen Splitter. Erleichtert verschließt er die Wunde, ohne sie noch einmal zu inspizieren. Ein paar Tage später stellt sich der Patient mit entzündeter Naht erneut vor. Es stellt sich heraus, dass ein weiterer, kleinerer Splitter in der Wunde verblieben ist. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen? (13) (14)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Premature Closure</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1210,9 +1210,9 @@
       <text>B5-18</text>
     </name>
     <questiontext format="html">
-      <text>Ein Arzt ist sehr überzeugt von einer neuen Therapieform der Hypertonie. Die Literatur zeigt sich allerdings uneinig über deren Wirksamkeit. Bei gründlicher Literaturrecherche gewichtet der Arzt unbewusst Studien, die seine Meinung zur neuen Therapie bestätigen höher als solche, die sie widerlegen. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen?</text>
+      <text>B5-18 Ein Arzt ist sehr überzeugt von einer neuen Therapieform der Hypertonie. Die Literatur zeigt sich allerdings uneinig über deren Wirksamkeit. Bei gründlicher Literaturrecherche gewichtet der Arzt unbewusst Studien, die seine Meinung zur neuen Therapie bestätigen höher als solche, die sie widerlegen. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Confirmation Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1230,9 +1230,9 @@
       <text>B5-19</text>
     </name>
     <questiontext format="html">
-      <text>Frau Becker glaubt an das Übernatürliche. „Zuletzt habe ich an meine Mutter gedacht und ein paar Minuten später hat sie angerufen!“, erzählt sie begeistert. Dabei ignoriert sie, dass sie viel häufiger an ihre Mutter denkt, ohne dass diese anruft und auch dass ihre Mutter viel öfter anruft, ohne dass sie an sie denkt. Welcher Fehler unterläuft ihr hier? (15)</text>
+      <text>B5-19 Frau Becker glaubt an das Übernatürliche. „Zuletzt habe ich an meine Mutter gedacht und ein paar Minuten später hat sie angerufen!“, erzählt sie begeistert. Dabei ignoriert sie, dass sie viel häufiger an ihre Mutter denkt, ohne dass diese anruft und auch dass ihre Mutter viel öfter anruft, ohne dass sie an sie denkt. Welcher Fehler unterläuft ihr hier? (15)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Confirmation Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1250,9 +1250,9 @@
       <text>B5-24</text>
     </name>
     <questiontext format="html">
-      <text>Eine Aachener Medizinstudentin überlegt: Auf dem Hinweg bin ich Fahrrad gefahren und es hat geregnet. Es regnet also, wenn ich Fahrrad fahre. Das heißt, ich werde mein Fahrrad auf dem Rückweg schieben, dann werde ich nicht nass. Hierbei handelt es sich am ehesten um…</text>
+      <text>B5-24 Eine Aachener Medizinstudentin überlegt: Auf dem Hinweg bin ich Fahrrad gefahren und es hat geregnet. Es regnet also, wenn ich Fahrrad fahre. Das heißt, ich werde mein Fahrrad auf dem Rückweg schieben, dann werde ich nicht nass. Hierbei handelt es sich am ehesten um…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Formalen Fehschluss</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1270,9 +1270,9 @@
       <text>B5-27</text>
     </name>
     <questiontext format="html">
-      <text>Auf welchen Effekt ist es am ehesten zurückzuführen, wenn Probanden, die zuvor das Wort „Garten“ gehört haben, das Wort „Blume“ schneller verarbeiten können?</text>
+      <text>B5-27 Auf welchen Effekt ist es am ehesten zurückzuführen, wenn Probanden, die zuvor das Wort „Garten“ gehört haben, das Wort „Blume“ schneller verarbeiten können?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Priming</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1290,9 +1290,9 @@
       <text>B5-32</text>
     </name>
     <questiontext format="html">
-      <text>Die Fähigkeit, Mehrdeutigkeit aus dem Kontext zu entschlüsseln bezeichnet man als…</text>
+      <text>B5-32 Die Fähigkeit, Mehrdeutigkeit aus dem Kontext zu entschlüsseln bezeichnet man als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Disambiguierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1310,9 +1310,9 @@
       <text>B5-35</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie zeigte sich, dass Probanden Warnungen auf Lebensmitteln unterschiedlich stark dazu motivierten, gesünder zu essen, je nachdem, ob diese Warnungen positiv oder negativ formuliert waren. (16)Auf welchen Effekt ist dies am ehesten zurückzuführen?</text>
+      <text>B5-35 In einer Studie zeigte sich, dass Probanden Warnungen auf Lebensmitteln unterschiedlich stark dazu motivierten, gesünder zu essen, je nachdem, ob diese Warnungen positiv oder negativ formuliert waren. (16)Auf welchen Effekt ist dies am ehesten zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Framing</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1330,9 +1330,9 @@
       <text>B5-36</text>
     </name>
     <questiontext format="html">
-      <text>Wie bezeichnet man den Effekt, dass Menschen Informationen anders aufnehmen, je nachdem wie diese formuliert werden?</text>
+      <text>B5-36 Wie bezeichnet man den Effekt, dass Menschen Informationen anders aufnehmen, je nachdem wie diese formuliert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Framing</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1350,9 +1350,9 @@
       <text>B5-38</text>
     </name>
     <questiontext format="html">
-      <text>Ein Arzt führt ein Patientengespräch, nach einem positiven Hämoccult-Test. „Die Chance, dass sie Darmkrebs haben beträgt 50%, die Chance, dass sie keinen Darmkrebs haben beträgt 50%“. Welchen verzerrenden Effekt versucht er mit dieser Formulierung am ehesten zu vermindern?</text>
+      <text>B5-38 Ein Arzt führt ein Patientengespräch, nach einem positiven Hämoccult-Test. „Die Chance, dass sie Darmkrebs haben beträgt 50%, die Chance, dass sie keinen Darmkrebs haben beträgt 50%“. Welchen verzerrenden Effekt versucht er mit dieser Formulierung am ehesten zu vermindern?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Framing</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1370,9 +1370,9 @@
       <text>B5-42</text>
     </name>
     <questiontext format="html">
-      <text>Weil sich Streits mit seinem Vorgesetzten besonders stark in das Gedächtnis eines Arztes eingeprägt haben, schätzt er deren Häufigkeit nun größer ein, als dies tatsächlich der Fall war. Worauf ist dieser Effekt am ehesten zurückzuführen?</text>
+      <text>B5-42 Weil sich Streits mit seinem Vorgesetzten besonders stark in das Gedächtnis eines Arztes eingeprägt haben, schätzt er deren Häufigkeit nun größer ein, als dies tatsächlich der Fall war. Worauf ist dieser Effekt am ehesten zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Availability Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1390,9 +1390,9 @@
       <text>B5-43</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studentin erzählt ihrer Freundin: „Nie spült mein Mitbewohner das Geschirr ab“, dabei blieben ihr die Wochen, in denen der Mitbewohner nicht gespült hat einfach besonders im Gedächtnis, sodass ihr dies nun häufiger erscheint. Worauf ist dies zurückzuführen?</text>
+      <text>B5-43 Eine Studentin erzählt ihrer Freundin: „Nie spült mein Mitbewohner das Geschirr ab“, dabei blieben ihr die Wochen, in denen der Mitbewohner nicht gespült hat einfach besonders im Gedächtnis, sodass ihr dies nun häufiger erscheint. Worauf ist dies zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Availability Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1410,9 +1410,9 @@
       <text>B5-44</text>
     </name>
     <questiontext format="html">
-      <text>Welches Informationsverarbeitende System arbeitet nach der Dual Processing Theory am ehesten schnell, intuitiv und unbewusst?</text>
+      <text>B5-44 Welches Informationsverarbeitende System arbeitet nach der Dual Processing Theory am ehesten schnell, intuitiv und unbewusst?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>System 1</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1430,9 +1430,9 @@
       <text>B5-45</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zum Selection Bias trifft am ehesten zu?</text>
+      <text>B5-45 Welche Aussage zum Selection Bias trifft am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Stichprobe nicht repräsentativ</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1450,9 +1450,9 @@
       <text>B5-46</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wird ein neues Medikament gegen Juckreiz mit einer Kontrollgruppe verglichen, die keine Behandlung bekommt. Die Probanden in der Kontrollgruppe sind unzufrieden, weshalb sich viele zusätzlich selbsttherapieren. Welcher Fehler kann hierdurch am ehesten auftreten?</text>
+      <text>B5-46 In einer Studie wird ein neues Medikament gegen Juckreiz mit einer Kontrollgruppe verglichen, die keine Behandlung bekommt. Die Probanden in der Kontrollgruppe sind unzufrieden, weshalb sich viele zusätzlich selbsttherapieren. Welcher Fehler kann hierdurch am ehesten auftreten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Performance Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1470,9 +1470,9 @@
       <text>B5-47</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie testet eine naturheilkundliche Therapie gegen die etablierte Therapie. Viele Probanden nahmen teil, weil sie sich erhofften, der naturheilkundlichen Gruppe zugeordnet zu werden. War dies nicht der Fall, so erschienen manche weniger zuverlässig zu den Untersuchungsterminen oder schieden ganz aus der Studie aus. Welcher Fehler kann hierdurch am ehesten auftreten?</text>
+      <text>B5-47 Eine Studie testet eine naturheilkundliche Therapie gegen die etablierte Therapie. Viele Probanden nahmen teil, weil sie sich erhofften, der naturheilkundlichen Gruppe zugeordnet zu werden. War dies nicht der Fall, so erschienen manche weniger zuverlässig zu den Untersuchungsterminen oder schieden ganz aus der Studie aus. Welcher Fehler kann hierdurch am ehesten auftreten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Attrition Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1490,9 +1490,9 @@
       <text>B5-51</text>
     </name>
     <questiontext format="html">
-      <text>Welcher systematische Fehler tritt am ehesten auf, wenn die Auswertung eines Endpunktes von der Art der Behandlung beeinflusst wird?</text>
+      <text>B5-51 Welcher systematische Fehler tritt am ehesten auf, wenn die Auswertung eines Endpunktes von der Art der Behandlung beeinflusst wird?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ascertainment Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1510,9 +1510,9 @@
       <text>B5-54</text>
     </name>
     <questiontext format="html">
-      <text>Eine neue Studie möchte ein Nahrungsergänzungsmittel für Schlaganfallpatienten testen. Die Probanden der Testgruppe werden auf der neurologischen Station rekrutiert, für die Kontrollgruppe werden Medizinstudenten angesprochen. Zu welchem systematischen Fehler kann es hierbei am ehesten kommen?</text>
+      <text>B5-54 Eine neue Studie möchte ein Nahrungsergänzungsmittel für Schlaganfallpatienten testen. Die Probanden der Testgruppe werden auf der neurologischen Station rekrutiert, für die Kontrollgruppe werden Medizinstudenten angesprochen. Zu welchem systematischen Fehler kann es hierbei am ehesten kommen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Selection Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1530,9 +1530,9 @@
       <text>B5-56</text>
     </name>
     <questiontext format="html">
-      <text>In welcher Phase einer Studie kommt es am ehesten zu Performance Bias?</text>
+      <text>B5-56 In welcher Phase einer Studie kommt es am ehesten zu Performance Bias?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Behandlung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1550,9 +1550,9 @@
       <text>B5-57</text>
     </name>
     <questiontext format="html">
-      <text>In welcher Phase einer Studie kommt es am ehesten zu Selection Bias?</text>
+      <text>B5-57 In welcher Phase einer Studie kommt es am ehesten zu Selection Bias?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Rekrutierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1570,9 +1570,9 @@
       <text>B5-59</text>
     </name>
     <questiontext format="html">
-      <text>Herr Kummers neue Studie zeigte, dass das neue Medikament keinen Effekt auf das Patientenoutcome hat. Mit dem negativen Ergebnis fällt es ihm schwer, sie in einem großen Journal unterzubringen. Zu welchem systematischen Fehler kann es hier am ehesten kommen?</text>
+      <text>B5-59 Herr Kummers neue Studie zeigte, dass das neue Medikament keinen Effekt auf das Patientenoutcome hat. Mit dem negativen Ergebnis fällt es ihm schwer, sie in einem großen Journal unterzubringen. Zu welchem systematischen Fehler kann es hier am ehesten kommen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Publication Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1590,9 +1590,9 @@
       <text>B5-60</text>
     </name>
     <questiontext format="html">
-      <text>Eine Studie vergleicht eine neue Schmerztherapie mit einer Etablierten. Der Auswerter hat große Hoffnungen in die neue Therapie, daher befragt er die Interventionsgruppe ausführlicher und länger, als die Kontrollen. Welcher systematische Fehler kann hier am ehesten auftreten?</text>
+      <text>B5-60 Eine Studie vergleicht eine neue Schmerztherapie mit einer Etablierten. Der Auswerter hat große Hoffnungen in die neue Therapie, daher befragt er die Interventionsgruppe ausführlicher und länger, als die Kontrollen. Welcher systematische Fehler kann hier am ehesten auftreten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ascertainment Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1610,9 +1610,9 @@
       <text>B5-61</text>
     </name>
     <questiontext format="html">
-      <text>In einer Studie wurde auf Verblindung bei der Auswertung verzichtet. Unbewusst schätzen die Auswerter nun den Gesundheitszustand der Interventionsgruppe besser ein, als den der Kontrollen. Zu welchem systematischen Fehler kann es hier am ehesten kommen?</text>
+      <text>B5-61 In einer Studie wurde auf Verblindung bei der Auswertung verzichtet. Unbewusst schätzen die Auswerter nun den Gesundheitszustand der Interventionsgruppe besser ein, als den der Kontrollen. Zu welchem systematischen Fehler kann es hier am ehesten kommen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ascertainment Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1630,9 +1630,9 @@
       <text>B5-62</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zum prinzipiellen Messfehlern trifft zu?</text>
+      <text>B5-62 Welche Aussage zum prinzipiellen Messfehlern trifft zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verringerung durch Messwiederholung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1650,9 +1650,9 @@
       <text>B5-63</text>
     </name>
     <questiontext format="html">
-      <text>Wodurch kann ein systematischer Messfehler am wenigsten reduziert werden?</text>
+      <text>B5-63 Wodurch kann ein systematischer Messfehler am wenigsten reduziert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Messwiederholung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1670,9 +1670,9 @@
       <text>B5-65</text>
     </name>
     <questiontext format="html">
-      <text>Welche Arten der Messfehler werden am ehesten unterschieden?</text>
+      <text>B5-65 Welche Arten der Messfehler werden am ehesten unterschieden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Prinzipiell und systematisch</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1690,9 +1690,9 @@
       <text>B5-66</text>
     </name>
     <questiontext format="html">
-      <text>Welche Aussage zu Messfehlern trifft am ehesten zu?</text>
+      <text>B5-66 Welche Aussage zu Messfehlern trifft am ehesten zu?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verringerung durch Verfeinern der Apparatur</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1710,9 +1710,9 @@
       <text>B5-5</text>
     </name>
     <questiontext format="html">
-      <text>„Der Patient beschwert sich, wenn das Medikament Nebenwirkungen zeigt. Der Patient beschwert sich nicht, also hat sein Medikament keine Nebenwirkungen.“, hierbei handelt es sich am ehesten um…</text>
+      <text>B5-5 „Der Patient beschwert sich, wenn das Medikament Nebenwirkungen zeigt. Der Patient beschwert sich nicht, also hat sein Medikament keine Nebenwirkungen.“, hierbei handelt es sich am ehesten um…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Formalen Fehlschluss</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1730,9 +1730,9 @@
       <text>B5-6</text>
     </name>
     <questiontext format="html">
-      <text>Das „Hamburger Abendblatt“ schrieb Juli 1998: „Hunde beißen am liebsten Männer, Katzen bevorzugen ältere Frauen und Pferde Mädchen.“ Dies ginge aus einer Studie eines schwedischen Mediziners in einer Osloer Klinik hervor. Worum handelt es sich hierbei? (18)</text>
+      <text>B5-6 Das „Hamburger Abendblatt“ schrieb Juli 1998: „Hunde beißen am liebsten Männer, Katzen bevorzugen ältere Frauen und Pferde Mädchen.“ Dies ginge aus einer Studie eines schwedischen Mediziners in einer Osloer Klinik hervor. Worum handelt es sich hierbei? (18)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Fehlinterpretation einer Statistik</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1750,9 +1750,9 @@
       <text>B5-13</text>
     </name>
     <questiontext format="html">
-      <text>Nachdem ein Wissenschaftler eine ganze Reihe von Studien zu einer bestimmten Enzymwirkung geplant hat, ist er schon nach 2 Experimenten zufrieden: Das Enzym zeigt genau die Wirkung, die er erhofft hatte. „Da kann ich mir die anderen Experimente sparen. Das reicht mir schon als Beweis meiner Hypothese.“ Auf welche Art des Fehlers sollte er besonders achten?</text>
+      <text>B5-13 Nachdem ein Wissenschaftler eine ganze Reihe von Studien zu einer bestimmten Enzymwirkung geplant hat, ist er schon nach 2 Experimenten zufrieden: Das Enzym zeigt genau die Wirkung, die er erhofft hatte. „Da kann ich mir die anderen Experimente sparen. Das reicht mir schon als Beweis meiner Hypothese.“ Auf welche Art des Fehlers sollte er besonders achten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Premature Closure</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1770,9 +1770,9 @@
       <text>B5-16</text>
     </name>
     <questiontext format="html">
-      <text>Nach Herz-OP entwickelt eine Patientin einen erhöhten O2-Bedarf. Der Arzt vermutet eine nosokomiale Pneumonie. Im Röntgenthorax fällt ihm sofort eine große basale Verschattung auf. Er beendet die Interpretation des Bildes sofort und beginnt mit einer kalkulierten antibiotischen Therapie. Später stellt sich heraus, dass die Patientin zusätzlich noch einen kleinen Pneumothorax hatte, den der Arzt bei der Bildinterpretation übersehen hat. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen? (14) (13)</text>
+      <text>B5-16 Nach Herz-OP entwickelt eine Patientin einen erhöhten O2-Bedarf. Der Arzt vermutet eine nosokomiale Pneumonie. Im Röntgenthorax fällt ihm sofort eine große basale Verschattung auf. Er beendet die Interpretation des Bildes sofort und beginnt mit einer kalkulierten antibiotischen Therapie. Später stellt sich heraus, dass die Patientin zusätzlich noch einen kleinen Pneumothorax hatte, den der Arzt bei der Bildinterpretation übersehen hat. Welcher Fehler ist dem Arzt hier am ehesten unterlaufen? (14) (13)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Premature Closure</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1790,9 +1790,9 @@
       <text>B5-20</text>
     </name>
     <questiontext format="html">
-      <text>Eine Frau kommt in die Praxis und klagt über Bauchschmerzen und Durchfälle. Der Arzt stellt sofort die Vermutung auf, dass die Frau an Reizdarmsyndrom leidet. Daraufhin stellt er ihr vor allem Fragen, die seine Hypothese bestätigen und ignoriert Symptome, die eher auf eine CED hindeuten. Welcher Fehler unterläuft dem Arzt am ehesten?</text>
+      <text>B5-20 Eine Frau kommt in die Praxis und klagt über Bauchschmerzen und Durchfälle. Der Arzt stellt sofort die Vermutung auf, dass die Frau an Reizdarmsyndrom leidet. Daraufhin stellt er ihr vor allem Fragen, die seine Hypothese bestätigen und ignoriert Symptome, die eher auf eine CED hindeuten. Welcher Fehler unterläuft dem Arzt am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Confirmation Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1810,9 +1810,9 @@
       <text>B5-21</text>
     </name>
     <questiontext format="html">
-      <text>Erneut gab es eine Schießerei in den USA. Ein Anti-Waffen Aktivist sieht dies als Beleg dafür, dass strengere Waffengesetze benötigt werden. Ein NRA-Mitglied sieht dies als Beleg dafür, dass mehr Menschen bewaffnet sein sollten, um so etwas in Zukunft zu verhindern. Wodurch entstehen die unterschiedlichen Interpretationen desselben Ereignisses am ehesten?</text>
+      <text>B5-21 Erneut gab es eine Schießerei in den USA. Ein Anti-Waffen Aktivist sieht dies als Beleg dafür, dass strengere Waffengesetze benötigt werden. Ein NRA-Mitglied sieht dies als Beleg dafür, dass mehr Menschen bewaffnet sein sollten, um so etwas in Zukunft zu verhindern. Wodurch entstehen die unterschiedlichen Interpretationen desselben Ereignisses am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Confirmation Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1830,9 +1830,9 @@
       <text>B5-22</text>
     </name>
     <questiontext format="html">
-      <text>Claude argumentiert mit einem Kollegen. Er versucht diesen mit wirklich gut belegten Fakten von seiner Meinung zu überzeugen, jedoch scheint es fast so, als würde der Kollege alle schlüssigen Argumente ignorieren. Stattdessen legt er viel mehr Gewicht auf einen Artikel in der Tageszeitung, der seine eigene Meinung bestätigt. Welcher Fehler unterläuft Claudes Kollegen am ehesten?</text>
+      <text>B5-22 Claude argumentiert mit einem Kollegen. Er versucht diesen mit wirklich gut belegten Fakten von seiner Meinung zu überzeugen, jedoch scheint es fast so, als würde der Kollege alle schlüssigen Argumente ignorieren. Stattdessen legt er viel mehr Gewicht auf einen Artikel in der Tageszeitung, der seine eigene Meinung bestätigt. Welcher Fehler unterläuft Claudes Kollegen am ehesten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Confirmation Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1850,9 +1850,9 @@
       <text>B5-25</text>
     </name>
     <questiontext format="html">
-      <text>Menschen, die sich zuvor Wörter gehört haben, die mit dem Thema Altern assoziiert sind, bewegen sich langsamer. Welches Phänomen erklärt diesen Effekt am ehesten?(19)</text>
+      <text>B5-25 Menschen, die sich zuvor Wörter gehört haben, die mit dem Thema Altern assoziiert sind, bewegen sich langsamer. Welches Phänomen erklärt diesen Effekt am ehesten?(19)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Priming</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1870,9 +1870,9 @@
       <text>B5-26</text>
     </name>
     <questiontext format="html">
-      <text>In einem Experiment zeigt sich, dass Personen, die sich zuvor mit Unfreundlichkeit auseinandersetzten, das Testpersonal schneller und häufiger unterbrechen, als solche, die sich zuvor mit Höflichkeit beschäftigt haben. Worauf ist dieser Effekt am ehesten zurückzuführen? (19)</text>
+      <text>B5-26 In einem Experiment zeigt sich, dass Personen, die sich zuvor mit Unfreundlichkeit auseinandersetzten, das Testpersonal schneller und häufiger unterbrechen, als solche, die sich zuvor mit Höflichkeit beschäftigt haben. Worauf ist dieser Effekt am ehesten zurückzuführen? (19)</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Priming</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1890,9 +1890,9 @@
       <text>B5-28</text>
     </name>
     <questiontext format="html">
-      <text>Ein Arzt, der vor seinem Dienst mit Streit konfrontiert wurde, nimmt nun die Patienten nun als unhöflicher wahr und ist häufiger barsch zu ihnen. Worauf ist dies am ehesten zurückzuführen?</text>
+      <text>B5-28 Ein Arzt, der vor seinem Dienst mit Streit konfrontiert wurde, nimmt nun die Patienten nun als unhöflicher wahr und ist häufiger barsch zu ihnen. Worauf ist dies am ehesten zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Priming</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1910,9 +1910,9 @@
       <text>B5-29</text>
     </name>
     <questiontext format="html">
-      <text>Zwei Probanden hören den Begriff „Blatt“ ohne weiteren Kontext. Proband 1 denkt dabei an einen Baum, Proband 2 an ein Stück Papier. Worauf ist dieser Unterschied zurückzuführen?</text>
+      <text>B5-29 Zwei Probanden hören den Begriff „Blatt“ ohne weiteren Kontext. Proband 1 denkt dabei an einen Baum, Proband 2 an ein Stück Papier. Worauf ist dieser Unterschied zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Disambiguierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1930,9 +1930,9 @@
       <text>B5-31</text>
     </name>
     <questiontext format="html">
-      <text>Auf dem OP-Plan steht eine „Vestibuloplastik“. Die Anästhesistin überlegt, um welches Vestibulum es sich dabei wohl handelt. Da es eine OP der MKG ist, schließt sie aus dem Kontext, dass es wohl das Vestibulum im Mund sein müsste.  Die Entschlüsselung dieser Mehrdeutigkeit bezeichnet man auch als…</text>
+      <text>B5-31 Auf dem OP-Plan steht eine „Vestibuloplastik“. Die Anästhesistin überlegt, um welches Vestibulum es sich dabei wohl handelt. Da es eine OP der MKG ist, schließt sie aus dem Kontext, dass es wohl das Vestibulum im Mund sein müsste.  Die Entschlüsselung dieser Mehrdeutigkeit bezeichnet man auch als…</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Disambiguierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1950,9 +1950,9 @@
       <text>B5-34</text>
     </name>
     <questiontext format="html">
-      <text>Eine Medizinstudentin liest in einem Bericht: „V1, V2“. Sie denkt an die Brustwandableitungen des EKG. Später stellt sie allerdings fest, dass die Äste des N. Trigeminus gemeint waren. Wobei ist ihr dieser Fehler am ehesten unterlaufen?</text>
+      <text>B5-34 Eine Medizinstudentin liest in einem Bericht: „V1, V2“. Sie denkt an die Brustwandableitungen des EKG. Später stellt sie allerdings fest, dass die Äste des N. Trigeminus gemeint waren. Wobei ist ihr dieser Fehler am ehesten unterlaufen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Disambiguierung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1970,9 +1970,9 @@
       <text>B5-40</text>
     </name>
     <questiontext format="html">
-      <text>Zwei Studenten kommen an einem Werbe-Glücksrad vor einem Laden vorbei. Da sie eben gesehen haben, wie ein Passant gewinnt, schätzen sie nun ihre Chancen auf einen Gewinn höher ein, als sie eigentlich sind. Worauf ist dies am ehesten zurückzuführen?</text>
+      <text>B5-40 Zwei Studenten kommen an einem Werbe-Glücksrad vor einem Laden vorbei. Da sie eben gesehen haben, wie ein Passant gewinnt, schätzen sie nun ihre Chancen auf einen Gewinn höher ein, als sie eigentlich sind. Worauf ist dies am ehesten zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Availability Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -1990,9 +1990,9 @@
       <text>B5-41</text>
     </name>
     <questiontext format="html">
-      <text>Obwohl mehr Menschen von Kühen verletzt werden, als von Krokodilen schätzen viele die Häufigkeit eines Krokodilangrifft höher ein, da über solche Ereignisse häufiger in den Medien berichtet wird. Worauf ist das am ehesten zurückzuführen?</text>
+      <text>B5-41 Obwohl mehr Menschen von Kühen verletzt werden, als von Krokodilen schätzen viele die Häufigkeit eines Krokodilangrifft höher ein, da über solche Ereignisse häufiger in den Medien berichtet wird. Worauf ist das am ehesten zurückzuführen?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Availability Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2010,9 +2010,9 @@
       <text>B5-50</text>
     </name>
     <questiontext format="html">
-      <text>Trotz angeblicher Verblindung bei der Auswertung gibt eine Studie Anhalt dafür, dass die Auswerter wissen könnten, wer zur Kontroll- und wer zu Interventionsgruppe gehört. Welcher systematische Fehler könnte hier am ehesten auftreten?</text>
+      <text>B5-50 Trotz angeblicher Verblindung bei der Auswertung gibt eine Studie Anhalt dafür, dass die Auswerter wissen könnten, wer zur Kontroll- und wer zu Interventionsgruppe gehört. Welcher systematische Fehler könnte hier am ehesten auftreten?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Ascertainment Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2030,9 +2030,9 @@
       <text>B5-53</text>
     </name>
     <questiontext format="html">
-      <text>Welcher systematische Fehler kann am ehesten auftreten, wenn Probanden in einer Studie, abgesehen von der eigentlichen Intervention nicht gleichbehandelt werden?</text>
+      <text>B5-53 Welcher systematische Fehler kann am ehesten auftreten, wenn Probanden in einer Studie, abgesehen von der eigentlichen Intervention nicht gleichbehandelt werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Performance Bias</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2050,9 +2050,9 @@
       <text>B5-55</text>
     </name>
     <questiontext format="html">
-      <text>In welcher Phase einer Studie kommt es am ehesten zu Ascertainment Bias?</text>
+      <text>B5-55 In welcher Phase einer Studie kommt es am ehesten zu Ascertainment Bias?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Auswertung</text>
     </answer>
     <answer format="html" fraction="0">
@@ -2070,9 +2070,9 @@
       <text>B5-67</text>
     </name>
     <questiontext format="html">
-      <text>Wodurch kann ein prinzipieller Messfehler am ehesten verringert werden?</text>
+      <text>B5-67 Wodurch kann ein prinzipieller Messfehler am ehesten verringert werden?</text>
     </questiontext>
-    <answer format="html" fraction="1">
+    <answer format="html" fraction="100">
       <text>Verfeinerung der Apparatur</text>
     </answer>
     <answer format="html" fraction="0">

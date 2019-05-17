@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question type="category">
+        <category>
+            <text>$course$/Bilderfragen D</text>
+        </category>
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A1-12</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A1-12</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Einfache Randomisierung</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Balancierte Randomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Blockrandomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Stratifizierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A1-13</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A1-13</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Balancierte Randomisierung</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Blockrandomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Einfache Randomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Stratifizierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A1-14</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A1-14</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Blockrandomisierung</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Einfache Randomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Balancierte Randomisierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Stratifizierung</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-15</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Um welchen Studientyp handelt es sich am ehesten beim dargestellten Studienplan? (2)</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-15+48</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Fall-Kontroll Studie</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Kohortenstudie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Randomisierte kontrollierte Studie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Querschnittsstudie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-48</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-15+48</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-49</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-49</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-50</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-50</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-50</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-50</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-51</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-51</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-52</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat eine Studie mit dem abgebildeten Studienplan am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-52</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-54</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welchen Evidenzgrad hat die hier dargestellte Studie am ehesten?
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A54-4</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>IIa</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>IIb</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>I</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>III</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>A4-16</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Eine Studie untersucht, ob ein Zusammenhang zwischen einem Magenkarzinom und einer H. pylori Infektion besteht. Um welches Studiendesign handelt es sich laut Grafik am ehesten? (2, 3)
+</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A4-16+50</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Fall-Kontroll Studie</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Kohortenstudie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Querschnittsstudie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Randomisierte Kontrollierte Studie</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Bei der dargestellten Grafik handelt es sich am ehesten um�</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-1</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Entscheidungsanalyse</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Trichterdiagramm</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Forrest-Plot</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>ROC</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-3</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Du �berlegst dir an einem Losstand ein Los zu kaufen. Wie gro� ist der mittlere zu erwartende Nutzen nach dieser Grafik?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-3</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>2</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>-1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-4</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Du �berlegst dir an diesem Losstand ein Los zu kaufen. Wie gro� ist der mittlere zu erwartende Nutzen?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-4</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>1/10</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>10</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-6</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Du �berlegst dir, an diesem Losstand ein Los zu kaufen. Wie gro� ist der mittlere, zu erwartende Nutzen in etwa abzusch�tzen?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-6</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>-4</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,5</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Worum handelt es sich bei dem blauen Kreis in diesem Diagramm?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-8+10</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Zufallsknoten</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Entscheidungsknoten</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Endpunkt</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Nutzenspunkt</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Worum handelt es sich bei den blauen Dreiecken in diesem Diagramm?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-8+10</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Endpunkt</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Zufallsknoten</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Entscheidungsknoten</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>Wahrscheinlichkeit</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-11</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere, zu erwartende Nutzen, wenn sich der Arzt bei Ileusverdacht direkt f�r ein CT entscheidet?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-11+12</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,7</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,25</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,125</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,33</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-12</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere, zu erwartende Nutzen, wenn sich der Arzt zun�chst f�r ein R�ntgen Abdomen entscheidet?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-11+12</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,325</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,5</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,125</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,25</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-13</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der Mittlere zu erwartende Nutzen des mit dem roten Pfeil markierten Pfades?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-13</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,075</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,75</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,01</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-14</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere zu erwartende Nutzen des, mit dem roten Pfeil markierten, Pfades?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-14</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,25</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,025</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-15</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere zu erwartende Nutzen, wenn zun�chst ein R�ntgen-Abdomen durchgef�hrt wird?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-15</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,625</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,6</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,5</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-16</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>An welcher Stelle sollte dieser Entscheidungsbaum am ehesten gestutzt werden?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-16</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>D</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>A</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>B</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>C</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-17</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere zu erwartende Nutzen bei einer ambulanten Therapie der unkomplizierten Divertikulitis nach diesem Schaubild?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-17</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,8</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,16</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,2</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-18</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wie gro� ist der mittlere zu erwartende Nutzen einer station�ren Therapie nach diesem Schaubild?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-18</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>0,82</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,0081</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>1</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>0,09</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+
+    <!-- question: 493  -->
+    <question type="multichoice">
+        <name>
+            <text>B1-19</text>
+        </name>
+        <questiontext format="html">
+            <text>
+                <![CDATA[<p>Wo sollte an diesem Entscheidungsbaum am ehesten die ung�nstige Alternative gestutzt werden?</p>]]></text>
+            <text>
+                <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
+            <file name="Pr�v2Pr�d_A.PNG" path="/" encoding="base64">B1-19</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>HIER einen lobenden Text</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>HIER ein Feedback bei teilrichtigen Antworten</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>HIER den Text bei bei falscher Antwirt insgesamt</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>A</p>]]></text>
+            <feedback>
+                <text>Genau richtig</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>B</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>C</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[<p>D</p>]]></text>
+            <feedback>
+                <text>Leider falsch</text>
+            </feedback>
+        </answer>
+
+    </question>
+</quiz>

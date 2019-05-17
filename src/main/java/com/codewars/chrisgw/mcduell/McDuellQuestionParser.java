@@ -1,7 +1,5 @@
 package com.codewars.chrisgw.mcduell;
 
-import org.apache.commons.lang3.StringEscapeUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -15,7 +13,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.FileVisitOption;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -24,7 +21,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static java.lang.Integer.parseInt;
 import static org.apache.commons.lang3.StringUtils.trimToNull;
 
 
@@ -49,16 +45,17 @@ public class McDuellQuestionParser {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.newDocument();
-            return new McDuellQuestionParser(workbook, doc).convertMcDuellQuestionExcelIntoXml();
+            String quizName = excelFileInput.getName();
+            quizName = quizName.substring(0, quizName.lastIndexOf("."));
+            return new McDuellQuestionParser(workbook, doc).convertMcDuellQuestionExcelIntoXml(quizName);
         } catch (Exception e) {
             throw new RuntimeException("could not create McDuell question xml", e);
         }
     }
 
-    private Document convertMcDuellQuestionExcelIntoXml() {
+    private Document convertMcDuellQuestionExcelIntoXml(String quizName) {
         Element quiz = doc.createElement("quiz");
         doc.appendChild(quiz);
-        String quizName = "Fragenkatalog B";
         quiz.appendChild(crateQuizCategoryName(quizName));
 
         List<QuizQuestion> quizQuestions = parseQuizQuestions();
@@ -114,7 +111,7 @@ public class McDuellQuestionParser {
         quizAnswer.setText(trimToNull(answerText));
         String answerChoice = answerTextMatcher.group(1);
         if ("a".equals(answerChoice)) {
-            quizAnswer.setFraction(1);
+            quizAnswer.setFraction(100);
         } else {
             quizAnswer.setFraction(0);
         }
@@ -143,7 +140,8 @@ public class McDuellQuestionParser {
 
         Element questiontext = doc.createElement("questiontext");
         questiontext.setAttribute("format", "html");
-        questiontext.appendChild(toTextElement(quizQuestion.getText()));
+        String frageText = quizQuestion.getFrageName() + " " + quizQuestion.getText();
+        questiontext.appendChild(toTextElement(frageText));
         question.appendChild(questiontext);
 
         for (QuizAnswer quizAnswer : quizQuestion.getAnswers()) {
@@ -169,8 +167,7 @@ public class McDuellQuestionParser {
 
 
     public static void main(String[] args) throws IOException {
-        Path directory = Paths.get(
-                "D:\\Users\\CKramer\\git\\codewars_chris-gw\\src\\main\\resources\\MC-Duell_Neues_Studiendesign");
+        Path directory = Paths.get("src\\main\\resources\\MC-Duell_Neues_Studiendesign");
         Files.walk(directory).filter(path -> path.toString().endsWith(".xlsx")).forEach(excelFile -> {
             System.out.println("read fragenkatalog excel from: " + excelFile);
             Document document = convertMcDuellQuestionExcelIntoXml(excelFile.toFile());
