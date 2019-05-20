@@ -18,6 +18,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Base64;
+import java.util.function.Predicate;
+import java.util.regex.Pattern;
+
+import static java.util.regex.Pattern.CASE_INSENSITIVE;
 
 
 public class McDuellImageQuestionParser {
@@ -67,7 +71,7 @@ public class McDuellImageQuestionParser {
         System.out.println(questionName + ":\t" + questionText);
 
         deleteAllChildNodes(questionTextEl);
-        questionTextEl.appendChild(createText(questionText));
+        questionTextEl.appendChild(createText(questionName + " " + questionText));
         questionTextEl.appendChild(createFileElement(questionImageEncoded));
     }
 
@@ -84,8 +88,12 @@ public class McDuellImageQuestionParser {
 
     private String encodeQuestionImage(String questionName) {
         try {
-            Path imagePath = imageBasePath.resolve(questionName + ".jpg");
+            Path imagePath = Files.walk(imageBasePath, 1)
+                    .filter(isQuestionImagePath(questionName))
+                    .findAny()
+                    .orElseGet(() -> imageBasePath.resolve(questionName + ".jpg"));
             if (!Files.exists(imagePath)) {
+                System.out.println(imagePath + " doesn't exists");
                 return imagePath.toAbsolutePath() + " doesn't exists";
             }
             byte[] imageBytes = Files.readAllBytes(imagePath);
@@ -93,6 +101,18 @@ public class McDuellImageQuestionParser {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private static Predicate<Path> isQuestionImagePath(String questionName) {
+        String[] split = questionName.split("-");
+        String kategorieNumber = split[0];
+        String questionNumber = split[1];
+        String questionImageNameRegex = kategorieNumber + "-(\\d+\\+)*" + questionNumber + "(\\+\\d+)*(.jpg|.png)";
+        Pattern questionImageNamePattern = Pattern.compile(questionImageNameRegex, CASE_INSENSITIVE);
+        return path -> {
+            String fileName = path.getFileName().toString();
+            return questionImageNamePattern.matcher(fileName).matches();
+        };
     }
 
     private String findQuestionText(Element questionTextEl) {
