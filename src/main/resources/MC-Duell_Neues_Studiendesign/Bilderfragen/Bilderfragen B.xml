@@ -1,4 +1,4 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <quiz>
     <question type="category">
         <category>
@@ -14,7 +14,7 @@
             <text><![CDATA[<p>Bei der dargestellten Grafik handelt es sich am ehesten um…</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-1</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-1</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -72,7 +72,7 @@
                 <![CDATA[<p>Du überlegst dir an einem Losstand ein Los zu kaufen. Wie groß ist der mittlere zu erwartende Nutzen nach dieser Grafik?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-3</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-3</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -130,7 +130,7 @@
                 <![CDATA[<p>Du überlegst dir an diesem Losstand ein Los zu kaufen. Wie groß ist der mittlere zu erwartende Nutzen?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-4</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-4</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -188,7 +188,7 @@
                 <![CDATA[<p>Du überlegst dir, an diesem Losstand ein Los zu kaufen. Wie groß ist der mittlere, zu erwartende Nutzen in etwa abzuschätzen?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-6</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-6</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -245,7 +245,7 @@
             <text><![CDATA[<p>Worum handelt es sich bei dem blauen Kreis in diesem Diagramm?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-8+10</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-8+10</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -302,7 +302,7 @@
             <text><![CDATA[<p>Worum handelt es sich bei den blauen Dreiecken in diesem Diagramm?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-8+10</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-8+10</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -360,7 +360,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere, zu erwartende Nutzen, wenn sich der Arzt bei Ileusverdacht direkt für ein CT entscheidet?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-11+12</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-11+12</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -418,7 +418,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere, zu erwartende Nutzen, wenn sich der Arzt zunächst für ein Röntgen Abdomen entscheidet?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-11+12</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-11+12</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -476,7 +476,7 @@
                 <![CDATA[<p>Wie groß ist der Mittlere zu erwartende Nutzen des mit dem roten Pfeil markierten Pfades?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-13</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-13</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -534,7 +534,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere zu erwartende Nutzen des, mit dem roten Pfeil markierten, Pfades?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-14</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-14</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -592,7 +592,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere zu erwartende Nutzen, wenn zunächst ein Röntgen-Abdomen durchgeführt wird?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-15</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-15</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -650,7 +650,7 @@
                 <![CDATA[<p>An welcher Stelle sollte dieser Entscheidungsbaum am ehesten gestutzt werden?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-16</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-16</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -708,7 +708,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere zu erwartende Nutzen bei einer ambulanten Therapie der unkomplizierten Divertikulitis nach diesem Schaubild?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-17</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-17</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -766,7 +766,7 @@
                 <![CDATA[<p>Wie groß ist der mittlere zu erwartende Nutzen einer stationären Therapie nach diesem Schaubild?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-18</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-18</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>
@@ -824,7 +824,7 @@
                 <![CDATA[<p>Wo sollte an diesem Entscheidungsbaum am ehesten die ungünstige Alternative gestutzt werden?</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
-            <file name="Präv2Präd_A.PNG" path="/" encoding="base64">B1-19</file>
+            <file name="Bild_A.png" path="/" encoding="base64">B1-19</file>
         </questiontext>
         <generalfeedback format="html">
             <text></text>

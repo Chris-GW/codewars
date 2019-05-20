@@ -11,7 +11,7 @@
             <text>A1-12</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten? (1)
 </p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
@@ -68,7 +68,7 @@
             <text>A1-13</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)</p>]]></text>
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten? (1)</p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
             <file name="Präv2Präd_A.PNG" path="/" encoding="base64">A1-13</file>
@@ -124,7 +124,7 @@
             <text>A1-14</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[<p>Die Grafik zeigt am ehesten� (1)
+            <text><![CDATA[<p>Die Grafik zeigt am ehesten? (1)
 </p>]]></text>
             <text>
                 <![CDATA[<img src="@@PLUGINFILE@@/Pr%C3%A4v2Pr%C3%A4d_A.PNG" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="256" width="330"><p><br></p>]]></text>
