@@ -2,12 +2,11 @@ package com.codewars.chrisgw.algorithms.kyu_5;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import static com.codewars.chrisgw.algorithms.kyu_5.JosephusPermutation.josephusPermutation;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 
 public class JosephusPermutationTest {
@@ -40,7 +39,7 @@ public class JosephusPermutationTest {
     }
 
     private void josephusTest(final Object[] items, final int k, final Object[] result) {
-        assertThat(josephusPermutation(new ArrayList(Arrays.asList(items)), k), is(Arrays.asList(result)));
+        assertThat(josephusPermutation(Arrays.asList(items), k), is(Arrays.asList(result)));
     }
 
 }

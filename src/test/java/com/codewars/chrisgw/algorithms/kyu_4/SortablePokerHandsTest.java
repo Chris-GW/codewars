@@ -1,5 +1,6 @@
 package com.codewars.chrisgw.algorithms.kyu_4;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class SortablePokerHandsTest {
 
     @Test
+    @Ignore
     public void pokerHandSortTest() {
         // Arrange
         ArrayList<PokerHand> expected = new ArrayList<>();

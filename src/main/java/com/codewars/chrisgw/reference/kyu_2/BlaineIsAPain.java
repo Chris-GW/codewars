@@ -503,7 +503,7 @@ public class BlaineIsAPain {
                 }
             });
             return trainSymbol.orElse(trainTrack.trackType.trackSymbol);
-        }).orElse(column % 2 == 0 ? '·' : ' ');
+        }).orElse(column % 2 == 0 ? '.' : ' ');
     }
 
 

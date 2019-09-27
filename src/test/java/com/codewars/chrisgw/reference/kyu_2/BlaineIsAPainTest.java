@@ -1,5 +1,6 @@
 package com.codewars.chrisgw.reference.kyu_2;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,6 +10,7 @@ public class BlaineIsAPainTest {
 
 
     @Test
+    @Ignore
     public void example() {
         String track = "" //
                 + "                                /------------\\             \n" //
