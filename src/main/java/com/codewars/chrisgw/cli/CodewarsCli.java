@@ -14,9 +14,6 @@ import java.util.regex.Pattern;
 import static java.nio.file.StandardOpenOption.CREATE_NEW;
 
 
-/**
- * asdas dasdasd
- */
 public class CodewarsCli {
 
     private static CodewarsRestApi codewarsRestApi;
