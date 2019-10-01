@@ -63,23 +63,32 @@ public class CodewarsCli {
         String codeChallengeJavaFileName = getCodeChallengeJavaFileName(codeChallenge, test);
         Path packagePath = getPackagePath(codeChallenge);
         Path javaFilePath = javaSrcPath.resolve(packagePath).resolve(codeChallengeJavaFileName + ".java");
-        System.out.println("Write Java File: " + javaFilePath);
         Files.createDirectories(javaSrcPath.resolve(packagePath));
 
+        if (Files.exists(javaFilePath)) {
+            System.out.println("Code Challenge File already exists: " + javaFilePath);
+            return;
+        }
+        System.out.println("Write Java File: " + javaFilePath);
         try (BufferedWriter writer = Files.newBufferedWriter(javaFilePath, CREATE_NEW)) {
             StringBuilder sb = new StringBuilder("package ");
             packagePath.iterator().forEachRemaining(path -> sb.append(path).append('.'));
-            sb.deleteCharAt(sb.length() - 1);
-            sb.append(";\n\n");
-            if (!test) {
-                sb.append("/**\n");
-                sb.append(" * ").append(descriptionAsClassJavaDoc(codeChallenge)).append("\n */\n");
-            }
+            sb.deleteCharAt(sb.length() - 1).append(";\n\n");
+            sb.append("/**\n");
+            sb.append(" * <h2>").append(codeChallenge.getName()).append("</h2>\n");
+            sb.append(" * ").append(getUrlJavaDoc(codeChallenge)).append("\n");
+            sb.append(" */\n");
             sb.append("public class ").append(codeChallengeJavaFileName).append(" {\n");
             sb.append("\n}\n");
             writer.write(sb.toString());
         }
     }
+
+    private static StringBuilder getUrlJavaDoc(CodeChallenge codeChallenge) {
+        String url = codeChallenge.getUrl();
+        return new StringBuilder().append("<a href=\"").append(url).append("\">").append(url).append("</a>");
+    }
+
 
     private static String descriptionAsClassJavaDoc(CodeChallenge codeChallenge) {
         System.out.println(codeChallenge.getDescription());
