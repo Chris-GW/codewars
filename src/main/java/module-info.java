@@ -7,4 +7,6 @@ module codewars.chris.gw.main {
     requires com.fasterxml.jackson.datatype.jsr310;
     requires java.ws.rs;
     requires java.desktop;
+
+    exports com.codewars.chrisgw.restapi;
 }

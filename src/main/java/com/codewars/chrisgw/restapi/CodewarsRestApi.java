@@ -6,17 +6,16 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.ClientRequestFilter;
-import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.client.*;
 import javax.ws.rs.core.HttpHeaders;
-import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.ext.ContextResolver;
 import javax.ws.rs.ext.Provider;
+import java.io.ByteArrayInputStream;
 import java.util.Properties;
 
 import static java.util.Objects.requireNonNull;
+import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
 
 public class CodewarsRestApi {
@@ -38,14 +37,24 @@ public class CodewarsRestApi {
         this.client = requireNonNull(client);
         this.client.register(ObjectMapperContextResolver.class);
         this.client.register(apiTokenAuthorizationHeaderFilter());
+        this.client.register(handle404asNullResponseFilter());
         this.codewarsRestApi = client.target(properties.getProperty(CODEWARS_API_URL_PROPERTY));
+    }
+
+    private ClientResponseFilter handle404asNullResponseFilter() {
+        return (requestContext, responseContext) -> {
+            if (Status.NOT_FOUND.getStatusCode() == responseContext.getStatus()) {
+                responseContext.setStatus(200);
+                responseContext.setEntityStream(new ByteArrayInputStream(new byte[0]));
+            }
+        };
     }
 
 
     public User fetchUser(String idOrUsername) {
         WebTarget usersWebTarget = codewarsRestApi.path("users/{idOrUsername}")
                 .resolveTemplate("idOrUsername", idOrUsername);
-        User user = usersWebTarget.request(MediaType.APPLICATION_JSON_TYPE).get(User.class);
+        User user = usersWebTarget.request(APPLICATION_JSON_TYPE).get(User.class);
         System.out.println("GET " + usersWebTarget + " = " + user);
         return user;
     }
@@ -54,8 +63,7 @@ public class CodewarsRestApi {
     public CodeChallenge fetchCodeChallenge(String idOrSlug) {
         WebTarget codeChallengesWebTarget = codewarsRestApi.path("code-challenges/{idOrSlug}")
                 .resolveTemplate("idOrSlug", idOrSlug);
-        CodeChallenge codeChallenge = codeChallengesWebTarget.request(MediaType.APPLICATION_JSON_TYPE)
-                .get(CodeChallenge.class);
+        CodeChallenge codeChallenge = codeChallengesWebTarget.request(APPLICATION_JSON_TYPE).get(CodeChallenge.class);
         System.out.println("GET " + codeChallengesWebTarget + " = " + codeChallenge);
         return codeChallenge;
     }

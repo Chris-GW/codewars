@@ -43,8 +43,12 @@ public class CodewarsCli {
 
     private static void generateCodeChallengeFiles(String idOrSlug) throws IOException {
         CodeChallenge codeChallenge = codewarsRestApi.fetchCodeChallenge(idOrSlug);
-        writeCodeChallengeJavaFile(codeChallenge, false);
-        writeCodeChallengeJavaFile(codeChallenge, true);
+        if (codeChallenge != null) {
+            writeCodeChallengeJavaFile(codeChallenge, false);
+            writeCodeChallengeJavaFile(codeChallenge, true);
+        } else {
+            System.out.println("Could not find CodeChallenge for id or slug: " + idOrSlug);
+        }
     }
 
 
@@ -109,8 +113,9 @@ public class CodewarsCli {
             String followingUpperCaseLetter = matcher.group(1).toUpperCase();
             matcher.appendReplacement(sb, followingUpperCaseLetter);
         }
+        matcher.appendTail(sb);
         sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
-        return matcher.appendTail(sb).toString();
+        return matcher.toString();
     }
 
 
