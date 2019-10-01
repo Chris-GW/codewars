@@ -1,6 +1,7 @@
 package com.codewars.chrisgw.cli;
 
 import com.codewars.chrisgw.restapi.CodeChallenge;
+import com.codewars.chrisgw.restapi.CodeChallengeRank;
 import com.codewars.chrisgw.restapi.CodewarsRestApi;
 
 import java.io.BufferedWriter;
@@ -115,12 +116,16 @@ public class CodewarsCli {
         }
         matcher.appendTail(sb);
         sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
-        return matcher.toString();
+        return sb.toString();
     }
 
 
     private static String rankPackageName(CodeChallenge codeChallenge) {
-        String[] splitRankName = codeChallenge.getRank().getName().split("\\s+");
+        CodeChallengeRank codeRank = codeChallenge.getRank();
+        if (codeRank.isNull()) {
+            return "kyu";
+        }
+        String[] splitRankName = codeRank.getName().split("\\s+");
         String rank = splitRankName[0];
         String name = splitRankName[1];
         return name + "_" + rank;

@@ -14,6 +14,10 @@ public class CodeChallengeRank {
     private String color;
 
 
+    public boolean isNull() {
+        return name == null;
+    }
+
     @Override
     public String toString() {
         return name;
