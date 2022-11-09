@@ -9,7 +9,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jersey.version>2.29.1</jersey.version>
+        <jersey.version>2.34</jersey.version>
         <jackson.version>2.10.0</jackson.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
