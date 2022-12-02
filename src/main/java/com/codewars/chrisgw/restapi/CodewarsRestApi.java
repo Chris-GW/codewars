@@ -6,13 +6,14 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-import javax.ws.rs.client.*;
-import javax.ws.rs.core.HttpHeaders;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.ClientResponseFilter;
+import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.ext.ContextResolver;
 import javax.ws.rs.ext.Provider;
 import java.io.ByteArrayInputStream;
-import java.util.Properties;
 
 import static java.util.Objects.requireNonNull;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
@@ -20,25 +21,21 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
 public class CodewarsRestApi {
 
-    public static final String CODEWARS_API_URL_PROPERTY = "codewars.apiUrl";
-    public static final String CODEWARS_API_TOKEN_PROPERTY = "codewars.apiToken";
+    public static final String CODEWARS_API_URL = "https://www.codewars.com/api/v1/";
 
-    private Properties properties;
     private Client client;
     private WebTarget codewarsRestApi;
 
 
-    public CodewarsRestApi(Properties properties) {
-        this(properties, ClientBuilder.newClient());
+    public CodewarsRestApi() {
+        this(ClientBuilder.newClient());
     }
 
-    public CodewarsRestApi(Properties properties, Client client) {
-        this.properties = requireNonNull(properties);
+    public CodewarsRestApi(Client client) {
         this.client = requireNonNull(client);
         this.client.register(ObjectMapperContextResolver.class);
-        this.client.register(apiTokenAuthorizationHeaderFilter());
         this.client.register(handle404asNullResponseFilter());
-        this.codewarsRestApi = client.target(properties.getProperty(CODEWARS_API_URL_PROPERTY));
+        this.codewarsRestApi = client.target(CODEWARS_API_URL);
     }
 
     private ClientResponseFilter handle404asNullResponseFilter() {
@@ -66,14 +63,6 @@ public class CodewarsRestApi {
         CodeChallenge codeChallenge = codeChallengesWebTarget.request(APPLICATION_JSON_TYPE).get(CodeChallenge.class);
         System.out.println("GET " + codeChallengesWebTarget + " = " + codeChallenge);
         return codeChallenge;
-    }
-
-
-    private ClientRequestFilter apiTokenAuthorizationHeaderFilter() {
-        return requestContext -> {
-            String apiToken = properties.getProperty(CODEWARS_API_TOKEN_PROPERTY);
-            requestContext.getHeaders().putSingle(HttpHeaders.AUTHORIZATION, apiToken);
-        };
     }
 
 

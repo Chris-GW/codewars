@@ -5,8 +5,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Properties;
-
 
 public class CodewarsRestApiTest {
 
@@ -15,9 +13,7 @@ public class CodewarsRestApiTest {
 
     @Before
     public void setUp() throws Exception {
-        Properties properties = new Properties();
-        properties.load(CodewarsRestApi.class.getResourceAsStream("/application.properties"));
-        codewarsRestApi = new CodewarsRestApi(properties);
+        codewarsRestApi = new CodewarsRestApi();
     }
 
 

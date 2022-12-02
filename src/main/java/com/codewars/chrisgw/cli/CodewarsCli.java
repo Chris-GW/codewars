@@ -6,8 +6,9 @@ import com.codewars.chrisgw.restapi.CodewarsRestApi;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.nio.file.*;
-import java.util.Properties;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -20,10 +21,8 @@ public class CodewarsCli {
     private static CodewarsRestApi codewarsRestApi;
 
 
-    public static void main(String[] args) throws IOException {
-        Properties properties = new Properties();
-        properties.load(CodewarsRestApi.class.getResourceAsStream("/application.properties"));
-        codewarsRestApi = new CodewarsRestApi(properties);
+    public static void main(String[] args) {
+        codewarsRestApi = new CodewarsRestApi();
 
         Scanner sc = new Scanner(System.in);
         do {
