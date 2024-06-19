@@ -1,23 +1,20 @@
 package com.codewars.chrisgw.algorithms.kyu_4;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.Random;
+import java.util.*;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class SortablePokerHandsTest {
 
     @Test
-    @Ignore
+    @Disabled
     public void pokerHandSortTest() {
         // Arrange
-        ArrayList<PokerHand> expected = new ArrayList<>();
+        List<PokerHand> expected = new ArrayList<>();
         expected.add(new PokerHand("KS AS TS QS JS"));
         expected.add(new PokerHand("2H 3H 4H 5H 6H"));
         expected.add(new PokerHand("AS AD AC AH JD"));
@@ -35,20 +32,20 @@ public class SortablePokerHandsTest {
         expected.add(new PokerHand("2S 3H 6H 7S 9C"));
 
         Random random = new Random();
-        ArrayList<PokerHand> actual = createRandomOrderedList(random, expected);
+        List<PokerHand> actual = createRandomOrderedList(random, expected);
 
         // Act
         Collections.sort(actual);
 
         // Assert
-        Iterator a = actual.iterator();
+        Iterator<PokerHand> a = actual.iterator();
         for (PokerHand e : expected) {
             assertEquals(e, a.next());
         }
     }
 
-    private ArrayList<PokerHand> createRandomOrderedList(Random random, ArrayList<PokerHand> expected) {
-        ArrayList<PokerHand> actual = new ArrayList<>();
+    private List<PokerHand> createRandomOrderedList(Random random, List<PokerHand> expected) {
+        List<PokerHand> actual = new ArrayList<>();
         for (PokerHand pokerHand : expected) {
             int j = random.nextInt(actual.size() + 1);
             actual.add(j, pokerHand);

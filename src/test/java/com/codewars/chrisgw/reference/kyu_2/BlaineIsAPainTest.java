@@ -1,16 +1,16 @@
 package com.codewars.chrisgw.reference.kyu_2;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class BlaineIsAPainTest {
 
 
     @Test
-    @Ignore
+    @Disabled
     public void example() {
         String track = "" //
                 + "                                /------------\\             \n" //
@@ -48,7 +48,8 @@ public class BlaineIsAPainTest {
                 + "|                 |\n" //
                 + "|                 |\n" //
                 + "\\---------S-------/"; // //
-        assertEquals(-1, BlaineIsAPain.trainCrash(track, "xX", 10, "xxxxxX", 30, 200));
+        int actual = BlaineIsAPain.trainCrash(track, "xX", 10, "xxxxxX", 30, 200);
+        assertEquals(-1, actual);
     }
 
 
@@ -61,7 +62,8 @@ public class BlaineIsAPainTest {
                 + "|                 |\n" //
                 + "|                 |\n" //
                 + "\\-----------------/"; //
-        assertEquals(0, BlaineIsAPain.trainCrash(track, "oO", 10, "oO", 10, 100));
+        int actual = BlaineIsAPain.trainCrash(track, "oO", 10, "oO", 10, 100);
+        assertEquals(0, actual);
     }
 
 
@@ -75,7 +77,8 @@ public class BlaineIsAPainTest {
                 + "|      / \\      | \n"//
                 + "|     /   \\     | \n" +//
                 "\\----/     \\----/";
-        assertEquals(0, BlaineIsAPain.trainCrash(track, "Eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", 7, "Xxxx", 0, 100));
+        int actual = BlaineIsAPain.trainCrash(track, "Eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", 7, "Xxxx", 0, 100);
+        assertEquals(0, actual);
     }
 
 
@@ -88,7 +91,8 @@ public class BlaineIsAPainTest {
                 + "|                 |\n" //
                 + "|                 |\n" //
                 + "\\---------S-------/"; //
-        assertEquals(108, BlaineIsAPain.trainCrash(track, "xX", 10, "sssssS", 30, 200));
+        int actual = BlaineIsAPain.trainCrash(track, "xX", 10, "sssssS", 30, 200);
+        assertEquals(108, actual);
     }
 
     @Test
@@ -100,7 +104,8 @@ public class BlaineIsAPainTest {
                 + "\\------\\               /--/  \n" //
                 + "       |               |     \n" //
                 + "       \\---------------/     "; //
-        assertEquals(-1, BlaineIsAPain.trainCrash(track, "aaaA", 15, "bbbB", 5, 500));
+        int actual = BlaineIsAPain.trainCrash(track, "aaaA", 15, "bbbB", 5, 500);
+        assertEquals(-1, actual);
     }
 
     @Test
@@ -116,7 +121,8 @@ public class BlaineIsAPainTest {
                 + "/--/|    | |    \n" //
                 + "|   |    | |    \n" //
                 + "\\---/    \\-/"; // //
-        assertEquals(16, BlaineIsAPain.trainCrash(track, "Eee", 33, "aaA", 2, 100));
+        int actual = BlaineIsAPain.trainCrash(track, "Eee", 33, "aaA", 2, 100);
+        assertEquals(16, actual);
     }
 
 }

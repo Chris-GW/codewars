@@ -1,8 +1,8 @@
 package com.codewars.chrisgw.kyu_7;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class SolutionTest {
@@ -10,17 +10,20 @@ public class SolutionTest {
 
     @Test
     public void testNormalCondition() {
-        assertEquals(9, Solution.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2));
+        int actual = Solution.solveSuperMarketQueue(new int[]{2, 2, 3, 3, 4, 4}, 2);
+        assertEquals(9, actual);
     }
 
     @Test
     public void testEmptyArray() {
-        assertEquals(0, Solution.solveSuperMarketQueue(new int[] {}, 1));
+        int actual = Solution.solveSuperMarketQueue(new int[]{}, 1);
+        assertEquals(0, actual);
     }
 
     @Test
     public void testSingleTillManyCustomers() {
-        assertEquals(15, Solution.solveSuperMarketQueue(new int[] { 1, 2, 3, 4, 5 }, 1));
+        int actual = Solution.solveSuperMarketQueue(new int[]{1, 2, 3, 4, 5}, 1);
+        assertEquals(15, actual);
     }
 
 }

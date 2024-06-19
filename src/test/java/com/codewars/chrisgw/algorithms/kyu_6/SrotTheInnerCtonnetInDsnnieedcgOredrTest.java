@@ -1,9 +1,9 @@
 package com.codewars.chrisgw.algorithms.kyu_6;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.codewars.chrisgw.algorithms.kyu_6.SrotTheInnerCtonnetInDsnnieedcgOredr.sortTheInnerContent;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class SrotTheInnerCtonnetInDsnnieedcgOredrTest {

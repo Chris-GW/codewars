@@ -1,14 +1,14 @@
 package com.codewars.chrisgw.games.kyu_4;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 public class SkyScrapersTest {
 
-    private static int clues[][] = { { //
+    private static final int clues[][] = {{ //
             2, 2, 1, 3, //
             2, 2, 3, 1, //
             1, 2, 2, 3, //
@@ -18,19 +18,19 @@ public class SkyScrapersTest {
             0, 2, 0, 0, //
             0, 3, 0, 0, //
             0, 1, 0, 0 //
-    } };
+    }};
 
-    private static int outcomes[][][] = { { //
-            { 1, 3, 4, 2 }, //
-            { 4, 2, 1, 3 }, //
-            { 3, 4, 2, 1 }, //
-            { 2, 1, 3, 4 } //
+    private static final int outcomes[][][] = {{ //
+            {1, 3, 4, 2}, //
+            {4, 2, 1, 3}, //
+            {3, 4, 2, 1}, //
+            {2, 1, 3, 4} //
     }, { //
-            { 2, 1, 4, 3 }, //
-            { 3, 4, 1, 2 }, //
-            { 4, 2, 3, 1 }, //
-            { 1, 3, 2, 4 } //
-    } };
+            {2, 1, 4, 3}, //
+            {3, 4, 1, 2}, //
+            {4, 2, 3, 1}, //
+            {1, 3, 2, 4} //
+    }};
 
     @Test
     public void testSolvePuzzle1() {
@@ -38,7 +38,7 @@ public class SkyScrapersTest {
     }
 
     @Test
-    @Ignore
+    @Disabled
     public void testSolvePuzzle2() {
         assertArrayEquals(SkyScrapers.solvePuzzle(clues[1]), outcomes[1]);
     }

@@ -1,17 +1,17 @@
 package com.codewars.chrisgw.restapi;
 
-import org.hamcrest.CoreMatchers;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class CodewarsRestApiTest {
 
     private CodewarsRestApi codewarsRestApi;
 
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         codewarsRestApi = new CodewarsRestApi();
     }
@@ -22,7 +22,7 @@ public class CodewarsRestApiTest {
         String username = "Chris-GW";
         User user = codewarsRestApi.fetchUser(username);
         System.out.println(user);
-        Assert.assertThat(user, CoreMatchers.notNullValue());
+        assertNotNull(user, "user");
     }
 
 
@@ -31,7 +31,7 @@ public class CodewarsRestApiTest {
         String id = "5277c8a221e209d3f6000b56";
         CodeChallenge codeChallenge = codewarsRestApi.fetchCodeChallenge(id);
         System.out.println(codeChallenge);
-        Assert.assertThat(codeChallenge, CoreMatchers.notNullValue());
+        assertNotNull(codeChallenge, "codeChallenge");
     }
 
 }

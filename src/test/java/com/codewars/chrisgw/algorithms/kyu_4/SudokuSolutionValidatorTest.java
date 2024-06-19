@@ -1,8 +1,9 @@
 package com.codewars.chrisgw.algorithms.kyu_4;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class SudokuSolutionValidatorTest {
@@ -21,10 +22,10 @@ public class SudokuSolutionValidatorTest {
                 { 2, 8, 7, 4, 1, 9, 6, 3, 5 }, //
                 { 3, 4, 5, 2, 8, 6, 1, 7, 9 } //
         };
-        assertTrue(SudokuSolutionValidator.check(sudoku));
+        assertTrue(SudokuSolutionValidator.check(sudoku), "valid sudoku");
 
         sudoku[4][4] = 0;
-        assertFalse(SudokuSolutionValidator.check(sudoku));
+        assertFalse(SudokuSolutionValidator.check(sudoku), "invalid sudoku");
     }
 
 }

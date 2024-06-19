@@ -1,4 +1,4 @@
-package com.codewars.chrisgw.cli;
+package com.codewars.chrisgw;
 
 import com.codewars.chrisgw.restapi.CodeChallenge;
 import com.codewars.chrisgw.restapi.CodeChallengeRank;
@@ -91,7 +91,7 @@ public class CodewarsCli {
 
     private static String descriptionAsClassJavaDoc(CodeChallenge codeChallenge) {
         System.out.println(codeChallenge.getDescription());
-        StringBuffer description = new StringBuffer(codeChallenge.getDescription().length());
+        StringBuilder description = new StringBuilder(codeChallenge.getDescription().length());
         Pattern codeExamplePattern = Pattern.compile("``+(\\w+)\\s+(.+)``+\\s*", Pattern.DOTALL);
         Matcher codeExampleMatcher = codeExamplePattern.matcher(codeChallenge.getDescription());
         while (codeExampleMatcher.find()) {
@@ -116,7 +116,7 @@ public class CodewarsCli {
     static Pattern dashOrUnderscoreDelimiterPattern = Pattern.compile("[\\-_]+([a-zA-Z0-9])");
 
     static String toCamelCase(String s) {
-        StringBuffer sb = new StringBuffer(s.length());
+        StringBuilder sb = new StringBuilder(s.length());
         Matcher matcher = dashOrUnderscoreDelimiterPattern.matcher(s);
         while (matcher.find()) {
             String followingUpperCaseLetter = matcher.group(1).toUpperCase();

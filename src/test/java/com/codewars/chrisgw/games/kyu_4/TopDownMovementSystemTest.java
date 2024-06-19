@@ -1,17 +1,17 @@
 package com.codewars.chrisgw.games.kyu_4;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class TopDownMovementSystemTest {
 
-    private static Map<Integer, String> keysDir = new HashMap<Integer, String>();
+    private static final Map<Integer, String> keysDir = new HashMap<>();
 
     static {
         keysDir.put(8, "Up");
@@ -21,9 +21,8 @@ public class TopDownMovementSystemTest {
     }
 
     @Test
-    @Ignore
+    @Disabled
     public void sampleTests() {
-
         TopDownMovementSystem player = new TopDownMovementSystem(0, 0);
 
         pressOrReleaseAndDisplay("Press", 2);
@@ -52,8 +51,8 @@ public class TopDownMovementSystemTest {
 
     private void doTest(TopDownMovementSystem player, int dir, int x, int y) {
         player.update();
-        assertEquals("Wrong direction after update;", dir, player.getDirection());
-        assertEquals("Wrong position after update;", new Tile(x, y), player.getPosition());
+        assertEquals(dir, player.getDirection(), "Wrong direction after update;");
+        assertEquals(new Tile(x, y), player.getPosition(), "Wrong position after update;");
     }
 
     private void pressOrReleaseAndDisplay(String action, int k) {
@@ -64,7 +63,7 @@ public class TopDownMovementSystemTest {
         } else {
             throw new RuntimeException("The tests are flawed...");
         }
-        System.out.println(String.format("%s %s", action, keysDir.get(k)));
+        System.out.printf("%s %s%n", action, keysDir.get(k));
     }
 
 }

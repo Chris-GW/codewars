@@ -1,9 +1,9 @@
 package com.codewars.chrisgw.algorithms.kyu_3;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class BlainIsAPainTest {
@@ -81,7 +81,7 @@ public class BlainIsAPainTest {
                 new int[] {} // 6
         };
         final int[] result = Dinglemouse.theLift(queues, 5);
-        assertEquals(result.length, 9);
+        assertEquals(9, result.length, "result length");
     }
 
     @Test
@@ -96,7 +96,7 @@ public class BlainIsAPainTest {
                 new int[] {}, // 6
         };
         final int[] result = Dinglemouse.theLift(queues, 5);
-        assertEquals(result.length, 5);
+        assertEquals(5, result.length, "result length");
     }
 
     @Test
@@ -111,7 +111,6 @@ public class BlainIsAPainTest {
                 new int[] {}, // 6
         };
         final int[] result = Dinglemouse.theLift(queues, 5);
-        assertEquals(result.length, 1);
+        assertEquals(1, result.length, "result length");
     }
-
 }

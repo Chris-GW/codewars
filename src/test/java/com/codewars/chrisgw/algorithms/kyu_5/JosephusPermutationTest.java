@@ -1,12 +1,12 @@
 package com.codewars.chrisgw.algorithms.kyu_5;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.List;
 
 import static com.codewars.chrisgw.algorithms.kyu_5.JosephusPermutation.josephusPermutation;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
 
 public class JosephusPermutationTest {
@@ -39,7 +39,8 @@ public class JosephusPermutationTest {
     }
 
     private void josephusTest(final Object[] items, final int k, final Object[] result) {
-        assertThat(josephusPermutation(Arrays.asList(items), k), is(Arrays.asList(result)));
+        List<Object> actual = josephusPermutation(Arrays.asList(items), k);
+        assertIterableEquals(Arrays.asList(result), actual);
     }
 
 }

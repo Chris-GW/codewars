@@ -1,8 +1,8 @@
 package com.codewars.chrisgw.algorithms.kyu_3;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 public class MakeASpiralTest {
@@ -58,6 +58,5 @@ public class MakeASpiralTest {
                         { 1, 1, 1, 1, 1, 1, 1, 1 }, //
                 }); //
     }
-
 
 }
