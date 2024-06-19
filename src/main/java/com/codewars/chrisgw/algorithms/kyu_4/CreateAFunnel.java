@@ -24,13 +24,13 @@ public class CreateAFunnel {
     }
 
 
-    public void fill(Character... args) {
+    public void fill(char... args) {
         for (char value : args) {
             fill(value);
         }
     }
 
-    public void fill(char value) {
+    private void fill(char value) {
         for (int row = 0; row < height(); row++) {
             char[] funnelRow = funnel[row];
             for (int column = 0; column < funnelRow.length; column++) {
@@ -45,20 +45,24 @@ public class CreateAFunnel {
 
     public Character drip() {
         char drippedValue = funnel[0][0];
+        if (drippedValue == ' ') {
+            return null;
+        }
         fillPlace(0, 0);
         return drippedValue;
     }
 
     private void fillPlace(int row, int column) {
-        funnel[row][column] = ' ';
-        System.out.println(this);
         int rowAbove = row + 1;
         int leftWeight = weight(rowAbove, column, column);
         int rightWeight = weight(rowAbove, column + 1, column + 1);
-        if (rightWeight > 0 && leftWeight >= rightWeight) {
+
+        if (leftWeight == 0 && rightWeight == 0) {
+            funnel[row][column] = ' ';
+        } else if (leftWeight >= rightWeight) {
             funnel[row][column] = funnel[rowAbove][column];
             fillPlace(rowAbove, column);
-        } else if (rightWeight > 0) {
+        } else {
             funnel[row][column] = funnel[rowAbove][column + 1];
             fillPlace(rowAbove, column + 1);
         }
@@ -90,7 +94,8 @@ public class CreateAFunnel {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int row = height() - 1; row >= 0; row--) {
-            sb.append(" ".repeat(height() - row - 1));
+            int leftPadding = height() - row - 1;
+            sb.append(" ".repeat(leftPadding));
             sb.append("\\");
             for (int column = 0; column < funnel[row].length; column++) {
                 char value = funnel[row][column];
